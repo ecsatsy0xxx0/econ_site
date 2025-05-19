@@ -1,7 +1,7 @@
 {
   "name": "econ_site",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://gitname.github.io/econ_site",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
