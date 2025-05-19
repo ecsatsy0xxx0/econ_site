@@ -1,0 +1,74 @@
+/* Общий контейнер */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Карточка с контентом */
+  .card {
+    width: 100%;
+    max-width:1251px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Было 24px, уменьшили */
+  }
+  
+  /* Раздел с сеткой */
+  .section {
+    display: grid;
+    grid-template-columns: 250px 1fr; /* Левая колонка фиксированной ширины */
+    align-items: center;
+    gap: 20px; /* Расстояние между заголовком и текстом */
+    padding: 16px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .section:last-child {
+    border-bottom: none;
+  }
+  
+  /* Заголовок (слева) */
+  .title {
+    font-size: 21px;
+    font-weight: 500;
+    color: #0450a0;
+    text-align: left;
+  }
+  
+  /* Контент (справа) */
+  .content {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0450a0;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  /* Контейнер тегов */
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  /* Теги */
+  .tag {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #0450a0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0450a0;
+    background: transparent;
+    cursor: default;
+  }
+  
