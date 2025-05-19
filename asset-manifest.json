@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/econ_site/static/css/main.016208bd.css",
+    "main.js": "/econ_site/static/js/main.ed7df6ad.js",
+    "static/media/specializationDescriptionTopBannerHover.png": "/econ_site/static/media/specializationDescriptionTopBannerHover.d8eee982370e8bf8fa4a.png",
+    "static/media/tg.svg": "/econ_site/static/media/tg.13d3fe39bd029a546a8d.svg",
+    "index.html": "/econ_site/index.html",
+    "static/media/vk.svg": "/econ_site/static/media/vk.6a1e77224b97f486c364.svg",
+    "main.016208bd.css.map": "/econ_site/static/css/main.016208bd.css.map",
+    "main.ed7df6ad.js.map": "/econ_site/static/js/main.ed7df6ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.016208bd.css",
+    "static/js/main.ed7df6ad.js"
+  ]
+}
