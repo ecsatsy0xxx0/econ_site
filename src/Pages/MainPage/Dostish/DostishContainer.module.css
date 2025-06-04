@@ -1,0 +1,529 @@
+.buttonLabel {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button {
+    border-radius: 573.77px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+}
+.p {
+    margin: 0;
+}
+.div {
+    position: relative;
+    letter-spacing: -1.8px;
+    line-height: 61.2px;
+    font-weight: 500;
+}
+.heading2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 60px;
+}
+.container2 {
+    width: 517px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 6px;
+    box-sizing: border-box;
+    gap: 13px;
+    max-width: 520px;
+}
+.button1 {
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container1 {
+    max-width: 1660px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 955px;
+}
+.containerIcon {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 16px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.image {
+
+    filter: grayscale(100%);
+    transition: all 0.3s ease; /* Плавный переход для изображения */
+        width: 100%; /* Ширина изображения соответствует карточке */
+        height: 572px; /* Фиксированная высота изображения */
+        overflow: hidden; /* Обрезать изображение, если оно больше заданных размеров */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+}
+.containerIcon {
+    width: 100%; /* Изображение адаптируется по ширине */
+    height: 100%; /* Изображение адаптируется по высоте блока */
+    object-fit: cover; /* Сохранить пропорции, обрезая края для заполнения области */
+  }
+.title {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -1px;
+    line-height: 25.92px;
+}
+.container5 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.container6 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+.newsacivecardtagbar {
+    width: 528px;
+    border-radius: 16px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px;
+    box-sizing: border-box;
+    gap: 8px; /* Отступы между текстом и тегами */
+    min-height: 120px; /* Задает минимальную высоту для нижнего блока */
+    justify-content: space-between; /* Равномерное распределение текста и тегов */
+    transition: all 0.3s ease; /* Плавный переход для текста */
+}
+
+.newsachivecard {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(33.333% - 16px);
+    max-width: 528px;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    transition: all 0.3s ease; /* Для плавного перехода */
+}
+.newsachivecard:hover .image {
+    filter: grayscale(0%); /* Делает изображение черно-белым */
+}
+
+.newsachivecard:hover .newsacivecardtagbar {
+    background-color: #0450a0; /* Синий фон текстового блока */
+    color: #fff; /* Белый текст */
+}
+.newsachivecard:hover  .button {
+    color: #fff; /* Белый текст для кнопок */
+    border: 1px solid #ffffff;
+    border-radius: 573.77px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+    
+}
+
+.button1:hover{
+  border: 1px #0450a0;
+  background-color: #0450a0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.button1:hover .buttonLabel{
+  color: white;
+  transition: all 0.3s ease;
+}
+.donenewsachivecard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.container4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    text-align: left;
+    font-size: 24px;
+}
+.container {
+    width: 119%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 64px;
+}
+.section {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 348px 160px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #0450a0;
+    font-family: Montserrat, sans-serif;
+}
+
+@media (max-width: 1670px) {
+    .buttonLabel {
+        line-height: 12px;
+    }
+    .button {
+        border-radius: 429.75px;
+        padding: 4.5px 10.5px;
+    }
+    .div {
+        line-height: 45.75px;
+    }
+    .heading2 {
+        font-size: 45px;
+    }
+    .container2 {
+        width:387.75px;
+        padding: 0px 0px 4.5px;
+        gap: 9.75px;
+    }
+    .button1 {
+        border-radius: 750px;
+        padding: 12px 18px;
+    }
+    .container1 {
+        max-width: 1245px;
+        gap: 716.25px;
+    }
+    .containerIcon {
+        border-radius: 12px;
+    }
+    .image {
+        height: 429px;         
+    }
+    .title {
+        line-height: 18.75px;
+    }
+    .container6 {
+        gap: 4.5px;
+        font-size: 9px;
+    }
+    .newsacivecardtagbar {
+        width: 396px;
+        border-radius: 12px;
+        padding: 24px;
+        gap: 6px; 
+        min-height: 90px;
+    }
+
+    .newsachivecard {
+        flex-basis: calc(33.333% - 12px);
+        max-width: 396px;
+        border-radius: 12px;
+    }
+    .newsachivecard:hover  .button {
+        border-radius: 429.75px;
+        padding: 4.5px 10.5px;
+        
+    }
+    .container4 {
+        gap: 6px;
+        font-size: 18px;
+    }
+    .container {
+        gap: 48px;
+    }
+    .section {
+        padding: 261px 120px;
+        font-size: 9px;
+    }
+}
+@media (max-width: 1270px) {
+    .buttonLabel {
+    line-height: 8.33px;
+    }
+    .button {
+        border-radius: 298.82px;
+        padding: 3.13px 7.29px;
+    }
+    .div {
+        line-height: 31.88px;
+    }
+    .heading2 {
+        font-size: 31.25px;
+    }
+    .container2 {
+        width: 269.27px;
+        padding: 0 0 3.13px;
+        gap: 6.77px;
+    }
+    .button1 {
+        border-radius: 520.83px;
+        padding: 8.33px 12.5px;
+    }
+    .container1 {
+        max-width: 864.58px;
+        gap: 497.40px;
+    }
+    .containerIcon {
+        border-radius: 8.33px;
+    }
+    .image {
+        height: 297.92px;
+    }
+    .title {
+        line-height: 13.50px;
+    }
+    .container6 {
+        gap: 3.13px;
+        font-size: 6.25px;
+    }
+    .newsacivecardtagbar {
+        width: 275px;
+        border-radius: 8.33px;
+        padding: 16.67px;
+        gap: 4.17px;
+        min-height: 62.5px;
+    }
+    .newsachivecard {
+        flex-basis: calc(33.333% - 8.33px);
+        max-width: 275px;
+        border-radius: 8.33px;
+    }
+    .newsachivecard:hover .button {
+        border-radius: 298.82px;
+        padding: 3.13px 7.29px;
+    }
+    .container4 {
+        gap: 4.17px;
+        font-size: 12.5px;
+    }
+    .container {
+        gap: 33.33px;
+        width: 830px;
+    }
+    .section {
+        padding: 181.25px 83.33px;
+        font-size: 6.25px;
+    }
+} 
+@media (max-width: 880px) {
+    .section{
+        padding: 0px 16px 240px 16px;
+        top: 190px;
+        }
+    .div{
+        line-height: 38.2px;
+    }
+    .heading2{
+        font-size: 39px;
+    }
+    .container {
+        gap: 32px;
+        width: 100%;
+    }
+
+    .container4 {
+        gap: 16px;
+        flex-direction: column; /* Одна карточка в строке */
+        font-size: 22px;
+        margin: 0 auto;
+    }
+
+    .containerIcon{
+        width: 600px;
+        height: 500px;
+    }
+
+    .newsachivecard {
+        flex: 1 1 100%; /* Полная ширина карточки */
+        max-width: 92%;
+        border-radius: 16px;
+        margin: 0 auto;
+    }
+
+    .newsacivecardtagbar {
+        padding: 30px;
+        width: 100%;
+        border-radius: -16px;
+    }
+
+    .title{
+    line-height: 18.75px;
+    }
+
+    .container2{
+    width: 100%;
+    }
+    .button1{
+    display: none;
+    }
+    .button {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+    .container1{
+        width: 580px;
+    }
+}
+@media (max-width: 765px) {
+    .section {
+        padding: 0.0px 10.92px 163.82px 10.92px;
+        top: 129.69px;
+    }
+    .div {
+        line-height: 26.08px;
+    }
+    .heading2 {
+        font-size: 26.62px;
+    }
+    .container {
+        gap: 21.84px;
+        width: 100%;
+    }
+    .container4 {
+        gap: 10.92px;
+        flex-direction: column;
+        font-size: 15.02px;
+        margin: 0 auto;
+    }
+    .containerIcon {
+        width: 409.56px;
+        height: 341.3px;
+    }
+    .newsachivecard {
+        flex: 1 1 100%;
+        max-width: 92%;
+        border-radius: 10.92px;
+        margin: 0 auto;
+    }
+    .newsacivecardtagbar {
+        padding: 20.48px;
+        width: 100%;
+        border-radius: -10.92px;
+    }
+    .title {
+        line-height: 12.8px;
+    }
+    .container2 {
+        width: 100%;
+    }
+    .button1 {
+        display: none;
+    }
+    .button {
+        padding: 2.73px 5.46px;
+        font-size: 6.83px;
+    }
+    .container1 {
+        width: 395.9px;
+    }
+}
+@media (max-width: 480px) {
+    .section {
+        padding: 0.0px 10.92px 163.82px 10.92px;
+        top: 129.69px;
+    }
+    .div {
+        line-height: 26.08px;
+    }
+    .heading2 {
+        font-size: 26.62px;
+    }
+    .container {
+        gap: 21.84px;
+        width: 100%;
+    }
+    .container4 {
+        gap: 10.92px;
+        flex-direction: column;
+        font-size: 15.02px;
+        margin: 0 auto;
+    }
+    .containerIcon {
+        width: 409.56px;
+        height: 341.3px;
+    }
+    .newsachivecard {
+        flex: 1 1 100%;
+        max-width: 92%;
+        border-radius: 10.92px;
+        margin: 0 auto;
+    }
+    .newsacivecardtagbar {
+        padding: 20.48px;
+        width: 100%;
+        border-radius: -10.92px;
+    }
+    .title {
+        line-height: 12.8px;
+    }
+    .container2 {
+        width: 100%;
+    }
+    .button1 {
+        display: none;
+    }
+    .button {
+        padding: 2.73px 5.46px;
+        font-size: 6.83px;
+    }
+    .container1 {
+        width: 350px;
+    }
+}

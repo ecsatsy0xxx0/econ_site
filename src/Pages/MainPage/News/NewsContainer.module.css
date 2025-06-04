@@ -1,0 +1,1001 @@
+.buttonLabel {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+.logo {
+    border-radius: 573.77px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+}
+.p {
+    margin: 0;
+}
+.title {
+    position: relative;
+    letter-spacing: -1.8px;
+    line-height: 61.2px;
+    font-weight: 500;
+}
+.titleContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 60px;
+}
+.logoAndTitleContainer {
+    width: 517px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 6px;
+    box-sizing: border-box;
+    gap: 13px;
+    max-width: 520px;
+}
+.button {
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.headerContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.plusIcon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+}
+.iconbuttonnewsfullimage {
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.buttoncontainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.button1 {
+    border-radius: 573.77px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+}
+.tagcontainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.title1 {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.96px;
+    font-weight: 500;
+    color: white;
+}
+.container1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 2px;
+    text-align: left;
+    font-size: 32px;
+}
+.titlecontainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.content {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.container {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 24px;
+    gap: 17px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.sidebar {
+    width: 528px;
+    height: 726px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.icon1 {
+    width: 28px;
+    position: relative;
+    height: 28px;
+}
+.cardTitle {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.24px;
+    font-weight: 500;
+}
+.cardHeading {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.icon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 47px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.cardHeading1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.cardDescription {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.28px;
+    font-weight: 500;
+}
+.cardDescriptionContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+    text-align: justify;
+    
+    opacity: 0; /* Начальное значение */
+    transform: translateY(20px); /* Начальное смещение вниз */
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    /* Плавный переход */
+}
+
+.container:hover .cardDescriptionContainer {
+    opacity: 1; /* Показать текст */
+    transform: translateY(0); /* Возврат в исходное положение */
+    font-size: 20px;
+}
+
+.cardContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+.newsachivecard {
+    align-self: stretch;
+    width: 528px;
+    height: 359px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px 32px 28px;
+    box-sizing: border-box;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+.mainContentContainer {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 8px;
+    text-align: right;
+    font-size: 24px;
+    color: #0450a0;
+}
+.contentSection {
+    height: 726px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    color: #00000000;
+}
+.mainContainer {
+    width: 119%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 64px;
+}
+.section {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #0450a0;
+    font-family: Montserrat, sans-serif;
+}
+
+.grayImage {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.colorImage {
+    filter: grayscale(0%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.sidebar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sidebar.hovered {
+    background-color: rgba(4, 80, 160, 0.1);
+}
+.iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .iconBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .icon1 {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .container {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 24px;
+    gap: 17px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    overflow: hidden;
+    transition: filter 0.3s ease-in-out; /* Плавное изменение фильтра */
+}
+
+.container:hover {
+    filter: grayscale(0); /* Снятие черно-белого фильтра при наведении */
+}
+
+  
+  .container:hover .icon1 {
+    opacity: 1;
+  }
+  .newsachivecard:hover {
+    transform: translateY(-10px);
+    background-color: #0450a0;
+    color: #fff; /* Меняет текст на белый */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsachivecard:hover .cardTitle,
+  .newsachivecard:hover .cardDescription {
+    color: #fff; /* Текст становится белым */
+  }
+  
+  .newsachivecard:hover .icon1 {
+    filter: brightness(0) invert(1); /* Меняем цвет иконки */
+  }
+  .cardButtons {
+  display: none; /* Кнопки скрыты по умолчанию */
+  gap: 8px;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.newsachivecard:hover .cardButtons {
+  display: flex; /* Показываем кнопки при наведении */
+}
+.button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #0450a0;
+  }
+.button2 {
+    border: 1px solid #0450a0;
+    color: #0450a0;
+    padding: 10px 16px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.button2:hover {
+    background-color: #0450a0;
+    color: #fff;
+}
+
+@media (max-width:1670px) {
+    .buttonLabel {
+        line-height: 12px;
+    }
+    .logo, .button1 {
+        border-radius: 429.75px;
+        padding: 4.5px 10.5px;
+    }
+    .title {
+        line-height: 45.75px;
+    }
+    .titleContainer {
+        font-size: 45px;
+    }
+    .logoAndTitleContainer {
+        width: 387.75px;
+        padding: 0px 0px 4.5px;
+        gap: 9.75px;
+        max-width: 390px;
+    }
+    .button {
+        border-radius: 750px;
+        padding: 12px 18px;
+    }
+
+    .plusIcon {
+        width: 15px;
+        height: 15px;
+    }
+    .iconbuttonnewsfullimage {
+        border-radius: 7.5px;
+        padding: 12px;
+    }
+
+    .tagcontainer {
+        gap: 4.5px;
+    }
+
+    .container1 {
+        padding: 0px 0px 1.5px;
+        font-size: 9px;
+    }
+    .titlecontainer {
+        gap: 9px;
+    }
+
+    .container {
+        border-radius: 12px;
+        padding: 18px;
+        gap: 12.75px;
+    }
+    .sidebar {
+        width: 396px;
+        height: 544.5px;
+    }
+    .icon1 {
+        width: 21px;
+        height: 21px;
+    }
+
+    .icon {
+        padding: 0px 0px 8px;
+        gap: 24px;
+    }
+
+    .cardDescriptionContainer {
+        font-size: 12px;
+        transform: translateY(15px);
+    }
+
+    .container:hover .cardDescriptionContainer {
+        font-size: 15px;
+    }
+
+    .newsachivecard {
+        width: 396px;
+        height: 269.25px;
+        border-radius: 12px;
+        padding: 30px 24px 21px;
+    }
+    .mainContentContainer {
+        gap: 6px;
+        font-size: 18px;
+    }
+    .contentSection {
+        height: 544.5px;
+        gap: 6px;
+    }
+    .mainContainer {
+        gap:48px;
+    }
+    .section {
+        max-width: 1200px;
+        font-size: 9px;
+    }
+
+    .iconWrapper {
+        width: 37.5px;
+        height: 37.5px;
+        border-radius: 6px;
+    }
+    
+    .icon1 {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .container {
+        border-radius: 12px;
+        padding: 18px;
+        gap: 12.75px;
+    }
+
+    .newsachivecard:hover {
+        transform: translateY(-7.5px);
+        box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+    }
+
+    .cardButtons {
+        gap: 6px;
+        margin-top: 12x;
+    }
+
+    .button, .button2 {
+        padding: 7.5px 12px;
+        border-radius: 13.5px;
+    }
+}
+@media (max-width:1270px) {
+    .buttonLabel {
+        line-height: 8.33px;
+    }
+    .logo, .button1 {
+        border-radius: 298.44px;
+        padding: 3.13px 7.29px;
+    }
+    .title {
+        line-height: 31.77px;
+    }
+    .titleContainer {
+        font-size: 31.25px;
+    }
+    .logoAndTitleContainer {
+        width: 269.31px;
+        padding: 0 0 3.13px;
+        gap: 6.77px;
+        max-width: 270.83px;
+    }
+    .button {
+        border-radius: 520.83px;
+        padding: 8.33px 12.5px;
+    }
+    .plusIcon {
+        width: 10.42px;
+        height: 10.42px;
+    }
+    .iconbuttonnewsfullimage {
+        border-radius: 5.21px;
+        padding: 8.33px;
+    }
+    .tagcontainer {
+        gap: 3.13px;
+    }
+    .container1 {
+        padding: 0 0 1.04px;
+        font-size: 6.25px;
+    }
+    .titlecontainer {
+        gap: 6.25px;
+    }
+    .container {
+        border-radius: 8.33px;
+        padding: 12.5px;
+        gap: 8.85px;
+    }
+    .sidebar {
+        width: 275px;
+        height: 378.13px;
+    }
+    .icon1 {
+        width: 14.58px;
+        height: 14.58px;
+    }
+    .icon {
+        padding: 0 0 5.56px;
+        gap: 16.67px;
+    }
+    .cardDescriptionContainer {
+        font-size: 8.33px;
+        transform: translateY(10.42px);
+    }
+    .container:hover .cardDescriptionContainer {
+        font-size: 10.42px;
+    }
+    .newsachivecard {
+        width: 275px;
+        height: 186.98px;
+        border-radius: 8.33px;
+        padding: 20.83px 16.67px 14.58px;
+    }
+    .mainContentContainer {
+        gap: 4.17px;
+        font-size: 12.5px;
+    }
+    .contentSection {
+        height: 378.13px;
+        gap: 4.17px;
+    }
+    .mainContainer {
+        gap: 33.33px;
+    }
+    .section {
+        max-width: 833.33px;
+        font-size: 6.25px;
+    }
+    .iconWrapper {
+        width: 26.04px;
+        height: 26.04px;
+        border-radius: 4.17px;
+    }
+    .icon1 {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    .container {
+        border-radius: 8.33px;
+        padding: 12.5px;
+        gap: 8.85px;
+    }
+    .newsachivecard:hover {
+        transform: translateY(-5.21px);
+        box-shadow: 0px 2.08px 5.21px rgba(0, 0, 0, 0.1);
+    }
+    .cardButtons {
+        gap: 4.17px;
+        margin-top: 8.33px;
+    }
+    .button, .button2 {
+        padding: 5.21px 8.33px;
+        border-radius: 9.38px;
+    }
+    .cardDescription{
+        font-size: 12px;
+    }
+}
+@media (max-width: 880px) {
+    .section {
+        padding: 24px 16px;
+    }
+    .headerContainer{
+        margin: 0 auto;
+        width: 688px;
+    }
+    .contentSection {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .mainContainer{
+    width: 100%;
+    }
+    .logoAndTitleContainer{
+    width: 100%;
+    }
+    .container1{
+    font-size: 27px;
+    align-items: self-start;
+    }
+    .title{
+        letter-spacing: 0px;
+    }
+    .container:hover .cardDescriptionContainer {
+    font-size: 15px;
+    }
+    .headerContainer{
+    margin-bottom: 420px;
+    }
+    .sidebar {
+        width: 688px;
+        height: 370px; /* Уменьшаем высоту для мобильных */
+        margin: 0 auto;
+    }
+
+    .mainContentContainer {
+        width: 100%;
+        display: block;
+        font-size: 20px;
+    }
+
+    .newsachivecard {
+        width: 688px;
+        padding: 20px 16px; /* Уменьшаем внутренние отступы */
+        margin: 10px auto;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 36px; /* Уменьшаем размер заголовка */
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .button {
+        font-size: 14px; /* Уменьшаем размер кнопок */
+        padding: 1px 20px;
+        width: 150px;
+    }
+    .icon1{
+        height: 24px;
+        width: 24px;
+    }
+    .cardDescription{
+        font-size: 16px;
+    }
+    .cardButtons{
+        margin-top: 1px;
+    }
+    .logo{
+        width: 150px;
+        height: 20px;
+    }
+    .logo div{
+        font-size: 10px;
+    }
+    .button2{
+        width: 100px;
+        height: 30px;
+    }
+    .button2 div {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+}
+@media (max-width: 765px) {
+    .section {
+        padding: 16.38px 10.92px;
+    }
+    .headerContainer{
+        margin: 0 auto;
+        width: 469.62px;
+    }
+    .contentSection {
+        flex-direction: column;
+        gap: 10.92px;
+    }
+    .mainContainer {
+        width: 100%;
+    }
+    .logoAndTitleContainer {
+        width: 100%;
+    }
+    .container1 {
+        font-size: 18.43px;
+        align-items: self-start;
+    }
+    .container:hover .cardDescriptionContainer {
+        font-size: 10.24px;
+    }
+    .headerContainer {
+        margin-bottom: 230px;
+    }
+    .sidebar {
+        width: 469.62px;
+        height: 252.56px;
+        margin: 0 auto;
+    }
+    .mainContentContainer {
+        width: 100%;
+        display: block;
+        font-size: 13.65px;
+    }
+    .newsachivecard {
+        width: 469.62px;
+        padding: 13.65px 10.92px;
+        margin: 6.83px auto;
+        height: 136.52px;
+    }
+    .title {
+        font-size: 24.57px;
+        line-height: 27.3px;
+        text-align: center;
+    }
+    .button {
+        font-size: 9.56px;
+        padding: 0.68px 13.65px;
+        width: 102.39px;
+    }
+    .icon1 {
+        height: 16.38px;
+        width: 16.38px;
+    }
+    .cardDescription {
+        font-size: 10.92px;
+    }
+    .cardButtons {
+        margin-top: 0.68px;
+    }
+    .logo {
+        width: 110px;
+        height: 13.65px;
+    }
+    .logo div {
+        font-size: 6.83px;
+    }
+    .button2 {
+        width: 68.26px;
+        height: 20.48px;
+    }
+    .button2 div {
+        font-size: 6.83px;
+        margin-top: 0;
+    }
+}
+@media (max-width: 540px) {
+    .section {
+        padding: 16.38px 10.92px;
+    }
+    .headerContainer{
+        margin: 0 auto;
+        width: 450px;
+    }
+    .contentSection {
+        flex-direction: column;
+        gap: 10.92px;
+    }
+    .mainContainer {
+        width: 100%;
+    }
+    .logoAndTitleContainer {
+        width: 100%;
+    }
+    .container1 {
+        font-size: 18.43px;
+        align-items: self-start;
+    }
+    .container:hover .cardDescriptionContainer {
+        font-size: 10.24px;
+    }
+    .headerContainer {
+        margin-bottom: 230px;
+    }
+    .sidebar {
+        width: 450px;
+        height: 252.56px;
+        margin: 0 auto;
+    }
+    .mainContentContainer {
+        width: 100%;
+        display: block;
+        font-size: 13.65px;
+    }
+    .newsachivecard {
+        width: 450px;
+        padding: 13.65px 10.92px;
+        margin: 6.83px auto;
+        height: 136.52px;
+    }
+    .title {
+        font-size: 24.57px;
+        line-height: 27.3px;
+        text-align: center;
+    }
+    .button {
+        font-size: 9.56px;
+        padding: 0.68px 13.65px;
+        width: 102.39px;
+    }
+    .icon1 {
+        height: 16.38px;
+        width: 16.38px;
+    }
+    .cardDescription {
+        font-size: 10.92px;
+    }
+    .cardButtons {
+        margin-top: 0.68px;
+    }
+    .logo {
+        width: 110px;
+        height: 13.65px;
+    }
+    .logo div {
+        font-size: 6.83px;
+    }
+    .button2 {
+        width: 68.26px;
+        height: 20.48px;
+    }
+    .button2 div {
+        font-size: 6.83px;
+        margin-top: 0;
+    }
+}
+@media (max-width: 480px) {
+    .section {
+        padding: 11.33px 7.56px;
+    }
+    .headerContainer{
+        margin: 0 auto;
+        width: 311px;
+    }
+    .contentSection {
+        flex-direction: column;
+        gap: 7.56px;
+    }
+    .logoAndTitleContainer{
+        width: 74px;
+    }
+    .mainContainer {
+        width: 100%;
+        gap: 0;
+    }
+    .logoAndTitleContainer {
+        width: 50%;
+    }
+    .container1 {
+        font-size: 12.75px;
+        align-items: self-start;
+    }
+    .container:hover .cardDescriptionContainer {
+        font-size: 7.09px;
+    }
+    .headerContainer {
+        margin-bottom: 120px;
+    }
+    .sidebar {
+        width: 311.54px;
+        height: 174.73px;
+        margin: 0 auto;
+    }
+    .mainContentContainer {
+        width: 100%;
+        display: block;
+        font-size: 9.45px;
+    }
+    .newsachivecard {
+        width: 311.54px;
+        padding: 9.45px 7.56px;
+        margin: 4.73px auto;
+        height: 94.47px;
+    }
+    .title {
+        font-size: 17px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .button {
+        font-size: 6.62px;
+        padding: 0.47px 9.45px;
+        width: 70.85px;
+    }
+    .icon1 {
+        height: 11.34px;
+        width: 11.34px;
+    }
+    .cardDescription {
+        font-size: 7.56px;
+    }
+    .cardButtons {
+        margin-top: 0.47px;
+    }
+    .logo {
+        width: 90px;
+        height: 9.45px;
+    }
+    .logo div {
+        font-size: 4.73px;
+    }
+    .button2 {
+        width: 60px;
+        height: 17px;
+    }
+    .icon{
+        padding: 0;
+    }
+    .titlecontainer{
+        gap: 4px;
+    }
+    .button2 div {
+        font-size: 4.73px;
+        margin-top: 0;
+    }
+}

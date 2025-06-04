@@ -1,0 +1,490 @@
+.div {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 14.4px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.container4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 0;
+}
+.border {
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    height: 105.93%;
+    top: 0%;
+    right: 0%;
+    bottom: -5.93%;
+    left: 0%;
+    border-radius: 1000px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.container2 {
+    border-radius: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    position: relative;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.div1 {
+    position: relative;
+    letter-spacing: -1.8px;
+    line-height: 61.2px;
+    font-weight: 500;
+}
+.div2 {
+    position: relative;
+    letter-spacing: -1.8px;
+    font-weight: 500;
+}
+.heading2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 69px;
+    gap: 4px;
+    font-size: 60px;
+}
+.container {
+    width: 640px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    max-width: 640px;
+}
+.buttonLabel {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: normal; /* Убираем ограничение на высоту строки */
+    white-space: nowrap; /* Запрещаем перенос текста */
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.button {
+    align-self: stretch;
+    border-radius: 1000px;
+    background: linear-gradient(rgba(156, 156, 156, 0.45), rgba(156, 156, 156, 0.45)), #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    cursor: pointer;
+}
+.container6 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #fff;
+}
+.buttonParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.buttonLabel1 {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: normal; /* Убираем ограничение на высоту строки */
+    white-space: nowrap; /* Запрещаем перенос текста */
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button1 {
+    border-radius: 1000px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    color: #fff;
+}
+.container5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    color: #424242;
+}
+.background { 
+    border-radius: 16px;
+    background-color: #0450a0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 144px 512px;
+    box-sizing: border-box;
+    gap: 24px;
+}
+.section1 {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+}
+.section {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 8px;
+}
+
+
+.button1:hover {
+    background-color: #fff; /* Белый фон при наведении */
+    color: #0450a0; /* Синий текст при наведении */
+    border: 1px solid #0450a0; /* Синяя граница остается */
+    cursor: pointer; /* Указатель меняется на "руку" */
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 1670px) {
+    .div {
+        line-height: 10.5px;
+    }
+    .border {
+        border-radius: 750px;
+    }
+    .container2 {
+        border-radius: 750px;
+        padding: 4.5px 7.5px;
+    }
+    .div1 {
+        line-height: 45.75px;
+    }
+    .heading2 {
+        padding: 0px 51.75px;
+        gap: 3px;
+        font-size: 45px;
+    }
+    .container {
+        width: 480px;
+        gap: 15px;
+    }
+    .button {
+        border-radius: 750px;
+        padding: 12px 18px;
+    }
+    .buttonParent {
+        gap: 6px;
+    }
+    .button1 {
+        border-radius: 750px;
+        padding: 12px 18px;
+    }
+    .container5 {
+        gap: 7.5px;
+    }
+    .background { 
+        border-radius: 12px;
+        padding: 108px 384px;
+        gap: 18px;
+    }
+    .section {
+        font-size: 9px;
+        margin-top: 150px;
+        margin-bottom: 6px;
+    }
+
+}
+@media (max-width:1270px) {
+    .div {
+        line-height: 7.5px;
+    }
+    .border {
+        border-radius: 520.83px;
+    }
+    .container2 {
+        border-radius: 520.83px;
+        padding: 3.13px 5.21px;
+    }
+    .div1 {
+        line-height: 31.88px;
+    }
+    .heading2 {
+        padding: 0 35.94px;
+        gap: 2.08px;
+        font-size: 31.25px;
+    }
+    .container {
+        width: 333.33px;
+        gap: 10.42px;
+        max-width: 333.33px;
+    }
+    .button {
+        border-radius: 520.83px;
+        padding: 8.33px 12.5px;
+    }
+    .buttonParent {
+        gap: 4.17px;
+    }
+    .button1 {
+        border-radius: 520.83px;
+        padding: 8.33px 12.5px;
+    }
+    .container5 {
+        gap: 5.21px;
+    }
+    .background {
+        border-radius: 8.33px;
+        padding: 75px 266.67px;
+        gap: 12.5px;
+    }
+    .section {
+        font-size: 6.25px;
+        margin-top: 104.17px;
+        margin-bottom: 4.17px;
+    }
+}
+@media (max-width: 880px) {
+    .section {
+        margin-bottom: 0;
+        margin-top: 450px;
+    }
+    .div1{
+        letter-spacing: 0px;
+    }
+    .div2{
+        letter-spacing: -1.3px;
+    }
+    .background {
+    padding: 60px 282px;
+        border-radius: 8px;
+    }
+
+    .heading2 {
+        padding: 0px 10px;
+        font-size: 28px;
+    }
+    .section1{
+        padding: 1px 58px;
+    }
+    .container2{
+        border-radius: 400px;
+        padding: 8px 20px;
+    }
+    .container {
+        width: 100%;
+        gap: 12px;
+    }
+    .buttonParent{
+        gap: 15px;
+    }
+    .div{
+        font-size: 15px;
+    }
+    .button1 {
+        padding: 10px 14px;
+    }
+
+    .buttonLabel,
+    .buttonLabel1 {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .button {
+        padding: 12px 16px;
+    }
+
+    .container5 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .div1,
+    .div2 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .button1{
+        padding: 12px 16px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 765px) {
+    .section {
+        margin-bottom: 0;
+        margin-top: 307.17px;
+    }
+
+    .background {
+        padding: 40.96px 192.49px;
+        border-radius: 5.46px;
+    }
+
+    .heading2 {
+        padding: 0.0px 6.83px;
+        font-size: 19.11px;
+    }
+    .section1 {
+        padding: 0.68px 39.59px;
+    }
+    .container2 {
+        border-radius: 273.04px;
+        padding: 5.46px 13.65px;
+    }
+    .container {
+        width: 100%;
+        gap: 8.19px;
+    }
+    .buttonParent {
+        gap: 10.24px;
+    }
+    .div {
+        font-size: 10.24px;
+    }
+    .button1 {
+        padding: 6.83px 9.56px;
+    }
+
+    .buttonLabel,
+    .buttonLabel1 {
+        font-size: 8.19px;
+        text-transform: uppercase;
+    }
+
+    .button {
+        padding: 8.19px 10.92px;
+    }
+
+    .container5 {
+        flex-direction: column;
+        gap: 10.92px;
+    }
+
+    .div1,
+    .div2 {
+        font-size: 17.06px;
+        line-height: 19.11px;
+    }
+    .button1 {
+        padding: 8.19px 10.92px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 540px) {
+    .section {
+        margin-bottom: 0;
+        margin-top: 307.17px;
+    }
+
+    .background {
+        padding: 40.96px 187px;
+        border-radius: 5.46px;
+    }
+
+    .heading2 {
+        padding: 0.0px 6.83px;
+        font-size: 19.11px;
+    }
+    .section1 {
+        padding: 0.68px 39.59px;
+    }
+    .container2 {
+        border-radius: 273.04px;
+        padding: 5.46px 13.65px;
+    }
+    .container {
+        width: 100%;
+        gap: 8.19px;
+    }
+    .buttonParent {
+        gap: 10.24px;
+    }
+    .div {
+        font-size: 10.24px;
+    }
+    .button1 {
+        padding: 6.83px 9.56px;
+    }
+
+    .buttonLabel,
+    .buttonLabel1 {
+        font-size: 8.19px;
+        text-transform: uppercase;
+    }
+
+    .button {
+        padding: 8.19px 10.92px;
+    }
+
+    .container5 {
+        flex-direction: column;
+        gap: 10.92px;
+    }
+
+    .div1,
+    .div2 {
+        font-size: 17.06px;
+        line-height: 19.11px;
+    }
+    .button1 {
+        padding: 8.19px 10.92px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:480px) {
+    .section{
+        width: 300px;
+        margin-top: 150px;
+    }
+    .background{
+        width: 360px;
+        padding: 40px 60px;
+    }
+}

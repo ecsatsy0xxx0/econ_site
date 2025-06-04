@@ -1,0 +1,366 @@
+  .header2 {
+      width: 1664px;
+      margin: 0 auto;
+  }
+  /* Хедер */
+  .header {
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    width: 1664px;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+    top: 14px;
+    margin: 0 auto;
+  }
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .logo3blueIcon {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 40px;
+  }
+  
+  /* Навигационные кнопки */
+  .container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  
+  .button {
+    border-radius: 833.33px;
+    background-color: rgba(4, 80, 160, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #d6e4f7;
+    cursor: pointer;
+    color: #0450a0;
+  }
+  
+  .button3 {
+    border-radius: 833.33px;
+    border: 1px solid #0450a0;
+    background-color: #fff;
+    color: #0450a0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button3:hover {
+    background-color: #0450a0;
+    color: #fff;
+    border: 1px solid #0450a0;
+    cursor: pointer;
+  }
+  
+  /* Кнопка-гамбургер */
+  .hamburgerMenu {
+    display: none; /* По умолчанию скрыта */
+    width: 40px;
+    height: 40px;
+    background-color: #0450a0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .hamburgerIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Адаптивность для экранов */
+  @media (min-width: 1440px) {
+
+    .hamburgerMenu {
+        display: none; /* Скрываем кнопку-гамбургер на больших экранах */
+      }
+  }
+
+  .mobileMenu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+    z-index: 999;
+  }
+  .menuButton {
+    width: 81%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0450a0;
+    border: 1px solid #0450a0;
+    border-radius: 27px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .menuButton:hover {
+    background-color: #0450a0;
+    color: #fff;
+  }
+  
+@media (max-width: 1670px){
+  .header2 {
+      width: 1248px;
+  }
+  .header {
+    border-radius: 12px;
+    width: 1248px;
+    height: 60px;
+    padding: 15px 24px;
+    top: 10.5px;
+  }
+  .logoContainer {
+    width: 88.5px;
+    height: 30px;
+  }
+  
+  .logo3blueIcon {
+    height: 30px;
+  }
+  
+  .container {
+    gap: 12px;
+  }
+  
+  .button {
+    border-radius: 624.75px;
+    padding: 9px 15px;
+    font-size: 10.5px;
+  }
+  
+  .button3 {
+    border-radius: 624.75px;
+    padding: 9px 15px;
+    font-size: 10.5px;
+  }
+  
+  .menuButton {
+    padding: 9px 15px;
+    margin: 6px 0;
+    font-size: 12px;
+    border-radius: 20.25px;
+  }
+}
+@media (max-width:1270px) {
+  .header2 {
+      width: 866px;
+  }
+  .header {
+    border-radius: 8px;
+    width: 866px;
+    height: 41px;
+    padding: 10px 16px;
+    top: 7px;
+  }
+  .logoContainer {
+    width: 61px;
+  }
+  
+  .logo3blueIcon, .logoContainer  {
+    height: 20px;
+  }
+  
+  .container {
+    gap: 8px;
+  }
+
+  .button3, .button  {
+    border-radius: 433px;
+    padding: 6.25px 10px;
+    font-size: 7px;
+  }
+
+  .hamburgerMenu {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+  .hamburgerIcon {
+    width: 12.5px;
+    height: 12.5px;
+  }
+}
+@media (min-width: 880px) {
+  .hamburgerMenu{
+    display: none;
+  }
+}
+@media (max-width: 880px) {
+    .button3{
+    display: none;
+  }
+    .header {
+      padding: 12px 16px;
+      height: 60px;
+      width: 700px;
+      padding: 9.82px 13.09px;
+      height: 49.09px;
+    }
+    .header2{
+      width: 700px;
+      }
+  .logoContainer {
+    width: 81.82px;
+    height: 26.18px;
+  }
+
+  .logo3blueIcon {
+    height: 29.55px;
+  }
+
+
+  .hamburgerMenu {
+    height: 32.73px;
+    width: 32.73px;
+  }
+
+  .hamburgerIcon {
+    height: 20.45px;
+    width: 20.45px;
+  }
+
+  .mobileMenu {
+    border-radius: 13.09px 13.09px 0 0;
+    box-shadow: 0 -3.27px 8.18px rgba(0, 0, 0, 0.1);
+    padding: 13.09px 0;
+  }
+
+  .menuButton {
+    padding: 9.82px 16.36px;
+    margin: 6.55px 0;
+    font-size: 13.09px;
+    border-radius: 21.95px;
+  }
+}
+@media (max-width: 765px) {
+  .button3 {
+    display: none;
+  }
+  .header {
+      padding: 8.19px 10.92px;
+      height: 40.96px;
+      width: 477.82px;
+      padding: 6.7px 8.94px;
+      height: 33.51px;
+  }
+  .header2 {
+      width: 477.82px;
+  }
+  .logoContainer {
+      width: 55.85px;
+      height: 17.87px;
+  }
+  .logo3blueIcon {
+      height: 20.17px;
+  }
+  .hamburgerMenu {
+      height: 22.34px;
+      width: 22.34px;
+  }
+  .hamburgerIcon {
+      height: 13.96px;
+      width: 13.96px;
+  }
+  .mobileMenu {
+      border-radius: 8.94px 8.94px 0 0;
+      box-shadow: 0 -2.23px 5.58px rgba(0, 0, 0, 0.1);
+      padding: 8.94px 0;
+  }
+  .menuButton {
+      padding: 6.7px 11.17px;
+      margin: 4.47px 0;
+      font-size: 8.94px;
+      border-radius: 14.98px;
+  }
+  .button3, .button{
+    padding: 3px 10px;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+      padding: 3.85px 5.14px;
+      height: 19.28px;
+      width: 300px;
+      padding: 3.15px 4.21px;
+      height: 25px;
+  }
+  .header2 {
+      width: 300px;
+  }
+  .logoContainer {
+      width: 26.28px;
+      height: 8.41px;
+  }
+  .logo3blueIcon {
+    width: 12;
+      height: 12px;
+  }
+  .hamburgerMenu {
+      height: 10.51px;
+      width: 10.51px;
+      border-radius: 3px;
+  }
+  .hamburgerIcon {
+      height: 6.57px;
+      width: 6.57px;
+  }
+  .mobileMenu {
+      border-radius: 4.21px 4.21px 0 0;
+      box-shadow: 0 -1.05px 2.63px rgba(0, 0, 0, 0.1);
+      padding: 4.21px 0;
+  }
+  .menuButton {
+      padding: 3.15px 5.26px;
+      margin: 2.1px 0;
+      border-radius: 7.05px;
+  }
+  .button3, .button {
+      padding: 1.41px 4.71px;
+  }
+}

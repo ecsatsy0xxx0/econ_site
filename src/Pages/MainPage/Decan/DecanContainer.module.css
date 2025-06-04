@@ -1,0 +1,644 @@
+.backgroundChild {
+    width: 212.6px;
+    position: relative;
+    height: 48px;
+    object-fit: cover;
+}
+.div {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -1.26px;
+    line-height: 71.84px;
+    font-weight: 500;
+}
+.p {
+    margin: 0;
+}
+.div1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 23px;
+    letter-spacing: -0.24px;
+    font-weight: 500;
+}
+.heading2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;
+    box-sizing: border-box;
+}
+.buttonLabel {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.button {
+    border-radius: 1000px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+.button1 {
+    border-radius: 1000px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    color: #fff;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #0450a0;
+}
+.background1 {
+    align-self: stretch;
+    flex: 0.9204;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 40px;
+    gap: 32px;
+}
+.quotesIcon {
+    width: 64px;
+    position: relative;
+    height: 64px;
+}
+.i {
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+}
+.div2 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.24px;
+    margin-top: 20px; /* Добавляет отступ сверху */
+}
+
+.quotesParent {
+    align-self: stretch;
+    border-radius: 2px;
+    background-color: rgba(4, 80, 160, 0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 48px;
+    gap: 56px;
+}
+.p8 {
+    margin: 0;
+    font-weight: 500;
+}
+.p9 {
+    margin: 0;
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+.span {
+    font-weight: 500;
+}
+.b {
+    font-family: Montserrat, sans-serif;
+}
+.button2 {
+    width: 88px;
+    border-radius: 1000px;
+    background-color: #0450a0;
+    border: 1px solid #0450a0;
+    box-sizing: border-box;
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.buttonLabel2 {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: inherit;
+    text-decoration: none;
+}
+.button3 {
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    transition: all 0.3s;
+}
+.buttonParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    text-align: center;
+    font-size: 22px;
+}
+.background2 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 8px;
+    background: linear-gradient(#fff, #fff), #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px 40px;
+    text-align: justify;
+    font-size: 21px;
+    color: #0450a0;
+}
+.background {
+    width: 100%;
+    border-radius: 16px;
+    background-color: #0450a0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.section {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 128px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 42px;
+    top: 104px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+}
+
+.button:hover {
+    background-color: #0450a0; /* Синий фон при наведении */
+    color: #fff; /* Белый текст при наведении */
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: #fff; /* Белый фон при наведении */
+    color: #0450a0; /* Синий текст при наведении */
+    border: 1px solid #0450a0; /* Синяя граница */
+    cursor: pointer;
+}
+.button3:hover {
+    background-color: #0450a0; /* Белый фон при наведении */
+    color: #ffffff; /* Синий текст при наведении */
+    border: 1px solid #ffffff; /* Синяя граница */
+    cursor: pointer;
+}
+
+@media (max-width:1270px) {
+    .backgroundChild {
+        width: 110.73px;
+        height: 25px;
+    }
+    .div {
+        line-height: 37.44px;
+    }
+    .div1 {
+        font-size: 11.98px;
+    }
+    .heading2 {
+        padding: 4.17px 0px;
+    }
+    .buttonLabel {
+        letter-spacing: -0.13px;
+        line-height: 8.33px;
+    }
+    .button {
+        border-radius: 1000px;
+        padding: 8.33px 12.5px;
+    }
+    .button1 {
+        border-radius: 1000px;
+        padding: 8.33px 12.5px;
+    }
+    .container1 {
+        gap: 5.21px;
+    }
+    .container {
+        font-size: 6.25px;
+    }
+    .background1 {
+        border-radius: 16px;
+        padding: 41.67px 20.83px;
+        gap: 16.67px;
+    }
+    .quotesIcon {
+        width: 33.33px;
+        height: 33.33px;
+    }
+    .div2 {
+        margin-top: 10.42px;
+    }
+    .quotesParent {
+        padding: 33.33px 25px;
+        gap: 29.17px;
+    }
+    .button2 {
+        width: 45.83px;
+        border-radius: 1000px;
+        height: 25px;
+    }
+    .buttonLabel2 {
+        line-height: 8.33px;
+    }
+    .button3 {
+        border-radius: 1000px;
+        padding: 8.33px 12.5px;
+    }
+    .buttonParent {
+        gap: 5.21px;
+        font-size: 6.25px;
+    }
+    .parent {
+        gap: 16.67px;
+        font-size: 11.46px;
+    }
+    .background2 {
+        border-radius: 4.17px;
+        padding: 4.17px 4.17px 20.83px;
+        font-size: 10.94px;
+    }
+    .background {
+        border-radius: 16px;
+        padding: 4.17px;
+        gap: 4.17px;
+    }
+    .section {
+        padding: 0px 66.67px;
+        font-size: 21.88px;
+        top: 54.17px;
+    }
+}
+@media (max-width:1470px) {
+    .backgroundChild {
+        width: 162.77px;
+        height: 36.75px;
+    }
+    .div {
+        line-height: 54.99px;
+    }
+    .div1 {
+        font-size: 17.62px;
+    }
+    .heading2 {
+        padding: 6.13px 0;
+        gap: 7.66px;
+        font-size: 32.19px;
+    }
+    .buttonLabel {
+        letter-spacing: -0.18px;
+        line-height: 12.25px;
+    }
+    .button, .button1, .button3 {
+        border-radius: 765.62px;
+        padding: 12.25px 18.38px;
+    }
+    .buttoncontainer, .buttonParent {
+        gap: 7.66px;
+        font-size: 9.19px;
+    }
+    .container1 {
+        gap: 7.66px;
+    }
+    .container {
+        font-size: 9.19px;
+    }
+    .background1 {
+        border-radius: 12.25px;
+        padding: 61.25px 30.62px;
+        gap: 24.5px;
+    }
+    .quotesIcon {
+        width: 48.94px;
+        height: 48.94px;
+    }
+    .div2 {
+        margin-top: 15.31px;
+    }
+    .quotesParent {
+        padding: 49px 36.75px;
+        gap: 42.94px;
+    }
+    .button2 {
+        width: 67.38px;
+        border-radius: 765.62px;
+        height: 36.75px;
+    }
+    .parent {
+        gap: 24.5px;
+        font-size: 16.85px;
+    }
+    .background2 {
+        border-radius: 6.13px;
+        padding: 6.13px 6.13px 30.62px;
+        font-size: 16.09px;
+    }
+    .background {
+        border-radius: 12.25px;
+        padding: 6.13px;
+        gap: 6.13px;
+    }
+    .section {
+        padding: 0 98px;
+        font-size: 32.19px;
+        top: 95px;
+    }
+}
+@media (max-width:1110px) {
+    .backgroundChild {
+        width: 87.20px;
+        height: 19.69px;
+    }
+    .div {
+        line-height: 29.50px;
+    }
+    .div1 {
+        font-size: 9.44px;
+    }
+    .heading2 {
+        padding: 3.28px 0;
+    }
+    .buttonLabel {
+        letter-spacing: -0.10px;
+        line-height: 6.56px;
+    }
+    .button, .button1, .button3 {
+        border-radius: 787.40px;
+        padding: 6.56px 9.84px;
+    }
+    .container1 {
+        gap: 4.10px;
+    }
+    .container {
+        font-size: 4.92px;
+    }
+    .background1 {
+        border-radius: 12.60px;
+        padding: 32.82px 16.41px;
+        gap: 13.13px;
+    }
+    .quotesIcon {
+        width: 26.25px;
+        height: 26.25px;
+    }
+    .div2 {
+        margin-top: 8.20px;
+    }
+    .quotesParent {
+        padding: 26.25px 19.69px;
+        gap: 22.98px;
+    }
+    .button2 {
+        width: 36.10px;
+        border-radius: 787.40px;
+        height: 19.69px;
+    }
+    .buttonLabel2 {
+        line-height: 6.56px;
+    }
+    .buttonParent {
+        gap: 4.10px;
+        font-size: 4.92px;
+    }
+    .parent {
+        gap: 13.13px;
+        font-size: 9.03px;
+    }
+    .background2 {
+        border-radius: 3.28px;
+        padding: 3.28px 3.28px 16.41px;
+        font-size: 8.63px;
+    }
+    .background {
+        border-radius: 12.60px;
+        gap: 3.28px;
+    }
+    .section {
+        padding: 0 62px;
+        font-size: 17.28px;
+        top: 59px;
+    }
+}
+@media (max-width: 880px) {
+    .section {
+        padding: 13.09px;
+        top: 122.73px;
+        font-size: 20.45px;
+    }
+
+    .div2 {
+        font-size: 12.73px;
+    }
+    .parent .div2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .background {
+        flex-direction: column;
+        padding: 13.09px 13.09px 13.09px 98.18px;
+        gap: 13.09px;
+    }
+
+    .background1,
+    .background2 {
+        width: 90%;
+        border-radius: 20.45px;
+    }
+
+    .heading2 {
+        text-align: center;
+        padding: 13.09px 0;
+        height: 1%;
+    }
+
+    .buttoncontainer,
+    .container1 {
+        flex-direction: column;
+        gap: 9.82px;
+    }
+
+    .button,
+    .button1,
+    .button3 {
+        width: 100%;
+        padding: 16.36px 40.91px;
+    }
+
+    .container {
+        font-size: 12.73px;
+    }
+
+    .buttonParent {
+        font-size: 12.73px;
+    }
+
+    .quotesParent {
+        padding: 2.45px;
+        gap: 19.64px;
+    }
+
+    .parent {
+        padding: 13.09px;
+        text-align: left;
+    }
+
+    .backgroundChild {
+        height: 24.55px;
+    }
+
+    .div {
+        font-size: 28.64px;
+    }
+
+    .div1 {
+        font-size: 16.36px;
+    }
+}
+@media (max-width: 765px) {
+    .section {
+    padding: 8.94px;
+    top: 83.77px;
+    font-size: 13.96px;
+    }
+
+    .div2 {
+        font-size: 8.69px;
+    }
+
+    .background {
+        flex-direction: column;
+        padding: 8.94px 8.94px 8.94px 67.02px;
+        gap: 8.94px;
+    }
+
+    .background1,
+    .background2 {
+        width: 90%;
+        border-radius: 13.96px;
+    }
+
+    .heading2 {
+        text-align: center;
+        padding: 8.94px 0;
+        height: 1%;
+    }
+
+    .buttoncontainer,
+    .container1 {
+        flex-direction: column;
+        gap: 6.7px;
+    }
+
+    .button,
+    .button1,
+    .button3 {
+        width: 100%;
+        padding: 11.17px 27.92px;
+    }
+
+    .container {
+        font-size: 8.69px;
+    }
+
+    .buttonParent {
+        font-size: 8.69px;
+    }
+
+    .quotesParent {
+        padding: 1.67px;
+        gap: 13.41px;
+    }
+
+    .parent {
+        padding: 8.94px;
+        text-align: left;
+    }
+
+    .backgroundChild {
+        height: 16.76px;
+    }
+
+    .div {
+        font-size: 19.55px;
+    }
+
+    .div1 {
+        font-size: 11.17px;
+    }
+}
+@media (max-width: 480px) {
+    .section {
+    padding: 4.21px;
+    top: 39.42px;
+    font-size: 6.57px;
+    }
+    .background {
+        flex-direction: column;
+        padding: 4.21px 4.21px 4.21px 31.54px;
+        gap: 4.21px;
+    }
+
+    .background1,
+    .background2 {
+        width: 90%;
+        border-radius: 6.57px;
+    }
+}

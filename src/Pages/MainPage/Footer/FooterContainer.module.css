@@ -1,0 +1,884 @@
+.logoChild {
+    width: 66px;
+    position: relative;
+    height: 48px;
+}
+.logoItem {
+    width: 1px;
+    position: relative;
+    border-right: 1px solid #0450a0;
+    box-sizing: border-box;
+    height: 37px;
+}
+.logoInner {
+    width: 212.6px;
+    position: relative;
+    height: 48px;
+    object-fit: cover;
+}
+.logo3blueIcon {
+    width: 42px;
+    position: relative;
+    height: 42px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.logo3blueWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3px 15px 3px 3px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 0px;
+    gap: 24px;
+}
+.div {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.15px;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.div1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    max-height: 25.92px;
+}
+.parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.container1 {
+    display: flex;
+    cursor: pointer; /* Указатель меняется на "руку" */
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.container5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.link1 {
+    border-radius: 1000px;
+    background-color: rgba(4, 80, 160, 0.07);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+}
+.container2 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+.containerParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.div6 {
+    width: 224px;
+    position: relative;
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.vectorIcon {
+    width: 16.7px;
+    position: relative;
+    height: 16.7px;
+}
+.vk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.7px;
+}
+
+.iconbutton {
+    border-radius: 8px;
+    border: 1px solid #0450a0;
+    display: flex;
+    cursor: pointer; /* Указатель меняется на "руку" */
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.iconbutton:hover{
+    background-color: #0450a0;
+    transition: all 0.3s ease;
+}
+.component1Icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.tg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.iconbutton:hover .tg{
+    background-image: url('tg1.svg');
+    transition: all 0.3s ease;
+}
+.iconbutton:hover .tg .component1Icon{
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.iconbutton:hover .vk{
+    background-image: url('vk1.svg');
+    transition: all 0.3s ease;
+}
+.iconbutton:hover .vk .vectorIcon{
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.iconbuttonParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.div7 {
+    position: relative;
+    letter-spacing: -0.15px;
+    font-weight: 500;
+    text-align: center;
+}
+.group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 24px;
+    gap: 48px;
+    text-align: right;
+    font-size: 20px;
+}
+.overlay {
+    align-self: stretch;
+    border-radius: 16px;
+    background-color: rgba(4, 80, 160, 0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 86px 470px 24px 512px;
+    gap: 32px;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.div8 {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 14.4px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.buttonLabel {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button:hover{
+    background-color: #0450a033;
+    transition: all 0.3s ease;
+}
+
+.link1:hover {
+    background-color: #0450a033;
+    transition: all 0.3s ease;
+}
+.button {
+    border-radius: 833.33px;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer; /* Указатель меняется на "руку" */
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+.container15 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+.overlay1 {
+    width: 1664px;
+    border-radius: 16px;
+    background-color: rgba(4, 80, 160, 0.07);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    gap: 24px;
+}
+.copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 12px;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12.7px;
+    color: #0450a0;
+    font-family: Montserrat, sans-serif;
+}
+
+@media (max-width:1670px) {
+    .logoChild {
+        width:49.5px;
+        height: 36px;
+    }
+    .logoItem {
+        height: 27.75px;
+    }
+    .logoInner {
+        width: 159px;
+        height: 36px;
+    }
+    .logo3blueIcon {
+        width: 31.5px;
+        height: 31.5px;
+    }
+    .logo3blueWrapper {
+        padding: 2.25px 11.25px 2.25px 2.25px;
+    }
+    .logo {
+        padding: 6px 0px;
+        gap: 18px;
+    }
+    .div {
+        line-height: 7.5px;
+    }
+    .div1 {
+        font-size: 15px;
+        line-height: 12px;
+        max-height: 18.75px;
+    }
+    .parent {
+        gap: 10.5px;
+    }
+    .link {
+        gap: 13.5px;
+    }
+    .link1 {
+        border-radius: 750px;
+        padding: 9px 12px;
+    }
+    .container2 {
+        font-size: 9px;
+    }
+    .containerParent {
+        gap: 24px;
+    }
+    .div6 {
+        width: 168px;
+    }
+    .vectorIcon {
+        width: 12px;
+        height: 12px;
+    }
+
+    .iconbutton {
+        border-radius: 6px;
+        padding: 7.5px;
+    }
+    .component1Icon {
+        width: 15px;
+        height: 15px;
+    }
+    .iconbuttonParent {
+        gap: 7.5px;
+    }
+    .group {
+        padding: 0px 18px;
+        gap: 36px;
+        font-size: 15px;
+    }
+    .overlay {
+        border-radius: 12px;
+        padding: 64.5px 352.5px 18px 384px;
+        gap: 24px;
+    }
+    .div8 {
+        line-height: 10.5px;
+    }
+    .buttonLabel {
+        line-height: 12px;
+    }
+    .button {
+        border-radius: 624.75px;
+        padding: 9px;
+    }
+    .overlay1 {
+        width: 1248px;
+        border-radius: 12px;
+        padding: 9px 18px;
+        gap: 18px;
+    }
+    .copyright, .footer {
+        font-size: 9px;
+    }
+}
+@media (max-width:1270px) {
+    .logoChild {
+    width: 34.38px;
+    height: 25px;
+    }
+    .logoItem {
+        height: 19.27px;
+    }
+    .logoInner {
+        width: 110.42px;
+        height: 25px;
+    }
+    .logo3blueIcon {
+        width: 21.88px;
+        height: 21.88px;
+    }
+    .logo3blueWrapper {
+        padding: 1.56px 7.81px 1.56px 1.56px;
+    }
+    .logo {
+        padding: 4.17px 0;
+        gap: 12.5px;
+    }
+    .div {
+        line-height: 5.21px;
+    }
+    .div1 {
+        font-size: 10.42px;
+        line-height: 8.33px;
+        max-height: 13.02px;
+    }
+    .parent {
+        gap: 7.29px;
+    }
+    .link {
+        gap: 9.38px;
+    }
+    .link1 {
+        border-radius: 520.83px;
+        padding: 6.25px 8.33px;
+    }
+    .container2 {
+        font-size: 6.25px;
+    }
+    .containerParent {
+        gap: 16.67px;
+    }
+    .div6 {
+        width: 116.67px;
+    }
+    .vectorIcon {
+        width: 8.33px;
+        height: 8.33px;
+    }
+    .iconbutton {
+        border-radius: 4.17px;
+        padding: 5.21px;
+    }
+    .component1Icon {
+        width: 10.42px;
+        height: 10.42px;
+    }
+    .iconbuttonParent {
+        gap: 5.21px;
+    }
+    .group {
+        padding: 0 12.5px;
+        gap: 25px;
+        font-size: 10.42px;
+    }
+    .overlay {
+        border-radius: 8.33px;
+        padding: 44.79px 244.79px 12.5px 266.67px;
+        gap: 16.67px;
+    }
+    .div8 {
+        line-height: 7.29px;
+    }
+    .buttonLabel {
+        line-height: 8.33px;
+    }
+    .button {
+        border-radius: 434.38px;
+        padding: 6.25px;
+    }
+    .overlay1 {
+        width: 866.67px;
+        border-radius: 8.33px;
+        padding: 6.25px 12.5px;
+        gap: 12.5px;
+    }
+    .copyright, .footer {
+        font-size: 6.25px;
+    }
+}
+@media (max-width: 880px) {
+    .parent{
+        gap: 20px;
+    }
+    .container2{
+        align-self: center;
+        gap: 10px;
+        overflow: hidden;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 13px;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .overlay {
+        padding: 40px 8px;
+        height: 530px;
+        gap: 16px;
+    }
+
+    .overlay1 {
+        flex-direction: column;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 720px;
+    }
+    .link1{
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .logo{
+    gap: 7px;
+    }
+    .group {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .iconbutton {
+        padding: 8px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .div6,
+    .div7{
+        font-size: 14px;
+        text-align: center;
+        width: 150px;
+    }
+
+    .div8{
+        font-size: 14px;
+        text-align: center;
+        width: 400px;   
+        margin-top: 10px;
+    }
+
+    .iconbuttonParent {
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .button{
+        width: 165px;
+        height: 30px;
+        font-size: 12px;
+        gap: 0;
+    }
+
+    .container15 {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    .logoChild{
+        width: 66px;
+        height: 48px;
+    }
+    .logoItem{
+        height: 37px;
+    }
+    .logoInner{
+        width: 140px;
+        height: 48px;
+    }
+    .logo3blueIcon{
+        width: 60px;
+        height: 48px;
+    }
+    .div{
+        font-size: 13px;
+    }
+    .div1{
+        font-size: 23px;
+    }
+    .component1Icon{
+        width: 20px;
+        height: 20px;
+    }
+    .vectorIcon{
+        width: 20px;
+        height: 20px;
+    }
+    .iconbutton:hover .vk .vectorIcon{
+        width: 20px;
+        height: 20px;
+            margin-top: -3px;
+    }
+}
+@media (max-width: 765px) {
+    .parent{
+        gap: 13.65px;
+    }
+    .container2{
+        align-self: center;
+        gap: 6.83px;
+        overflow: hidden;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 8.87px;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .overlay {
+        padding: 27.3px 5.46px;
+        height: 361.77px;
+        gap: 10.92px;
+    }
+
+    .overlay1 {
+        flex-direction: column;
+        padding: 5.46px 10.92px;
+        gap: 5.46px;
+        width: 491.47px;
+    }
+    .link1 {
+        width: 120px;
+        height: 27.3px;
+        margin-top: 6.83px;
+    }
+    .logo {
+        gap: 4.78px;
+    }
+    .group {
+        flex-direction: column;
+        gap: 8.19px;
+    }
+    .iconbutton {
+        padding: 6px;
+    }
+    .iconbutton .tg{
+        padding: 2px;
+    }
+
+    .div6,
+    .div7 {
+        font-size: 10px;
+        text-align: center;
+        width: 110px;
+        margin: 0 auto;
+    }
+
+    .div8 {
+        font-size: 9.56px;
+        text-align: center;
+        width: 273.04px;
+        margin-top: 6.83px;
+    }
+
+    .iconbuttonParent {
+        justify-content: center;
+        gap: 5.46px;
+    }
+
+    .button {
+        width: 112.63px;
+        height: 20.48px;
+        font-size: 8.19px;
+        gap: 0;
+    }
+
+    .container15 {
+        flex-direction: column;
+        align-items: center;
+        gap: 5.46px;
+    }
+    .logoChild {
+        width: 45.05px;
+        height: 32.76px;
+    }
+    .logoItem {
+        height: 25.26px;
+    }
+    .logoInner {
+        width: 95.56px;
+        height: 32.76px;
+    }
+    .logo3blueIcon {
+        width: 40.96px;
+        height: 32.76px;
+    }
+    .div {
+        font-size: 8.87px;
+    }
+    .div1 {
+        font-size: 15.7px;
+    }
+    .component1Icon {
+        width: 20px;
+        height: 20px;
+    }
+    .vectorIcon {
+        width: 20px;
+        height: 20px;
+    }
+    .iconbutton:hover .vk .vectorIcon {
+        width: 20px;
+        height: 20px;
+        margin-top: -2.05px;
+    }
+}
+@media (max-width: 540px) {
+    .parent { gap: 8.56px; }
+    .container2 {
+        align-self: center;
+        gap: 4.29px;
+        overflow: hidden;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 5.57px;
+    }
+    .container { width: 100%; }
+    .overlay {
+        padding: 17.13px 3.43px;
+        height: 226.99px;
+        gap: 6.85px;
+    }
+    .overlay1 {
+        flex-direction: column;
+        padding: 3.43px 6.85px;
+        gap: 3.43px;
+        width: 308.37px;
+    }
+    .link1 {
+        width: 75.29px;
+        height: 17.13px;
+        margin-top: 4.29px;
+    }
+    .logo { gap: 3.0px; }
+    .group { flex-direction: column; gap: 5.14px; }
+    .iconbutton {width: 15px; height: 15px;}
+    .iconbutton .tg { width: 15px; height: 15px;}
+    .div6, .div7 {
+        font-size: 6.27px;
+        text-align: center;
+        width: 69.02px;
+        margin: 0 auto;
+    }
+    .div8 {
+        font-size: 6.0px;
+        text-align: center;
+        width: 171.32px;
+        margin-top: 4.29px;
+    }
+    .iconbuttonParent { justify-content: center; gap: 3.43px; }
+    .button {
+        width: 70.67px;
+        height: 12.85px;
+        font-size: 5.14px;
+        gap: 0;
+    }
+    .container15 {
+        flex-direction: column;
+        align-items: center;
+        gap: 3.43px;
+    }
+    .logoChild { width: 28.27px; height: 20.56px; }
+    .logoItem { height: 15.85px; }
+    .logoInner { width: 59.96px; height: 20.56px; }
+    .logo3blueIcon { width: 25.7px; height: 20.56px; }
+    .div { font-size: 5.57px; }
+    .div1 { font-size: 9.85px; }
+    .component1Icon, .vectorIcon {
+        width: 12.55px;
+        height: 12.55px;
+    }
+    .iconbutton:hover .vk .vectorIcon {
+        width: 12.55px;
+        height: 12.55px;
+        margin-top: -1.29px;
+    }
+    .parent { gap: 8.56px; }
+    .container2 {
+        align-self: center;
+        gap: 4.29px;
+        overflow: hidden;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 5.57px;
+    }
+    .container { width: 100%; }
+    .overlay {
+        padding: 17.13px 3.43px;
+        height: 226.99px;
+        gap: 4px;
+    }
+    .overlay1 {
+        flex-direction: column;
+        padding: 3.43px 6.85px;
+        gap: 3.43px;
+        width: 308.37px;
+    }
+    .link1 {
+        width: 75.29px;
+        height: 17.13px;
+        margin-top: 4.29px;
+    }
+    .logo { gap: 3.0px; }
+    .group { flex-direction: column; gap: 3px; }
+    .iconbutton { padding: 1px; width: 20px; height: 20px;}
+    .iconbutton .tg { padding: 1px; }
+    .div6, .div7 {
+        font-size: 6.27px;
+        text-align: center;
+        width: 69.02px;
+        margin: 0 auto;
+    }
+    .vk{
+        padding: 1px;
+    }
+    .div8 {
+        font-size: 6.0px;
+        text-align: center;
+        width: 171.32px;
+        margin-top: 4.29px;
+    }
+    .iconbuttonParent { justify-content: center; gap: 3.43px; }
+    .button {
+        width: 70.67px;
+        height: 12.85px;
+        font-size: 5.14px;
+        gap: 0;
+    }
+    .container15 {
+        flex-direction: column;
+        align-items: center;
+        gap: 3.43px;
+    }
+    .logoChild { width: 28.27px; height: 20.56px; }
+    .logoItem { height: 15.85px; }
+    .logoInner { width: 59.96px; height: 20.56px; }
+    .logo3blueIcon { width: 25.7px; height: 20.56px; }
+    .div { font-size: 5.57px; }
+    .div1 { font-size: 9.85px; }
+    .component1Icon, .vectorIcon {
+        width: 15px;
+        height: 15px;
+    }
+    .component1Icon{
+        padding-left: 1px;
+        padding-top: 1px;
+    }
+    .iconbutton:hover .vk .vectorIcon {
+        width: 15px;
+        height: 15px;
+        margin-top: -1.29px;
+    }
+    .iconbutton:hover .tg .component1Icon {
+        width: 15px;
+        height: 18px;
+            padding-left: 2px;
+        padding-top: 2px;
+    }
+    .containerParent{
+        gap: 10px;
+    }
+}

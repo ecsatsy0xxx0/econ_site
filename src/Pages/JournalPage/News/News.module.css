@@ -1,0 +1,167 @@
+/* Контейнер */
+.container {
+    width: 100%;
+    max-width: 1351px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Заголовок */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .header h2 {
+    font-size: 40px;
+    color: #0450a0;
+    font-weight: 500;
+  }
+  
+  /* Кнопка "Открыть все" */
+  .openAll {
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid #0450a0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0450a0;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .openAll:hover {
+    background-color: #e3f2fd;
+  }
+  
+  /* Сетка карточек */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Карточка */
+  .card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+  }
+  
+  /* Верхняя часть карточки */
+  .cardTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Иконка (сердце) */
+  .icon {
+    font-size: 18px;
+    color: #0450a0;
+  }
+  
+  /* Дата (в правом верхнем углу) */
+  .date {
+    font-size: 18.64;
+    font-weight: 500;
+    color: #0450a0;
+  }
+  
+  /* Контент карточки (заголовок и описание) */
+  .cardContent {
+    margin-top: auto;
+  }
+  
+  /* Заголовок */
+  .title {
+    font-size: 18.64px;
+    font-weight: 500;
+    color: #0450a0;
+    margin-bottom: 10px;
+  }
+  
+  /* Описание */
+  .description {
+    font-size: 12.32px;
+    color:  #0450a0;
+  }
+  
+  /* Модальное окно */
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Сетка для всех новостей в модальном окне */
+  .modalGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Карточка в модальном окне */
+  .modalCard {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #0450a0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0450a0;
+    text-align: left;
+  }
+  
+  .modalDate {
+    font-size: 14px;
+    color: #0450a0;
+    margin-bottom: 10px;
+  }
+  
+  .modalTitle {
+    font-size: 16px;
+    color: #0450a0;
+  }
+  
+  .modalDescription {
+    font-size: 14px;
+    color: #0450a0;
+  }
+  

@@ -1,0 +1,94 @@
+/* Контейнер */
+.container {
+    width: 100%;
+    max-width: 1351px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  
+  /* Заголовок */
+  .title {
+    font-size: 40px;
+    color: #0450a0;
+    margin-bottom: 64px;
+    font-weight: 500;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .optionsButton {
+    padding: 8px 16px;
+    border: 1px solid #0450a0;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0450a0;
+    background: transparent;
+   
+  }
+  /* Грид карточек */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Две карточки в верхнем ряду */
+    grid-template-rows: auto auto; /* Два ряда */
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Последняя карточка на всю ширину */
+  .card:nth-child(3) {
+    grid-column: span 2;
+  }
+  
+  /* Карточка */
+  .card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Равномерное распределение контента */
+    align-items: flex-start;
+    height: 180px; /* Растянуто, как в макете */
+    text-align: left;
+  }
+  
+  /* Ховер эффект */
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Иконка (в левом верхнем углу) */
+  .icon {
+    font-size: 24px;
+    color: white;
+    background-color: #0450a0;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Текст заголовка (внизу слева) */
+  .text {
+    font-size: 32px;
+    font-weight: 500;
+    color: #0450a0;
+    margin-top: auto;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .card:nth-child(3) {
+      grid-column: span 1;
+    }
+  }
+  

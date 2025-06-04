@@ -1,0 +1,455 @@
+.buttonLabel {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button {
+    border-radius: 573.77px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+}
+.title {
+    position: relative;
+    letter-spacing: -1.8px;
+    line-height: 61.2px;
+    font-weight: 500;
+}
+.heading2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 8px 2px;
+}
+.container3 {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 60px;
+}
+.container2 {
+    width: 520px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    max-width: 520px;
+}
+.container1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.number {
+    position: relative;
+    letter-spacing: -6px;
+    line-height: 150px;
+    font-weight: 500;
+}
+.stepnumber {
+    align-self: stretch;
+    width: 325px;
+    border-radius: 16px;
+    background-color: #0450a0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.title1 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.72px;
+    line-height: 24.48px;
+    font-weight: 500;
+    display: inline-block;
+    max-height: 25.92px;
+}
+.p {
+    margin: 0;
+}
+.description {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.28px;
+    line-height: 17.36px;
+    font-weight: 500;
+}
+.buttoncontainer {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0px 6px;
+    text-align: center;
+    font-size: 12px;
+}
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    max-width: 480px;
+    font-size: 14px;
+}
+.stepcontent {
+    flex: 1;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px 32px 32px;
+    gap: 32px;
+    text-align: left;
+    font-size: 24px;
+    color: #0450a0;
+}
+.stepcard {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+.stepcontent1 {
+    flex: 1;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px 32px 32px;
+    gap: 32px;
+}
+.stepnumber1 {
+    align-self: stretch;
+    width: 325px;
+    border-radius: 16px;
+    background-color: #0450a0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 150px;
+    color: #fff;
+}
+.stepcard1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    text-align: left;
+    font-size: 24px;
+    color: #0450a0;
+}
+.stepcontent2 {
+    flex: 1;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px 32px 32px;
+    gap: 40px;
+    text-align: left;
+    font-size: 24px;
+    color: #0450a0;
+}
+.p10 {
+    margin: 0;
+    color: rgba(4, 80, 160, 0.6);
+}
+.stepcontent3 {
+    flex: 1;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px 32px 32px;
+    gap: 40px;
+}
+.container4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    text-align: right;
+    font-size: 150px;
+    color: #fff;
+}
+.container {
+    width: 1048px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 64px;
+}
+.gideforapplicats {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 160px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #0450a0;
+    font-family: Montserrat, sans-serif;
+    margin-top: 200px;
+}
+
+@media (min-width: 1440px) {
+    .gideforapplicats {
+        padding: 0px 160px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1280px;
+        gap: 64px;
+    }
+
+    .stepcard,
+    .stepcard1 {
+        flex-direction: row;
+    }
+
+    .stepnumber,
+    .stepnumber1 {
+        width: 325px;
+        font-size: 150px;
+    }
+
+    .stepcontent {
+        max-width: 800px;
+    }
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+    .gideforapplicats {
+    padding: 0px 120px;
+    }
+
+    .container {
+    max-width: 960px;
+    gap: 48px;
+    }
+
+    .stepcard,
+    .stepcard1 {
+    flex-direction: row;
+    gap: 16px;
+    }
+
+    .stepnumber,
+    .stepnumber1 {
+    width: 275px;
+    font-size: 120px;
+    }
+
+    .stepcontent {
+    max-width: 600px;
+    }
+}
+@media (max-width: 1023px){
+    .gideforapplicats {
+    padding: 0px 80px;
+    }
+
+    .container {
+    max-width: 720px;
+    gap: 32px;
+    }
+
+    .stepcard,
+    .stepcard1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    }
+
+    .stepnumber,
+    .stepnumber1 {
+    width: 100%;
+    font-size: 100px;
+    }
+
+    .stepcontent {
+    width: 720px;
+    }
+}
+@media (max-width: 880px){
+    .gideforapplicats {
+        padding: 0.0px 56.3px;
+    }
+    .container {
+        max-width: 506.74px;
+        gap: 22.52px;
+    }
+    .stepcard,
+    .stepcard1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 11.26px;
+    }
+    .stepnumber,
+    .stepnumber1 {
+        width: 100%;
+        font-size: 70.38px;
+    }
+    .stepcontent {
+        width: 506.74px;
+    }
+}
+@media (max-width: 765px){
+    .gideforapplicats {
+        padding: 0.0px 38.43px;
+    }
+    .container {
+        max-width: 345.9px;
+        gap: 15.37px;
+    }
+    .stepcard,
+    .stepcard1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 7.69px;
+    }
+    .stepnumber,
+    .stepnumber1 {
+        width: 100%;
+        font-size: 48.04px;
+    }
+    .stepcontent {
+        width: 345.9px;
+    }
+    .number{
+        letter-spacing: 0px;
+    }
+}
+@media (max-width: 520px){
+    .gideforapplicats {
+        padding: 0.0px 30.74px;
+    }
+    .container {
+        width: 345px;
+        gap: 12.3px;
+    }
+    .stepcard,
+    .stepcard1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 6.15px;
+    }
+    .stepnumber,
+    .stepnumber1 {
+        width: 100%;
+        font-size: 38.43px;
+    }
+    .stepcontent {
+        width: 345px;
+    }
+    .title{
+        font-size: 55px;
+    }
+    .number{
+        letter-spacing: 0;
+    }
+    .description p{
+        font-size: 12px;
+    }
+    .gideforapplicats{
+        width: 200px;
+        margin: 200px auto;
+        padding: 0;
+    }
+    .container2{
+        width: 345px;
+    }
+}
+@media (max-width: 480px){
+    .gideforapplicats {    
+        padding: 0.0px 21.28px;
+
+    }
+    .container {    
+        width: 300px;    
+        gap: 8.52px;
+    }
+    .stepcard,.stepcard1 {    
+        flex-direction: column;    
+        align-items: center;    
+        text-align: center;    
+        gap: 4.26px;
+    }
+    .stepnumber,.stepnumber1 {    
+        width: 100%;    
+        font-size: 26.61px;
+    }
+    .stepcontent {    
+        width: 300px;
+    }
+    .title {  
+        font-size: 36px;
+    }
+    .number {  
+        letter-spacing: 0;
+    }
+    .description p {  
+        font-size: 8.31px;
+    }
+    .gideforapplicats {    
+        width: 138.46px;    
+        margin: 138.46px auto;    
+        padding: 0;
+            margin-bottom: 0;
+    }
+    .container2 {  
+        width: 300px;
+    }
+
+}
