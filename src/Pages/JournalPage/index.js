@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header/HeaderContainer";
+import Header from "../../components/Header";
 import Footer from "./Footer/FooterContainer";
 import LanguageToggle from "./LanguageToggle/LanguageContainer";
 import JournalInfo from "./JournalInfo/JournalInfo";

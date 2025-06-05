@@ -1,0 +1,12 @@
+export { default as Title } from './Title/index';
+export { default as Decan } from './Decan/index';
+export { default as Spesh } from './Spesh/index';
+export { default as Spisok } from './Spisok/index';
+export { default as News } from './News/index';
+export { default as Gide } from './Gide/index';
+export { default as Dostish } from './Dostish/index';
+export { default as Nomber } from './Nomber/index';
+export { default as Obed } from './Obed/index';
+export { default as End } from './End/index';
+export { default as Footer } from './Footer';
+export { default as Header } from './Header';

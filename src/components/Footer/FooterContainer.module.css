@@ -124,9 +124,13 @@
     flex-shrink: 0;
 }
 .vectorIcon {
-    width: 16.7px;
     position: relative;
-    height: 16.7px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-image: url('../../../public/icons/vk.svg');
+    background-size: cover;
+    background-position: center;
 }
 .vk {
     display: flex;
@@ -152,11 +156,13 @@
     transition: all 0.3s ease;
 }
 .component1Icon {
-    width: 20px;
     position: relative;
-    height: 20px;
-    overflow: hidden;
+    width: 24px;
+    height: 24px;
     flex-shrink: 0;
+    background-image: url('../../../public/icons/tg.svg');
+    background-size: cover;
+    background-position: center;
 }
 .tg {
     display: flex;
@@ -166,7 +172,7 @@
     transition: all 0.3s ease;
 }
 .iconbutton:hover .tg{
-    background-image: url('tg1.svg');
+    background-image: url('../../../public/icons/tg1.svg');
     transition: all 0.3s ease;
 }
 .iconbutton:hover .tg .component1Icon{
@@ -174,7 +180,7 @@
     transition: all 0.3s ease;
 }
 .iconbutton:hover .vk{
-    background-image: url('vk1.svg');
+    background-image: url('../../../public/icons/vk1.svg');
     transition: all 0.3s ease;
 }
 .iconbutton:hover .vk .vectorIcon{
@@ -792,84 +798,6 @@
     .iconbutton:hover .vk .vectorIcon {
         width: 12.55px;
         height: 12.55px;
-        margin-top: -1.29px;
-    }
-    .parent { gap: 8.56px; }
-    .container2 {
-        align-self: center;
-        gap: 4.29px;
-        overflow: hidden;
-        display: block;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        font-size: 5.57px;
-    }
-    .container { width: 100%; }
-    .overlay {
-        padding: 17.13px 3.43px;
-        height: 226.99px;
-        gap: 4px;
-    }
-    .overlay1 {
-        flex-direction: column;
-        padding: 3.43px 6.85px;
-        gap: 3.43px;
-        width: 308.37px;
-    }
-    .link1 {
-        width: 75.29px;
-        height: 17.13px;
-        margin-top: 4.29px;
-    }
-    .logo { gap: 3.0px; }
-    .group { flex-direction: column; gap: 3px; }
-    .iconbutton { padding: 1px; width: 20px; height: 20px;}
-    .iconbutton .tg { padding: 1px; }
-    .div6, .div7 {
-        font-size: 6.27px;
-        text-align: center;
-        width: 69.02px;
-        margin: 0 auto;
-    }
-    .vk{
-        padding: 1px;
-    }
-    .div8 {
-        font-size: 6.0px;
-        text-align: center;
-        width: 171.32px;
-        margin-top: 4.29px;
-    }
-    .iconbuttonParent { justify-content: center; gap: 3.43px; }
-    .button {
-        width: 70.67px;
-        height: 12.85px;
-        font-size: 5.14px;
-        gap: 0;
-    }
-    .container15 {
-        flex-direction: column;
-        align-items: center;
-        gap: 3.43px;
-    }
-    .logoChild { width: 28.27px; height: 20.56px; }
-    .logoItem { height: 15.85px; }
-    .logoInner { width: 59.96px; height: 20.56px; }
-    .logo3blueIcon { width: 25.7px; height: 20.56px; }
-    .div { font-size: 5.57px; }
-    .div1 { font-size: 9.85px; }
-    .component1Icon, .vectorIcon {
-        width: 15px;
-        height: 15px;
-    }
-    .component1Icon{
-        padding-left: 1px;
-        padding-top: 1px;
-    }
-    .iconbutton:hover .vk .vectorIcon {
-        width: 15px;
-        height: 15px;
         margin-top: -1.29px;
     }
     .iconbutton:hover .tg .component1Icon {

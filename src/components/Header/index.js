@@ -1,37 +1,30 @@
-import styles from './HeaderContainer.module.css';
+import styles from './Header.module.css';
 import React, { useState } from 'react';
-import { useNavigate } from "react-router-dom";
 
 const BackgroundMask = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen); // Переключаем состояние меню
   };
+
   const handleScrollToSpesh = () => {
     const speshElement = document.getElementById('spesh-section');
     if (speshElement) {
       speshElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  const handleScrollToDecan = () => {
-    const decanElement = document.getElementById('decancontainer');
-    if (decanElement) {
-      decanElement.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-  const navigate = useNavigate();
-  const handleDep = () => {
-    navigate("/department");
-  };
-  const handleScrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  const handleLogoClick = () => {
+    window.location.href = '/'; // Перенаправление на главную страницу
   };
 
   return (
-    <div className={styles.header2}>
+    <div className={styles.backgroundmask}>
+      <div className={styles.overlay}></div>
       <div className={styles.header}>
         {/* Логотип */}
-        <div className={styles.logoContainer}  onClick={handleScrollToTop}>
+        <div className={styles.logoContainer} onClick={handleLogoClick}>
           <div className={styles.logo}>
             <img
               className={styles.logo3blueIcon}
@@ -40,12 +33,13 @@ const BackgroundMask = () => {
             />
           </div>
         </div>
+
         {/* Навигационные кнопки */}
         <div className={styles.container}>
-          <div className={styles.button} onClick={handleScrollToDecan}>
+          <div className={styles.button}>
             <div className={styles.buttonLabel}>О факультете</div>
           </div>
-          <div className={styles.button} onClick={handleDep}>
+          <div className={styles.button}>
             <div className={styles.buttonLabel}>Кафедры</div>
           </div>
           <div
@@ -55,6 +49,7 @@ const BackgroundMask = () => {
             <div className={styles.buttonLabel}>Направления</div>
           </div>
         </div>
+
         {/* Кнопка "Поступить" */}
         <div
           className={styles.button3}
@@ -62,6 +57,7 @@ const BackgroundMask = () => {
         >
           <div className={styles.buttonLabel}>Поступить</div>
         </div>
+
         {/* Кнопка-гамбургер для мобильных */}
         <div className={styles.hamburgerMenu} onClick={handleMenuClick}>
           <img
@@ -71,6 +67,7 @@ const BackgroundMask = () => {
           />
         </div>
       </div>
+
       {/* Мобильное меню с кнопками */}
       {isMenuOpen && (
         <div className={styles.mobileMenu}>

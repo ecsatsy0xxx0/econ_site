@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header/HeaderContainer";
+import Header from "../../../components/Header";
 import Spisok from "./Spisok/SpisokContainer";
 import Footer from "./Footer/FooterContainer";
 import Banner from "./Banner/BannerContainer";
