@@ -1,28 +1,32 @@
 import styles from './DostishContainer.module.css';
 import { useNavigate } from "react-router-dom";
-const achievementsData = [
-  {
-    date: '30 ноября, Сириус',
-    tags: ['конгресс', 'наука'],
-    image: 'photos/OpPRe6ad_9g.png',
-  },
-  {
-    date: '6 июля, Краснодар',
-    tags: ['хакатон', 'аквариум'],
-    image: 'photos/CnyEuMzTzN8Qn3Pazd3Z0ibxLjSrnhvSxtGk6NbrFSQuJSg7X8wqgqbu_vCxWmLavdtTXQNaAyW2q4Qqp0u8X59A.jpg',
-  },
-  {
-    date: '2 февраля, Сочи',
-    tags: ['олимпиада', 'экономика'],
-    image: 'photos/photo_2024-12-16_15-41-24.jpg',
-  },
-];
+import React, { useEffect, useState } from 'react';
+import { fetchAchievements } from '../../API/MainApi';
 
 const Section = () => {
+  const [achievements, setAchievements] = useState([]);
+
+  useEffect(() => {
+    fetchAchievements().then(data => {
+      if (Array.isArray(data)) {
+        setAchievements(data);
+      } else {
+        console.error("Ошибка данных: ожидается массив", data);
+      }
+    }).catch((error) => {
+      console.error("Ошибка загрузки данных:", error);
+    });
+  }, []);
+
   const navigate = useNavigate();
   const handleNavigate = () => {
-    navigate("/progressstudent"); // Убедитесь, что путь совпадает с маршрутом в index.js
+    navigate("/progressstudent");
   };
+
+  if (achievements.length === 0) {
+    return <div>Загрузка...</div>;
+  }
+
   return (
     <div className={styles.section}>
       <div className={styles.container}>
@@ -39,13 +43,13 @@ const Section = () => {
             </div>
           </div>
           <div className={styles.container3} onClick={handleNavigate}>
-            <div className={styles.button1} >
-              <div className={styles.buttonLabel} >подробнее</div>
+            <div className={styles.button1}>
+              <div className={styles.buttonLabel}>подробнее</div>
             </div>
           </div>
         </div>
         <div className={styles.container4}>
-          {achievementsData.map((achievement, index) => (
+          {achievements.map((achievement, index) => (
             <div key={index} className={styles.newsachivecard}>
               <div className={styles.image}>
                 <img className={styles.containerIcon} alt="" src={achievement.image} />

@@ -1,38 +1,6 @@
 import styles from './NomderContainer.module.css';
 import { useState, useEffect } from 'react';
-
-const indicatorsData = [
-  {
-    number: 1,
-    description: ['Самый крупный ', 'факультет в КубГУ'],
-    displayNumber: '№1',
-  },
-  {
-    number: 15,
-    description: ['Студентов выпущено ', 'за историю факультета'],
-    displayNumber: '15+ тыс',
-  },
-  {
-    number: 30,
-    description: ['Сотрудничества с лидерами рынка Кубани и России'],
-    displayNumber: '30+ лет',
-  },
-  {
-    number: 50,
-    description: ['Компаний-партнеров ЭФ'],
-    displayNumber: '50+',
-  },
-  {
-    number: 18,
-    description: ['Выиграли наши студенты ', 'в конкурсах и грантах'],
-    displayNumber: '18+ млн ₽',
-  },
-  {
-    number: 100,
-    description: ['Проектов реализовали ', 'за последние 5 лет'],
-    displayNumber: '100+',
-  },
-];
+import { indNumber } from '../../API/MainApi';
 
 const AnimatedNumber = ({ targetNumber, displayNumber }) => {
   const [currentNumber, setCurrentNumber] = useState(0);
@@ -81,6 +49,23 @@ const AnimatedNumber = ({ targetNumber, displayNumber }) => {
 };
 
 const Section = () => {
+  const [indicators, setIndicators] = useState([]);
+
+  useEffect(() => {
+    indNumber().then(data => {
+      if (Array.isArray(data)) {
+        setIndicators(data);
+      } else {
+        console.error("Ошибка данных: ожидается массив", data);
+      }
+    }).catch((error) => {
+      console.error("Ошибка загрузки данных:", error);
+    });
+  }, []);
+
+  if (indicators.length === 0) {
+    return <div>Загрузка...</div>;
+  }
   return (
     <div className={styles.section}>
       <div className={styles.indicators}>
@@ -103,7 +88,7 @@ const Section = () => {
             </div>
           </div>
           <div className={styles.container3}>
-            {indicatorsData.map((indicator, index) => (
+            {indicators.map((indicator, index) => (
               <div key={index} className={styles.overlay}>
                 <div className={styles.container4}>
                   <div className={styles.container5}>

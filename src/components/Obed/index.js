@@ -1,49 +1,31 @@
 import styles from './ObedContainer.module.css';
 import { useNavigate } from "react-router-dom";
-const associationsData = [
-  {
-    icon: 'icons/Shapes.svg',
-    title: 'Профорганизация',
-    description: [
-      'Это поддержка студентов и сотрудников',
-      'в решении социальных и образовательных',
-      'вопросов, защита прав и возможность',
-      'участия в яркой внеучебной жизни.',
-    ],
-    vkLink: 'https://vk.com/profeconom',
-    telegramLink: 'https://t.me/profcomkubsu1',
-  },
-  {
-    icon: 'icons/Sparkle.svg',
-    title: 'Студенческий совет',
-    description: [
-      'Это центр студенческой инициативы ',
-      'и креатива. Здесь создаются проекты и',
-      'принимаются решения, которые делают',
-      'жизнь на факультете ярче и насыщеннее.',
-    ],
-    vkLink: 'https://vk.com/studsovet_kubsu',
-    telegramLink: 'https://t.me/econom_ss',
-  },
-  {
-    icon: 'icons/Idei.svg',
-    title: 'Студенческое научное общество',
-    description: [
-      'Это площадка для амбициозных идей ',
-      'и реальных научных открытий. Участие в',
-      'проекте открывает двери к исследованиям,',
-      'грантам и признанию в проф. сообществе.',
-    ],
-    vkLink: 'https://vk.com/nauka.kubsu',
-    telegramLink: 'https://t.me/naukaeconomakubsu',
-  },
-];
+import { useState, useEffect } from 'react';
+import { associationsObed } from '../../API/MainApi';
 
 const Section = () => {
   const navigate = useNavigate();
   const handleNavigate = () => {
     navigate("/associations"); // Убедитесь, что путь совпадает с маршрутом в index.js
   };
+
+  const [associations, setObed] = useState([]);
+
+  useEffect(() => {
+    associationsObed().then(data => {
+      if (Array.isArray(data)) {
+        setObed(data);
+      } else {
+        console.error("Ошибка данных: ожидается массив", data);
+      }
+    }).catch((error) => {
+      console.error("Ошибка загрузки данных:", error);
+    });
+  }, []);
+
+  if (associations.length === 0) {
+    return <div>Загрузка...</div>;
+  }
   return (
     <div className={styles.section}>
       <div className={styles.mainContainer}>
@@ -62,7 +44,7 @@ const Section = () => {
           </div>
         </div>
         <div className={styles.cardsContainer}>
-          {associationsData.map((association, index) => (
+          {associations.map((association, index) => (
             <div key={index} className={styles.donestudassociations}>
               <div className={styles.studassociations}>
                 <img className={styles.icon} alt="" src={association.icon} />

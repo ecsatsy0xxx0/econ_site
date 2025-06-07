@@ -1,54 +1,7 @@
 import styles from './NewsContainer.module.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { setNews } from '../../API/MainApi';
 import { useNavigate } from "react-router-dom";
-const newsData = [
-	{
-      date: '26 НОЯБРЯ',
-      tags: ['КубГУ'],
-      title: ['Подвели итоги', 'акселератора “Бизнес.Куб”'],
-      image: 'photos/Decan.jpg',
-      icon: 'icons/Heartbeat.svg',
-      // description: '26 января в 13:30 Экономический факультет Кубанского государственного университета ждет своих абитуриентов!',
-      detailsLink: 'https://kubsu.ru/open-day',
-      mediaLink: 'https://kubsu.ru/media/open-day',
-	},
-	{
-      date: '16.12.2024',
-      tags: [],
-      title: ['Твой Альфа-Шанс на 300000₽'],
-      icon: 'icons/Heartbeat.svg',
-      description: 'Дарим 100 грантов от Альфа-Банка для лучших студентов. У тебя есть идея инновационного проекта, но нет денег на его реализацию? Используй свой Альфа-Шанс!',
-      detailsLink: '',
-      mediaLink: 'https://vk.com/wall-185726_33091',
-	},
-	{
-      date: '28.11.2024',
-      tags: [],
-      title: ['Наши студенты на конгрессе', 'молодых ученых'],
-      icon: 'icons/Heartbeat.svg',
-      description: 'Представляем разработки на Конгрессе в рамках работы площадки НОЦ Юга России',
-      detailsLink: ' ',
-      mediaLink: 'https://vk.com/wall-185726_33082',
-	},
-	{
-      date: '17.11.2024',
-      tags: [],
-      title: ['🔥 Наши на «ТехПред 2024»', 'в Москве!'],
-      icon: 'icons/Heartbeat.svg',
-      description: 'В Москве стартовал событие этого года в сфере техпреда — Всероссийский форум технологического предпринимательства.',
-      detailsLink: ' ',
-      mediaLink: 'https://vk.com/wall-185726_33079',
-	},
-	{
-      date: '02.10.2024',
-      tags: [],
-      title: ['🟢Сбер приглашает тебя на стажировку'],
-      icon: 'icons/Heartbeat.svg',
-      description: 'Открыт набор на оплачиваемую стажировку в Сбере для студентов очной формы обучения',
-      detailsLink: ' ',
-      mediaLink: 'https://vk.com/wall-185726_33065',
-	},
-];
   
 const Section = () => {
   const [hovered, setHovered] = useState(false);
@@ -56,6 +9,22 @@ const Section = () => {
   const handleNavigate = () => {
     navigate("/news"); // Убедитесь, что путь совпадает с маршрутом в index.js
   };
+  const [News, setNewss] = useState(null);
+  useEffect(() => {
+      const loadData = async () => {
+        try {
+          const dat = await setNews();
+          setNewss(dat);
+        } catch (error) {
+          console.error('Ошибка загрузки данных:', error);
+        }
+      };
+      loadData();
+  }, []);
+  if (!News) {
+    return <div>Загрузка...</div>; 
+  }
+
   return (
     <div className={styles.section}>
       <div className={styles.mainContainer}>
@@ -86,7 +55,7 @@ const Section = () => {
             <div
               className={styles.container}
               style={{
-                backgroundImage: `url(${newsData[0].image})`,
+                backgroundImage: `url(${News[0].image})`,
                 filter: hovered ? 'grayscale(0%)' : 'grayscale(100%)',
                 transition: 'filter 0.3s ease-in-out',
               }}
@@ -96,7 +65,7 @@ const Section = () => {
                   <img
                     className={styles.icon1}
                     alt=""
-                    src={newsData[0].icon}
+                    src={News[0].icon}
                     style={{
                       opacity: hovered ? 1 : 0.7,
                       transition: 'opacity 0.3s ease-in-out',
@@ -108,9 +77,9 @@ const Section = () => {
                 <div className={styles.titlecontainer}>
                   <div className={styles.tagcontainer}>
                     <div className={styles.button1}>
-                      <div className={styles.buttonLabel}>{newsData[0].date}</div>
+                      <div className={styles.buttonLabel}>{News[0].date}</div>
                     </div>
-                    {newsData[0].tags.map((tag, tagIndex) => (
+                    {News[0].tags.map((tag, tagIndex) => (
                       <div key={tagIndex} className={styles.button1}>
                         <div className={styles.buttonLabel}>{tag}</div>
                       </div>
@@ -118,7 +87,7 @@ const Section = () => {
                   </div>
                   <div className={styles.container1}>
                     <div className={styles.title1}>
-                      {newsData[0].title.map((line, lineIndex) => (
+                      {News[0].title.map((line, lineIndex) => (
                         <p key={lineIndex} className={styles.p}>{line}</p>
                       ))}
                     </div>
@@ -128,7 +97,7 @@ const Section = () => {
             </div>
           </div>
           <div className={styles.mainContentContainer}>
-            {newsData.slice(1).map((news, index) => (
+            {News.slice(1).map((news, index) => (
               <div key={index} className={styles.newsachivecard}>
                 <div className={styles.icon}>
                   <img className={styles.icon1} alt="" src={news.icon} />

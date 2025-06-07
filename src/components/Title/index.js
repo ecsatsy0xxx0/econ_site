@@ -1,33 +1,6 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState} from 'react';
 import styles from './TitleContainer.module.css';
-
-const buttonLabels = [
-  { label: "О факультете", style: styles.button },
-  { label: "Направления", style: styles.button1 },
-];
-
-const advantageCards = [
-  {
-    icon: "icons/Component 1.svg",
-    titles: ["Экспертность", "в обучении"],
-    hoverText: "Учись у лучших: докторов наук, опытных экономистов и успешных управленцев. Стань востребованным в любой сфере рынка профессионалом",
-  },
-  {
-    icon: "icons/Sparkle.svg",
-    titles: ["Инновации в", "образовании"],
-    hoverText: "Освой цифровые технологии, симуляции и реальные кейсы от ведущих компаний. Мы готовим лидеров, готовых к вызовам нового времени.",
-  },
-  {
-    icon: "icons/Handshake.svg",
-    titles: ["Партнерство", "с компаниями"],
-    hoverText: "Стажируйся в лучших компаниях региона и страны: начинай строить карьеру еще во время учебы. Мы откроем тебе двери к работодателям!",
-  },
-  {
-    icon: "icons/RocketLaunch.svg",
-    titles: ["Успешный", "карьерный старт"],
-    hoverText: "87% наших выпускников находят престижную работу уже через 6 месяцев. Получи знания и практические навыки, которые приведут тебя к успеху",
-  },
-];
+import { sTitle1, sTitle2 } from '../../API/MainApi';
 
 const Section = () => {
   const cardRefs = useRef([]);
@@ -66,6 +39,26 @@ const Section = () => {
       decanElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+    const [Title, setTitle] = useState(null);
+    const [Title2, setTitle2] = useState(null);
+    useEffect(() => {
+        const loadData = async () => {
+          try {
+            const dat = await sTitle1();
+            const dat2 = await sTitle2();
+            setTitle(dat);
+            setTitle2(dat2);
+          } catch (error) {
+            console.error('Ошибка загрузки данных:', error);
+          }
+        };
+        loadData();
+    }, []);
+    if (!Title || !Title2) {
+      return <div>Загрузка...</div>; 
+    }
+
   return (
     <div className={styles.section}>
       <div className={styles.main}>
@@ -80,7 +73,7 @@ const Section = () => {
               </div>
             </div>
             <div className={styles.buttoncontainer}>
-              {buttonLabels.map((button, index) => (
+              {Title.map((button, index) => (
                 <div
                   key={index}
                   className={button.style}
@@ -113,7 +106,7 @@ const Section = () => {
           </div>
         </div>
         <div className={styles.container1}>
-          {advantageCards.map((card, index) => (
+          {Title2.map((card, index) => (
             <div
               key={index}
               className={`${styles.doneadventagecard1}`}

@@ -8,12 +8,12 @@ const MainPage = () => {
       <Title />
       <Decan />
       <Spesh />
-      <Spisok />
-      <News />
       <Gide />
+      <Spisok />
       <Dostish />
       <Nomber />
       <Obed />
+      <News />
       <End />
       <Footer />
     </div>
