@@ -343,113 +343,69 @@
         width: 506.74px;
     }
 }
-@media (max-width: 765px){
-    .gideforapplicats {
-        padding: 0.0px 38.43px;
-    }
-    .container {
-        max-width: 345.9px;
-        gap: 15.37px;
-    }
-    .stepcard,
-    .stepcard1 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 7.69px;
-    }
-    .stepnumber,
-    .stepnumber1 {
-        width: 100%;
-        font-size: 48.04px;
-    }
-    .stepcontent {
-        width: 345.9px;
-    }
-    .number{
-        letter-spacing: 0px;
-    }
+@media (max-width: 550px){
+.gideforapplicats {
+    padding: 0.0px 34.95px;
+}
+
+.container {
+    max-width: 315.99px;
+    gap: 17.29px;
+}
+
+.stepcard,
+.stepcard1 {
+    gap: 7.01px;
+}
+
+.stepnumber,
+.stepnumber1 {
+    width: 100%;
+    font-size: 43.93px;
+}
+
+.stepcontent {
+    width: 315.99px;
+}
 }
 @media (max-width: 520px){
-    .gideforapplicats {
-        padding: 0.0px 30.74px;
-    }
-    .container {
-        width: 345px;
-        gap: 12.3px;
-    }
-    .stepcard,
-    .stepcard1 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 6.15px;
-    }
-    .stepnumber,
-    .stepnumber1 {
-        width: 100%;
-        font-size: 38.43px;
-    }
-    .stepcontent {
-        width: 345px;
-    }
-    .title{
-        font-size: 55px;
-    }
-    .number{
-        letter-spacing: 0;
-    }
-    .description p{
-        font-size: 12px;
-    }
-    .gideforapplicats{
-        width: 200px;
-        margin: 200px auto;
-        padding: 0;
-    }
-    .container2{
-        width: 345px;
-    }
+.gideforapplicats {
+    padding: 0.0px 32.82px;
 }
-@media (max-width: 480px){
-    .gideforapplicats {    
-        padding: 0.0px 21.28px;
 
-    }
-    .container {    
-        width: 300px;    
-        gap: 8.52px;
-    }
-    .stepcard,.stepcard1 {    
-        flex-direction: column;    
-        align-items: center;    
-        text-align: center;    
-        gap: 4.26px;
-    }
-    .stepnumber,.stepnumber1 {    
-        width: 100%;    
-        font-size: 26.61px;
-    }
-    .stepcontent {    
-        width: 300px;
-    }
-    .title {  
-        font-size: 36px;
-    }
-    .number {  
-        letter-spacing: 0;
-    }
-    .description p {  
-        font-size: 8.31px;
-    }
-    .gideforapplicats {    
-        width: 138.46px;    
-        margin: 138.46px auto;    
-        padding: 0;
-            margin-bottom: 0;
-    }
-    .container2 {  
-        width: 300px;
-    }
+.container {
+    max-width: 292.91px;
+    gap: 16.22px;
+}
 
+.stepcard,
+.stepcard1 {
+    gap: 6.53px;
+}
+
+.stepnumber,
+.stepnumber1 {
+    width: 100%;
+    font-size: 40.90px;
+}
+
+.stepcontent {
+    width: 292.91px;
+}
+.gideforapplicats{
+    width: 98%;
+}
+}
+
+@media (max-width:500px) {
+
+.container2{
+    width: 300px;
+}
+    .gideforapplicats{
+        width: 96%;
+    }
+    .container3{
+        font-size: 40px;
+    }
 }

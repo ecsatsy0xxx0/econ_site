@@ -1711,13 +1711,13 @@
         gap: 5.21px;
     }
     .container12 {
-        font-size: 6.25px;
+        font-size: 10px;
     }
     .background {
         max-width: 866.67px;
         border-radius: 16px;
         padding: 20.83px 31.25px;
-        font-size: 12.5px;
+        font-size: 14px;
     }
     .container3 {
         gap: 8.33px;
@@ -2031,7 +2031,7 @@
         width: 48px;
     }
 }
-@media (max-width: 880px) {
+@media (max-width: 1269px) {
     .container {
         flex-direction: column;
         gap: 16px;
@@ -2261,7 +2261,7 @@
   
     /* Контейнер для текста */
     .container2 {
-      max-width: 100%; /* Используем всю ширину экрана */
+      width: 100%; /* Используем всю ширину экрана */
       gap: 12px; /* Увеличиваем отступы */
     }
   
@@ -2642,486 +2642,234 @@
         top: 1212px;
     }
 }
-@media (max-width:765px) {
-    .specializationcardfull{
-        width: 570px;
+@media (max-width: 576px) {
+    .container4{
+        gap: 20px;
     }
-    .container2{
-        width: 480px;
-    }
-}
-@media (max-width:660px) {
-    .specializationcardfull{
-        width: 500px;
-    }
-    .container2{
-        width: 410px;
-    }
-}
-@media (max-width:540px) {
-    .section{
-        margin-top: 50px;
-    }
-    .specializationcardfull{
-        width: 200px;
-    }
-    .container2{
-        width: 400px;
-    }    
     .container {
-        flex-direction: column;
-        gap: 8.73px;
-        justify-content: center;
-        transition: all 0.3s ease;
+    gap: 13.09px;
     }
-    .specializationCard {
-        flex: 1 1 100%; /* Одна карточка в ряд */
-        max-width: 100%;
-        transition: all 0.3s ease;
-    }
-
     .specializationCard,
     .specializationcardfull {
-        flex: 1 1 100%; /* Одна карточка на весь экран */
-        max-width: 100%;
-        height: 122.73px;
-        box-sizing: border-box;
-        transition: all 0.3s ease;
-    }
-    .container4{
-        gap: 5px;
-    }
-    .specializationcardfull:hover .container4{
-        gap: 4px;
-    }
-
-    .specializationcardfull .content1{
-        gap: 4px;
-        transition: all 0.3s ease;
+        height: 184.09px;
     }
     .specializationcardfull:hover .content1{
-        gap: 8.18px;
-        transition: all 0.3s ease;
+        gap: 12.27px;
     }
     .tag{
-        padding: 4.36px 10.91px;
-        transition: all 0.3s ease;
+        padding: 6.55px 16.36px;
     }
     .specializationCard:hover .blocks2 .tag{
-        padding: 2.18px 10.91px;
-        transition: all 0.3s ease;
+        padding: 3.27px 16.36px;
     }
     .title{
-        font-size: 10.91px;
-        transition: all 0.3s ease;
+        font-size: 16.36px;
     }
     .buttonLabel{
-        font-size: 4.36px;
-        transition: all 0.3s ease;
-        margin-top: 1.09px;
+        font-size: 6.55px;
+        margin-top: 1.64px;
     }
     .button100,
     .button1001,
     .button1002,
     .button1003,
     .button1004 {
-        font-size: 6.55px;
-        padding: 4.36px 8.73px;
-        right: 18.55px;
-        margin: 4.36px 0;
-        transition: all 0.3s ease;
-    }
-    .icon {
-        left: 0.0px;
+        font-size: 9.82px;
+        padding: 6.55px 13.09px;
+        right: 27.82px;
+        margin: 6.55px 0;
     }
     .background{
-        font-size: 7.64px;
-        padding: 10.36px 8.18px;
-        transition: all 0.3s ease;
-    }
-    .container13{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        transition: all 0.3s ease;
+        font-size: 11.45px;
+        padding: 15.55px 12.27px;
     }
     .button32{
-        font-size: 6.55px;
-        padding: 4.36px 23.45px;
-        right: 18.55px;
-        transition: all 0.3s ease;
+        font-size: 9.82px;
+        padding: 6.55px 35.18px;
+        right: 27.82px;
     }
     .button31{
-        font-size: 6.55px;
-        padding: 4.36px 8.73px;
-        right: 18.55px;
-        transition: all 0.3s ease;
+        font-size: 9.82px;
+        padding: 6.55px 13.09px;
+        right: 27.82px;
     }
     .actions {
-        flex-wrap: wrap;
-        gap: 4.36px;
-        justify-content: center;
-        transition: all 0.3s ease;
+        gap: 6.55px;
     }
-
     .subjectBlock,
     .subjectBlockOutlined, .subjectBlock2, .subjectBlockOutlined2{
-        min-width: 54.55px;
-        font-size: 5.45px; 
-        padding: 5.45px 4.36px; 
-        transition: all 0.3s ease;
+        min-width: 81.82px;
+        font-size: 8.18px; 
+        padding: 8.18px 6.55px; 
     }
-
     .orText {
-        margin: 0 2.18px;
-        font-size: 6.55px;
-        transition: all 0.3s ease;
+        margin: 0 3.27px;
+        font-size: 9.82px;
     }
-
     .descriptionTop {
-        font-size: 6.55px;
+        font-size: 9.82px;
         line-height: 1.4;
-        margin-top:     px;
-        text-align: center;
-        transition: all 0.3s ease;
     }
-
     .subtitle {
-        font-size: 8.18px;
-        text-align: center;
-        transition: all 0.3s ease;
+        font-size: 12.27px;
     }
-
     .container3 {
-        gap: 8.73px; 
-        padding: 8.73px; 
-        transition: all 0.3s ease;
+        gap: 13.09px; 
+        padding: 13.09px; 
     }
-
     .section {
-        padding: 8.73px;
-        top: 52.36px;
-        transition: all 0.3s ease;
+        padding: 13.09px;
+        top: 78.55px;
     }
-
     .container1 {
-        display: flex;
-        flex-direction: row; 
-        justify-content: space-between; 
-        align-items: center;
-        padding: 10.91px 21.82px;
-        gap: 8.73px; 
-        transition: all 0.3s ease;
+        padding: 16.36px 32.73px;
+        gap: 13.09px; 
     }
-
     .container2 {
-        display: flex;
-        flex-direction: column;
-        gap: 4.36px;
-        transition: all 0.3s ease;
-        max-width: 60%;
-    }
-
-    .button {
-        font-size: 8.73px;
-        padding: 6.55px 10.91px;
-        border-radius: 13.64px;
-        text-align: center;
-        align-self: flex-start;
-        transition: all 0.3s ease;
-    }
-
-    .heading2Parent {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         gap: 6.55px;
-        transition: all 0.3s ease;
+    }
+    .button {
+        font-size: 13.09px;
+        padding: 9.82px 16.36px;
+        border-radius: 20.45px;
+    }
+    .heading2Parent {
+        gap: 9.82px;
     }
     .heading2 {
-        font-size: 17.45px;
-        line-height: 1.2;
-        font-weight: bold;
-        color: #0450a0;
-        transition: all 0.3s ease;
+        font-size: 26.18px;
     }
-
     .div1 {
-      font-size: 10.91px; /* Размер текста */
-      color: rgba(4, 80, 160, 0.5); /* Прозрачный синий цвет */
-      font-style: italic; /* Курсив */
+        font-size: 16.36px;
     }
-  
-    /* Разделительная линия */
     .frameChild {
-      width: 0.55px; /* Линия тонкая */
-      height: 21.82px; /* Высота линии */
-      background-color: rgba(4, 80, 160, 0.5); /* Прозрачный синий */
+        height: 32.73px;
     }
-  
-    /* Блок с лупой и кнопкой */
     .iconbuttonParent {
-      display: flex;
-      flex-direction: row; /* Элементы в строку */
-      align-items: center; /* Центрируем элементы */
-      gap: 4.36px; /* Отступ между лупой и кнопкой */
+        gap: 6.55px;
     }
-  
-    /* Иконка лупы */
     .iconbutton {
-      width: 19.64px; /* Размер иконки */
-      height: 19.64px;
-      padding: 3.27px;
-      border-radius: 50%; /* Скругляем иконку */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 0.55px solid #0450a0; /* Синяя рамка */
+        width: 29.45px;
+        height: 29.45px;
+        padding: 4.91px;
     }
-  
-    /* Кнопка "ВСЕ НАПРАВЛЕНИЯ" */
     .button1 {
-      font-size: 7.64px;
-      padding: 5.45px 10.91px; /* Уменьшаем отступы */
-      border-radius: 5.45px; /* Скругление */
-      text-align: center;
-      border: 0.55px solid #0450a0; /* Синяя рамка */
+        font-size: 11.45px;
+        padding: 8.18px 16.36px; 
+        border-radius: 8.18px;
     }
-    /* Основной контейнер */
     .container1 {
-      flex-direction: column; /* Элементы вертикально */
-      align-items: flex-start; /* Выравнивание по левому краю */
-      padding: 8.73px; /* Отступы для мобильных */
-      gap: 8.73px; /* Отступы между элементами */
+        padding: 13.09px; 
+        gap: 13.09px;
     }
-  
-    /* Контейнер для текста */
     .container2 {
-      max-width: 100%; /* Используем всю ширину экрана */
-      gap: 6.55px; /* Увеличиваем отступы */
+        gap: 9.82px;
     }
-  
-    /* Кнопка */
     .button {
-      font-size: 7.64px; /* Уменьшаем текст */
-      padding: 4.36px 8.73px; /* Уменьшаем внутренние отступы */
+        font-size: 11.45px;
+        padding: 6.55px 13.09px;
     }
-  
-    /* Заголовок */
     .heading2Parent {
-      align-items: flex-start; /* Выравниваем по левому краю */
-      gap: 4.36px; /* Увеличиваем отступы */
-      transition: all 0.3s ease;
+        gap: 6.55px; 
     }
     .div{
-        align-self: stretch;
-    position: relative;
-    letter-spacing: -0.98px;
-    line-height: 18.65px; 
-    transition: all 0.3s ease;
-    font-weight: 500;
+        letter-spacing: -1.47px;
+        line-height: 27.98px; 
     }
-  
     .heading2 {
-      font-size: 16.36px; /* Уменьшаем заголовок */
+        font-size: 24.55px; 
     }
-  
     .div1 {
-      font-size: 13.09px; /* Уменьшаем текст хэштега */
+        font-size: 19.64px;
     }
-  
-    /* Линия */
-    .frameChild {
-      display: none; /* Убираем линию на мобильных */
-      transition: all 0.3s ease;
-    }
-  
-    /* Лупа и кнопка */
     .iconbuttonParent {
-        flex-direction: row;
-        justify-content: flex-start;
-        gap: 4.36px;
-        display: none;
-        transition: all 0.3s ease;
+        gap: 6.55px;
     }
     .subjectBlockOutlined .score{
-        left: 20.73px;
-        transition: all 0.3s ease;
+        left: 31.09px;
     }
     .specializationcardfull:hover .subjectBlock .score{
-        left: 18px;
-        padding: 0;
-        transition: all 0.3s ease;
+        left: 32.73px;
     }
     .specializationcardfull:hover .subjectBlock2 .score{
-        left: 17px;
-        top: -19px;
-        transition: all 0.3s ease;
+        left: 31.09px;
     }
-    .specializationCard:hover .subjectBlock2 .score{
-        left: 18px;
+    .specializationcardfull:hover .subjectBlockOutlined2 .score{
+        left: 31.09px;
     }
-        .specializationcardfull:hover .subjectBlockOutlined .score{
-        left: 17px;
-        top: -19px;
-        }
-        .specializationcardfull:hover .subjectBlockOutlined2 .score{
-        left: 24px;
-        top: -19px;
-        }
-        .specializationcardfull:hover .separator{
-            width: 13px;
-            margin-top: 4px;
-        }
-        .separator{
-            width: 5.45px;
-            margin-top: 7px;
-            margin-left: 4px;
-            margin-right: 4px;
-        }
+    .specializationcardfull:hover .separator{
+        width: 17.18px;
+        margin-top: 12.27px;
+    }
+    .separator{
+        width: 8.18px;
+        margin-top: 8.18px;
+    }
     .iconbutton {
-      width: 16.36px; /* Уменьшаем размер иконки */
-      height: 16.36px;
-      padding: 2.18px;
-      transition: all 0.3s ease;
+        width: 24.55px;
+        height: 24.55px;
+        padding: 3.27px;
     }
-  
     .button1 {
-      font-size: 6.55px; /* Уменьшаем текст */
-      padding: 4.36px 8.73px; /* Уменьшаем внутренние отступы */
-      transition: all 0.3s ease;
+        font-size: 9.82px;
+        padding: 6.55px 13.09px;
     }
-
     .icon1{
-        padding: 6.55px;
+        padding: 9.82px;
     }
     .magnifyingglassIcon{
-        width: 9.27px;
-        height: 9.27px;
-        transition: all 0.3s ease;
+        width: 13.91px;
+        height: 13.91px;
     }
     .button100, .button1002, .button1001, .button1004, .button10021{
-        padding: 4.36px 16.36px;
-        transition: all 0.3s ease;
+        padding: 6.55px 24.55px;
     }
     .specializationcardfull:hover .subjectBlock, .specializationcardfull:hover .subjectBlock2{
-        height: 27.27px;
-        padding: 13.64px 0 0;
-        transition: all 0.3s ease;
-        width: 54.55px;
+        height: 40.91px;
+        padding: 20.45px 0 0;
+        width: 81.82px;
     }
     .specializationcardfull{
-        padding: 8.73px 8.73px 10.91px;
-    }
-    .specializationcardfull:hover .subjectBlock2 .subjectText{
-        transition: all 0.3s ease;
+        padding: 13.09px 13.09px 16.36px;
     }
     .specializationcardfull:hover .subjectBlockOutlined, .specializationcardfull:hover .subjectBlockOutlined2{
-        padding: 13.64px 0 0;
-        height: 27.27px;
-        transition: all 0.3s ease;
+        padding: 20.45px 0 0;
+        height: 40.91px;
     }
     .specializationCard:hover .container5 .block{
-        top: 278.18px;
+        top: 435px;
     }
-    .specializationCard:hover .subjectBlockOutlined .score, .specializationCard:hover  .subjectBlockOutlined2 .score{
-        left: 18px;
-    }
-    .specializationCard:hover .subjectBlock .score{
-        left: 18px ;
+    .specializationCard:hover .subjectBlock .score, .specializationCard:hover .subjectBlock2 .score, .specializationCard:hover .subjectBlockOutlined .score, .specializationCard:hover  .subjectBlockOutlined2 .score{
+        left: 31.09px;
     }
     .specializationCard .container5 .block{
-        top: 350px;
+        top: 458.18px;
     }
-    .specializationCard:hover .container5 .block{
-        top: 320px;
-    }
-
     .specializationCard:hover .container5 .blocks{
-        top: 485px;
+        top: 630px;
     }
     .specializationCard .container5 .blocks{
-        top: 505px;
+        top: 654.55px;
     }
-
     .specializationCard .container56 .blocks{
-        top: 665px;
-    }   
+        top: 855.0px;
+    }
     .specializationCard:hover .container56 .blocks{
-        top: 645px;
-    }   
-
+        top: 830px;
+    }
     .specializationCard .container57 .blocks{
-        top: 825px;
-    }   
+        top: 1051.36px;
+    }
     .specializationCard:hover .container57 .blocks{
-        top: 805px;
-    } 
-    
+        top: 1030px;
+    }
     .specializationCard .container58 .blocks2{
-        top: 965px;
-    }   
+        top: 1230px;
+    }
     .specializationCard:hover .container58 .blocks2{
-        top: 955px;
-    } 
-    .specializationcardfull, .specializationCard{
-        height: 150px;
-    }
-    .specializationcardfull{
-        padding: 16.67px 16.67px 20.83px;
-    }
-}
-@media (max-width:480px) {
-    .section{
-        width: 350px;
-                margin: 0 auto;
-                padding: 0;
-    }
-    .container{
-        width: 350px;
-        margin: 0 auto;
-    }
-    .specializationcardfull{
-        width: 300px;
+        top: 1212px;
     }
     .container2{
-        width: 410px;
-    }
-    .container56 .actions{
-        width: 270px;
-        margin: 10px auto;
-        transition: all 0.3s ease;
-    }
-    .specializationCard:hover .container56 .actions{
-        width: 280px;
-                transition: all 0.3s ease;
-    }
-    .specializationCard:hover .container56 .actions,  .specializationCard:hover .container57 .actions, .specializationCard:hover .container58 .actions2{
-        margin: -1px auto;
-    }
-    .specializationCard:hover .container5 .actions2{
-        margin: 0 auto;
-    }
-    .specializationcardfull, .card{
-        padding: 12px 12px;
-    }
-    .container4{
-        gap: 20px;
-    }
-    .specializationCard .container5 .block{
-        top: 345px;
-    }
-    .specializationCard .container5 .blocks{
-        top: 500px;
-    }
-    .specializationCard .container56  .blocks{
-        top: 655px;
-    }
-    .specializationCard .container57  .blocks{
-        top: 820px;
-    }
-    .specializationCard .container58  .blocks2{
-        top: 960px;
+        max-width: 100%;
     }
 }

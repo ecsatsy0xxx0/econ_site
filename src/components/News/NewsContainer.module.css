@@ -548,6 +548,7 @@
 @media (max-width:1270px) {
     .buttonLabel {
         line-height: 8.33px;
+        font-size: 10px;
     }
     .logo, .button1 {
         border-radius: 298.44px;
@@ -557,60 +558,14 @@
         line-height: 31.77px;
     }
     .titleContainer {
-        font-size: 31.25px;
+        font-size: 35px;
     }
-    .logoAndTitleContainer {
-        width: 269.31px;
-        padding: 0 0 3.13px;
-        gap: 6.77px;
-        max-width: 270.83px;
-    }
-    .button {
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-    .plusIcon {
-        width: 10.42px;
-        height: 10.42px;
-    }
-    .iconbuttonnewsfullimage {
-        border-radius: 5.21px;
-        padding: 8.33px;
-    }
-    .tagcontainer {
-        gap: 3.13px;
-    }
-    .container1 {
-        padding: 0 0 1.04px;
-        font-size: 6.25px;
-    }
-    .titlecontainer {
-        gap: 6.25px;
-    }
-    .container {
-        border-radius: 8.33px;
-        padding: 12.5px;
-        gap: 8.85px;
-    }
+
     .sidebar {
         width: 275px;
         height: 378.13px;
     }
-    .icon1 {
-        width: 14.58px;
-        height: 14.58px;
-    }
-    .icon {
-        padding: 0 0 5.56px;
-        gap: 16.67px;
-    }
-    .cardDescriptionContainer {
-        font-size: 8.33px;
-        transform: translateY(10.42px);
-    }
-    .container:hover .cardDescriptionContainer {
-        font-size: 10.42px;
-    }
+
     .newsachivecard {
         width: 275px;
         height: 186.98px;
@@ -619,7 +574,7 @@
     }
     .mainContentContainer {
         gap: 4.17px;
-        font-size: 12.5px;
+        font-size: 15px;
     }
     .contentSection {
         height: 378.13px;
@@ -632,20 +587,7 @@
         max-width: 833.33px;
         font-size: 6.25px;
     }
-    .iconWrapper {
-        width: 26.04px;
-        height: 26.04px;
-        border-radius: 4.17px;
-    }
-    .icon1 {
-        width: 12.5px;
-        height: 12.5px;
-    }
-    .container {
-        border-radius: 8.33px;
-        padding: 12.5px;
-        gap: 8.85px;
-    }
+
     .newsachivecard:hover {
         transform: translateY(-5.21px);
         box-shadow: 0px 2.08px 5.21px rgba(0, 0, 0, 0.1);
@@ -655,11 +597,21 @@
         margin-top: 8.33px;
     }
     .button, .button2 {
-        padding: 5.21px 8.33px;
+        padding: 1px 8.33px;
         border-radius: 9.38px;
+        font-size: 9px;
+    }
+    .button2 div{
+        margin-top: 1px;
     }
     .cardDescription{
         font-size: 12px;
+    }
+    .logo{
+        font-size: 9px;
+    }
+    .container1{
+        font-size: 20px;
     }
 }
 @media (max-width: 880px) {
@@ -749,253 +701,377 @@
         margin-top: 2px;
     }
 }
-@media (max-width: 765px) {
-    .section {
-        padding: 16.38px 10.92px;
-    }
-    .headerContainer{
-        margin: 0 auto;
-        width: 469.62px;
-    }
-    .contentSection {
-        flex-direction: column;
-        gap: 10.92px;
-    }
-    .mainContainer {
-        width: 100%;
-    }
-    .logoAndTitleContainer {
-        width: 100%;
-    }
-    .container1 {
-        font-size: 18.43px;
-        align-items: self-start;
-    }
-    .container:hover .cardDescriptionContainer {
-        font-size: 10.24px;
-    }
-    .headerContainer {
-        margin-bottom: 230px;
-    }
-    .sidebar {
-        width: 469.62px;
-        height: 252.56px;
-        margin: 0 auto;
-    }
-    .mainContentContainer {
-        width: 100%;
-        display: block;
-        font-size: 13.65px;
-    }
-    .newsachivecard {
-        width: 469.62px;
-        padding: 13.65px 10.92px;
-        margin: 6.83px auto;
-        height: 136.52px;
-    }
-    .title {
-        font-size: 24.57px;
-        line-height: 27.3px;
-        text-align: center;
-    }
-    .button {
-        font-size: 9.56px;
-        padding: 0.68px 13.65px;
-        width: 102.39px;
-    }
-    .icon1 {
-        height: 16.38px;
-        width: 16.38px;
-    }
-    .cardDescription {
-        font-size: 10.92px;
-    }
-    .cardButtons {
-        margin-top: 0.68px;
-    }
-    .logo {
-        width: 110px;
-        height: 13.65px;
-    }
-    .logo div {
-        font-size: 6.83px;
-    }
-    .button2 {
-        width: 68.26px;
-        height: 20.48px;
-    }
-    .button2 div {
-        font-size: 6.83px;
-        margin-top: 0;
-    }
+@media (max-width: 720px) {
+.section {
+    padding: 19.64px 13.09px;
 }
-@media (max-width: 540px) {
-    .section {
-        padding: 16.38px 10.92px;
-    }
-    .headerContainer{
-        margin: 0 auto;
-        width: 450px;
-    }
-    .contentSection {
-        flex-direction: column;
-        gap: 10.92px;
-    }
-    .mainContainer {
-        width: 100%;
-    }
-    .logoAndTitleContainer {
-        width: 100%;
-    }
-    .container1 {
-        font-size: 18.43px;
-        align-items: self-start;
-    }
-    .container:hover .cardDescriptionContainer {
-        font-size: 10.24px;
-    }
-    .headerContainer {
-        margin-bottom: 230px;
-    }
-    .sidebar {
-        width: 450px;
-        height: 252.56px;
-        margin: 0 auto;
-    }
-    .mainContentContainer {
-        width: 100%;
-        display: block;
-        font-size: 13.65px;
-    }
-    .newsachivecard {
-        width: 450px;
-        padding: 13.65px 10.92px;
-        margin: 6.83px auto;
-        height: 136.52px;
-    }
-    .title {
-        font-size: 24.57px;
-        line-height: 27.3px;
-        text-align: center;
-    }
-    .button {
-        font-size: 9.56px;
-        padding: 0.68px 13.65px;
-        width: 102.39px;
-    }
-    .icon1 {
-        height: 16.38px;
-        width: 16.38px;
-    }
-    .cardDescription {
-        font-size: 10.92px;
-    }
-    .cardButtons {
-        margin-top: 0.68px;
-    }
-    .logo {
-        width: 110px;
-        height: 13.65px;
-    }
-    .logo div {
-        font-size: 6.83px;
-    }
-    .button2 {
-        width: 68.26px;
-        height: 20.48px;
-    }
-    .button2 div {
-        font-size: 6.83px;
-        margin-top: 0;
-    }
+
+.headerContainer {
+    margin: 0 auto;
+    width: 566.18px;
+    margin-bottom: 343.64px;
 }
-@media (max-width: 480px) {
-    .section {
-        padding: 11.33px 7.56px;
-    }
-    .headerContainer{
-        margin: 0 auto;
-        width: 311px;
-    }
-    .contentSection {
-        flex-direction: column;
-        gap: 7.56px;
-    }
-    .logoAndTitleContainer{
-        width: 74px;
-    }
-    .mainContainer {
-        width: 100%;
-        gap: 0;
-    }
-    .logoAndTitleContainer {
-        width: 50%;
-    }
-    .container1 {
-        font-size: 12.75px;
-        align-items: self-start;
-    }
-    .container:hover .cardDescriptionContainer {
-        font-size: 7.09px;
-    }
-    .headerContainer {
-        margin-bottom: 120px;
-    }
-    .sidebar {
-        width: 311.54px;
-        height: 174.73px;
-        margin: 0 auto;
-    }
-    .mainContentContainer {
-        width: 100%;
-        display: block;
-        font-size: 9.45px;
-    }
-    .newsachivecard {
-        width: 311.54px;
-        padding: 9.45px 7.56px;
-        margin: 4.73px auto;
-        height: 94.47px;
-    }
-    .title {
-        font-size: 17px;
-        line-height: 19px;
-        text-align: center;
-    }
-    .button {
-        font-size: 6.62px;
-        padding: 0.47px 9.45px;
-        width: 70.85px;
-    }
-    .icon1 {
-        height: 11.34px;
-        width: 11.34px;
-    }
-    .cardDescription {
-        font-size: 7.56px;
-    }
-    .cardButtons {
-        margin-top: 0.47px;
-    }
-    .logo {
-        width: 90px;
-        height: 9.45px;
-    }
-    .logo div {
-        font-size: 4.73px;
-    }
-    .button2 {
-        width: 60px;
-        height: 17px;
-    }
-    .icon{
-        padding: 0;
-    }
-    .titlecontainer{
-        gap: 4px;
-    }
-    .button2 div {
-        font-size: 4.73px;
-        margin-top: 0;
-    }
+
+.contentSection {
+    flex-direction: column;
+    gap: 13.09px;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.logoAndTitleContainer {
+    width: 100%;
+}
+
+.container1 {
+    font-size: 22.09px;
+    align-items: self-start;
+}
+
+.title {
+    letter-spacing: 0px;
+    font-size: 29.45px;
+    line-height: 32.73px;
+    text-align: center;
+}
+
+.container:hover .cardDescriptionContainer {
+    font-size: 12.27px;
+}
+
+.sidebar {
+    width: 566.18px;
+    height: 302.73px;
+    margin: 0 auto;
+}
+
+.mainContentContainer {
+    width: 100%;
+    display: block;
+    font-size: 16.36px;
+}
+
+.newsachivecard {
+    width: 566.18px;
+    padding: 16.36px 13.09px;
+    margin: 8.18px auto;
+    height: 163.64px;
+}
+
+.button {
+    font-size: 11.45px;
+    padding: 0.82px 16.36px;
+    width: 122.73px;
+}
+
+.icon1 {
+    height: 19.64px;
+    width: 19.64px;
+}
+
+.cardDescription {
+    font-size: 13.09px;
+}
+
+.cardButtons {
+    margin-top: 0.82px;
+}
+
+.logo {
+    height: 16.36px;
+}
+
+.logo div {
+    font-size: 8.18px;
+}
+
+.button2 {
+    height: 20px;
+}
+
+.button2 div {
+    font-size: 8.18px;
+}
+}
+@media (max-width: 635px) {
+.section {
+    padding: 17.32px 11.54px;
+}
+
+.headerContainer {
+    margin: 0 auto;
+    width: 499.17px;
+    margin-bottom: 302.94px;
+}
+
+.contentSection {
+    flex-direction: column;
+    gap: 11.54px;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.logoAndTitleContainer {
+    width: 100%;
+}
+
+.container1 {
+    font-size: 19.47px;
+    align-items: self-start;
+}
+
+.title {
+    letter-spacing: 0px;
+    font-size: 25.97px;
+    line-height: 28.86px;
+    text-align: center;
+}
+
+.container:hover .cardDescriptionContainer {
+    font-size: 10.82px;
+}
+
+.sidebar {
+    width: 499.17px;
+    height: 266.94px;
+    margin: 0 auto;
+}
+
+.mainContentContainer {
+    width: 100%;
+    display: block;
+    font-size: 14.43px;
+}
+
+.newsachivecard {
+    width: 499.17px;
+    padding: 14.43px 11.54px;
+    margin: 7.21px auto;
+    height: 144.40px;
+}
+
+.button {
+    font-size: 10.10px;
+    padding: 0.72px 14.43px;
+    width: 108.22px;
+}
+
+.icon1 {
+    height: 17.32px;
+    width: 17.32px;
+}
+
+.cardDescription {
+    font-size: 11.54px;
+}
+
+.cardButtons {
+    margin-top: 0.72px;
+}
+
+.logo {
+    height: 14.43px;
+}
+
+.logo div {
+    font-size: 7.21px;
+}
+
+.button2 {
+    height: 17.64px;
+}
+
+}
+@media (max-width: 550px) {
+.section {
+    padding: 15.19px 10.08px;
+}
+
+.headerContainer {
+    margin: 0 auto;
+    width: 437.42px;
+    margin-bottom: 200px;
+}
+
+.contentSection {
+    flex-direction: column;
+    gap: 10.08px;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.logoAndTitleContainer {
+    width: 100%;
+}
+
+.container1 {
+    font-size: 17.07px;
+    align-items: self-start;
+}
+
+.title {
+    letter-spacing: 0px;
+    font-size: 22.89px;
+    line-height: 25.26px;
+    text-align: center;
+}
+
+.container:hover .cardDescriptionContainer {
+    font-size: 9.46px;
+}
+
+.sidebar {
+    width: 437.42px;
+    height: 231.89px;
+    margin: 0 auto;
+}
+
+.mainContentContainer {
+    width: 100%;
+    display: block;
+    font-size: 12.57px;
+}
+
+.newsachivecard {
+    width: 437.42px;
+    padding: 12.57px 10.08px;
+    margin: 6.28px auto;
+    height: 124.89px;
+}
+
+.button {
+    font-size: 8.81px;
+    padding: 0.63px 12.57px;
+    width: 94.42px;
+}
+
+.icon1 {
+    height: 15.19px;
+    width: 15.19px;
+}
+
+.cardDescription {
+    font-size: 10.08px;
+}
+
+.cardButtons {
+    margin-top: 0.63px;
+}
+
+.logo {
+    height: 10.08px;
+    width: 100px;
+}
+
+.logo div {
+    font-size: 6.28px;
+}
+.logoAndTitleContainer{
+    max-width: 250px;
+}
+.button2 {
+    height: 15.49px;
+    width: 80px;
+}
+
+}
+@media (max-width: 460px) {
+.section {
+    padding: 13.26px 8.74px;
+}
+
+.headerContainer {
+    margin: 0 auto;
+    width: 398.21px;
+    margin-bottom: 120px;
+}
+
+.contentSection {
+    flex-direction: column;
+    gap: 8.74px;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.logoAndTitleContainer {
+    width: 100%;
+}
+
+.container1 {
+    font-size: 14.83px;
+    align-items: self-start;
+}
+
+.title {
+    letter-spacing: 0px;
+    font-size: 18.90px;
+    line-height: 21.34px;
+    text-align: center;
+}
+
+.container:hover .cardDescriptionContainer {
+    font-size: 8.20px;
+}
+
+.sidebar {
+    width: 398.21px;
+    height: 190.56px;
+    margin: 0 auto;
+}
+
+.mainContentContainer {
+    width: 100%;
+    display: block;
+    font-size: 10.87px;
+}
+
+.newsachivecard {
+    width: 398.21px;
+    padding: 10.87px 8.74px;
+    margin: 5.52px auto;
+    height: 102.88px;
+}
+
+.button {
+    font-size: 7.59px;
+    padding: 0.58px 10.87px;
+    width: 77.04px;
+}
+
+.icon1 {
+    height: 13.26px;
+    width: 13.26px;
+}
+
+.cardDescription {
+    font-size: 8.74px;
+}
+
+.cardButtons {
+    margin-top: 0.58px;
+}
+
+.logo {
+    height: 8.74px;
+}
+
+
+.logoAndTitleContainer {
+    max-width: 227.27px;
+}
+
+.button2 {
+    height: 13.48px;
+}
+.button2 div{
+    margin-top: 1px;
+}
 }

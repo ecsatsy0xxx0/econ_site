@@ -98,7 +98,7 @@ const Footer = () => {
 									</div>
 								</a>
 							</div>
-							<div className={styles.iconbutton}>
+							<div className={styles.iconbutton1}>
 								<a
 									href="https://t.me/econom_kubsu"
 									target="_blank"

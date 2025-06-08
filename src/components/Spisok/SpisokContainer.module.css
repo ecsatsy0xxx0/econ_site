@@ -252,7 +252,7 @@
     .faqContainer {
         width: 510px;
         gap: 6px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .content {
         width: 660px;
@@ -289,14 +289,7 @@
         width: 250px;
         margin: 0 0 32.81px 56.25px;
     }
-    .title1 {
-        letter-spacing: -0.15px;
-        line-height: 10.42px;
-    }
-    .plusIcon {
-        width: 5.73px;
-        height: 5.73px;
-    }
+    
     .expandIcon {
         border-radius: 2.86px;
         padding: 2.86px;
@@ -311,23 +304,14 @@
         padding-left: 10.94px;
     }
     .description {
-        line-height: 10.42px;
+        line-height: 14px;
     }
     .descriptioncontainer {
         width: 354.17px;
         border-radius: 5.21px;
         padding: 7.29px 7.29px 7.29px 10.42px;
     }
-    .expandIcon1 {
-        width: 11.46px;
-        border-radius: 2.86px;
-        padding: 2.86px;
-    }
-    .faqContainer {
-        width: 354.17px;
-        gap: 4.17px;
-        font-size: 8.33px;
-    }
+
     .content {
         width: 458.33px;
         height: 486.46px;
@@ -383,10 +367,7 @@
     .expandIcon {
         padding: 3.27px;
     }
-    .plusIcon {
-        width: 6.55px;
-        height: 6.55px;
-    }
+
     .descriptioncontainer {
         width: 490.91px;
     }
@@ -396,87 +377,156 @@
         line-height: 16.36px;
     }
 }
-@media (max-width: 765px) {
-    .content {
-        width: 390.94px;
-        height: 450px;
-        padding: 27.3px 0 0 0.0px;
-    }
-    .faqParent {
-        padding: 0;
-    }
-    .faqContainer {
-        padding-left: 27.3px;
-    }
-    .faq {
-        padding: 58.18px 22.34px;
-    }
-    .header {
-        width: 279.24px;
-        font-size: 11.17px;
-        margin: 13.65px auto;
-    }
-    .button {
-        padding: 5.58px 11.17px;
-    }
-    .titleContainer {
-        font-size: 19.55px;
-    }
-    .container {
-        width: 335.09px;
-        height: 33.51px;
-        border-radius: 5.58px;
-        font-size: 8.94px;
-    }
-    .title1 {
-        letter-spacing: -0.16px;
-        line-height: 11.17px;
-    }
-    .expandIcon {
-        padding: 1.5px;
-    }
-    .descriptioncontainer {
-        width: 335.09px;
-    }
-    .description {
-        font-size: 8.94px;
-        letter-spacing: -0.16px;
-        line-height: 11.17px;
-    }
+@media (max-width: 635px) {
+.content {
+    width: 505.33px;
+    height: 505.33px;
+    padding: 35.28px 0 0 0px;
 }
-@media (max-width: 480px) {
-    .expandIcon{
-        padding: 1.3px;
-    }
-    .content {
-        width: 300px;
-        height: 350px;
-        padding: 12.85px 0 0 0.0px;
-    }
-    .faqParent {
-        padding: 0;
-    }
-    .faqContainer {
-        padding-left: 12.85px;
-    }
-    .faq {
-        padding: 27.38px 10.51px;
-    }
-    .container {
-        width: 280px;
-        height: 25px;
-    }
-    .title1 {
-        letter-spacing: -0.08px;
-        line-height: 10px;
-    }
 
-    .descriptioncontainer {
-        width: 280px;
-    }
-    .description {
-        font-size: 6px;
-        letter-spacing: -0.08px;
-        line-height: 10px;
-    }
+.faqParent {
+    padding: 0;
+}
+
+.faqContainer {
+    padding-left: 35.28px;
+}
+
+.faq {
+    padding: 75.18px 28.85px;
+}
+
+.header {
+    width: 360.72px;
+    font-size: 14.43px;
+    margin: 17.64px auto;
+}
+
+.button {
+    padding: 7.21px 14.43px;
+}
+
+.titleContainer {
+    font-size: 25.27px;
+}
+
+.container {
+    width: 432.87px;
+    height: 43.28px;
+    border-radius: 7.21px;
+    font-size: 11.54px;
+}
+
+.title1 {
+    letter-spacing: -0.20px;
+    line-height: 14.43px;
+}
+
+.descriptioncontainer {
+    width: 432.87px;
+}
+
+.description {
+    font-size: 11.54px;
+    letter-spacing: -0.20px;
+    line-height: 14.43px;
+} 
+}
+@media (max-width: 560px) {
+.content {
+    width: 445.65px;
+    padding: 31.11px 0 0 0px;
+}
+
+.faqParent {
+    padding: 0;
+}
+
+.faqContainer {
+    padding-left: 31.11px;
+}
+
+.faq {
+    padding: 66.3px 25.44px;
+}
+
+.header {
+    width: 318.12px;
+    font-size: 12.73px;
+    margin: 15.56px auto;
+}
+
+.button {
+    padding: 6.36px 12.73px;
+}
+
+.titleContainer {
+    font-size: 22.29px;
+}
+
+.container {
+    width: 381.74px;
+    height: 38.17px;
+    border-radius: 6.36px;
+}
+
+.title1 {
+    letter-spacing: -0.20px;
+    line-height: 12.73px;
+}
+
+
+
+.descriptioncontainer {
+    width: 381.74px;
+}
+
+.description {
+    font-size: 10.18px;
+    letter-spacing: -0.20px;
+    line-height: 12.73px;
+}
+}
+@media (max-width: 520px) {
+.content {
+    width: 409.53px;
+    padding: 29.94px 0 0 0px;
+}
+.faqParent {
+    padding: 0;
+}
+.faqContainer {
+    padding-left: 29.94px;
+}
+.faq {
+    padding: 60.73px 22.95px;
+}
+.header {
+    width: 292.97px;
+    font-size: 11.83px;
+    margin: 14.81px auto;
+}
+.button {
+    padding: 5.92px 11.83px;
+}
+.titleContainer {
+    font-size: 20.93px;
+}
+.container {
+    width: 344.96px;
+    height: 35.88px;
+    border-radius: 5.92px;
+}
+.title1 {
+    letter-spacing: -0.19px;
+    line-height: 11.83px;
+}
+.descriptioncontainer {
+    width: 344.96px;
+}
+.description {
+    font-size: 9.26px;
+    letter-spacing: -0.19px;
+    line-height: 11.83px;
+}
 }

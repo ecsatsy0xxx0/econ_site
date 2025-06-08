@@ -215,17 +215,7 @@
         width: 480px;
         gap: 15px;
     }
-    .button {
-        border-radius: 750px;
-        padding: 12px 18px;
-    }
-    .buttonParent {
-        gap: 6px;
-    }
-    .button1 {
-        border-radius: 750px;
-        padding: 12px 18px;
-    }
+    
     .container5 {
         gap: 7.5px;
     }
@@ -242,55 +232,23 @@
 
 }
 @media (max-width:1270px) {
-    .div {
-        line-height: 7.5px;
-    }
-    .border {
-        border-radius: 520.83px;
-    }
-    .container2 {
-        border-radius: 520.83px;
-        padding: 3.13px 5.21px;
-    }
-    .div1 {
-        line-height: 31.88px;
-    }
-    .heading2 {
-        padding: 0 35.94px;
-        gap: 2.08px;
-        font-size: 31.25px;
-    }
+    
     .container {
         width: 333.33px;
-        gap: 10.42px;
-        max-width: 333.33px;
-    }
-    .button {
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-    .buttonParent {
-        gap: 4.17px;
-    }
-    .button1 {
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-    .container5 {
-        gap: 5.21px;
     }
     .background {
         border-radius: 8.33px;
         padding: 75px 266.67px;
         gap: 12.5px;
     }
-    .section {
-        font-size: 6.25px;
-        margin-top: 104.17px;
-        margin-bottom: 4.17px;
+    .heading2{
+        font-size: 40px;
     }
 }
 @media (max-width: 880px) {
+    .buttonLabel{
+        line-height: 16px;
+    }
     .section {
         margin-bottom: 0;
         margin-top: 450px;
@@ -356,135 +314,231 @@
         margin: 0 auto;
     }
 }
-@media (max-width: 765px) {
-    .section {
-        margin-bottom: 0;
-        margin-top: 307.17px;
-    }
-
-    .background {
-        padding: 40.96px 192.49px;
-        border-radius: 5.46px;
-    }
-
-    .heading2 {
-        padding: 0.0px 6.83px;
-        font-size: 19.11px;
-    }
-    .section1 {
-        padding: 0.68px 39.59px;
-    }
-    .container2 {
-        border-radius: 273.04px;
-        padding: 5.46px 13.65px;
-    }
-    .container {
-        width: 100%;
-        gap: 8.19px;
-    }
-    .buttonParent {
-        gap: 10.24px;
-    }
-    .div {
-        font-size: 10.24px;
-    }
-    .button1 {
-        padding: 6.83px 9.56px;
-    }
-
-    .buttonLabel,
-    .buttonLabel1 {
-        font-size: 8.19px;
-        text-transform: uppercase;
-    }
-
-    .button {
-        padding: 8.19px 10.92px;
-    }
-
-    .container5 {
-        flex-direction: column;
-        gap: 10.92px;
-    }
-
-    .div1,
-    .div2 {
-        font-size: 17.06px;
-        line-height: 19.11px;
-    }
-    .button1 {
-        padding: 8.19px 10.92px;
-        margin: 0 auto;
-    }
+@media (max-width: 720px) {
+.buttonLabel {
+    line-height: 13.09px;
 }
-@media (max-width: 540px) {
-    .section {
-        margin-bottom: 0;
-        margin-top: 307.17px;
-    }
 
-    .background {
-        padding: 40.96px 187px;
-        border-radius: 5.46px;
-    }
-
-    .heading2 {
-        padding: 0.0px 6.83px;
-        font-size: 19.11px;
-    }
-    .section1 {
-        padding: 0.68px 39.59px;
-    }
-    .container2 {
-        border-radius: 273.04px;
-        padding: 5.46px 13.65px;
-    }
-    .container {
-        width: 100%;
-        gap: 8.19px;
-    }
-    .buttonParent {
-        gap: 10.24px;
-    }
-    .div {
-        font-size: 10.24px;
-    }
-    .button1 {
-        padding: 6.83px 9.56px;
-    }
-
-    .buttonLabel,
-    .buttonLabel1 {
-        font-size: 8.19px;
-        text-transform: uppercase;
-    }
-
-    .button {
-        padding: 8.19px 10.92px;
-    }
-
-    .container5 {
-        flex-direction: column;
-        gap: 10.92px;
-    }
-
-    .div1,
-    .div2 {
-        font-size: 17.06px;
-        line-height: 19.11px;
-    }
-    .button1 {
-        padding: 8.19px 10.92px;
-        margin: 0 auto;
-    }
+.section {
+    margin-bottom: 0;
+    margin-top: 368.18px;
 }
-@media (max-width:480px) {
-    .section{
-        width: 300px;
-        margin-top: 150px;
-    }
-    .background{
-        width: 360px;
-        padding: 40px 60px;
-    }
+
+.div1 {
+    letter-spacing: 0px;
+}
+
+.div2 {
+    letter-spacing: -1.06px;
+}
+
+.background {
+    padding: 49.09px 230.18px;
+    border-radius: 6.55px;
+}
+
+.heading2 {
+    padding: 0px 8.18px;
+    font-size: 22.91px;
+}
+
+.section1 {
+    padding: 0.82px 47.73px;
+}
+
+.container2 {
+    border-radius: 327.27px;
+    padding: 6.55px 16.36px;
+}
+
+.container {
+    width: 100%;
+    gap: 9.82px;
+}
+
+.buttonParent {
+    gap: 12.27px;
+}
+
+.div {
+    font-size: 12.27px;
+}
+
+.button1 {
+    padding: 9.82px 11.45px;
+    margin: 0 auto;
+}
+
+.buttonLabel,
+.buttonLabel1 {
+    font-size: 9.82px;
+    text-transform: uppercase;
+}
+
+.button {
+    padding: 9.82px 13.09px;
+}
+
+.container5 {
+    flex-direction: column;
+    gap: 13.09px;
+}
+
+.div1,
+.div2 {
+    font-size: 20.45px;
+    line-height: 22.91px;
+}
+}
+@media (max-width: 635px) {
+.buttonLabel {
+    line-height: 11.54px;
+}
+
+.section {
+    margin-bottom: 0;
+    margin-top: 324.71px;
+}
+
+.div1 {
+    letter-spacing: 0px;
+}
+
+.div2 {
+    letter-spacing: -0.93px;
+}
+
+.background {
+    padding: 43.28px 170px;
+    border-radius: 5.78px;
+}
+
+.heading2 {
+    padding: 0px 7.21px;
+    font-size: 20.23px;
+}
+
+.section1 {
+    padding: 0.72px 42.15px;
+}
+
+.container2 {
+    border-radius: 288.57px;
+    padding: 5.78px 14.43px;
+}
+
+.container {
+    width: 150px;
+    gap: 8.67px;
+}
+
+.buttonParent {
+    gap: 10.82px;
+}
+
+.div {
+    font-size: 10.82px;
+}
+
+.button1 {
+    padding: 8.67px 10.10px;
+    margin: 0 auto;
+}
+
+.buttonLabel,
+.buttonLabel1 {
+    font-size: 8.67px;
+    text-transform: uppercase;
+}
+
+.button {
+    padding: 8.67px 11.54px;
+}
+
+.container5 {
+    flex-direction: column;
+    gap: 11.54px;
+}
+
+.div1,
+.div2 {
+    font-size: 18.04px;
+    line-height: 20.23px;
+}
+}
+@media (max-width: 500px) {
+.buttonLabel {
+    line-height: 9.33px;
+}
+
+.section {
+    margin-bottom: 0;
+    margin-top: 261.32px;
+}
+
+.div1 {
+    letter-spacing: 0px;
+}
+
+.div2 {
+    letter-spacing: -0.75px;
+}
+
+.background {
+    padding: 35.05px 139.38px;
+    border-radius: 4.67px;
+}
+
+.heading2 {
+    padding: 0px 5.86px;
+    font-size: 16.43px;
+}
+
+.section1 {
+    padding: 0.58px 34.04px;
+}
+
+.container2 {
+    border-radius: 233.44px;
+    padding: 4.67px 11.71px;
+}
+
+.container {
+    width: 120.79px;
+    gap: 7.10px;
+}
+
+.buttonParent {
+    gap: 8.68px;
+}
+
+.div {
+    font-size: 8.68px;
+}
+
+.button1 {
+    padding: 7.10px 8.13px;
+    margin: 0 auto;
+}
+
+.buttonLabel,
+.buttonLabel1 {
+    font-size: 7.10px;
+    text-transform: uppercase;
+}
+
+.button {
+    padding: 7.10px 9.33px;
+}
+
+.container5 {
+    flex-direction: column;
+    gap: 9.33px;
+}
+
+.div1,
+.div2 {
+    font-size: 14.50px;
+    line-height: 16.43px;
+}
 }

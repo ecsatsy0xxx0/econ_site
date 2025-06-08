@@ -244,7 +244,10 @@
     }
     .button1 {
         border-radius: 750px;
-        padding: 12px 18px;
+        padding: 8px 18px;
+    }
+    .buttonLabel{
+        font-size: 11px;
     }
     .container1 {
         max-width: 1245px;
@@ -295,17 +298,15 @@
 }
 @media (max-width: 1270px) {
     .buttonLabel {
-    line-height: 8.33px;
+        line-height: 8.33px;
+        font-size: 7px;
     }
-    .button {
-        border-radius: 298.82px;
-        padding: 3.13px 7.29px;
-    }
+
     .div {
         line-height: 31.88px;
     }
     .heading2 {
-        font-size: 31.25px;
+        font-size: 37px;
     }
     .container2 {
         width: 269.27px;
@@ -314,7 +315,7 @@
     }
     .button1 {
         border-radius: 520.83px;
-        padding: 8.33px 12.5px;
+        padding: 6px 15px;
     }
     .container1 {
         max-width: 864.58px;
@@ -328,10 +329,6 @@
     }
     .title {
         line-height: 13.50px;
-    }
-    .container6 {
-        gap: 3.13px;
-        font-size: 6.25px;
     }
     .newsacivecardtagbar {
         width: 275px;
@@ -351,16 +348,16 @@
     }
     .container4 {
         gap: 4.17px;
-        font-size: 12.5px;
+        font-size: 14px;
     }
     .container {
         gap: 33.33px;
         width: 830px;
     }
-    .section {
-        padding: 181.25px 83.33px;
-        font-size: 6.25px;
+    .title{
+        letter-spacing: -0.7px;
     }
+
 } 
 @media (max-width: 880px) {
     .section{
@@ -421,109 +418,68 @@
         width: 580px;
     }
 }
-@media (max-width: 765px) {
+@media (max-width: 600px) {
     .section {
-        padding: 0.0px 10.92px 163.82px 10.92px;
-        top: 129.69px;
-    }
-    .div {
-        line-height: 26.08px;
-    }
-    .heading2 {
-        font-size: 26.62px;
-    }
-    .container {
-        gap: 21.84px;
-        width: 100%;
-    }
-    .container4 {
-        gap: 10.92px;
-        flex-direction: column;
-        font-size: 15.02px;
-        margin: 0 auto;
-    }
-    .containerIcon {
-        width: 409.56px;
-        height: 341.3px;
-    }
-    .newsachivecard {
-        flex: 1 1 100%;
-        max-width: 92%;
-        border-radius: 10.92px;
-        margin: 0 auto;
-    }
-    .newsacivecardtagbar {
-        padding: 20.48px;
-        width: 100%;
-        border-radius: -10.92px;
-    }
-    .title {
-        line-height: 12.8px;
-    }
-    .container2 {
-        width: 100%;
-    }
-    .button1 {
-        display: none;
-    }
-    .button {
-        padding: 2.73px 5.46px;
-        font-size: 6.83px;
-    }
-    .container1 {
-        width: 395.9px;
-    }
+  padding: 0px 10.91px 163.63px 10.91px;
+  top: 129.54px;
 }
-@media (max-width: 480px) {
-    .section {
-        padding: 0.0px 10.92px 163.82px 10.92px;
-        top: 129.69px;
-    }
-    .div {
-        line-height: 26.08px;
-    }
-    .heading2 {
-        font-size: 26.62px;
-    }
-    .container {
-        gap: 21.84px;
-        width: 100%;
-    }
-    .container4 {
-        gap: 10.92px;
-        flex-direction: column;
-        font-size: 15.02px;
-        margin: 0 auto;
-    }
-    .containerIcon {
-        width: 409.56px;
-        height: 341.3px;
-    }
-    .newsachivecard {
-        flex: 1 1 100%;
-        max-width: 92%;
-        border-radius: 10.92px;
-        margin: 0 auto;
-    }
-    .newsacivecardtagbar {
-        padding: 20.48px;
-        width: 100%;
-        border-radius: -10.92px;
-    }
-    .title {
-        line-height: 12.8px;
-    }
-    .container2 {
-        width: 100%;
-    }
-    .button1 {
-        display: none;
-    }
-    .button {
-        padding: 2.73px 5.46px;
-        font-size: 6.83px;
-    }
-    .container1 {
-        width: 350px;
-    }
+
+.div {
+  line-height: 26.06px;
+}
+
+.heading2 {
+  font-size: 26.59px;
+}
+
+.container {
+  gap: 21.82px;
+  width: 100%;
+}
+
+.container4 {
+  gap: 10.91px;
+  flex-direction: column;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.containerIcon {
+  width: 409.09px;
+  height: 340.91px;
+}
+
+.newsachivecard {
+  flex: 1 1 100%;
+  max-width: 100%;
+  border-radius: 10.91px;
+  margin: 0 auto;
+}
+
+.newsacivecardtagbar {
+  padding: 20.45px;
+  width: 100%;
+  border-radius: -10.91px;
+}
+
+.title {
+  line-height: 12.79px;
+}
+
+.container2 {
+  width: 100%;
+}
+
+.button1 {
+  display: none;
+}
+
+.button {
+  padding: 2.73px 5.45px;
+  font-size: 6.82px;
+}
+
+.container1 {
+  width: 450px;
+}
 }

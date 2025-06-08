@@ -647,181 +647,263 @@ transform: translateY(0);
         padding: 16px; /* Уменьшаем отступы */
     }
 }
-@media (max-width: 765px){
-    .section {
-        height: auto;
-        font-size: 30.03px;
-        padding-top: 54.61px;
-    }
-
-    .main {
-        gap: 10.92px;
-    }
-
-    .titlecontainer {
-        max-width: 100%;
-        text-align: center;
-        margin-bottom: 10.92px;
-    }
-
-    .buttoncontainer {
-        flex-direction: column;
-        gap: 5.46px;
-        justify-content: center;
-        margin: 0 auto;
-    }
-
-    .background {
-        flex: 1;
-        padding: 80px;
-    }
-    .title {
-        line-height: 34.13px;
-    }
-    .logo3whiteIcon {
-        display: none;
-    }
-
-    .container {
-        flex-direction: column;
-        height: auto;
-    }
-    .videocontainer {
-        height: 238.91px;
-        width: 100%;
-        margin-top: 10.92px;
-    }
-    .container1 {
-        flex-direction: column;
-        align-items: stretch;
-        height: 10%;
-        gap: 98.98px;
-    }
-
-    .doneadventagecard1 {
-        width: 100%;
-        overflow: visible;
-    }
-    .sparkleIcon {
-        width: 20.48px;
-        height: 20.48px;
-    }
-    .textcontainer {
-        font-size: 10.92px;
-    }
-    .hoverText {
-        font-size: 12.29px;
-        line-height: 1.4;
-        padding: 10.92px;
-    }
-    .adventagecard {
-        min-width: unset;
-        padding: 45.05px;
-    }
-    .button {
-        padding: 10.92px 54.61px;
-    }
-    .button1 {
-        padding: 10.92px 54.61px;
-    }
-    .buttonLabel {
-        font-size: 9.56px;
-    }
-    .topcoverrightbanner {
-        width: 100%;
-        height: 100%;
-    }
+@media (max-width: 720px){
+.section {
+    font-size: 35.2px;
+    padding-top: 65.45px;
 }
-@media (max-width: 480px){
-    .section {
-        height: auto;
-        font-size: 14.13px;
-        padding-top: 45px;
-    }
 
-    .main {
-        gap: 5.14px;
-    }
+.main {
+    gap: 13.09px;
+}
 
-    .titlecontainer {
-        max-width: 100%;
-        text-align: center;
-        margin-bottom: 5.14px;
-    }
+.titlecontainer {
+    margin-bottom: 13.09px;
+}
 
-    .buttoncontainer {
-        flex-direction: column;
-        gap: 2.57px;
-        justify-content: center;
-        margin: 0 auto;
-    }
+.buttoncontainer {
+    gap: 6.55px;
+}
 
-    .background {
-        flex: 1;
-        padding: 48.18px;
-    }
-    .main{
-        width: 300px;
-        margin: 0 auto;
-    }
-    .title {
-        line-height: 16.06px;
-        letter-spacing: 0px;
-    }
-    .logo3whiteIcon {
-        display: none;
-    }
-    .buttonLabel{
-        letter-spacing: 0px;
-    }
-    .container {
-        flex-direction: column;
-        height: auto;
-        gap: 5px;
-    }
-    .videocontainer {
-        height: 112.43px;
-        width: 100%;
-        margin-top: 5.14px;
-    }
-    .container1 {
-        flex-direction: column;
-        align-items: stretch;
-        height: 10%;
-        gap: 46.58px;
-    }
+.background {
+    padding: 122.73px;
+}
 
-    .doneadventagecard1 {
-        width: 100%;
-        overflow: visible;
-    }
-    .sparkleIcon {
-        width: 9.64px;
-        height: 9.64px;
-    }
-    .textcontainer {
-        font-size: 5.14px;
-    }
-    .hoverText {
-        font-size: 5.78px;
-        line-height: 1.4;
-        padding: 5.14px;
-    }
-    .adventagecard {
-        min-width: unset;
-        padding: 21.2px;
-    }
-    .button {
-        padding: 5.14px 20px;
-    }
-    .button1 {
-        padding: 5.14px 20px;
-    }
-    .buttonLabel {
-        font-size: 4.5px;
-    }
-    .topcoverrightbanner {
-        width: 100%;
-        height: 100%;
-    }
+.title {
+    line-height: 40.91px;
+}
+
+.videocontainer {
+    height: 286.36px;
+    margin-top: 13.09px;
+}
+
+.container1 {
+    gap: 118.36px;
+}
+
+.sparkleIcon {
+    width: 24.55px;
+    height: 24.55px;
+}
+
+.textcontainer {
+    font-size: 13.09px;
+}
+
+.hoverText {
+    font-size: 14.73px;
+    padding: 13.09px;
+}
+
+.adventagecard {
+    padding: 54px;
+}
+
+.button {
+    padding: 13.09px 65.45px;
+}
+
+.button1 {
+    padding: 13.09px 65.45px;
+}
+
+.buttonLabel {
+    font-size: 11.45px;
+}
+}
+@media (max-width: 635px){
+.section {
+    font-size: 31.05px;
+    padding-top: 57.75px;
+}
+
+.main {
+    gap: 11.54px;
+}
+
+.titlecontainer {
+    margin-bottom: 11.54px;
+}
+
+.buttoncontainer {
+    gap: 5.78px;
+}
+
+.background {
+    padding: 108.22px;
+}
+
+.title {
+    line-height: 36.08px;
+}
+
+.videocontainer {
+    height: 252.51px;
+    margin-top: 11.54px;
+}
+
+.container1 {
+    gap: 104.42px;
+}
+
+.sparkleIcon {
+    width: 21.65px;
+    height: 21.65px;
+}
+
+.textcontainer {
+    font-size: 11.54px;
+}
+
+.hoverText {
+    font-size: 12.99px;
+    padding: 11.54px;
+}
+
+.adventagecard {
+    padding: 47.62px;
+}
+
+.button {
+    padding: 11.54px 57.75px;
+}
+
+.button1 {
+    padding: 11.54px 57.75px;
+}
+
+.buttonLabel {
+    font-size: 10.10px;
+}
+}
+@media (max-width: 550px){
+.section {
+    font-size: 27.22px;
+    padding-top: 50.53px;
+}
+
+.main {
+    gap: 10.05px;
+}
+
+.titlecontainer {
+    margin-bottom: 10.05px;
+}
+
+.buttoncontainer {
+    gap: 5.04px;
+}
+
+.background {
+    padding: 94.88px;
+}
+
+.title {
+    line-height: 31.66px;
+}
+
+.videocontainer {
+    height: 221.32px;
+    margin-top: 10.05px;
+}
+
+.container1 {
+    gap: 90.88px;
+}
+
+.sparkleIcon {
+    width: 18.88px;
+    height: 18.88px;
+}
+
+.textcontainer {
+    font-size: 10.05px;
+}
+
+.hoverText {
+    font-size: 11.19px;
+    padding: 10.05px;
+}
+
+.adventagecard {
+    padding: 41.62px;
+}
+
+.button {
+    padding: 10.05px 50.53px;
+}
+
+.button1 {
+    padding: 10.05px 50.53px;
+}
+
+.buttonLabel {
+    font-size: 8.81px;
+}
+}
+@media (max-width: 500px){
+.section {
+    font-size: 24.77px;
+    padding-top: 46.00px;
+}
+
+.main {
+    gap: 9.14px;
+}
+
+.titlecontainer {
+    margin-bottom: 9.14px;
+}
+
+.buttoncontainer {
+    gap: 4.58px;
+}
+
+.background {
+    padding: 86.73px;
+}
+
+.title {
+    line-height: 28.79px;
+}
+
+.videocontainer {
+    height: 201.20px;
+    margin-top: 9.14px;
+}
+
+.container1 {
+    gap: 82.73px;
+}
+
+.sparkleIcon {
+    width: 17.16px;
+    height: 17.16px;
+}
+
+.textcontainer {
+    font-size: 9.14px;
+}
+
+.hoverText {
+    font-size: 10.18px;
+    padding: 9.14px;
+}
+
+.adventagecard {
+    padding: 37.85px;
+}
+
+.button {
+    padding: 9.14px 46.00px;
+}
+
+.button1 {
+    padding: 9.14px 46.00px;
+}
+
+.buttonLabel {
+    font-size: 8.02px;
+}
 }

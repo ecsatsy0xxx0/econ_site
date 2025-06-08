@@ -341,13 +341,14 @@
 @media (max-width: 1270px) {
   .buttonLabel {
       line-height: 8.33px;
+      font-size: 9px;
   }
   .tag {
       border-radius: 298.82px;
       padding: 3.13px 7.29px;
   }
   .headerTitle {
-      font-size: 31.25px;
+      font-size: 35px;
       line-height: 31.88px;
   }
   .headerContent {
@@ -360,28 +361,14 @@
       padding: 8.33px 12.5px;
   }
   .cardDescriptionContainer {
-      font-size: 10.42px;
+      font-size: 12px;
       gap: 6.25px;
   }
-  .studassociations {
-      border-radius: 8.33px;
-      height: 152.60px;
-      padding: 16.67px 14.58px;
-      gap: 23.96px;
-  }
-  .cardTitle1 {
-      line-height: 13.50px;
-      font-weight: 500;
-  }
-  .inmigtniwdszeu8fnenrhrdxssvg1,
-  .component1Icon,
-  .icon {
-      width: 14.58px;
-      height: 14.58px;
-  }
+  
+  
   .cardsContainer {
       gap: 4.17px;
-      font-size: 12.5px;
+      font-size: 15px;
   }
   .mainContainer {
       gap: 33.33px;
@@ -465,164 +452,186 @@
       font-size: 12px;
     }
 }
-@media (max-width: 765px) {
-  .section {
-    padding: 54.61px 10.92px 0;
-  }
-    .headerContainer{
-      width: 446.42px;
-      margin: 0 auto;
-    }
-  .cardsContainer {
-    flex-direction: column; /* Карточки идут в колонку */
-    gap: 10.92px;
+@media (max-width: 720px) {
+    .headerContainer {
+    width: 535.09px;
     margin: 0 auto;
-    font-size: 16.38px;
-  }
-  .donestudassociations {
-    width: 446.42px;
-  }
-
-  .studassociations {
-    width: 446.42px;
-    height: 238.91px;
-    padding: 27.3px 21.84px;
-    gap: 30.72px;
-  }
-  .cardDescriptionContainer {
-    font-size: 13.65px;
-  }
-  .mainContainer {
-    width: 100%;
-  }
-  .headerTitle {
-    font-size: 24.57px;
-    line-height: 27.3px;
-  }
-
-  .button {
-    padding: 5.46px 8.19px;
-    font-size: 9.56px;
-  }
-  .icon {
-    width: 19.11px;
-    height: 19.11px;
-  }
-  .tag {
-    width: 102.39px;
-    height: 13.65px;
-  }
-  .buttonLabel {
-    font-size: 8.19px;
-    margin-top: 3px;
-  }
 }
-@media (max-width: 540px) {
-    .section {
-    padding: 54.61px 10.92px 0;
-    margin-top: 50px;
-  }
-    .headerContainer{
-      width: 446.42px;
-      margin: 0 auto;
-    }
-  .cardsContainer {
-    flex-direction: column; /* Карточки идут в колонку */
-    gap: 10.92px;
+
+.section {
+    padding: 65.45px 13.09px 0;
+}
+
+.cardsContainer {
+    flex-direction: column;
+    gap: 13.09px;
     margin: 0 auto;
-    font-size: 16.38px;
-  }
-  .donestudassociations {
-    width: 446.42px;
-  }
-
-  .studassociations {
-    width: 446.42px;
-    height: 238.91px;
-    padding: 27.3px 21.84px;
-    gap: 30.72px;
-  }
-  .cardDescriptionContainer {
-    font-size: 13.65px;
-  }
-  .mainContainer {
-    width: 100%;
-  }
-  .headerTitle {
-    font-size: 24.57px;
-    line-height: 27.3px;
-  }
-
-  .button {
-    padding: 5.46px 8.19px;
-    font-size: 9.56px;
-  }
-  .icon {
-    width: 19.11px;
-    height: 19.11px;
-  }
-  .tag {
-    width: 102.39px;
-    height: 13.65px;
-  }
-  .buttonLabel {
-    font-size: 8.19px;
-    margin-top: 3px;
-  }
+    font-size: 19.64px;
 }
-@media (max-width: 480px) {
-  .section {
-      padding: 37.81px 7.56px 0;
-      margin-top: 50px;
-  }
 
-  .cardsContainer {
-      flex-direction: column;
-      gap: 7.56px;
-      margin: 0 auto;
-      font-size: 11.34px;
-  }
-    .headerContainer{
-      width: 309.06px;
-      margin: 0 auto;
-    }
-  .donestudassociations {
-      width: 309.06px;
-  }
+.donestudassociations {
+    width: 535.09px;
+}
 
-  .studassociations {
-      width: 309.06px;
-      height: 165.4px;
-      padding: 18.9px 15.12px;
-      gap: 21.27px;
-  }
+.studassociations {
+    width: 535.09px;
+    height: 286.36px;
+    padding: 32.73px 26.18px;
+    gap: 36.82px;
+}
 
-  .cardDescriptionContainer {
-      font-size: 9.45px;
-  }
+.cardDescriptionContainer {
+    font-size: 16.36px;
+}
 
-  .headerTitle {
-      font-size: 17.01px;
-      line-height: 18.9px;
-  }
+.headerTitle {
+    letter-spacing: 0px;
+    font-size: 29.45px;
+    line-height: 32.73px;
+}
 
-  .button {
-      padding: 3.78px 5.67px;
-      font-size: 6.62px;
-  }
+.mainContainer {
+    width: 100%;
+}
 
-  .icon {
-      width: 13.23px;
-      height: 13.23px;
-  }
+.button {
+    padding: 6.55px 9.82px;
+    font-size: 11.45px;
+}
 
-  .tag {
-      width: 70.89px;
-      height: 9.45px;
-  }
+.icon {
+    width: 22.91px;
+    height: 22.91px;
+}
 
-  .buttonLabel {
-      font-size: 5.67px;
-      margin-top: 2.08px;
-  }
+.tag {
+    width: 122.73px;
+    height: 16.36px;
+}
+
+.buttonLabel {
+    font-size: 9.82px;
+}
+}
+@media (max-width: 635px) {
+.headerContainer {
+    width: 471.76px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 57.75px 11.54px 0;
+}
+
+.cardsContainer {
+    flex-direction: column;
+    gap: 11.54px;
+    margin: 0 auto;
+    font-size: 17.32px;
+}
+
+.donestudassociations {
+    width: 471.76px;
+}
+
+.studassociations {
+    width: 471.76px;
+    height: 252.51px;
+    padding: 28.86px 23.10px;
+    gap: 32.47px;
+}
+
+.cardDescriptionContainer {
+    font-size: 14.42px;
+}
+
+.headerTitle {
+    letter-spacing: 0px;
+    font-size: 25.97px;
+    line-height: 28.86px;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.button {
+    padding: 5.78px 8.67px;
+    font-size: 10.10px;
+}
+
+.icon {
+    width: 20.22px;
+    height: 20.22px;
+}
+
+.tag {
+    width: 108.22px;
+    height: 14.43px;
+}
+
+.buttonLabel {
+    font-size: 8.67px;
+}
+}
+@media (max-width: 550px) {
+.headerContainer {
+    width: 412.73px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 50.49px 10.08px 0;
+}
+
+.cardsContainer {
+    flex-direction: column;
+    gap: 10.08px;
+    margin: 0 auto;
+    font-size: 15.15px;
+}
+
+.donestudassociations {
+    width: 412.73px;
+}
+
+.studassociations {
+    width: 412.73px;
+    height: 221.58px;
+    padding: 25.26px 20.08px;
+    gap: 27.70px;
+}
+
+.cardDescriptionContainer {
+    font-size: 12.57px;
+}
+
+.headerTitle {
+    letter-spacing: 0px;
+    font-size: 22.89px;
+    line-height: 25.26px;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.button {
+    padding: 5.04px 7.54px;
+    font-size: 8.81px;
+}
+
+.icon {
+    width: 17.70px;
+    height: 17.70px;
+}
+
+.tag {
+    width: 94.42px;
+    height: 11.67px;
+}
+
+.buttonLabel {
+    font-size: 7.54px;
+}
 }

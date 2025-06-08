@@ -151,7 +151,22 @@
     justify-content: flex-start;
     padding: 10px;
 }
+.iconbutton1 {
+    border-radius: 8px;
+    border: 1px solid #0450a0;
+    display: flex;
+    cursor: pointer; /* Указатель меняется на "руку" */
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+}
 .iconbutton:hover{
+    background-color: #0450a0;
+    transition: all 0.3s ease;
+}
+.iconbutton1:hover{
     background-color: #0450a0;
     transition: all 0.3s ease;
 }
@@ -171,11 +186,11 @@
     justify-content: center;
     transition: all 0.3s ease;
 }
-.iconbutton:hover .tg{
+.iconbutton1:hover .tg{
     background-image: url('../../../public/icons/tg1.svg');
     transition: all 0.3s ease;
 }
-.iconbutton:hover .tg .component1Icon{
+.iconbutton1:hover .tg .component1Icon{
     opacity: 0;
     transition: all 0.3s ease;
 }
@@ -308,71 +323,27 @@
 }
 
 @media (max-width:1670px) {
-    .logoChild {
-        width:49.5px;
-        height: 36px;
-    }
-    .logoItem {
-        height: 27.75px;
-    }
-    .logoInner {
-        width: 159px;
-        height: 36px;
-    }
-    .logo3blueIcon {
-        width: 31.5px;
-        height: 31.5px;
-    }
-    .logo3blueWrapper {
-        padding: 2.25px 11.25px 2.25px 2.25px;
-    }
-    .logo {
-        padding: 6px 0px;
-        gap: 18px;
-    }
-    .div {
-        line-height: 7.5px;
-    }
-    .div1 {
-        font-size: 15px;
-        line-height: 12px;
-        max-height: 18.75px;
-    }
-    .parent {
-        gap: 10.5px;
-    }
-    .link {
-        gap: 13.5px;
-    }
+   
     .link1 {
         border-radius: 750px;
         padding: 9px 12px;
     }
-    .container2 {
-        font-size: 9px;
-    }
-    .containerParent {
-        gap: 24px;
-    }
     .div6 {
         width: 168px;
-    }
-    .vectorIcon {
-        width: 12px;
-        height: 12px;
     }
 
     .iconbutton {
         border-radius: 6px;
         padding: 7.5px;
     }
-    .component1Icon {
-        width: 15px;
-        height: 15px;
+    .iconbutton1 {
+        border-radius: 6px;
+        padding: 9px;
+        width: 44px;
+        height: 44px;
     }
-    .iconbuttonParent {
-        gap: 7.5px;
-    }
+
+
     .group {
         padding: 0px 18px;
         gap: 36px;
@@ -383,12 +354,7 @@
         padding: 64.5px 352.5px 18px 384px;
         gap: 24px;
     }
-    .div8 {
-        line-height: 10.5px;
-    }
-    .buttonLabel {
-        line-height: 12px;
-    }
+
     .button {
         border-radius: 624.75px;
         padding: 9px;
@@ -399,53 +365,12 @@
         padding: 9px 18px;
         gap: 18px;
     }
-    .copyright, .footer {
-        font-size: 9px;
-    }
+
 }
 @media (max-width:1270px) {
-    .logoChild {
-    width: 34.38px;
-    height: 25px;
-    }
-    .logoItem {
-        height: 19.27px;
-    }
-    .logoInner {
-        width: 110.42px;
-        height: 25px;
-    }
-    .logo3blueIcon {
-        width: 21.88px;
-        height: 21.88px;
-    }
-    .logo3blueWrapper {
-        padding: 1.56px 7.81px 1.56px 1.56px;
-    }
-    .logo {
-        padding: 4.17px 0;
-        gap: 12.5px;
-    }
-    .div {
-        line-height: 5.21px;
-    }
-    .div1 {
-        font-size: 10.42px;
-        line-height: 8.33px;
-        max-height: 13.02px;
-    }
-    .parent {
-        gap: 7.29px;
-    }
-    .link {
-        gap: 9.38px;
-    }
-    .link1 {
-        border-radius: 520.83px;
-        padding: 6.25px 8.33px;
-    }
+
     .container2 {
-        font-size: 6.25px;
+        font-size: 9px;
     }
     .containerParent {
         gap: 16.67px;
@@ -453,17 +378,25 @@
     .div6 {
         width: 116.67px;
     }
-    .vectorIcon {
-        width: 8.33px;
-        height: 8.33px;
+
+    .component1Icon {
+        width: 19px;
+        height: 19px;
+    }
+    .vectorIcon{
+        width: 16px;
+        height: 16px;
     }
     .iconbutton {
         border-radius: 4.17px;
         padding: 5.21px;
+        
     }
-    .component1Icon {
-        width: 10.42px;
-        height: 10.42px;
+    .iconbutton1 {
+        border-radius: 4.17px;
+        padding: 5.21px;
+        width: 31px;
+        height: 31px;
     }
     .iconbuttonParent {
         gap: 5.21px;
@@ -471,7 +404,7 @@
     .group {
         padding: 0 12.5px;
         gap: 25px;
-        font-size: 10.42px;
+        font-size: 10.1px;
     }
     .overlay {
         border-radius: 8.33px;
@@ -480,9 +413,6 @@
     }
     .div8 {
         line-height: 7.29px;
-    }
-    .buttonLabel {
-        line-height: 8.33px;
     }
     .button {
         border-radius: 434.38px;
@@ -494,9 +424,7 @@
         padding: 6.25px 12.5px;
         gap: 12.5px;
     }
-    .copyright, .footer {
-        font-size: 6.25px;
-    }
+
 }
 @media (max-width: 880px) {
     .parent{
@@ -540,19 +468,18 @@
         flex-direction: column;
         gap: 12px;
     }
-    .iconbutton {
-        padding: 8px;
-        width: 38px;
-        height: 38px;
-    }
 
-    .div6,
+
+
     .div7{
         font-size: 14px;
         text-align: center;
+    }
+    .div6{
+                font-size: 14px;
+        text-align: center;
         width: 150px;
     }
-
     .div8{
         font-size: 14px;
         text-align: center;
@@ -611,202 +538,553 @@
         height: 20px;
             margin-top: -3px;
     }
-}
-@media (max-width: 765px) {
-    .parent{
-        gap: 13.65px;
-    }
-    .container2{
-        align-self: center;
-        gap: 6.83px;
-        overflow: hidden;
-        display: block;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        font-size: 8.87px;
-    }
-    .container {
-        width: 100%;
-    }
-
-    .overlay {
-        padding: 27.3px 5.46px;
-        height: 361.77px;
-        gap: 10.92px;
-    }
-
-    .overlay1 {
-        flex-direction: column;
-        padding: 5.46px 10.92px;
-        gap: 5.46px;
-        width: 491.47px;
-    }
-    .link1 {
-        width: 120px;
-        height: 27.3px;
-        margin-top: 6.83px;
-    }
-    .logo {
-        gap: 4.78px;
-    }
-    .group {
-        flex-direction: column;
-        gap: 8.19px;
-    }
-    .iconbutton {
-        padding: 6px;
-    }
-    .iconbutton .tg{
-        padding: 2px;
-    }
-
-    .div6,
-    .div7 {
-        font-size: 10px;
-        text-align: center;
-        width: 110px;
-        margin: 0 auto;
-    }
-
-    .div8 {
-        font-size: 9.56px;
-        text-align: center;
-        width: 273.04px;
-        margin-top: 6.83px;
-    }
-
-    .iconbuttonParent {
-        justify-content: center;
-        gap: 5.46px;
-    }
-
-    .button {
-        width: 112.63px;
-        height: 20.48px;
-        font-size: 8.19px;
-        gap: 0;
-    }
-
-    .container15 {
-        flex-direction: column;
-        align-items: center;
-        gap: 5.46px;
-    }
-    .logoChild {
-        width: 45.05px;
-        height: 32.76px;
-    }
-    .logoItem {
-        height: 25.26px;
-    }
-    .logoInner {
-        width: 95.56px;
-        height: 32.76px;
-    }
-    .logo3blueIcon {
-        width: 40.96px;
-        height: 32.76px;
-    }
-    .div {
-        font-size: 8.87px;
-    }
-    .div1 {
-        font-size: 15.7px;
-    }
-    .component1Icon {
-        width: 20px;
-        height: 20px;
-    }
-    .vectorIcon {
-        width: 20px;
-        height: 20px;
-    }
-    .iconbutton:hover .vk .vectorIcon {
-        width: 20px;
-        height: 20px;
-        margin-top: -2.05px;
+    .iconbutton1{
+        width: 35px;
+        height: 35px;
+        padding: 6.8px;
     }
 }
-@media (max-width: 540px) {
-    .parent { gap: 8.56px; }
-    .container2 {
-        align-self: center;
-        gap: 4.29px;
-        overflow: hidden;
-        display: block;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        font-size: 5.57px;
-    }
-    .container { width: 100%; }
-    .overlay {
-        padding: 17.13px 3.43px;
-        height: 226.99px;
-        gap: 6.85px;
-    }
-    .overlay1 {
-        flex-direction: column;
-        padding: 3.43px 6.85px;
-        gap: 3.43px;
-        width: 308.37px;
-    }
-    .link1 {
-        width: 75.29px;
-        height: 17.13px;
-        margin-top: 4.29px;
-    }
-    .logo { gap: 3.0px; }
-    .group { flex-direction: column; gap: 5.14px; }
-    .iconbutton {width: 15px; height: 15px;}
-    .iconbutton .tg { width: 15px; height: 15px;}
-    .div6, .div7 {
-        font-size: 6.27px;
-        text-align: center;
-        width: 69.02px;
-        margin: 0 auto;
-    }
-    .div8 {
-        font-size: 6.0px;
-        text-align: center;
-        width: 171.32px;
-        margin-top: 4.29px;
-    }
-    .iconbuttonParent { justify-content: center; gap: 3.43px; }
-    .button {
-        width: 70.67px;
-        height: 12.85px;
-        font-size: 5.14px;
-        gap: 0;
-    }
-    .container15 {
-        flex-direction: column;
-        align-items: center;
-        gap: 3.43px;
-    }
-    .logoChild { width: 28.27px; height: 20.56px; }
-    .logoItem { height: 15.85px; }
-    .logoInner { width: 59.96px; height: 20.56px; }
-    .logo3blueIcon { width: 25.7px; height: 20.56px; }
-    .div { font-size: 5.57px; }
-    .div1 { font-size: 9.85px; }
-    .component1Icon, .vectorIcon {
-        width: 12.55px;
-        height: 12.55px;
-    }
-    .iconbutton:hover .vk .vectorIcon {
-        width: 12.55px;
-        height: 12.55px;
-        margin-top: -1.29px;
-    }
-    .iconbutton:hover .tg .component1Icon {
-        width: 15px;
-        height: 18px;
-            padding-left: 2px;
-        padding-top: 2px;
-    }
-    .containerParent{
-        gap: 10px;
-    }
+@media (max-width: 720px) {
+.parent {
+    gap: 16.36px;
+}
+
+.container2 {
+    align-self: center;
+    gap: 8.18px;
+    overflow: hidden;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 10.64px;
+}
+
+.container {
+    width: 100%;
+}
+
+.overlay {
+    padding: 32.73px 6.55px;
+    height: 433.09px;
+    gap: 13.09px;
+}
+
+.overlay1 {
+    flex-direction: column;
+    padding: 6.55px 13.09px;
+    gap: 6.55px;
+    width: 590.91px;
+}
+
+.link1 {
+    width: 122.73px;
+    height: 32.73px;
+    margin-top: 8.18px;
+}
+
+.logo {
+    gap: 5.73px;
+}
+
+.group {
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.div7 {
+    font-size: 11.45px;
+    text-align: center;
+
+}
+
+.div8 {
+    font-size: 11.45px;
+    text-align: center;
+    width: 327.27px;
+    margin-top: 8.18px;
+}
+
+.iconbuttonParent {
+    justify-content: center;
+    gap: 6.55px;
+}
+
+.button {
+    width: 135px;
+    height: 24.55px;
+    font-size: 9.82px;
+    gap: 0;
+}
+
+.container15 {
+    flex-direction: column;
+    align-items: center;
+    gap: 6.55px;
+}
+
+.logoChild {
+    width: 53.0px;
+    height: 39.27px;
+}
+
+.logoItem {
+    height: 30.27px;
+}
+
+.logoInner {
+    width: 114.55px;
+    height: 39.27px;
+}
+
+.logo3blueIcon {
+    width: 49.09px;
+    height: 39.27px;
+}
+
+.div {
+    font-size: 10.64px;
+}
+
+.div1 {
+    font-size: 18.82px;
+}
+
+.component1Icon {
+    width: 16.36px;
+    height: 16.36px;
+}
+
+.vectorIcon {
+    width: 16.36px;
+    height: 16.36px;
+}
+
+.iconbutton:hover .vk .vectorIcon {
+    width: 16.36px;
+    height: 16.36px;
+    margin-top: -2.45px;
+}
+.iconbutton1{
+    width: 32px;
+    height: 32px;
+}
+}
+@media (max-width: 635px) {
+.parent {
+    gap: 14.42px;
+}
+
+.container2 {
+    align-self: center;
+    gap: 7.21px;
+    overflow: hidden;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 9.38px;
+}
+
+.container {
+    width: 100%;
+}
+
+.overlay {
+    padding: 28.86px 5.78px;
+    height: 381.65px;
+    gap: 11.54px;
+}
+
+.overlay1 {
+    flex-direction: column;
+    padding: 5.78px 11.54px;
+    gap: 5.78px;
+    width: 521.89px;
+}
+
+.link1 {
+    width: 108.22px;
+    height: 28.86px;
+    margin-top: 7.21px;
+}
+
+.logo {
+    gap: 5.05px;
+}
+
+.group {
+    flex-direction: column;
+    gap: 2px;
+}
+
+.iconbutton {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.iconbutton1 {
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+}
+
+
+.div7 {
+    font-size: 10.10px;
+    text-align: center;
+}
+.div6{
+    font-size: 10.10px;
+    text-align: center;
+    width: 108.22px;
+}
+.div8 {
+    font-size: 10.10px;
+    text-align: center;
+    width: 288.54px;
+    margin-top: 7.21px;
+}
+
+.iconbuttonParent {
+    justify-content: center;
+    gap: 5.78px;
+}
+
+.button {
+    width: 119.06px;
+    height: 21.65px;
+    font-size: 8.67px;
+    gap: 0;
+}
+
+.container15 {
+    flex-direction: column;
+    align-items: center;
+    gap: 5.78px;
+}
+
+.logoChild {
+    width: 46.74px;
+    height: 34.64px;
+}
+
+.logoItem {
+    height: 26.68px;
+}
+
+.logoInner {
+    width: 100.99px;
+    height: 34.64px;
+}
+
+.logo3blueIcon {
+    width: 43.29px;
+    height: 34.64px;
+}
+
+.div {
+    font-size: 9.38px;
+}
+
+.div1 {
+    font-size: 16.61px;
+}
+
+.component1Icon {
+    width: 14.42px;
+    height: 14.42px;
+}
+
+.vectorIcon {
+    width: 14.42px;
+    height: 14.42px;
+}
+
+.iconbutton:hover .vk .vectorIcon {
+    width: 14.42px;
+    height: 14.42px;
+    margin-top: -2.16px;
+}
+}
+@media (max-width: 600px) {
+.parent {
+  gap: 13.63px;
+}
+
+.container2 {
+  align-self: center;
+  gap: 6.81px;
+  overflow: hidden;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 8.86px;
+}
+
+.container {
+  width: 100%;
+}
+
+.overlay {
+  padding: 27.27px 5.46px;
+  height: 360.52px;
+  gap: 10.91px;
+}
+
+.overlay1 {
+  flex-direction: column;
+  padding: 5.46px 10.91px;
+  gap: 5.46px;
+  width: 493.17px;
+}
+
+.link1 {
+  width: 102.22px;
+  height: 27.27px;
+  margin-top: 6.81px;
+}
+
+.logo {
+  gap: 4.77px;
+}
+
+.group {
+  flex-direction: column;
+  gap: 1.89px;
+}
+
+.iconbutton {
+  width: 28.35px;
+  height: 28.35px;
+  padding: 4.72px;
+}
+
+.iconbutton1 {
+  width: 28.35px;
+  height: 28.35px;
+  padding: 6.61px;
+}
+
+.div7 {
+  font-size: 9.54px;
+  text-align: center;
+}
+
+.div6 {
+  font-size: 9.54px;
+  text-align: center;
+  width: 102.22px;
+}
+
+.div8 {
+  font-size: 9.54px;
+  text-align: center;
+  width: 272.58px;
+  margin-top: 6.81px;
+}
+
+.iconbuttonParent {
+  justify-content: center;
+  gap: 5.46px;
+}
+
+.button {
+  width: 112.45px;
+  height: 20.45px;
+  font-size: 8.19px;
+  gap: 0;
+}
+
+.container15 {
+  flex-direction: column;
+  align-items: center;
+  gap: 5.46px;
+}
+
+.logoChild {
+  width: 44.17px;
+  height: 32.75px;
+}
+
+.logoItem {
+  height: 25.20px;
+}
+
+.logoInner {
+  width: 95.44px;
+  height: 32.75px;
+}
+
+.logo3blueIcon {
+  width: 40.90px;
+  height: 32.75px;
+}
+
+.div {
+  font-size: 8.86px;
+}
+
+.div1 {
+  font-size: 15.70px;
+}
+
+.component1Icon {
+  width: 13.63px;
+  height: 13.63px;
+}
+
+.vectorIcon {
+  width: 13.63px;
+  height: 13.63px;
+}
+
+.iconbutton:hover .vk .vectorIcon {
+  width: 13.63px;
+  height: 13.63px;
+  margin-top: -2.04px;
+}
+}
+@media (max-width: 500px) {
+.parent {
+  gap: 11.52px;
+}
+
+.container2 {
+  align-self: center;
+  gap: 5.68px;
+  overflow: hidden;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 7.38px;
+}
+
+.container {
+  width: 100%;
+}
+
+.overlay {
+  padding: 22.73px 4.55px;
+  height: 300.43px;
+  gap: 9.09px;
+}
+
+.overlay1 {
+  flex-direction: column;
+  padding: 4.55px 9.09px;
+  gap: 4.55px;
+  width: 411.39px;
+}
+
+.link1 {
+  width: 85.18px;
+  height: 22.73px;
+  margin-top: 5.68px;
+}
+
+.logo {
+  gap: 3.98px;
+}
+
+.group {
+  flex-direction: column;
+  gap: 1.58px;
+}
+.buttonLabel{
+    line-height: 8px;
+}
+.iconbutton {
+  width: 23.62px;
+  height: 23.62px;
+  padding: 3.93px;
+}
+
+.iconbutton1 {
+  width: 23.62px;
+  height: 23.62px;
+  padding: 5.51px;
+}
+
+.div7 {
+  font-size: 7.95px;
+  text-align: center;
+}
+
+.div6 {
+  font-size: 7.95px;
+  text-align: center;
+  width: 85.18px;
+}
+
+.div8 {
+  font-size: 7.95px;
+  text-align: center;
+  width: 227.15px;
+  margin-top: 5.68px;
+}
+
+.iconbuttonParent {
+  justify-content: center;
+  gap: 4.55px;
+}
+
+.button {
+  width: 93.54px;
+  height: 17.04px;
+  font-size: 6.83px;
+  gap: 0;
+}
+
+.container15 {
+  flex-direction: column;
+  align-items: center;
+  gap: 4.55px;
+}
+
+.logoChild {
+  width: 36.81px;
+  height: 27.29px;
+}
+
+.logoItem {
+  height: 21.00px;
+}
+
+.logoInner {
+  width: 79.54px;
+  height: 27.29px;
+}
+
+.logo3blueIcon {
+  width: 34.17px;
+  height: 27.29px;
+}
+
+.div {
+  font-size: 7.38px;
+}
+
+.div1 {
+  font-size: 13.08px;
+}
+
+.component1Icon {
+  width: 11.36px;
+  height: 11.36px;
+}
+
+.vectorIcon {
+  width: 11.36px;
+  height: 11.36px;
+}
+
+.iconbutton:hover .vk .vectorIcon {
+  width: 11.36px;
+  height: 11.36px;
+  margin-top: -1.70px;
+}
 }

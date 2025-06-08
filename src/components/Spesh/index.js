@@ -474,7 +474,7 @@ const Section = () => {
                           <div className={styles.subjectText}>{specializationData7.language}</div>
                         </div>
 
-                        <div className={styles.subjectBlock}>
+                        <div className={styles.subjectBlock2}>
                           <div className={styles.score}>40*</div>
                           <div className={styles.subjectText}>{specializationData7.exams[0]}</div>
                         </div>
@@ -484,7 +484,7 @@ const Section = () => {
                           <div className={styles.subjectText}>{specializationData4.exams[1].option1}</div>
                         </div>
                         <div className={styles.orText}>{specializationData4.exams[1].or}</div>
-                        <div className={styles.subjectBlockOutlined}>
+                        <div className={styles.subjectBlockOutlined2}>
                           <div className={styles.score}>44*</div>
                           <div className={styles.subjectText}>{specializationData4.exams[1].option2}</div>
                         </div>
