@@ -635,3 +635,57 @@
     font-size: 7.54px;
 }
 }
+
+@media (max-width: 540px) {
+    .section {
+    padding: 54.61px 10.92px 0;
+    margin-top: 50px;
+  }
+    .headerContainer{
+      width: 446.42px;
+      margin: 0 auto;
+    }
+  .cardsContainer {
+    flex-direction: column; /* Карточки идут в колонку */
+    gap: 10.92px;
+    margin: 0 auto;
+    font-size: 16.38px;
+  }
+  .donestudassociations {
+    width: 446.42px;
+  }
+
+  .studassociations {
+    width: 446.42px;
+    height: 238.91px;
+    padding: 27.3px 21.84px;
+    gap: 30.72px;
+  }
+  .cardDescriptionContainer {
+    font-size: 13.65px;
+  }
+  .mainContainer {
+    width: 100%;
+  }
+  .headerTitle {
+    font-size: 24.57px;
+    line-height: 27.3px;
+  }
+
+  .button {
+    padding: 5.46px 8.19px;
+    font-size: 9.56px;
+  }
+  .icon {
+    width: 19.11px;
+    height: 19.11px;
+  }
+  .tag {
+    width: 102.39px;
+    height: 13.65px;
+  }
+  .buttonLabel {
+    font-size: 8.19px;
+    margin-top: 3px;
+  }
+}

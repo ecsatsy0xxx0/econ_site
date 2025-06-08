@@ -2873,3 +2873,12 @@
         max-width: 100%;
     }
 }
+
+@media (max-width:660px) {
+    .specializationcardfull{
+        width: 500px;
+    }
+    .container2{
+        width: 410px;
+    }
+}

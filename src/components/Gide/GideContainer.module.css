@@ -409,3 +409,87 @@
         font-size: 40px;
     }
 }
+
+@media (max-width: 520px){
+    .gideforapplicats {
+        padding: 0.0px 30.74px;
+    }
+    .container {
+        width: 345px;
+        gap: 12.3px;
+    }
+    .stepcard,
+    .stepcard1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 6.15px;
+    }
+    .stepnumber,
+    .stepnumber1 {
+        width: 100%;
+        font-size: 38.43px;
+    }
+    .stepcontent {
+        width: 345px;
+    }
+    .title{
+        font-size: 45px;
+    }
+    .number{
+        letter-spacing: 0;
+    }
+    .description p{
+        font-size: 12px;
+    }
+    .gideforapplicats{
+        width: 200px;
+        margin: 200px auto;
+        padding: 0;
+    }
+    .container2{
+        width: 345px;
+    }
+}
+@media (max-width: 480px){
+    .gideforapplicats {    
+        padding: 0.0px 21.28px;
+
+    }
+    .container {    
+        width: 300px;    
+        gap: 8.52px;
+    }
+    .stepcard,.stepcard1 {    
+        flex-direction: column;    
+        align-items: center;    
+        text-align: center;    
+        gap: 4.26px;
+    }
+    .stepnumber,.stepnumber1 {    
+        width: 100%;    
+        font-size: 26.61px;
+    }
+    .stepcontent {    
+        width: 300px;
+    }
+    .title {  
+        font-size: 36px;
+    }
+    .number {  
+        letter-spacing: 0;
+    }
+    .description p {  
+        font-size: 8.31px;
+    }
+    .gideforapplicats {    
+        width: 138.46px;    
+        margin: 138.46px auto;    
+        padding: 0;
+            margin-bottom: 0;
+    }
+    .container2 {  
+        width: 300px;
+    }
+
+}
