@@ -346,13 +346,17 @@
 @media (max-width: 550px){
 .gideforapplicats {
     padding: 0.0px 34.95px;
+    width: 350px;
+    margin: 150px auto;
 }
 
 .container {
-    max-width: 315.99px;
+    width: 350px;
     gap: 17.29px;
 }
-
+.container4{
+    width: 350px;
+}
 .stepcard,
 .stepcard1 {
     gap: 7.01px;
@@ -365,7 +369,7 @@
 }
 
 .stepcontent {
-    width: 315.99px;
+    width: 350px;
 }
 }
 @media (max-width: 520px){
@@ -374,7 +378,6 @@
 }
 
 .container {
-    max-width: 292.91px;
     gap: 16.22px;
 }
 
@@ -389,9 +392,6 @@
     font-size: 40.90px;
 }
 
-.stepcontent {
-    width: 292.91px;
-}
 .gideforapplicats{
     width: 98%;
 }
@@ -414,6 +414,7 @@
     .gideforapplicats {
         padding: 0.0px 30.74px;
     }
+
     .container {
         width: 345px;
         gap: 12.3px;
@@ -443,7 +444,6 @@
         font-size: 12px;
     }
     .gideforapplicats{
-        width: 200px;
         margin: 200px auto;
         padding: 0;
     }
@@ -457,7 +457,6 @@
 
     }
     .container {    
-        width: 300px;    
         gap: 8.52px;
     }
     .stepcard,.stepcard1 {    
@@ -466,24 +465,16 @@
         text-align: center;    
         gap: 4.26px;
     }
-    .stepnumber,.stepnumber1 {    
-        width: 100%;    
-        font-size: 26.61px;
-    }
-    .stepcontent {    
-        width: 300px;
+    .stepnumber,.stepnumber1 {   
+        font-size: 50px;
     }
     .title {  
         font-size: 36px;
     }
     .number {  
         letter-spacing: 0;
-    }
-    .description p {  
-        font-size: 8.31px;
-    }
-    .gideforapplicats {    
-        width: 138.46px;    
+    } 
+    .gideforapplicats {      
         margin: 138.46px auto;    
         padding: 0;
             margin-bottom: 0;
@@ -492,4 +483,42 @@
         width: 300px;
     }
 
+}
+@media (max-width: 420px){
+    .gideforapplicats {    
+        padding: 0.0px 17.73px;
+    }
+    .stepcontent{
+        width: 300px;
+    }
+    .stepcard, .stepcard1{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .title1{
+        font-size: 20px;
+    }
+    .container {    
+        gap: 7.10px;
+    }
+    .stepcard,.stepcard1 {    
+        flex-direction: column;    
+        align-items: center;    
+        text-align: center;    
+        gap: 3.55px;
+    }
+    .stepnumber,.stepnumber1 {   
+        font-size: 41.67px;
+    }
+    .title {  
+        font-size: 30px;
+    }
+    .number {  
+        letter-spacing: 0;
+    } 
+    .gideforapplicats {    
+        margin: 115.38px auto;
+        padding: 0;
+        margin-bottom: 0;
+    }
 }

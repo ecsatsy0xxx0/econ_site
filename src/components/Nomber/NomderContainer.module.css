@@ -26,6 +26,7 @@
     line-height: 16px;
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 20px;
 }
 .buttonLabel1 {
     position: relative;
@@ -296,6 +297,7 @@
     }
     .buttonLabel, .buttonLabel1 {
         line-height: 12px;
+        font-size: 18px;
     }
     .button {
         border-radius:429.75px;
@@ -371,10 +373,11 @@
 }
 .buttonLabel, .buttonLabel1 {
     line-height: 8.33px;
+    font-size: 15px;
 }
 .button {
     border-radius: 298.82px;
-    padding: 3.13px 7.29px;
+    padding: 7.13px 7.29px;
 }
 .div2 {
     line-height: 31.88px;
@@ -454,7 +457,7 @@
 }
 .button {
     border-radius: 244.49px;
-    padding: 2.56px 5.96px;
+    padding: 4px 5.96px;
 }
 .div2 {
     line-height: 26.08px;
@@ -480,6 +483,7 @@
 }
 .div5 {
     line-height: 13.91px;
+    letter-spacing: 0.5px;
 }
 .heading3 {
     font-size: 13.64px;
@@ -530,6 +534,7 @@
 }
 .div2{
     font-size: 26px;
+    width: 300px;
 }
 .button {
     border-radius: 208.51px;
@@ -556,12 +561,6 @@
 }
 .div4 {
     line-height: 29.61px;
-}
-.div5 {
-    line-height: 11.83px;
-}
-.heading3 {
-    font-size: 11.67px;
 }
 .overlay, .overlay3 {
     border-radius: 5.83px;
@@ -605,19 +604,16 @@
 .parent {
     width: 553.33px;
 }
-.buttonLabel, .buttonLabel1 {
-    line-height: 5.60px;
-    font-size: 9.58px;
-}
-.div2 {
-    font-size: 24.92px;
-}
 .button {
     border-radius: 199.97px;
     padding: 2.01px 4.71px;
 }
 .div2 {
     line-height: 21.47px;
+}
+.div5{
+    font-size: 13px;
+    letter-spacing: 0.1px;
 }
 .heading2 {
     padding: 0 41.94px;
@@ -638,12 +634,7 @@
 .div4 {
     line-height: 28.29px;
 }
-.div5 {
-    line-height: 11.16px;
-}
-.heading3 {
-    font-size: 11.06px;
-}
+
 .overlay, .overlay3 {
     border-radius: 5.60px;
     height: 112.94px;
@@ -686,19 +677,9 @@
 .parent {
     width: 509.40px;
 }
-.buttonLabel, .buttonLabel1 {
-    line-height: 5.15px;
-    font-size: 8.87px;
-}
-.div2 {
-    font-size: 22.98px;
-}
 .button {
     border-radius: 184.62px;
     padding: 1.85px 4.35px;
-}
-.div2 {
-    line-height: 19.80px;
 }
 .heading2 {
     padding: 0 38.69px;
@@ -719,12 +700,6 @@
 .div4 {
     line-height: 26.07px;
 }
-.div5 {
-    line-height: 10.29px;
-}
-.heading3 {
-    font-size: 10.23px;
-}
 .overlay, .overlay3 {
     border-radius: 5.15px;
     height: 104.51px;
@@ -734,6 +709,11 @@
 }
 .overlay3 {
     gap: 42.88px;
+}
+.div5{
+    line-height: 10px;
+    letter-spacing: 0.08px;
+    font-size: 9px;
 }
 .container3 {
     gap: 2.57px;
@@ -767,13 +747,6 @@
 .parent {
     width: 466.45px;
 }
-.buttonLabel, .buttonLabel1 {
-    line-height: 4.73px;
-    font-size: 8.09px;
-}
-.div2 {
-    font-size: 21.03px;
-}
 .button {
     border-radius: 169.90px;
     padding: 1.70px 3.98px;
@@ -797,14 +770,11 @@
     width: 466.45px;
     height: 52.75px;
 }
-.div4 {
-    line-height: 23.90px;
-}
+
 .div5 {
-    line-height: 9.47px;
-}
-.heading3 {
-    font-size: 9.40px;
+    line-height: 10px;
+    letter-spacing: 0.4px;
+    font-size: 9px;
 }
 .overlay, .overlay3 {
     border-radius: 4.73px;
@@ -851,14 +821,6 @@
     width: 433.21px;
 }
 
-.buttonLabel, .buttonLabel1 {
-    line-height: 4.46px;
-    font-size: 7.56px;
-}
-
-.div2 {
-    font-size: 19.58px;
-}
 
 .button {
     border-radius: 157.35px;
@@ -866,12 +828,14 @@
 }
 
 .div2 {
-    line-height: 17.08px;
+    line-height: 20px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
 }
 
 .heading2 {
     padding: 0 33.15px;
-    height: 37.13px;
+    height: 50px;
 }
 
 .container2 {
@@ -894,11 +858,8 @@
 }
 
 .div5 {
-    line-height: 9.03px;
-}
-
-.heading3 {
-    font-size: 8.77px;
+    letter-spacing: 0.3px;
+    font-size: 10px;
 }
 
 .overlay, .overlay3 {
@@ -911,6 +872,9 @@
 
 .overlay3 {
     gap: 37.07px;
+}
+.buttonLabel{
+    margin-top: 1px;
 }
 
 .container3 {
@@ -937,3 +901,140 @@
 }
 }
 
+@media (max-width: 460px) {
+    .div {
+        line-height: 19.75px;
+        font-weight: 500;
+    }
+
+    .div1 {
+        line-height: 19.75px;
+        font-weight: 500;
+    }
+
+    .parent {
+        width: 382.22px;
+    }
+
+    .button {
+        border-radius: 139.00px;
+        padding: 1.41px 3.23px;
+    }
+    .buttonLabel{
+        margin-top: 1px;
+    }
+
+    .div2 {
+        line-height: 15.10px;
+    }
+
+    .heading2 {
+        padding: 0 29.31px;
+        height: 32.83px;
+    }
+
+    .container2 {
+        width: 125.27px;
+        font-size: 14.42px;
+    }
+
+    .container1 {
+        width: 125.27px;
+        gap: 2.91px;
+    }
+
+    .container {
+        width: 382.22px;
+        height: 43.57px;
+    }
+
+    .div4 {
+        line-height: 19.75px;
+    }
+
+    .div5 {
+        letter-spacing: 0.27px;
+        font-size: 8.85px;
+    }
+
+    .overlay, .overlay3 {
+        border-radius: 3.95px;
+        height: 79.29px;
+        padding: 5.71px 7.52px 9.48px;
+        min-width: 95.37px;
+        max-width: 117.37px;
+    }
+
+    .overlay3 {
+        gap: 32.78px;
+    }
+
+    .container3 {
+        gap: 2.00px;
+        font-size: 18.90px;
+        margin: 0 auto;
+        width: 368.94px;
+    }
+
+    .containerParent {
+        gap: 15.33px;
+        font-size: 2.91px;
+    }
+
+    .indicators {
+        border-radius: 3.95px;
+        padding: 5.71px 7.52px 35.16px;
+        gap: 5.71px;
+    }
+
+    .section {
+        width: 406.46px;
+        font-size: 18.90px;
+    }
+}
+@media (max-width: 420px) {
+    .div {
+        line-height: 17.17px;
+        font-weight: 500;
+    }
+
+    .div1 {
+        line-height: 17.17px;
+        font-weight: 500;
+    }
+
+    .parent {
+        width: 332.38px;
+    }
+
+
+    .container2 {
+        width: 108.91px;
+        font-size: 12.53px;
+    }
+
+    .container1 {
+        width: 108.91px;
+        gap: 2.53px;
+    }
+
+    .container {
+        width: 332.38px;
+        height: 37.86px;
+    }
+
+    
+    .container3 {
+        gap: 1.74px;
+        margin: 0 auto;
+        width: 320.82px;
+    }
+
+
+
+
+
+    .section {
+        width: 353.42px;
+    }
+}

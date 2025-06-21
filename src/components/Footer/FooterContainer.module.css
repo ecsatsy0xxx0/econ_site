@@ -131,6 +131,7 @@
     background-image: url('../../../public/icons/vk.svg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .vk {
     display: flex;
@@ -178,6 +179,7 @@
     background-image: url('../../../public/icons/tg.svg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .tg {
     display: flex;
@@ -188,6 +190,7 @@
 }
 .iconbutton1:hover .tg{
     background-image: url('../../../public/icons/tg1.svg');
+    background-repeat: no-repeat;
     transition: all 0.3s ease;
 }
 .iconbutton1:hover .tg .component1Icon{
@@ -196,6 +199,7 @@
 }
 .iconbutton:hover .vk{
     background-image: url('../../../public/icons/vk1.svg');
+    background-repeat: no-repeat;
     transition: all 0.3s ease;
 }
 .iconbutton:hover .vk .vectorIcon{
@@ -972,7 +976,12 @@
   height: 300.43px;
   gap: 9.09px;
 }
-
+.containerParent{
+    gap: 10px;
+}
+.link{
+    gap: 5px;
+}
 .overlay1 {
   flex-direction: column;
   padding: 4.55px 9.09px;
@@ -997,17 +1006,7 @@
 .buttonLabel{
     line-height: 8px;
 }
-.iconbutton {
-  width: 23.62px;
-  height: 23.62px;
-  padding: 3.93px;
-}
 
-.iconbutton1 {
-  width: 23.62px;
-  height: 23.62px;
-  padding: 5.51px;
-}
 
 .div7 {
   font-size: 7.95px;
@@ -1027,10 +1026,6 @@
   margin-top: 5.68px;
 }
 
-.iconbuttonParent {
-  justify-content: center;
-  gap: 4.55px;
-}
 
 .button {
   width: 93.54px;
@@ -1072,19 +1067,123 @@
   font-size: 13.08px;
 }
 
-.component1Icon {
-  width: 11.36px;
-  height: 11.36px;
+}
+@media (max-width: 450px) {
+.parent {
+  gap: 10.37px;
 }
 
-.vectorIcon {
-  width: 11.36px;
-  height: 11.36px;
+.container2 {
+  align-self: center;
+  gap: 5.11px;
+  overflow: hidden;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 6.64px;
 }
 
-.iconbutton:hover .vk .vectorIcon {
-  width: 11.36px;
-  height: 11.36px;
-  margin-top: -1.70px;
+.container {
+  width: 100%;
 }
+
+.overlay {
+  padding: 20.46px 4.09px;
+  height: 270.39px;
+  gap: 8.18px;
+}
+
+.containerParent {
+  gap: 9px;
+}
+
+.link {
+  gap: 4.50px;
+}
+
+.overlay1 {
+  flex-direction: column;
+  padding: 4.09px 8.18px;
+  gap: 4.09px;
+  width: 370.25px;
+}
+
+.link1 {
+  width: 76.66px;
+  height: 20.45px;
+  margin-top: 5.11px;
+}
+
+.logo {
+  gap: 3.58px;
+}
+
+.group {
+  flex-direction: column;
+  gap: 1.42px;
+}
+
+.buttonLabel {
+  line-height: 7.20px;
+}
+
+.div7 {
+  font-size: 7.15px;
+  text-align: center;
+}
+
+.div6 {
+  font-size: 7.15px;
+  text-align: center;
+  width: 76.66px;
+}
+
+.div8 {
+  font-size: 7.15px;
+  text-align: center;
+  width: 204.44px;
+  margin-top: 5.11px;
+}
+
+.button {
+  width: 84.18px;
+  height: 15.34px;
+  font-size: 6.15px;
+  gap: 0;
+}
+
+.container15 {
+  flex-direction: column;
+  align-items: center;
+  gap: 4.09px;
+}
+
+.logoChild {
+  width: 33.13px;
+  height: 24.56px;
+}
+
+.logoItem {
+  height: 18.90px;
+}
+
+.logoInner {
+  width: 71.59px;
+  height: 24.56px;
+}
+
+.logo3blueIcon {
+  width: 30.75px;
+  height: 24.56px;
+}
+
+.div {
+  font-size: 6.64px;
+}
+
+.div1 {
+  font-size: 11.77px;
+}
+
 }

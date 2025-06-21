@@ -371,11 +371,6 @@
     .descriptioncontainer {
         width: 490.91px;
     }
-    .description {
-        font-size: 13.09px;
-        letter-spacing: -0.23px;
-        line-height: 16.36px;
-    }
 }
 @media (max-width: 635px) {
 .content {
@@ -481,11 +476,6 @@
     width: 381.74px;
 }
 
-.description {
-    font-size: 10.18px;
-    letter-spacing: -0.20px;
-    line-height: 12.73px;
-}
 }
 @media (max-width: 520px) {
 .content {
@@ -524,12 +514,85 @@
 .descriptioncontainer {
     width: 344.96px;
 }
-.description {
-    font-size: 9.26px;
-    letter-spacing: -0.19px;
-    line-height: 11.83px;
 }
+@media (max-width: 480px) {
+    .content {
+        width: 377.57px;
+        padding: 27.63px 0 0 0px;
+    }
+    .faqParent {
+        padding: 0;
+    }
+    .faqContainer {
+        padding-left: 27.63px;
+    }
+    .faq {
+        padding: 56.01px 21.17px;
+    }
+    .header {
+        width: 270.51px;
+        font-size: 10.93px;
+        margin: 13.68px auto;
+    }
+    .button {
+        padding: 5.47px 10.93px;
+    }
+    .titleContainer {
+        font-size: 19.32px;
+    }
+    .container {
+        width: 318.36px;
+        height: 33.12px;
+        border-radius: 5.47px;
+    }
+    .title1 {
+        letter-spacing: -0.18px;
+        line-height: 10.93px;
+    }
+    .descriptioncontainer {
+        width: 318.36px;
+    }
 }
-
-
+@media (max-width: 440px) {
+    .content {
+        width: 298.54px;
+        padding: 21.85px 0 0 0px;
+    }
+    .faqParent {
+        padding: 0;
+    }
+    .faqContainer {
+        padding-left: 12px;
+    }
+    .faq {
+        padding: 44.26px 16.74px;
+        height: 500px;
+    }
+    .container{
+        padding: 4px 4px 4px 10.42px;
+        width: 280px;
+    }
+    .header {
+        width: 214.28px;
+        font-size: 8.64px;
+        margin: 10.83px auto;
+    }
+    .button {
+        padding: 4.33px 8.64px;
+    }
+    .titleContainer {
+        font-size: 15.27px;
+    }
+    .container {
+        height: 26.22px;
+        border-radius: 4.33px;
+    }
+    .title1 {
+        letter-spacing: -0.14px;
+        font-size: 10px;
+    }
+    .descriptioncontainer {
+        width: 251.85px;
+    }
+}
 

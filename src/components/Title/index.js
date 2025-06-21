@@ -4,26 +4,47 @@ import { sTitle1, sTitle2 } from '../../API/MainApi';
 
 const Section = () => {
   const cardRefs = useRef([]);
-
+  const [Title, setTitle] = useState(null);
+  const [Title2, setTitle2] = useState(null);
+  const [animated, setAnimated] = useState(false); // <-- Вот это строка нужна!
   useEffect(() => {
+    const cards = cardRefs.current.slice();
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
+          const hoverText = entry.target.querySelector(`.${styles.hoverText}`);
+          if (!hoverText) return;
+
           if (entry.isIntersecting) {
             entry.target.classList.add(styles.visible);
-            entry.target.querySelector(`.${styles.hoverText}`).classList.add(styles.hoverVisible);
+            hoverText.classList.add(styles.hoverVisible);
           } else {
             entry.target.classList.remove(styles.visible);
-            entry.target.querySelector(`.${styles.hoverText}`).classList.remove(styles.hoverVisible);
+            hoverText.classList.remove(styles.hoverVisible);
           }
         });
       },
       { threshold: 0.5 }
     );
-  
-    cardRefs.current.forEach((card) => observer.observe(card));
-    return () => observer.disconnect();
-  }, []);
+
+    cards.forEach((card) => {
+      if (card) observer.observe(card);
+    });
+
+    return () => {
+      cards.forEach((card) => {
+        if (card) observer.unobserve(card);
+      });
+      observer.disconnect();
+    };
+  }, [animated]);
+
+  useEffect(() => {
+    if (Title2) {
+      setTimeout(() => setAnimated(true), 100);
+    }
+  }, [Title2]);
   
   const handleScrollToDirections = () => {
     const directionsElement = document.getElementById("spesh-section");
@@ -40,8 +61,6 @@ const Section = () => {
     }
   };
 
-    const [Title, setTitle] = useState(null);
-    const [Title2, setTitle2] = useState(null);
     useEffect(() => {
         const loadData = async () => {
           try {
@@ -58,7 +77,6 @@ const Section = () => {
     if (!Title || !Title2) {
       return <div>Загрузка...</div>; 
     }
-
   return (
     <div className={styles.section}>
       <div className={styles.main}>
@@ -109,7 +127,7 @@ const Section = () => {
           {Title2.map((card, index) => (
             <div
               key={index}
-              className={`${styles.doneadventagecard1}`}
+              className={`${styles.doneadventagecard1} ${animated ? styles.visible : ''}`}
               ref={(el) => (cardRefs.current[index] = el)}
             >
               <div className={styles.adventagecard}>
@@ -122,7 +140,9 @@ const Section = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.hoverText} style={{ textAlign: 'left' }}>{card.hoverText}</div>
+              <div className={styles.hoverText} style={{ textAlign: 'left' }}>
+                {card.hoverText}
+              </div>
             </div>
           ))}
         </div>

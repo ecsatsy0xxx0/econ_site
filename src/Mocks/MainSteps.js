@@ -90,12 +90,12 @@ export const gideSteps = [
 export const indicatorsData = [
     {
         number: 1,
-        description: ['Самый крупный ', 'факультет в КубГУ'],
+        description: ['Самый крупный факультет в КубГУ'],
         displayNumber: '№1',
     },
     {
         number: 15,
-        description: ['Студентов выпущено ', 'за историю факультета'],
+        description: ['Студентов выпущено за историю факультета'],
         displayNumber: '15+ тыс',
     },
     {
@@ -110,12 +110,12 @@ export const indicatorsData = [
     },
     {
         number: 18,
-        description: ['Выиграли наши студенты ', 'в конкурсах и грантах'],
+        description: ['Выиграли наши студенты в конкурсах и грантах'],
         displayNumber: '18+ млн ₽',
     },
     {
         number: 100,
-        description: ['Проектов реализовали ', 'за последние 5 лет'],
+        description: ['Проектов реализовали за последние 5 лет'],
         displayNumber: '100+',
     },
 ];

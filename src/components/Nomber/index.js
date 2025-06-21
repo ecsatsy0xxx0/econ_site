@@ -101,7 +101,9 @@ const Section = () => {
                 <div className={styles.heading3}>
                   <div className={styles.div5}>
                     {indicator.description.map((line, lineIndex) => (
-                      <p key={lineIndex} className={styles.p}>{line}</p>
+                      <span>
+                        <p key={lineIndex} className={styles.p}>{line}</p>
+                      </span>
                     ))}
                   </div>
                 </div>

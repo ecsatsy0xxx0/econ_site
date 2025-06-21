@@ -299,7 +299,7 @@
 @media (max-width: 1270px) {
     .buttonLabel {
         line-height: 8.33px;
-        font-size: 7px;
+        font-size: 10px;
     }
 
     .div {
@@ -482,4 +482,58 @@
 .container1 {
   width: 450px;
 }
+}
+@media (max-width: 460px) {
+    .section {
+        padding: 0px 8.37px 125.56px 8.37px;
+        top: 99.47px;
+    }
+
+    .container {
+        gap: 16.74px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .container4 {
+        gap: 8.37px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .containerIcon {
+        width: 313.45px;
+        height: 261.29px;
+    }
+
+    .newsachivecard {
+        flex: 1 1 100%;
+        max-width: 100%;
+        border-radius: 8.37px;
+        margin: 0 auto;
+    }
+    .image{
+        height: 250px;
+    }
+    .newsacivecardtagbar {
+        padding: 15.68px;
+        width: 100%;
+        border-radius: -8.37px;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .button1 {
+        display: none;
+    }
+
+    .button {
+        padding: 2.09px 4.18px;
+    }
+
+    .container1 {
+        width: 345px;
+    }
 }

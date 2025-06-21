@@ -642,6 +642,9 @@
     .container:hover .cardDescriptionContainer {
     font-size: 15px;
     }
+    .cardTitle{
+    display: flex;
+    }
     .headerContainer{
     margin-bottom: 420px;
     }
@@ -966,12 +969,9 @@
 
 .logo {
     height: 10.08px;
-    width: 100px;
+    width: 130px;
 }
 
-.logo div {
-    font-size: 6.28px;
-}
 .logoAndTitleContainer{
     max-width: 250px;
 }
@@ -1059,19 +1059,102 @@
     margin-top: 0.58px;
 }
 
-.logo {
-    height: 8.74px;
-}
-
 
 .logoAndTitleContainer {
     max-width: 227.27px;
 }
 
-.button2 {
-    height: 13.48px;
-}
 .button2 div{
     margin-top: 1px;
 }
+}
+@media (max-width: 420px) {
+  .section {
+    padding: 11.53px 7.60px;
+  }
+
+  .headerContainer {
+    margin: 0 auto;
+    width: 345.39px;
+    margin-bottom: 104.35px;
+  }
+
+  .contentSection {
+    flex-direction: column;
+    gap: 7.60px;
+  }
+
+  .mainContainer {
+    width: 100%;
+  }
+
+  .logoAndTitleContainer {
+    width: 100%;
+  }
+
+  .container1 {
+    font-size: 12.89px;
+    align-items: self-start;
+  }
+
+  .title {
+    letter-spacing: 0px;
+    font-size: 16.43px;
+    line-height: 18.55px;
+    text-align: center;
+  }
+
+  .container:hover .cardDescriptionContainer {
+    font-size: 7.11px;
+  }
+
+  .sidebar {
+    width: 345.39px;
+    height: 165.72px;
+    margin: 0 auto;
+  }
+
+  .mainContentContainer {
+    width: 100%;
+    display: block;
+    font-size: 9.44px;
+  }
+
+  .newsachivecard {
+    width: 345.39px;
+    padding: 9.44px 7.60px;
+    margin: 4.80px auto;
+  }
+
+  .button {
+    font-size: 6.60px;
+    padding: 0.50px 9.44px;
+    width: 66.95px;
+  }
+
+  .icon1 {
+    height: 11.53px;
+    width: 11.53px;
+  }
+
+  .cardDescription {
+    font-size: 7.60px;
+  }
+
+  .cardButtons {
+    margin-top: 0.50px;
+  }
+
+  .logoAndTitleContainer {
+    max-width: 197.63px;
+  }
+
+
+  .button2 div {
+    margin-top: 0.87px;
+  }
+  .iconWrapper{
+    width: 30px;
+    height: 30px;
+  }
 }

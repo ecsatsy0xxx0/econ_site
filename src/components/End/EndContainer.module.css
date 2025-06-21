@@ -607,10 +607,16 @@
 @media (max-width:480px) {
     .section{
         width: 300px;
-        margin-top: 150px;
+        margin-top: 250px;
     }
     .background{
         width: 360px;
         padding: 40px 60px;
+    }
+}
+
+@media (max-width:420px) {
+    .section{
+        margin-top: 190px;
     }
 }
