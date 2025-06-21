@@ -702,7 +702,6 @@
 }
 
 .background1 {
-    gap: 120px;
     padding: 53.26px 8.70px 26.09px 8.70px;
 }
 
@@ -721,8 +720,8 @@
 
 .heading2 {
     padding: 5.49px 0;
-    height: 76.09px;
-    width: 243.48px;
+    height: 150px;
+    width: 300px;
     margin: 0 auto;
 }
 

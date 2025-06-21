@@ -48,6 +48,9 @@ const BackgroundMask = () => {
           >
             <div className={styles.buttonLabel}>Направления</div>
           </div>
+          <div className={styles.button}>
+            <div className={styles.buttonLabel}>Магистратура</div>
+          </div>
         </div>
 
         {/* Кнопка "Поступить" */}
@@ -79,6 +82,7 @@ const BackgroundMask = () => {
           >
             Направления
           </div>
+          <div className={styles.menuButton}>Магистратура</div>
           <div
             className={styles.menuButton}
             onClick={() => window.open('https://t.me/econom_kubsu_ab', '_blank')}
