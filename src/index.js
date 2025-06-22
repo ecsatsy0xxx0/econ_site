@@ -19,6 +19,7 @@ import DostishStudent from "./Pages/Bachelor/DostishStudent";
 import AssociationsFaculty from "./Pages/Bachelor/AssociationsFaculty";
 import LastNews from "./Pages/Bachelor/LastNews";
 import EntrantGide from "./Pages/Bachelor/EntrantGide";
+import Magistracy from "./Pages/Magistracy/MainPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -41,6 +42,7 @@ root.render(
         <Route path="/associations" element={<AssociationsFaculty />} />
         <Route path="/news" element={<LastNews />} />
         <Route path="/gide" element={<EntrantGide />} />
+        <Route path="/magistracy" element={<Magistracy />} />
       </Routes>
     </Router>
   </Provider>

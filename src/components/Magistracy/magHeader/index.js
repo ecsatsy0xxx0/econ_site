@@ -20,8 +20,8 @@ const BackgroundMask = () => {
     window.location.href = '/'; // Перенаправление на главную страницу
   };
   const navigate = useNavigate();
-  const magNavigate = () => {
-    navigate("/magistracy"); // Убедитесь, что путь совпадает с маршрутом в index.js
+  const bacNavigate = () => {
+    navigate("/"); // Убедитесь, что путь совпадает с маршрутом в index.js
   };
   return (
     <div className={styles.backgroundmask}>
@@ -53,7 +53,7 @@ const BackgroundMask = () => {
             <div className={styles.buttonLabel}>Направления</div>
           </div>
           <div className={styles.button}>
-            <div className={styles.buttonLabel} onClick={magNavigate}>Магистратура</div>
+            <div className={styles.buttonLabel} onClick={bacNavigate}>Бакалавриат</div>
           </div>
         </div>
 
