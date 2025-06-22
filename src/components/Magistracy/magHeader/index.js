@@ -86,7 +86,7 @@ const BackgroundMask = () => {
           >
             Направления
           </div>
-          <div className={styles.menuButton}>Магистратура</div>
+          <div className={styles.menuButton}onClick={bacNavigate}>Бакалавриат</div>
           <div
             className={styles.menuButton}
             onClick={() => window.open('https://t.me/econom_kubsu_ab', '_blank')}

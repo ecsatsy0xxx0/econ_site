@@ -2837,37 +2837,37 @@
         height: 40.91px;
     }
     .specializationCard:hover .container5 .block{
-        top: 415px;
+        top: 435px;
     }
     .specializationCard:hover .subjectBlock .score, .specializationCard:hover .subjectBlock2 .score, .specializationCard:hover .subjectBlockOutlined .score, .specializationCard:hover  .subjectBlockOutlined2 .score{
         left: 31.09px;
     }
     .specializationCard .container5 .block{
-        top: 435px;
+        top: 460px;
     }
     .specializationCard:hover .container5 .blocks{
-        top: 595px;
+        top: 630px;
     }
     .specializationCard .container5 .blocks{
-        top: 615px;
+        top: 655px;
     }
     .specializationCard .container56 .blocks{
-        top: 800px;
+        top: 850px;
     }
     .specializationCard:hover .container56 .blocks{
-        top: 775px;
+        top: 830px;
     }
     .specializationCard .container57 .blocks{
-        top: 980px;
+        top: 1050px;
     }
     .specializationCard:hover .container57 .blocks{
-        top: 960px;
+        top: 1030px;
     }
     .specializationCard .container58 .blocks2{
-        top: 1145px;
+        top: 1230px;
     }
     .specializationCard:hover .container58 .blocks2{
-        top: 1125px;
+        top: 1215px;
     }
     .container2{
         max-width: 100%;
@@ -2911,7 +2911,6 @@
         font-size: 15.05px;
     }
     .buttonLabel{
-        font-size: 6.03px;
         margin-top: 1.51px;
     }
     .button100,
@@ -3008,6 +3007,36 @@
     .frameChild {
         height: 30.12px;
     }
+    .specializationCard .container5 .block{
+        top: 435px;
+    }
+    .specializationCard:hover .container5 .block{
+        top: 410px;
+    }
+    .specializationCard:hover .container5 .blocks{
+        top: 590px;
+    }
+    .specializationCard .container5 .blocks{
+        top: 615px;
+    }
+    .specializationCard .container56 .blocks{
+        top: 800px;
+    }
+    .specializationCard:hover .container56 .blocks{
+        top: 775px;
+    }
+    .specializationCard .container57 .blocks{
+        top: 980px;
+    }
+    .specializationCard:hover .container57 .blocks{
+        top: 955px;
+    }
+    .specializationCard .container58 .blocks2{
+        top: 1145px;
+    }
+    .specializationCard:hover .container58 .blocks2{
+        top: 1130px;
+    }
 }
 @media (max-width: 460px) {
     .container{
@@ -3026,7 +3055,10 @@
     .tag { padding: 5.23px 13.07px; }
     .specializationCard:hover .blocks2 .tag { padding: 2.61px 13.07px; }
     .title { font-size: 13.07px; }
-    .buttonLabel { font-size: 5.23px; margin-top: 1.31px; }
+    .buttonLabel { margin-top: 1.31px; }
+    .title{
+        font-size: 15px;
+    }
 
     .button100,
     .button1001,
@@ -3077,7 +3109,7 @@
         line-height: 1.4;
     }
 
-    .subtitle { font-size: 9.80px; }
+    .subtitle { font-size: 12px; }
 
     .container3 {
         gap: 10.45px;
@@ -3146,7 +3178,9 @@
     .heading2 { font-size: 19.61px; }
 
     .div1 { font-size: 15.68px; }
-
+    .content1 {
+        gap: 5px;
+    }
     .iconbuttonParent { gap: 5.23px; }
 
     .subjectBlockOutlined .score { left: 24.83px; }

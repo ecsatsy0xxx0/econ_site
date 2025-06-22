@@ -501,6 +501,9 @@
     .container {    
         gap: 7.10px;
     }
+    .buttoncontainer{
+        font-size: 11px;
+    }
     .stepcard,.stepcard1 {    
         flex-direction: column;    
         align-items: center;    

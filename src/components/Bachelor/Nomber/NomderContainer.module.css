@@ -740,6 +740,9 @@
     line-height: 23.90px;
     font-weight: 500;
 }
+.buttonLabel{
+    margin-top: 2px;
+}
 .div1 {
     line-height: 23.90px;
     font-weight: 500;
@@ -811,6 +814,9 @@
     line-height: 22.34px;
     font-weight: 500;
 }
+.buttonLabel{
+    font-size: 8px;
+}
 
 .div1 {
     line-height: 22.34px;
@@ -874,7 +880,7 @@
     gap: 37.07px;
 }
 .buttonLabel{
-    margin-top: 1px;
+    margin-top: 2px;
 }
 
 .container3 {
@@ -902,11 +908,14 @@
 }
 
 @media (max-width: 460px) {
+
     .div {
         line-height: 19.75px;
         font-weight: 500;
     }
-
+    .buttonLabel{
+        font-size: 8px;
+    }
     .div1 {
         line-height: 19.75px;
         font-weight: 500;

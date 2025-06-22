@@ -364,9 +364,6 @@
         letter-spacing: -0.23px;
         line-height: 16.36px;
     }
-    .expandIcon {
-        padding: 3.27px;
-    }
 
     .descriptioncontainer {
         width: 490.91px;
@@ -537,9 +534,7 @@
     .button {
         padding: 5.47px 10.93px;
     }
-    .titleContainer {
-        font-size: 19.32px;
-    }
+
     .container {
         width: 318.36px;
         height: 33.12px;
@@ -555,7 +550,7 @@
 }
 @media (max-width: 440px) {
     .content {
-        width: 298.54px;
+        width: 325px;
         padding: 21.85px 0 0 0px;
     }
     .faqParent {
@@ -565,12 +560,12 @@
         padding-left: 12px;
     }
     .faq {
-        padding: 44.26px 16.74px;
-        height: 500px;
+        height: 550px;
     }
     .container{
         padding: 4px 4px 4px 10.42px;
-        width: 280px;
+        width: 300px;
+
     }
     .header {
         width: 214.28px;
@@ -580,19 +575,16 @@
     .button {
         padding: 4.33px 8.64px;
     }
-    .titleContainer {
-        font-size: 15.27px;
-    }
+
     .container {
-        height: 26.22px;
+        height: 38px;
         border-radius: 4.33px;
     }
     .title1 {
         letter-spacing: -0.14px;
-        font-size: 10px;
     }
     .descriptioncontainer {
-        width: 251.85px;
+        width: 300px;
     }
 }
 

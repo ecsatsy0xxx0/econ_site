@@ -299,9 +299,11 @@
 @media (max-width: 1270px) {
     .buttonLabel {
         line-height: 8.33px;
-        font-size: 10px;
+        font-size: 8px;
     }
-
+    .title{
+        font-size: 12px;
+    }
     .div {
         line-height: 31.88px;
     }
@@ -363,7 +365,13 @@
     .section{
         padding: 0px 16px 240px 16px;
         top: 190px;
-        }
+    }
+    .buttonLabel{
+        font-size: 11px;
+    }
+    .title{
+        font-size: 18px;
+    }
     .div{
         line-height: 38.2px;
     }
@@ -464,6 +472,7 @@
 
 .title {
   line-height: 12.79px;
+  font-size: 16px;
 }
 
 .container2 {
@@ -535,5 +544,13 @@
 
     .container1 {
         width: 345px;
+    }
+    .title{
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .buttonLabel{
+        font-size: 9px;
+        margin-top: 1px;
     }
 }

@@ -565,7 +565,9 @@
         width: 275px;
         height: 378.13px;
     }
-
+    .titlecontainer{
+        font-size: 12px;
+    }
     .newsachivecard {
         width: 275px;
         height: 186.98px;
@@ -621,6 +623,12 @@
     .headerContainer{
         margin: 0 auto;
         width: 688px;
+    }
+    .titlecontainer{
+        font-size: 20px;
+    }
+    .newsachivecard:hover .cardButtons{
+        margin-top: 12px;
     }
     .contentSection {
         flex-direction: column;
@@ -697,7 +705,6 @@
     }
     .button2{
         width: 100px;
-        height: 30px;
     }
     .button2 div {
         font-size: 10px;
@@ -709,6 +716,9 @@
     padding: 19.64px 13.09px;
 }
 
+    .newsachivecard:hover .cardButtons{
+        margin-top: 7px;
+    }
 .headerContainer {
     margin: 0 auto;
     width: 566.18px;
@@ -788,6 +798,7 @@
 
 .logo div {
     font-size: 8.18px;
+    margin-top: 3px;
 }
 
 .button2 {
@@ -802,7 +813,12 @@
 .section {
     padding: 17.32px 11.54px;
 }
-
+    .titlecontainer{
+        font-size: 15px;
+    }
+      .newsachivecard:hover .cardButtons{
+        margin-top: 9px;
+    }
 .headerContainer {
     margin: 0 auto;
     width: 499.17px;
@@ -881,11 +897,15 @@
 }
 
 .logo div {
-    font-size: 7.21px;
+    margin-top: 2px;
 }
 
 .button2 {
     height: 17.64px;
+
+}
+.button2 div{
+    margin-top: 1px;
 }
 
 }
@@ -893,7 +913,12 @@
 .section {
     padding: 15.19px 10.08px;
 }
-
+    .titlecontainer{
+        font-size: 12px;
+    }
+      .newsachivecard:hover .cardButtons{
+        margin-top: 5px;
+    }
 .headerContainer {
     margin: 0 auto;
     width: 437.42px;
