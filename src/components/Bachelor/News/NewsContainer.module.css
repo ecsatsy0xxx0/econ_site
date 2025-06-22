@@ -914,7 +914,7 @@
     padding: 15.19px 10.08px;
 }
     .titlecontainer{
-        font-size: 12px;
+        font-size: 15px;
     }
       .newsachivecard:hover .cardButtons{
         margin-top: 5px;
@@ -922,7 +922,7 @@
 .headerContainer {
     margin: 0 auto;
     width: 437.42px;
-    margin-bottom: 200px;
+    margin-bottom: 230px;
 }
 
 .contentSection {
@@ -970,7 +970,6 @@
     width: 437.42px;
     padding: 12.57px 10.08px;
     margin: 6.28px auto;
-    height: 124.89px;
 }
 
 .button {
@@ -985,7 +984,7 @@
 }
 
 .cardDescription {
-    font-size: 10.08px;
+    font-size: 10.8px;
 }
 
 .cardButtons {
@@ -1010,7 +1009,9 @@
 .section {
     padding: 13.26px 8.74px;
 }
-
+    .titlecontainer{
+        font-size: 12px;
+    }
 .headerContainer {
     margin: 0 auto;
     width: 398.21px;
@@ -1029,7 +1030,9 @@
 .logoAndTitleContainer {
     width: 100%;
 }
-
+.titlecontainer{
+    gap:1px;
+}
 .container1 {
     font-size: 14.83px;
     align-items: self-start;
@@ -1077,7 +1080,7 @@
 }
 
 .cardDescription {
-    font-size: 8.74px;
+    font-size: 9px;
 }
 
 .cardButtons {
@@ -1132,7 +1135,9 @@
   .container:hover .cardDescriptionContainer {
     font-size: 7.11px;
   }
-
+  .cardDescription{
+    font-size: 8px;
+  }
   .sidebar {
     width: 345.39px;
     height: 165.72px;
@@ -1153,7 +1158,7 @@
 
   .button {
     font-size: 6.60px;
-    padding: 0.50px 9.44px;
+    padding: 0 9.44px;
     width: 66.95px;
   }
 
@@ -1162,10 +1167,9 @@
     width: 11.53px;
   }
 
-  .cardDescription {
-    font-size: 7.60px;
+  .cardButtons{
+    margin-top: -2px;
   }
-
   .cardButtons {
     margin-top: 0.50px;
   }

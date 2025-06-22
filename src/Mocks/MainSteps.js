@@ -227,7 +227,7 @@ export const systemAnalysisCardData = {
     icon: "icons/ChartDonut.svg",
     programType: "бакалавриат",
     code: "27.03.03 Системный",
-    title: "анализ и управление",
+    title: " анализ и управление",
     language: "РУССКИЙ",
     exams: [
         "МАТЕМАТИКА",

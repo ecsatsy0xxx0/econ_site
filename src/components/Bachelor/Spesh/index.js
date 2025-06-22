@@ -398,12 +398,10 @@ const Section = () => {
                             <div className={styles.buttonLabel}>{specializationData6.programType}</div>
                           </div>
                           <div className={styles.heading1}>
-                            <div className={styles.title}>
+                            <p className={styles.title}>
                               {specializationData6.code}
-                            </div>
-                            <div className={styles.title}>
                               {specializationData6.title}
-                            </div>
+                            </p>
                           </div>
                         </div>
                         
@@ -441,6 +439,7 @@ const Section = () => {
                   </div>
                 </div>
               </div>
+              
               <div className={styles.specializationcardfull}>
                 <img className={styles.icon} alt="" src={specializationData7.icon} />
                 <div className={styles.container4}>
