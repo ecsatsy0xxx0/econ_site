@@ -1,4 +1,4 @@
-import styles from '../components/Title/TitleContainer.module.css'
+import styles from '../components/Bachelor/Title/TitleContainer.module.css'
 
 export const achievementsData = [
     {

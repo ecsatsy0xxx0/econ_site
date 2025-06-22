@@ -4,21 +4,21 @@ import { Provider } from "react-redux";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import store from "./Store";
-import MainPage from "./Pages/MainPage";
-import InnovatikaPage from "./Pages/SpecialtiesPage/InnovatikaPage";
-import BusinessInformaticsPage from "./Pages/SpecialtiesPage/BusinessInformaticsPage";
-import TradingBusinessesPage from "./Pages/SpecialtiesPage/TradingBusinessPage";
-import SystemAnalysisPage from "./Pages/SpecialtiesPage/SystemAnalysisPage";
-import EconomicSecurityPage from "./Pages/SpecialtiesPage/EconomicSecurityPage";
-import EconomyPage from "./Pages/SpecialtiesPage/EconomyPage";
-import ManagementPage from "./Pages/SpecialtiesPage/ManagementPage";
-import LanguageToggle from "./Pages/JournalPage";
-import CafedraPage from "./Pages/CafedraPage";
-import ProgressPage from "./Pages/ProgressPage";
-import DostishStudent from "./Pages/DostishStudent";
-import AssociationsFaculty from "./Pages/AssociationsFaculty";
-import LastNews from "./Pages/LastNews";
-import EntrantGide from "./Pages/EntrantGide";
+import MainPage from "./Pages/Bachelor/MainPage";
+import InnovatikaPage from "./Pages/Bachelor/SpecialtiesPage/InnovatikaPage";
+import BusinessInformaticsPage from "./Pages/Bachelor/SpecialtiesPage/BusinessInformaticsPage";
+import TradingBusinessesPage from "./Pages/Bachelor/SpecialtiesPage/TradingBusinessPage";
+import SystemAnalysisPage from "./Pages/Bachelor/SpecialtiesPage/SystemAnalysisPage";
+import EconomicSecurityPage from "./Pages/Bachelor/SpecialtiesPage/EconomicSecurityPage";
+import EconomyPage from "./Pages/Bachelor/SpecialtiesPage/EconomyPage";
+import ManagementPage from "./Pages/Bachelor/SpecialtiesPage/ManagementPage";
+import LanguageToggle from "./Pages/Bachelor/JournalPage";
+import CafedraPage from "./Pages/Bachelor/CafedraPage";
+import ProgressPage from "./Pages/Bachelor/ProgressPage";
+import DostishStudent from "./Pages/Bachelor/DostishStudent";
+import AssociationsFaculty from "./Pages/Bachelor/AssociationsFaculty";
+import LastNews from "./Pages/Bachelor/LastNews";
+import EntrantGide from "./Pages/Bachelor/EntrantGide";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
