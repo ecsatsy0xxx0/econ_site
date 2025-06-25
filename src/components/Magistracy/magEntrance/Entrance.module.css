@@ -1,0 +1,812 @@
+.entrancemask{
+    max-width: 1600px;
+    height: 512px;
+    margin: 200px auto;
+    display: grid;
+    gap: 10px;
+}
+
+.button{
+    width: 125px;
+    height: 28px;
+    padding: 6px 14px;
+    border-radius: 573.77px;
+    border: 1px solid rgba(4, 80, 160, 1);
+    margin: 0 auto;
+}
+
+.button p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.24px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: rgba(4, 80, 160, 1);
+}
+
+.text{
+    width: 758px;
+    height: 98px;
+    margin: 0 auto;
+}
+
+.text p{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -1.8px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(4, 80, 160, 1);
+}
+
+.entrancemask__footer{
+    display: grid;
+    gap: 10px;
+}
+
+.tile1{
+    width: 1600px;
+    height: 124px;
+    padding: 40px 32px;
+    gap: 64px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    transition: all 0.3s;
+}
+
+.tile1 p{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -0.24px;
+    vertical-align: middle; 
+    color: rgba(4, 80, 160, 1);
+    transition: all 0.3s;
+}
+
+.entrancemask img{
+    width: 330px;
+    height: 377px;
+    position: absolute;
+    left: 1400px;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.tile1:hover{
+    background-color: rgba(4, 80, 160, 1);
+    transition: all 0.3s;
+}
+.tile1:hover p{
+    color: white;
+    transition: all 0.3s;
+}
+
+@media (max-width:1880px){
+    .entrancemask__footer img{
+        left: 1300px;
+    }
+}
+
+/* @media (max-width:1920px) {
+    .entrancemask{
+        max-width: 1600px;
+        height: 310px;
+        margin: 200px auto;
+        gap: 10px;
+    }
+
+    .button{
+        width: 125px;
+        height: 28px;
+        padding: 6px 14px;
+        border-radius: 573.77px;
+    }
+
+    .button p{
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: -0.24px;
+    }
+
+    .text{
+        width: 758px;
+        height: 98px;
+    }
+
+    .text p{
+        font-size: 40px;
+        letter-spacing: -1.8px;
+    }
+
+    .entrancemask__footer{
+        gap: 10px;
+    }
+
+    .tile1{
+        width: 1600px;
+        height: 124px;
+        padding: 40px 32px;
+        gap: 64px;
+        border-radius: 16px;
+    }
+
+    .tile1 p{
+        font-size: 36px;
+        letter-spacing: -0.24px;
+    }
+
+    .entrancemask__footer img{
+        width: 330px;
+        height: 377px;
+        left: 1400px;
+    }
+} */
+
+@media (max-width:1680px) {
+    .entrancemask{
+        max-width: 1400px;
+        height: 271px;
+        gap: 9px;
+    }
+
+    .button{
+        width: 109px;
+        height: 25px;
+        padding: 5px 12px;
+        border-radius: 501px;
+    }
+
+    .button p{
+        font-size: 10.5px;
+        line-height: 12.25px;
+        letter-spacing: -0.21px;
+    }
+
+    .text{
+        width: 663px;
+        height: 86px;
+    }
+
+    .text p{
+        font-size: 35px;
+        letter-spacing: -1.58px;
+    }
+
+    .entrancemask__footer{
+        gap: 9px;
+    }
+
+    .tile1{
+        width: 1400px;
+        height: 109px;
+        padding: 35px 28px;
+        gap: 56px;
+        border-radius: 14px;
+    }
+
+    .tile1 p{
+        font-size: 31.5px;
+        letter-spacing: -0.21px;
+    }
+
+    .entrancemask__footer img{
+        width: 289px;
+        height: 330px;
+        left: 1225px;
+    }
+}
+
+@media (max-width: 1640px) {
+    .entrancemask__footer img{
+        left: 1150px;
+    }
+}
+
+@media (max-width:1490px) {
+    .entrancemask{
+        max-width: 1234.52px;
+        height: 160.72px;
+        gap: 8.04px;
+    }
+
+    .button{
+        width: 92.97px;
+        height: 21.85px;
+        padding: 4.44px 10.40px;
+        border-radius: 440.52px;
+    }
+
+    .button p{
+        font-size: 8.79px;
+        line-height: 10.04px;
+        letter-spacing: -0.18px;
+    }
+
+    .text{
+        width: 588.97px;
+        height: 71.57px;
+    }
+
+    .text p{
+        font-size: 31.54px;
+        letter-spacing: -1.31px;
+    }
+
+    .entrancemask__footer{
+        gap: 8.04px;
+    }
+
+    .tile1{
+        width: 1234.52px;
+        height: 87.48px;
+        padding: 29.06px 22.68px;
+        gap: 46.67px;
+        border-radius: 11.56px;
+    }
+
+    .tile1 p{
+        font-size: 26.84px;
+        letter-spacing: -0.18px;
+    }
+
+    .entrancemask__footer img{
+        height: 240px;
+        left: 1049.73px;
+        top: 4050px;
+    }
+}
+
+@media (max-width:1470px) {
+    .entrancemask__footer img{
+        left: 1000.73px;
+        top: 3710px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .entrancemask__footer img{
+        left: 1000.73px;
+        top: 3300px;
+    }
+}
+@media (max-width: 1434px) {
+    .entrancemask__footer img{
+        left: 1000.73px;
+        top: 3320px;
+    }
+}
+
+@media (max-width:1340.0px) {
+    .entrancemask{
+        max-width: 1110.24px;
+        height: 144.54px;
+        gap: 7.23px;
+    }
+
+    .text{
+        width: 529.68px;
+        height: 64.36px;
+    }
+
+    .entrancemask__footer{
+        gap: 7.23px;
+    }
+
+    .tile1{
+        width: 1110.24px;
+        height: 78.67px;
+        padding: 26.13px 20.4px;
+        gap: 41.97px;
+        border-radius: 10.4px;
+    }
+
+    .tile1 p{
+        font-size: 24.14px;
+        letter-spacing: -0.16px;
+    }
+
+    .entrancemask__footer img{
+        height: 215.84px;
+        left: 944.05px;
+        top: 3155px;
+    }
+}
+
+@media (max-width: 1315px) {
+    .entrancemask__footer img{
+        left: 880px;
+    }
+}
+@media (max-width: 1307px) {
+    .entrancemask__footer img{
+        top: 3185px;
+    }
+}
+@media (max-width: 1270px) {
+    .entrancemask__footer img{
+        top: 3015px;
+    }
+}
+@media (max-width: 1269px) {
+    .entrancemask__footer img{
+        top: 3620px;
+    }
+}
+@media (max-width: 1258px) {
+    .entrancemask__footer img{
+        top: 3650px;
+    }
+}
+@media (max-width: 1200px) {
+    .entrancemask__footer img{
+        left: 780px;
+    }
+}
+@media (max-width: 1190px) {
+    .entrancemask__footer img{
+        top: 3665px;
+    }
+}
+@media (max-width: 1140px) {
+    .entrancemask__footer img{
+        top: 3665px;
+    }
+}
+@media (max-width: 1138px) {
+    .entrancemask__footer img{
+        top: 3695px;
+    }
+}
+@media (max-width: 1130px) {
+    .entrancemask__footer img{
+        top: 3690px;
+    }
+}
+
+@media (max-width:1120.0px) {
+    .entrancemask{
+        max-width: 928.17px;
+        height: 120.38px;
+        gap: 6.02px;
+    }
+
+
+    .text{
+        width: 441.89px;
+        height: 53.70px;
+    }
+
+    .text p{
+        font-size: 23.66px;
+        letter-spacing: -0.99px;
+    }
+
+    .entrancemask__footer{
+        gap: 6.02px;
+    }
+
+    .tile1{
+        width: 928.17px;
+        height: 65.49px;
+        padding: 21.79px 17.00px;
+        gap: 35.01px;
+        border-radius: 8.69px;
+    }
+
+    .tile1 p{
+        font-size: 20.08px;
+        letter-spacing: -0.13px;
+    }
+
+    .entrancemask__footer img{
+        height: 179.93px;
+        left: 710px;
+        top: 3670px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .entrancemask__footer img{
+        top: 3410px;
+    }
+}
+@media (max-width: 1082px) {
+    .entrancemask__footer img{
+        top: 3410px;
+    }
+}
+@media (max-width: 1000px) {
+    .entrancemask__footer img{
+        left: 620px;
+    }
+}
+@media (max-width: 987px) {
+    .entrancemask__footer img{
+        top: 3430px;
+    }
+}
+
+@media (max-width:950.0px) {
+    .entrancemask{
+        max-width: 787.08px;
+        height: 102.05px;
+        gap: 5.11px;
+    }
+
+    .text{
+        width: 374.86px;
+        height: 45.57px;
+    }
+
+    .text p{
+        font-size: 20.06px;
+        letter-spacing: -0.84px;
+    }
+
+    .entrancemask__footer{
+        gap: 5.11px;
+    }
+
+    .tile1{
+        width: 787.08px;
+        height: 55.54px;
+        padding: 18.48px 14.41px;
+        gap: 29.69px;
+        border-radius: 7.37px;
+    }
+
+    .tile1 p{
+        font-size: 17.04px;
+        letter-spacing: -0.11px;
+    }
+
+    .entrancemask__footer img{
+        height: 152.54px;
+        top: 3440px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .entrancemask__footer img{
+        left: 520px;
+    }
+}
+@media (max-width: 893px) {
+    .entrancemask__footer img{
+        top: 3455px;
+    }
+}
+@media (max-width: 880px) {
+    .entrancemask__footer img{
+        top: 4595px;
+    }
+}
+@media (max-width: 879px) {
+    .entrancemask__footer img{
+        top: 4595px;
+    }
+}
+@media (max-width:815px) {
+    .entrancemask{
+        max-width: 671.30px;
+        height: 87.00px;
+        gap: 4.36px;
+    }
+
+
+    .text{
+        width: 319.77px;
+        height: 38.86px;
+    }
+
+
+
+    .entrancemask__footer{
+        gap: 4.36px;
+    }
+
+    .tile1{
+        width: 671.30px;
+        height: 47.34px;
+        padding: 15.77px 12.29px;
+        gap: 25.31px;
+        border-radius: 6.29px;
+    }
+
+    .tile1 p{
+        font-size: 14.52px;
+        letter-spacing: -0.09px;
+    }
+
+    .entrancemask__footer img{
+        height: 130.01px;
+        left: 470px;
+        top: 4595px;
+    }
+}
+
+@media (max-width: 811px) {
+    .entrancemask__footer img{
+        top: 4640px;
+    }
+}
+@media (max-width: 807px) {
+    .entrancemask__footer img{
+        top: 4660px;
+    }
+}
+
+@media (max-width:760px) {
+    .entrancemask{
+        max-width: 626.19px;
+        height: 81.05px;
+        gap: 4.06px;
+    }
+    .entrancemask__footer img{
+        top: 4060px;
+    }
+    .text{
+        width: 297.83px;
+        height: 36.19px;
+    }
+    .text p{
+        font-size: 18px;
+    }
+    .button{
+        font-size: 10px;
+    }
+    .entrancemask__footer{
+        gap: 4.06px;
+    }
+
+    .tile1{
+        width: 626.19px;
+        height: 44.10px;
+        padding: 14.69px 11.46px;
+        gap: 23.59px;
+        border-radius: 5.86px;
+    }
+
+    .tile1 p{
+        font-size: 13.54px;
+        letter-spacing: -0.08px;
+    }
+
+    .entrancemask__footer img{
+        height: 121.06px;
+        left: 438.50px;
+    }
+}
+
+@media (max-width:725px) {
+    .entrancemask{
+        max-width: 568.80px;
+        height: 73.63px;
+        gap: 3.69px;
+    }
+    .text{
+        width: 300px;
+        height: 32.88px;
+    }
+    .text p{
+        font-size: 20px;
+    }
+    .button{
+        font-size: 9.08px;
+    }
+    .entrancemask__footer{
+        gap: 3.69px;
+    }
+
+    .tile1{
+        width: 568.80px;
+        height: 50px;
+        padding: 13.31px 10.40px;
+        gap: 21.40px;
+        border-radius: 5.32px;
+    }
+    .entrancemask__header{
+        margin-bottom: 20px;
+    }
+    .tile1 p{
+        font-size: 15px;
+        letter-spacing: -0.07px;
+        display: flex;
+        align-items: center;
+    }
+
+    .entrancemask__footer img{
+        height: 109.99px;
+        left: 500px;
+        top: 4095px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 720px) {
+    .entrancemask__footer img{
+        top: 3730px;
+        left: 450px;
+    }
+}
+@media (max-width: 683px) {
+    .entrancemask__footer img{
+        top: 3750px;
+    }
+}
+@media (max-width: 675px) {
+    .entrancemask__footer img{
+        top: 3785px;
+    }
+}
+@media (max-width: 640px) {
+    .entrancemask__footer img{
+        left: 380px;
+        top: 3795px;
+    }
+}
+@media (max-width: 635px) {
+    .entrancemask__footer img{
+        top: 3595px;
+    }
+}
+@media (max-width: 607px) {
+    .entrancemask__footer img{
+        top: 3655px;
+    }
+}
+
+@media (max-width:600px) {
+    .entrancemask{
+        max-width: 448.42px;
+        height: 58.14px;
+        gap: 2.91px;
+    }
+    .text{
+        height: 25.95px;
+    }
+    .button{
+        font-size: 7.17px;
+    }
+    .entrancemask__footer{
+        gap: 2.91px;
+    }
+    .entrancemask__header{
+        margin-bottom: 30px;
+    }
+    .tile1{
+        width: 448.42px;
+        padding: 10.51px 8.21px;
+        gap: 16.89px;
+        border-radius: 4.20px;
+    }
+    .tile1 p{
+        letter-spacing: -0.05px;
+        display: flex;
+        align-items: center;
+    }
+
+    .entrancemask__footer img{
+        height: 86.83px;
+        left: 394.74px;
+        top: 3445px;
+        width: 118.42px;
+    }
+}
+@media (max-width: 607px) {
+    .entrancemask__footer img{
+        top: 3625px;
+        left: 350px;
+    }
+}
+@media (max-width: 606px) {
+    .entrancemask__footer img{
+        top: 3645px;
+    }
+}
+@media (max-width: 600px) {
+    .entrancemask__footer img{
+        top: 3475px;
+    }
+}
+@media (max-width: 567px) {
+    .entrancemask__footer img{
+        top: 3485px;
+    }
+}
+@media (max-width: 550px) {
+    .entrancemask__footer img{
+        top: 3310px;
+    }
+}
+@media (max-width: 545px) {
+    .entrancemask__footer img{
+        top: 3350px;
+    }
+}
+
+@media (max-width: 515px) {
+    .entrancemask__footer img{
+        top: 3365px;
+    }
+}
+
+@media (max-width: 500px) {
+    .entrancemask__footer img{
+        left: 325px;
+        top: 3285px;
+    }
+}
+@media (max-width: 495px) {
+    .entrancemask__footer img{
+        top: 3305px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .entrancemask__footer img{
+        left: 290px;
+        top: 3345px;
+    }
+}
+@media (max-width:475px) {
+    .entrancemask{
+        max-width: 354.04px;
+        height: 45.93px;
+        gap: 2.30px;
+    }
+    .text{
+        height: 20.55px;
+    }
+    .button{
+        font-size: 5.68px;
+    }
+    .entrancemask__footer{
+        gap: 5px;
+    }
+    .entrancemask__header{
+        margin-bottom: 30px;
+    }
+    .tile1{
+        width: 354.04px;
+        padding: 8.33px 6.49px;
+        gap: 13.38px;
+        border-radius: 3.32px;
+    }
+    .tile1 p{
+        font-size: 12px;
+        letter-spacing: -0.04px;
+        display: flex;
+        align-items: center;
+    }
+
+    .entrancemask__footer img{
+        height: 80px;
+        left: 300px;
+        top: 3280px;
+        width: 120px;
+    }
+}
+@media (max-width: 460px) {
+    .entrancemask__footer img{
+        left: 250px;
+        top: 3195px;
+    }
+}
+@media (max-width: 447px) {
+    .entrancemask__footer img{
+        left: 250px;
+        top: 3220px;
+    }
+}
+@media (max-width: 440px) {
+    .entrancemask__footer img{
+        top: 3220px;
+    }
+}

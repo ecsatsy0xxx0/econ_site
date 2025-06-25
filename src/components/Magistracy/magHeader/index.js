@@ -52,8 +52,8 @@ const BackgroundMask = () => {
           >
             <div className={styles.buttonLabel}>Направления</div>
           </div>
-          <div className={styles.button}>
-            <div className={styles.buttonLabel} onClick={bacNavigate}>Бакалавриат</div>
+          <div className={styles.button} onClick={bacNavigate}>
+            <div className={styles.buttonLabel}>Бакалавриат</div>
           </div>
         </div>
 

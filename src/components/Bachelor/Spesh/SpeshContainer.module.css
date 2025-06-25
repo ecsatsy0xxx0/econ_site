@@ -45,6 +45,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    color: #0450a0;
 }
 .frameChild {
     width: 2px;
@@ -2935,6 +2936,7 @@
     .container4{
         gap: 18.4px;
     }
+           .specializationcardfull:hover .container4 {gap: 10px;}
     .container {
         gap: 12.04px;
     }
@@ -3076,10 +3078,10 @@
         top: 955px;
     }
     .specializationCard .container58 .blocks2{
-        top: 1145px;
+        top: 1160px;
     }
     .specializationCard:hover .container58 .blocks2{
-        top: 1130px;
+        top: 1145px;
     }
 }
 @media (max-width: 460px) {
@@ -3091,7 +3093,9 @@
     }
 }
 @media (max-width: 460px) {
-    .container4 { gap: 15.97px; }
+    .specializationcardfull .container4{
+        gap: 12px;
+    }
     .container { gap: 10.45px; }
     .specializationCard,
     .specializationcardfull { height: 147.02px; }
@@ -3114,7 +3118,7 @@
         right: 22.22px;
         margin: 5.23px 0;
     }
-   
+
     .background {
         font-size: 9.14px;
         padding: 12.42px 9.80px;
@@ -3290,7 +3294,9 @@
         padding: 16.33px 0 0;
         height: 32.68px;
     }
-
+    .card{
+    padding: 10.45px 10.45px 13.07px;
+    }
     .specializationcardfull:hover .container4 {gap: 5px;}
 
     .specializationCard:hover .container5 .block { top: 346.03px; }

@@ -1,0 +1,971 @@
+
+
+.span {
+    color: rgba(255, 255, 255, 0.65);
+}
+.title {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -1.8px;
+    line-height: 61.2px;
+    font-weight: 500;
+}
+.heading1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.titlecontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 520px;
+    z-index: 0;
+}
+.buttonLabel {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button {
+    border-radius: 1000px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+.button1 {
+    border-radius: 1000px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    color: #fff;
+}
+.buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    z-index: 1;
+    text-align: center;
+    font-size: 12px;
+    color: #0450a0;
+}
+.logo3whiteIcon {
+    width: 344px;
+    position: absolute;
+    margin: 0 !important;
+    top: 125.5px;
+    left: 290px;
+    height: 645.4px;
+    overflow: hidden;
+    flex-shrink: 0;
+    /* opacity: 0.05; */
+    z-index: 2;
+}
+.background {
+    flex: 1; /* Заставляет занять половину доступного пространства */
+    border-radius: 16px;
+    background-color: #0450a0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 40px 32px;
+    position: relative;
+    gap: 24px;
+    height: 1002px;
+}
+.videocontainer {
+    flex: 1; /* Заставляет занять вторую половину доступного пространства */
+    border-radius: 16px;
+    background-color: rgba(4, 80, 160, 0.2);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerIcon {
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    height: calc(100% - 0.3px);
+    top: 0px;
+    right: 0px;
+    bottom: 0.3px;
+    left: 0px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.topcoverrightbanner {
+    align-self: stretch;
+    width:50%;
+    border-radius: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container {
+    width: 100%;
+    height: 100%; /* Высота для обоих блоков */
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Растягивает элементы по вертикали */
+    justify-content: space-between; /* Равномерное распределение пространства */
+    gap: 8px; /* Промежуток между блоками */
+}
+
+.j0ylz8iy5gvcnyi2iqmpuc36ysvg1 {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.j0ylz8iy5gvcnyi2iqmpuc36ysvg {
+    align-self: stretch;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.container2 {
+    width: 1200px; /* Уменьшенная ширина */
+    height: 140px; /* Уменьшенная высота */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    font-size: 21px;
+    color: #0450a0;
+}
+.crown {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.p {
+    margin: 0;
+}
+.title1 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.textcontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 200px;
+}
+.adventagecard {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+    gap: 18px;
+    min-width: 326px; /* Минимальная ширина */
+}
+.doneadventagecard1 {
+    align-self: stretch;
+    width: 410px; /* Ширина */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sparkleIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.doneadventagecard1 {
+    align-self: stretch;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.container1 {
+    width: 100%;
+    height: 174px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    font-size: 21px;
+    color: #0450a0;
+}
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    margin: 0 128px;
+}
+.section {
+    width: 100%;
+    height: 1200px;
+    box-sizing: border-box;
+    min-height: 720px;
+    text-align: left;
+    font-size: 60px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    padding-top: 102px;
+}
+
+.doneadventagecard1 {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.doneadventagecard1:hover .adventagecard {
+opacity: 0;
+}
+
+.doneadventagecard1:hover .hoverText {
+opacity: 1;
+visibility: visible;
+}
+
+.adventagecard {
+background-color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px;
+box-sizing: border-box;
+border-radius: 16px;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 1;
+transition: opacity 0.3s ease;
+}
+
+.hoverText {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+line-height: 1.5;
+color: #0450a0;
+background-color: #fff;
+padding: 20px;
+border-radius: 16px;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.button:hover {
+    background-color: #0450a0; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+    border: 1px solid #ffffff; /* Цвет границы при наведении */
+    cursor: pointer; /* Указатель меняется на "руку" */
+}
+.button1:hover {
+    background-color: #fff; /* Белый фон при наведении */
+    color: #0450a0; /* Синий текст при наведении */
+    border: 1px solid #0450a0; /* Синяя граница остается */
+    cursor: pointer; /* Указатель меняется на "руку" */
+}
+
+.doneadventagecard1 {
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.doneadventagecard1.visible {
+opacity: 1;
+transform: translateY(0);
+}
+
+
+/* Новое состояние для hoverText */
+.hoverText {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.hoverText.hoverVisible {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 1670px){
+    .adventagecard{
+        padding: 30px;
+        min-width: 0;
+    }
+    .hoverText{
+        font-size: 15px;
+    }
+    .logo3whiteIcon{
+        left: 225px;
+    }
+}
+@media (max-width:1440px) {
+    .title {
+        line-height: 40.53px;
+    }
+    .titlecontainer {
+        max-width: 344.46px;
+    }
+    .buttonLabel {
+        line-height: 10.59px;
+    }
+    .button {
+        border-radius: 661.98px;
+        padding: 10.59px 15.98px;
+    }
+    .button1 {
+        border-radius: 661.98px;
+        padding: 10.59px 15.98px;
+    }
+    .buttoncontainer {
+        gap: 6.62px;
+        font-size: 7.94px;
+    }
+    .logo3whiteIcon {
+        width: 227.89px;
+        top: 83.14px;
+        left: 192.07px;
+        height: 427.33px;
+    }
+    .background {
+        border-radius: 10.59px;
+        padding: 26.48px 21.17px;
+        gap: 15.88px;
+        height: 663.31px;
+    }
+    .videocontainer {
+        border-radius: 10.59px;
+    }
+    .topcoverrightbanner {
+        border-radius: 10.59px;
+    }
+    .container {
+        gap: 5.29px;
+    }
+    .j0ylz8iy5gvcnyi2iqmpuc36ysvg1 {
+        width: 15.88px;
+        height: 15.88px;
+    }
+    .container2 {
+        width: 794.38px;
+        height: 92.75px;
+        gap: 5.29px;
+        font-size: 13.91px;
+    }
+    .crown {
+        width: 15.88px;
+        height: 15.88px;
+    }
+    .textcontainer {
+        max-width: 132.29px;
+    }
+    .adventagecard {
+        border-radius: 10.59px;
+        padding: 26.48px;
+        gap: 11.91px;
+        min-width: 215.90px;
+    }
+    .doneadventagecard1 {
+        width: 271.68px;
+        border-radius: 10.59px;
+        transform: translateY(13.24px);
+    }
+    .sparkleIcon {
+        width: 15.88px;
+        height: 15.88px;
+    }
+    .container1 {
+        height: 115.22px;
+        gap: 5.29px;
+        font-size: 13.91px;
+    }
+    .main {
+        gap: 5.29px;
+        margin: 0 84.79px;
+    }
+    .section {
+        height: 794.38px;
+        min-height: 476.63px;
+        font-size: 39.69px;
+        padding-top: 90px;
+    }
+    .adventagecard {
+        padding: 26.48px;
+        border-radius: 10.59px;
+    }
+    .hoverText {
+        font-size: 11.92px;
+        padding: 13.24px;
+        border-radius: 10.59px;
+    }
+}
+@media (max-width:1270px) {
+    .title {
+    line-height: 31.88px;
+    }
+    .titlecontainer {
+        max-width: 270.83px;
+    }
+    .buttonLabel {
+        line-height: 8.33px;
+    }
+    .button {
+        border-radius: 1000px;
+        padding: 8.33px 12.5px;
+    }
+    .button1 {
+        border-radius: 1000px;
+        padding: 8.33px 12.5px;
+    }
+    .buttoncontainer {
+        gap: 5.21px;
+        font-size: 6.25px;
+    }
+    .logo3whiteIcon {
+        width: 179.17px;
+        top: 65.36px;
+        left: 151.04px;
+        height: 336.46px;
+    }
+    .background {
+        border-radius: 16px;
+        padding: 20.83px 16.67px;
+        gap: 12.5px;
+        height: 522.92px;
+    }
+    .videocontainer {
+        border-radius: 16px;
+    }
+    .topcoverrightbanner {
+        border-radius: 16px;
+    }
+    .container {
+        gap: 8px;
+    }
+    .j0ylz8iy5gvcnyi2iqmpuc36ysvg1 {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    .container2 {
+        width: 625px;
+        height: 72.92px;
+        gap: 8px;
+        font-size: 10.94px;
+    }
+    .crown {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    .textcontainer {
+        max-width: 104.17px;
+    }
+    .adventagecard {
+        border-radius: 16px;
+        padding: 20.83px;
+        gap: 9.38px;
+        min-width: 169.79px;
+    }
+    .doneadventagecard1 {
+        width: 213.54px;
+        border-radius: 16px;
+        transform: translateY(10.42px);
+    }
+    .sparkleIcon {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    .container1 {
+        height: 90.63px;
+        gap: 8px;
+        font-size: 10.94px;
+    }
+    .main {
+        gap: 8px;
+        margin: 0 66.67px;
+    }
+    .section {
+        height: 625px;
+        min-height: 375px;
+        font-size: 31.25px;
+        padding-top: 53.13px;
+    }
+    .hoverText {
+        font-size: 9.38px;
+        padding: 10.42px;
+        border-radius: 16px;
+    }
+}
+@media (max-width: 880px){
+    .section {
+        height: auto;
+        font-size: 44px;
+        padding-top: 80px;
+    }
+
+    .main {
+        gap: 16px;
+    }
+
+    .titlecontainer {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .buttoncontainer {
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .background {
+        flex: 1;
+        padding: 150px;
+    }
+    .title{
+        line-height: 50px;
+    }
+    .logo3whiteIcon {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .videocontainer {
+        height: 350px;
+        width: 100%;
+        margin-top: 16px;
+    }
+    .container1 {
+        flex-direction: column;
+        align-items: stretch;
+        height: 10%;
+        gap: 145px;
+    }
+
+    .doneadventagecard1 {
+        width: 100%; 
+        overflow: visible;
+    }
+    .sparkleIcon{
+        width: 30px;
+        height: 30px;
+    }
+    .textcontainer{
+        font-size: 16px;
+    }
+    .hoverText{
+        font-size: 18px;
+    }
+    .adventagecard {
+        min-width: unset;
+        padding: 66px;
+    }
+    .button{
+        padding: 16px 80px;
+    }
+    .button1{
+        padding: 16px 80px;
+    }
+
+    .buttonLabel{
+        font-size: 14px;
+    }
+    .topcoverrightbanner{
+        width: 100%;
+        height: 100%;
+    }
+    .hoverText {
+        line-height: 1.4; /* Сокращаем межстрочный интервал */
+        padding: 16px; /* Уменьшаем отступы */
+    }
+}
+@media (max-width: 720px){
+.section {
+    font-size: 35.2px;
+    padding-top: 65.45px;
+}
+
+.main {
+    gap: 13.09px;
+}
+
+.titlecontainer {
+    margin-bottom: 13.09px;
+}
+
+.buttoncontainer {
+    gap: 6.55px;
+}
+
+.background {
+    padding: 122.73px;
+}
+
+.title {
+    line-height: 40.91px;
+}
+
+.videocontainer {
+    height: 286.36px;
+    margin-top: 13.09px;
+}
+
+.container1 {
+    gap: 118.36px;
+}
+
+.sparkleIcon {
+    width: 24.55px;
+    height: 24.55px;
+}
+
+.textcontainer {
+    font-size: 13.09px;
+}
+
+.hoverText {
+    font-size: 14.73px;
+    padding: 13.09px;
+}
+
+.adventagecard {
+    padding: 54px;
+}
+
+.button {
+    padding: 13.09px 65.45px;
+}
+
+.button1 {
+    padding: 13.09px 65.45px;
+}
+
+.buttonLabel {
+    font-size: 11.45px;
+}
+}
+@media (max-width: 635px){
+.section {
+    font-size: 31.05px;
+    padding-top: 57.75px;
+}
+
+.main {
+    gap: 11.54px;
+}
+
+.titlecontainer {
+    margin-bottom: 11.54px;
+}
+
+.buttoncontainer {
+    gap: 5.78px;
+}
+
+.background {
+    padding: 108.22px;
+}
+
+.title {
+    line-height: 36.08px;
+}
+
+.videocontainer {
+    height: 252.51px;
+    margin-top: 11.54px;
+}
+
+.container1 {
+    gap: 104.42px;
+}
+
+.sparkleIcon {
+    width: 21.65px;
+    height: 21.65px;
+}
+
+.textcontainer {
+    font-size: 11.54px;
+}
+
+.hoverText {
+    font-size: 12.99px;
+    padding: 11.54px;
+}
+
+.adventagecard {
+    padding: 47.62px;
+}
+
+.button {
+    padding: 11.54px 57.75px;
+}
+
+.button1 {
+    padding: 11.54px 57.75px;
+}
+
+.buttonLabel {
+    font-size: 10.10px;
+}
+}
+@media (max-width: 550px){
+.section {
+    font-size: 27.22px;
+    padding-top: 58px;
+}
+
+.main {
+    gap: 10.05px;
+}
+.title1 p{
+    font-size: 9px;
+}
+.titlecontainer {
+    margin-bottom: 10.05px;
+}
+.hoverText{
+    font-size: 12px;
+}
+.buttoncontainer {
+    gap: 5.04px;
+}
+
+.background {
+    padding: 94.88px;
+}
+
+.title {
+    line-height: 31.66px;
+}
+
+.videocontainer {
+    height: 221.32px;
+    margin-top: 10.05px;
+}
+
+.container1 {
+    gap: 90.88px;
+}
+
+.sparkleIcon {
+    width: 18.88px;
+    height: 18.88px;
+}
+
+.textcontainer {
+    font-size: 10.05px;
+}
+
+.hoverText {
+    font-size: 11.19px;
+    padding: 10.05px;
+}
+
+.adventagecard {
+    padding: 41.62px;
+}
+
+.button {
+    padding: 10.05px 50.53px;
+}
+
+.button1 {
+    padding: 10.05px 50.53px;
+}
+
+}
+@media (max-width: 500px){
+.section {
+    font-size: 24.77px;
+    padding-top: 58px;
+}
+
+.main {
+    gap: 9.14px;
+}
+
+.titlecontainer {
+    margin-bottom: 9.14px;
+}
+
+.buttoncontainer {
+    gap: 4.58px;
+}
+
+.background {
+    padding: 86.73px;
+}
+
+.title {
+    line-height: 28.79px;
+}
+
+.videocontainer {
+    height: 201.20px;
+    margin-top: 9.14px;
+}
+
+.container1 {
+    gap: 82.73px;
+}
+
+.sparkleIcon {
+    width: 17.16px;
+    height: 17.16px;
+}
+
+.textcontainer {
+    font-size: 9.14px;
+}
+
+.hoverText {
+    font-size: 10.18px;
+    padding: 9.14px;
+}
+
+.adventagecard {
+    padding: 37.85px;
+}
+
+.button {
+    padding: 9.14px 46.00px;
+}
+
+.button1 {
+    padding: 9.14px 46.00px;
+}
+
+}
+@media (max-width: 460px){
+.section {
+    font-size: 20.81px;
+    padding-top: 78px;
+}
+.title{
+    letter-spacing: 0px;
+}
+.main {
+    gap: 7.67px;
+}
+
+.titlecontainer {
+    margin-bottom: 7.67px;
+}
+
+.buttoncontainer {
+    gap: 3.85px;
+}
+
+.background {
+    padding: 60px;
+}
+
+.title {
+    line-height: 24.16px;
+}
+
+.videocontainer {
+    height: 168.99px;
+    margin-top: 7.67px;
+}
+
+.container1 {
+    gap: 69.47px;
+}
+
+.sparkleIcon {
+    width: 14.42px;
+    height: 14.42px;
+}
+
+.textcontainer {
+    font-size: 7.67px;
+}
+
+.hoverText {
+    font-size: 8.56px;
+    padding: 7.67px;
+}
+
+.adventagecard {
+    padding: 31.79px;
+}
+
+.button {
+    padding: 7.67px 38.64px;
+}
+
+.button1 {
+    padding: 7.67px 38.64px;
+}
+
+}

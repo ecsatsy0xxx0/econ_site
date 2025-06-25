@@ -1,0 +1,3052 @@
+.buttonLabel {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #0450a0;
+    transition: all 0.3s;
+}
+    .container58 .heading1{
+        width: 300px;
+    }
+
+.button100:hover  .buttonLabel{
+    color: white;
+}
+.button {
+    border-radius: 573.77px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+}
+.buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.p {
+    margin: 0;
+}
+.div {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -1.8px;
+    line-height: 61.2px;
+    font-weight: 500;
+}
+.heading2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #0450a0;
+}
+.frameChild {
+    width: 2px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 68px;
+    object-fit: contain;
+}
+.div1 {
+    position: relative;
+    letter-spacing: -1.8px;
+    line-height: 61.2px;
+    font-weight: 500;
+    color: rgba(4, 80, 160, 0.2);
+
+}
+.heading2Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 36px;
+    text-align: left;
+    font-size: 60px;
+}
+.container2 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 6px;
+    gap: 13px;
+}
+.magnifyingglassIcon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+}
+.iconbutton {
+    border-radius: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px;
+}
+.button1 {
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+.iconbuttonParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.container1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.icon {
+    position: absolute;
+    top: 0px;
+    left: 847px;
+    height: 254px;
+}
+.icon1 {
+    border-radius: 10px;
+    background-color: #0450a0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.tag {
+    border-radius: 573.77px;
+    background-color: rgba(4, 80, 160, 0.07);
+    padding: 6px 12px;
+    font-size: 12px;
+    text-align: center;
+    flex-shrink: 0; /* Prevent tags from shrinking */
+    white-space: nowrap; /* Prevent text from breaking */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 16px;
+}
+.title {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.96px;
+    line-height: 32.64px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32.64px;
+    color: #0450a0;
+}
+.heading {
+    color: #0450a0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.subtitle {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.28px;
+    line-height: 17.36px;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.subtitleContainer {
+    color: #0450a0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+.content3 {
+    align-items: flex-start;
+    text-align: left;
+    font-size: 32px;
+}
+.content2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.button2 {
+    border-radius: 573.77px;
+    background-color: #0450a0;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+}
+.actions1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.actionsChild {
+    width: 1px;
+    position: relative;
+    border-right: 1px solid #0450a0;
+    box-sizing: border-box;
+    height: 16px;
+}
+.button5 {
+    border-radius: 573.77px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+}
+.actions2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #0450a0;
+    gap: 12px;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap; /* Allows tags to wrap to the next line if needed */
+    gap: 12px; /* Adds spacing between tags */
+    justify-content: flex-start; /* Align tags to the left */
+    margin: 8px 0; /* Adds spacing around the tags */
+    color: #fff;
+}
+.content1 {
+    align-self: stretch;
+    align-items: flex-start;
+}
+.blocks .actions2{
+    margin-top: 10px;
+}
+.blocks2 .actions2{
+    margin-top: 10px;
+}
+.blocks{
+    position: absolute;
+    top: 905px;
+    transition: all 0.3s ease;
+}
+.blocks2{
+    position: absolute;
+    top: 1285px;
+    transition: all 0.3s ease;
+}
+
+.blocks .actions2 .separator{
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+.blocks2 .actions2 .separator{
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+.content {
+    align-self: stretch;
+    align-items: flex-start;
+}
+.container4 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 1;
+}
+.specializationcardfull {
+    width: 66.5%;
+    border-radius: 16px;
+    background-color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px 32px 40px;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.heading1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 32px;
+}
+.button9 {
+    border-radius: 573.77px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+    color: #0450a0;
+}
+.actions3 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0px 6px;
+    color: #fff;
+}
+.container5, .container56, .container57, .container58 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px 32px 40px;
+}
+.actions10 {
+    display: flex;
+    flex-wrap: wrap; /* Allows tags to wrap to the next line if needed */
+    gap: 12px; /* Adds spacing between tags */
+    align-items: center;
+    justify-content: flex-start; /* Align tags to the left */
+    margin: 8px 0; /* Adds spacing around the tags */
+    color: #fff;
+}
+.titleContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.lineDiv {
+    width: 1px;
+    position: relative;
+    border-right: 1px solid #0450a0;
+    box-sizing: border-box;
+    height: 29px;
+}
+.actions11 {
+    display: flex;
+    flex-wrap: wrap; /* Allows tags to wrap to the next line if needed */
+    gap: 12px; /* Adds spacing between tags */
+    align-items: center;
+    justify-content: flex-start; /* Align tags to the left */
+    margin: 8px 0; /* Adds spacing around the tags */
+    color: #fff;
+}
+.specializationCard {
+    width: 528px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.specializationCardl {
+    width:1106px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.div2 {
+    position: relative;
+    letter-spacing: -0.24px;
+    font-weight: 500;
+}
+.container11 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 440px;
+}
+.button31 {
+    border-radius: 1000px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+.button32 {
+    border-radius: 1000px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    color: #fff;
+}
+.container13 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.container12 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 12px;
+    color: #0450a0;
+}
+.background {
+    width: 100%;
+    max-width: 1664px;
+    border-radius: 16px;
+    background-color: #0450a0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+}
+.container3 {
+    align-self: stretch;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of cards to the next line */
+    gap: 16px; /* Adds consistent spacing between cards */
+    justify-content: space-between; /* Ensures spacing between cards */
+}
+.specializationCard {
+    flex: 1 1 calc(33.333% - 16px); /* Allows three cards in one row with spacing */
+    min-width: 528px; /* Prevents cards from shrinking too much on smaller screens */
+    height: 400px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.specializationCardl {
+    flex: 1 1 calc(33.333% - 16px); /* Allows three cards in one row with spacing */
+    min-width: 1106px; /* Prevents cards from shrinking too much on smaller screens */
+    height: 400px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.specializationCard:hover .button1002{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.specializationCardl:hover .button1002{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.specializationCard:hover .button10021{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.specializationCardl:hover .button10021{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.specializationCard:hover .button1001{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.specializationCardl:hover .button1001{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1664px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 64px;
+}
+.section {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+}
+
+.specializationCard .button1004{
+    right: 700px;
+}
+.specializationCardl .button1004{
+    right: 700px;
+}
+.subjectBlockOutlined {
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    width: 59px; /* Фиксированная ширина */
+    height: 28px; /* Начальная высота */
+    text-align: center;
+    border: 1px solid #0450a0; /* Синяя граница */
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;   
+    transition: all 0.3s ease; /* Плавный переход всех свойств */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0450a0;
+    background-color: #ffffff;
+    position: relative; /* Для смещения вверх */
+    overflow: hidden;
+}
+.subjectBlockOutlined2 {
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    width: 59px; /* Фиксированная ширина */
+    height: 28px; /* Начальная высота */
+    text-align: center;
+    border: 1px solid #0450a0; /* Синяя граница */
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;   
+    transition: all 0.3s ease; /* Плавный переход всех свойств */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0450a0;
+    background-color: #ffffff;
+    position: relative; /* Для смещения вверх */
+    overflow: hidden;
+}
+
+.subjectBlockOutlined .score {
+    position: absolute;
+    top: -28px;
+    left: 23px;
+    font-size: 28px;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.subjectBlockOutlined .score1 {
+    position: absolute;
+    top: -28px;
+    left: 23px;
+    font-size: 28px;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.subjectBlockOutlined2 .score {
+    position: absolute;
+    top: -28px;
+    left: 43px;
+    font-size: 28px;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.button32:hover {
+    background-color: #fff; /* Белый фон при наведении */
+    color: #0450a0; /* Синий текст при наведении */
+    border: 1px solid #0450a0; /* Синяя граница */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Плавный переход */
+}
+.button31:hover {
+    background-color: #0450a0; /* Белый фон при наведении */
+    color: #ffffff; /* Синий текст при наведении */
+    border: 1px solid #ffffff; /* Синяя граница */
+    cursor: pointer;
+        transition: all 0.3s ease; /* Плавный переход */
+}
+.button100:hover {
+    background-color: #0450a0; /* Белый фон при наведении */
+    color: #ffffff; /* Синий текст при наведении */
+    border: 1px solid #ffffff; /* Синяя граница */
+    cursor: pointer;
+}
+.button100 {
+    opacity: 0;
+    border-radius: 8px; /* Закруглённые углы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    transition: all 0.3s;
+}
+.container4:hover .button100{
+    opacity: 1;
+}
+.button1001:hover {
+    background-color: #0450a0; /* Белый фон при наведении */
+    color: #ffffff; /* Синий текст при наведении */
+    border: 1px solid #ffffff; /* Синяя граница */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button1001 {
+    right: 68%; /* Отступ справа */
+    border-radius: 8px; /* Закруглённые углы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    transition: all 0.3s ease;
+}
+.button1002:hover {
+    background-color: #0450a0;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.button10021:hover {
+    background-color: #0450a0;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.button1002:hover .buttonLabel{
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.button10021:hover .buttonLabel{
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.button1001 {
+    display: flex;
+    justify-content: space-between;
+    right: 1279px;
+    opacity: 0;
+}
+.button1001:hover {
+    background-color: #0450a0;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.button1001:hover .buttonLabel{
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+
+.button1002 {
+    border-radius: 8px; /* Закруглённые углы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    transition: all 0.3s;
+    
+}
+.button10021 {
+    border-radius: 8px; /* Закруглённые углы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    transition: all 0.3s;
+    right: 697px;
+}
+
+
+.specializationcardfull:hover .container4 .button1002{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.container4 .button1002{
+    opacity: 0;
+    right: 32px;
+}
+
+
+.container5 .button1002, .container56 .button1002, .container57 .button1002{
+    right: 160px;
+    opacity: 0;
+}
+.container56 .button10021{
+    opacity: 0;
+}
+
+.button1003:hover {
+    background-color: #0450a0; /* Белый фон при наведении */
+    color: #ffffff; /* Синий текст при наведении */
+    border: 1px solid #ffffff; /* Синяя граница */
+    cursor: pointer;
+}
+.button1003 {
+    right: 61%; /* Отступ справа */
+    border-radius: 8px; /* Закруглённые углы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+.button1004:hover {
+    background-color: #0450a0; /* Белый фон при наведении */
+    color: #ffffff; /* Синий текст при наведении */
+    border: 1px solid #ffffff; /* Синяя граница */
+    cursor: pointer;
+}
+.button1004 {
+    right: 36%; /* Отступ справа */
+    border-radius: 8px; /* Закруглённые углы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 1000px;
+    border: 1px solid #0450a0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+
+/* @media (max-width:1920px) {
+.buttonLabel {
+    letter-spacing: -0.24px;
+    line-height: 16px;
+}
+.container58 .heading1{
+    width: 300px;
+}
+
+.button {
+    border-radius: 573.77px;
+    padding: 6px 14px;
+}
+.div {
+    letter-spacing: -1.8px;
+    line-height: 61.2px;
+}
+.frameChild {
+    height: 68px;
+}
+.div1 {
+    letter-spacing: -1.8px;
+    line-height: 61.2px;
+}
+.heading2Parent {
+    gap: 36px;
+    font-size: 60px;
+}
+.container2 {
+    padding: 0px 0px 6px;
+    gap: 13px;
+}
+.magnifyingglassIcon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+}
+.iconbutton {
+    border-radius: 500px;
+    padding: 14px;
+}
+.button1 {
+    border-radius: 1000px;
+    padding: 16px 24px;
+}
+.iconbuttonParent {
+    gap: 10px;
+}
+.icon {
+    left: 847px;
+    height: 254px;
+}
+.icon1 {
+    border-radius: 10px;
+    padding: 16px;
+}
+.tag {
+    border-radius: 573.77px;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.title {
+    letter-spacing: -0.96px;
+    line-height: 32.64px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32.64px;
+}
+.subtitle {
+    letter-spacing: -0.28px;
+    line-height: 17.36px;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.subtitleContainer {
+    font-size: 14px;
+}
+.content3 {
+    font-size: 32px;
+}
+.content2 {
+    gap: 12px;
+}
+.button2 {
+    border-radius: 573.77px;
+    padding: 6px 14px;
+}
+.actions1 {
+    gap: 6px;
+}
+.actionsChild {
+    height: 16px;
+}
+.button5 {
+    border-radius: 573.77px;
+    padding: 6px 8px;
+}
+.actions2 {
+    gap: 12px;
+}
+
+.actions {
+    gap: 12px;
+    margin: 8px 0;
+}
+.blocks .actions2{
+    margin-top: 10px;
+}
+.blocks2 .actions2{
+    margin-top: 10px;
+}
+.blocks{
+    top: 905px;
+}
+.blocks2{
+    top: 1285px;
+}
+
+.blocks .actions2 .separator{
+    margin-bottom: 15px;
+}
+.blocks2 .actions2 .separator{
+    margin-bottom: 15px;
+}
+.specializationcardfull {
+    border-radius: 16px;
+    height: 400px;
+    padding: 32px 32px 40px;
+}
+.heading1 {
+    font-size: 32px;
+}
+.button9 {
+    border-radius: 573.77px;
+    padding: 6px 14px;
+}
+.actions3 {
+    gap: 0px 6px;
+}
+.card {
+    border-radius: 16px;
+    padding: 32px 32px 40px;
+}
+.actions10 {
+    gap: 12px;
+    margin: 8px 0;
+}
+.titleContainer {
+    gap: 10px;
+}
+.lineDiv {
+    width: 1px;
+    height: 29px;
+}
+.actions11 {
+    gap: 12px;
+    margin: 8px 0;
+}
+.specializationCard {
+    width: 528px;
+    height: 400px;
+}
+.specializationCardl {
+    width:1106px;
+    height: 400px;
+}
+.div2 {
+    letter-spacing: -0.24px;
+}
+.container11 {
+    max-width: 440px;
+}
+.button31 {
+    border-radius: 1000px;
+    padding: 16px 24px;
+}
+.button32 {
+    border-radius: 1000px;
+    padding: 16px 24px;
+}
+.container13 {
+    gap: 10px;
+}
+.container12 {
+    font-size: 12px;
+}
+.background {
+    max-width: 1664px;
+    border-radius: 16px;
+    padding: 40px 60px;
+    font-size: 24px;
+}
+.container3 {
+    gap: 16px;
+}
+.specializationCard {
+    flex: 1 1 calc(33.333% - 16px); 
+    min-width: 528px; 
+    height: 400px;
+    border-radius: 16px;
+}
+.specializationCardl {
+    flex: 1 1 calc(33.333% - 16px);
+    min-width: 1106px; 
+    height: 400px;
+    border-radius: 16px;
+}
+
+
+.container {
+    max-width: 1664px;
+    gap: 64px;
+}
+.section {
+    margin-top: 300px;
+    font-size: 16px;
+}
+
+.specializationCard .button1004{
+    right: 700px;
+}
+.specializationCardl .button1004{
+    right: 700px;
+}
+.block{
+    height: 109px;
+}
+.subjectBlockOutlined {
+    border-radius: 50px;
+    width: 59px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.subjectBlockOutlined2 {
+    border-radius: 50px;
+    width: 59px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 16px; 
+}
+
+.subjectBlockOutlined .score {
+    top: -28px;
+    left: 23px;
+    font-size: 28px;
+}
+.subjectBlockOutlined .score1 {
+    top: -28px;
+    left: 23px;
+    font-size: 28px;
+}
+.subjectBlockOutlined2 .score {
+    top: -28px;
+    left: 43px;
+    font-size: 28px;
+}
+.button100 {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 1000px;
+    padding: 16px 24px;
+}
+.button1001 {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 1000px;
+    padding: 16px 24px;
+}
+.button1001 {
+    right: 1279px;
+}
+
+.button1002 {
+    border-radius: 8px;
+    padding: 10px 20px; 
+    font-size: 14px;
+    border-radius: 1000px;
+    padding: 16px 24px;
+    
+}
+.button10021 {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 1000px;
+    padding: 16px 24px;
+    right: 697px;
+}
+
+
+.container4 .button1002{
+    right: 32px;
+}
+
+.container5 .button1002, .container56 .button1002, .container57 .button1002{
+    right: 160px;
+}
+
+.button1003 {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 1000px;
+    padding: 16px 24px;
+}
+.button1004 {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 1000px;
+    padding: 16px 24px;
+}
+} */
+
+@media (max-width:1760px) {
+    .buttonLabel {
+        letter-spacing: -0.21px;
+        line-height: 14px;
+    }
+    .container58 .heading1 {
+        width: 255px;
+    }
+    .button {
+        border-radius: 509.67px;
+        padding: 5.6px 12.5px;
+    }
+    .div {
+        letter-spacing: -1.6px;
+        line-height: 54.4px;
+    }
+    .frameChild {
+        width: 1.7px;
+        height: 63.3px;
+    }
+    .div1 {
+        letter-spacing: -1.6px;
+        line-height: 54.4px;
+    }
+    .heading2Parent {
+        gap: 30px;
+        font-size: 50px;
+    }
+    .container2 {
+        padding: 0px 0px 5px;
+        gap: 11.5px;
+    }
+    .magnifyingglassIcon {
+        width: 17px;
+        height: 17px;
+    }
+    .iconbutton {
+        border-radius: 444.6px;
+        padding: 12.3px;
+    }
+    .button1 {
+        border-radius: 833.3px;
+        padding: 14.6px 21.3px;
+    }
+    .iconbuttonParent {
+        gap: 8.5px;
+    }
+    .icon {
+        left: 705.5px;
+        height: 224.5px;
+    }
+    .icon1 {
+        border-radius: 8.3px;
+        padding: 14.6px;
+    }
+    .tag {
+        border-radius: 509.67px;
+        padding: 5.6px 11.5px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .title {
+        letter-spacing: -0.79px;
+        line-height: 28.8px;
+        font-size: 28px;
+    }
+    .subtitle {
+        letter-spacing: -0.26px;
+        line-height: 15px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .subtitleContainer {
+        font-size: 12px;
+    }
+    .content3 {
+        gap: 5.6px;
+        font-size: 28.8px;
+    }
+    .content2 {
+        gap: 10.7px;
+    }
+    .button2 {
+        border-radius: 509.67px;
+        padding: 5.6px 12.5px;
+    }
+    .actions1 {
+        gap: 5.6px;
+    }
+    .actionsChild {
+        height: 14px;
+    }
+    .button5 {
+        border-radius: 509.67px;
+        padding: 5.6px 7.7px;
+    }
+    .actions2 {
+        gap: 10.7px;
+    }
+    .actions {
+        gap: 10.7px;
+        margin: 7px 0;
+    }
+    .content1 {
+        gap: 16px;
+    }
+    .blocks .actions2 {
+        margin-top: 8.3px;
+    }
+    .blocks2 .actions2 {
+        margin-top: 8.3px;
+    }
+    .blocks {
+        top: 766.3px;
+    }
+    .blocks2 {
+        top: 1134px;
+    }
+    .blocks2 .actions2 .separator,
+    .blocks .actions2 .separator {
+        margin-bottom: 12px;
+    }
+    .content {
+        gap: 16px;
+    }
+    .specializationcardfull {
+        border-radius: 13.3px;
+        height: 355px;
+        padding: 26.7px 26.7px 33.3px;
+    }
+    .heading1 {
+        font-size: 28.8px;
+    }
+    .button9 {
+        border-radius: 509.67px;
+        padding: 5.6px 12.5px;
+    }
+    .actions3 {
+        gap: 0px 5.6px;
+    }
+    .card {
+        border-radius: 13.3px;
+        padding: 26.7px 26.7px 33.3px;
+    }
+    .actions10 {
+        gap: 10.7px;
+        margin: 7px 0;
+    }
+    .titleContainer {
+        gap: 8.5px;
+    }
+    .lineDiv {
+        height: 25.8px;
+    }
+    .actions11 {
+        gap: 10.7px;
+        margin: 7px 0;
+    }
+    .specializationCard {
+        width: 462px;
+        height: 355px;
+    }
+    .specializationCardl {
+        width: 934px;
+        height: 355px;
+    }
+    .div2 {
+        letter-spacing: -0.21px;
+    }
+    .container11 {
+        max-width: 385px;
+    }
+    .button32,
+    .button31 {
+        border-radius: 833.3px;padding: 14.6px 21.3px;
+    }
+    .container13 {
+        gap: 8.5px;
+    }
+    .container12 {
+        font-size: 10px;
+    }
+    .background {
+        max-width: 1480px;
+        border-radius: 13.3px;
+        padding: 33.3px 50px;
+        font-size: 20px;
+    }
+    .container3 {
+        gap: 13.3px;
+    }
+    .specializationCard {
+        flex: 1 1 calc(33.333% - 13.3px);
+        min-width: 462px;
+        height: 355px;
+        border-radius: 13.3px;
+    }
+    .specializationCardl {
+        flex: 1 1 calc(33.333% - 13.3px);
+        min-width: 934px;
+        height: 355px;
+        border-radius: 13.3px;
+    }
+    .container {
+        max-width: 1480px;
+        gap: 55.5px;
+    }
+    .section {
+        margin-top: 250px;
+        font-size: 13.3px;
+    }
+
+    .specializationCardl:hover .block,
+    .specializationCard:hover .block {
+        top: 316.7px;
+    }
+    .button100 {
+        opacity: 0;
+        border-radius: 6.7px;
+        padding: 9.3px 18.6px;
+        font-size: 11.7px;
+        border-radius: 833.3px;
+        padding: 14.6px 21.3px;
+    }
+    .button1001 {
+        border-radius: 6.7px;
+        padding: 9.3px 18.6px;
+        font-size: 11.7px;
+        border-radius: 833.3px;
+        padding: 14.6px 21.3px;
+    }
+    .button1001 {
+        right: 1159.6px;
+    }
+    .button1002 {
+        border-radius: 6.7px;
+        padding: 9.3px 18.6px;
+        font-size: 11.7px;
+        border-radius: 833.3px;
+        padding: 14.6px 21.3px;
+    }
+    .button10021 {
+        border-radius: 6.7px;
+        padding: 9.3px 18.6px;
+        font-size: 11.7px;
+        border-radius: 833.3px;
+        padding: 14.6px 21.3px;
+        right: 581.3px;
+    }
+
+    .container4 .button1002 {
+        right: 24.8px;
+    }
+
+    .container5 .button1002,
+    .container56 .button1002,
+    .container57 .button1002 {
+        right: 136.2px;
+    }
+    .button1003 {
+        border-radius: 6.7px;
+        padding: 9.3px 18.6px;
+        font-size: 11.7px;
+        border-radius: 833.3px;
+        padding: 14.6px 21.3px;
+    }
+    .button1004 {
+        border-radius: 6.7px;
+        padding: 9.3px 18.6px;
+        font-size: 11.7px;
+        border-radius: 833.3px;
+        padding: 14.6px 21.3px;
+    }
+}
+
+@media (max-width: 1490px) {
+.buttonLabel {
+    letter-spacing: -0.18px;
+    line-height: 12.36px;
+}
+.container58 .heading1 {
+    width: 224.62px;
+}
+.button {
+    border-radius: 444.39px;
+    padding: 4.48px 10.35px;
+}
+.div {
+    letter-spacing: -1.40px;
+    line-height: 45.43px;
+}
+.frameChild {
+    width: 1.34px;
+    height: 58.57px;
+}
+.div1 {
+    letter-spacing: -1.40px;
+    line-height: 45.43px;
+}
+.heading2Parent {
+    gap: 25.57px;
+    font-size: 43.56px;
+}
+.container2 {
+    padding: 0px 0px 4.53px;
+    gap: 9.44px;
+}
+.magnifyingglassIcon {
+    width: 15.55px;
+    height: 15.55px;
+}
+.iconbutton {
+    border-radius: 429.70px;
+    padding: 10.35px;
+}
+.button1 {
+    border-radius: 833.56px;
+    padding: 12.14px 17.52px;
+}
+.iconbuttonParent {
+    gap: 7.51px;
+}
+.icon {
+    left: 650.84px;
+    height: 207.87px;
+}
+.icon1 {
+    border-radius: 7.57px;
+    padding: 12.14px;
+}
+.tag {
+    border-radius: 444.39px;
+    padding: 4.48px 9.68px;
+    font-size: 9.44px;
+    line-height: 12.36px;
+}
+.title {
+    letter-spacing: -0.69px;
+    line-height: 26.64px;
+    font-size: 26.11px;
+}
+.subtitle {
+    letter-spacing: -0.22px;
+    line-height: 13.42px;
+    font-weight: 500;
+    font-size: 10.78px;
+}
+.subtitleContainer {
+    font-size: 10.78px;
+}
+.content3 {
+    gap: 4.48px;
+    font-size: 26.64px;
+}
+.content2 {
+    gap: 9.57px;
+}
+.button2 {
+    border-radius: 444.39px;
+    padding: 4.48px 10.35px;
+}
+.actions1 {
+    gap: 4.48px;
+}
+.actionsChild {
+    height: 12.36px;
+}
+.button5 {
+    border-radius: 444.39px;
+    padding: 4.48px 5.50px;
+}
+.actions2 {
+    gap: 9.57px;
+}
+.actions {
+    gap: 9.57px;
+    margin: 6.42px 0;
+}
+.content1 {
+    gap: 14.92px;
+}
+.blocks .actions2 {
+    margin-top: 7.18px;
+}
+.blocks2 .actions2 {
+    margin-top: 7.18px;
+}
+.blocks {
+    top: 720.87px;
+}
+.blocks2 {
+    top: 1035.70px;
+}
+.blocks2 .actions2 .separator,
+.blocks .actions2 .separator {
+    margin-bottom: 10.61px;
+}
+.content {
+    gap: 14.92px;
+}
+.specializationcardfull {
+    border-radius: 10.99px;
+    height: 327.98px;
+    padding: 24.53px 24.53px 30.60px;
+}
+.heading1 {
+    font-size: 26.64px;
+}
+.button9 {
+    border-radius: 444.39px;
+    padding: 4.48px 10.35px;
+}
+.actions3 {
+    gap: 0px 4.48px;
+}
+.card {
+    border-radius: 10.99px;
+    padding: 24.53px 24.53px 30.60px;
+}
+.actions10 {
+    gap: 9.57px;
+    margin: 6.42px 0;
+}
+.titleContainer {
+    gap: 7.51px;
+}
+.lineDiv {
+    height: 23.38px;
+}
+.actions11 {
+    gap: 9.57px;
+    margin: 6.42px 0;
+}
+.specializationCard {
+    width: 402.48px;
+    height: 327.98px;
+}
+.specializationCardl {
+    width: 790.16px;
+    height: 327.98px;
+}
+.div2 {
+    letter-spacing: -0.18px;
+}
+.container11 {
+    max-width: 333.74px;
+}
+.button32,
+.button31 {
+    border-radius: 833.56px;
+    padding: 12.14px 17.52px;
+}
+.container13 {
+    gap: 7.51px;
+}
+.container12 {
+    font-size: 9.44px;
+}
+.background {
+    max-width: 1318.96px;
+    border-radius: 10.99px;
+    padding: 30.60px 45.57px;
+    font-size: 18.24px;
+}
+.container3 {
+    gap: 12.95px;
+}
+.specializationCard {
+    flex: 1 1 calc(33.333% - 10.99px);
+    min-width: 402.48px;
+    height: 327.98px;
+    border-radius: 10.99px;
+}
+.specializationCardl {
+    flex: 1 1 calc(33.333% - 10.99px);
+    min-width: 790.16px;
+    height: 327.98px;
+    border-radius: 10.99px;
+}
+.container {
+    max-width: 1318.96px;
+    gap: 50.46px;
+}
+.section {
+    margin-top: 223.20px;
+    font-size: 12.95px;
+}
+.specializationCardl:hover .block,
+.specializationCard:hover .block {
+    top: 316.79px;
+}
+.button100 {
+    opacity: 0;
+    border-radius: 6.52px;
+    padding: 9.31px 18.62px;
+    font-size: 11.69px;
+}
+.button1001 {
+    border-radius: 6.52px;
+    padding: 9.31px 18.62px;
+    font-size: 11.69px;
+}
+.button1001 {
+    right: 1159.85px;
+}
+.button1002 {
+    border-radius: 6.52px;
+    padding: 9.31px 18.62px;
+    font-size: 11.69px;
+}
+.button10021 {border-radius: 6.52px;
+    padding: 9.31px 18.62px;
+    font-size: 11.69px;
+    right: 581.76px;
+}
+.container4 .button1002 {
+    right: 24.97px;
+}
+.container5 .button1002,
+.container56 .button1002,
+.container57 .button1002 {
+    right: 136.46px;
+}
+.button1003 {
+    border-radius: 6.52px;
+    padding: 9.31px 18.62px;
+    font-size: 11.69px;
+}
+.button1004 {
+    border-radius: 6.52px;
+    padding: 9.31px 18.62px;
+    font-size: 11.69px;
+}
+}
+@media (max-width:1340px) {
+.buttonLabel {
+    letter-spacing: -0.16px;
+    line-height: 11.12px;
+}
+.container58 .heading1 {
+    width: 202.01px;
+}
+.button {
+    border-radius: 399.65px;
+    padding: 4.03px 9.31px;
+}
+.div {
+    letter-spacing: -1.26px;
+    line-height: 40.86px;
+}
+.frameChild {
+    width: 1.21px;
+    height: 52.67px;
+}
+.div1 {
+    letter-spacing: -1.26px;
+    line-height: 40.86px;
+}
+.heading2Parent {
+    gap: 23.0px;
+    font-size: 39.17px;
+}
+.container2 {
+    padding: 0.0px 0.0px 4.07px;
+    gap: 8.49px;
+}
+.magnifyingglassIcon {
+    width: 13.98px;
+    height: 13.98px;
+}
+.iconbutton {
+    border-radius: 386.44px;
+    padding: 9.31px;
+}
+.button1 {
+    border-radius: 749.64px;
+    padding: 10.92px 15.76px;
+}
+.iconbuttonParent {
+    gap: 6.75px;
+}
+.icon {
+    left: 585.32px;
+    height: 186.94px;
+}
+.icon1 {
+    border-radius: 6.81px;
+    padding: 10.92px;
+}
+.tag {
+    border-radius: 399.65px;
+    padding: 4.03px 8.71px;
+    font-size: 8.49px;
+    line-height: 11.12px;
+}
+.title {
+    letter-spacing: -0.62px;
+    line-height: 23.96px;
+    font-size: 23.48px;
+}
+.subtitle {
+    letter-spacing: -0.2px;
+    line-height: 12.07px;
+    font-weight: 500;
+    font-size: 9.69px;
+}
+.subtitleContainer {
+    font-size: 9.69px;
+}
+.content3 {
+    gap: 4.03px;
+    font-size: 23.96px;
+}
+.content2 {
+    gap: 8.61px;
+}
+.button2 {
+    border-radius: 399.65px;
+    padding: 4.03px 9.31px;
+}
+.actions1 {
+    gap: 4.03px;
+}
+.actionsChild {
+    height: 11.12px;
+}
+.button5 {
+    border-radius: 399.65px;
+    padding: 4.03px 4.95px;
+}
+.actions2 {
+    gap: 8.61px;
+}
+.actions {
+    gap: 8.61px;
+    margin: 5.77px 0;
+}
+.content1 {
+    gap: 13.42px;
+}
+.blocks .actions2 {
+    margin-top: 6.46px;
+}
+.blocks2 .actions2 {
+    margin-top: 6.46px;
+}
+.blocks {
+    top: 648.3px;
+}
+.blocks2 {
+    top: 931.43px;
+}
+.blocks2 .actions2 .separator,
+.blocks .actions2 .separator {
+    margin-bottom: 9.54px;
+}
+.content {
+    gap: 13.42px;
+}
+.specializationcardfull {
+    border-radius: 9.88px;
+    height: 294.96px;
+    padding: 22.76px 22.76px 28.31px;
+}
+.heading1 {
+    font-size: 23.96px;
+}
+.button9 {
+    border-radius: 399.65px;
+    padding: 4.03px 9.31px;
+}
+
+.actions3 {
+    gap: 0px 4.03px;
+}
+.card {
+    border-radius: 9.88px;
+    padding: 22.76px 22.76px 28.31px;
+}
+.actions10 {
+    gap: 8.61px;
+    margin: 5.77px 0;
+}
+.titleContainer {
+    gap: 6.75px;
+}
+.lineDiv {
+    height: 21.03px;
+}
+.actions11 {
+    gap: 8.61px;
+    margin: 5.77px 0;
+}
+.specializationCard {
+    width: 361.96px;
+    height: 294.96px;
+}
+.specializationCardl {
+    width: 710.61px;
+    height: 294.96px;
+}
+.div2 {
+    letter-spacing: -0.16px;
+}
+.container11 {
+    max-width: 300.14px;
+}
+.button32,
+.button31 {
+    border-radius: 749.64px;
+    padding: 10.92px 15.76px;
+}
+.container13 {
+    gap: 6.75px;
+}
+.container12 {
+    font-size: 8.49px;
+}
+.background {
+    max-width: 1186.18px;
+    border-radius: 9.88px;
+    padding: 27.52px 40.98px;
+    font-size: 16.4px;
+}
+.container3 {
+    gap: 11.65px;
+}
+.specializationCard {
+    flex: 1 1 calc(33.333% - 9.88px);
+    min-width: 361.96px;
+    height: 294.96px;
+    border-radius: 9.88px;
+}
+.specializationCardl {
+    flex: 1 1 calc(33.333% - 9.88px);
+    min-width: 710.61px;
+    height: 294.96px;
+    border-radius: 9.88px;
+}
+.container {
+    max-width: 1186.18px;
+    gap: 45.38px;
+}
+.section {
+    margin-top: 200.73px;
+    font-size: 11.65px;
+}
+.specializationCardl:hover .block,
+.specializationCard:hover .block {
+    top: 284.9px;
+}
+.button100 {
+    opacity: 0;
+    border-radius: 5.86px;
+    padding: 8.37px 16.75px;
+    font-size: 10.51px;
+}
+.button1001 {
+    border-radius: 5.86px;
+    padding: 8.37px 16.75px;
+    font-size: 10.51px;
+}
+.button1001 {
+    right: 1043.09px;
+}
+.button1002 {
+    border-radius: 5.86px;
+    padding: 8.37px 16.75px;
+    font-size: 10.51px;
+}
+.button10021 {
+    border-radius: 5.86px;padding: 8.37px 16.75px;
+    font-size: 10.51px;
+    right: 523.19px;
+}
+.container4 .button1002 {
+    right: 22.46px;
+}
+.container5 .button1002,
+.container56 .button1002,
+.container57 .button1002 {
+    right: 122.72px;
+}
+.button1003 {
+    border-radius: 5.86px;
+    padding: 8.37px 16.75px;
+    font-size: 10.51px;
+}
+.button1004 {
+    border-radius: 5.86px;
+    padding: 8.37px 16.75px;
+    font-size: 10.51px;
+}
+}
+
+@media (max-width: 1269px) {
+    .container {
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+
+    .container58 .heading1{
+        width: 100%;
+    }
+.specializationCardl{
+    height: 225px;
+}
+.blocks{
+    top: 1022px;
+}
+
+    .specializationCard {
+        flex: 1 1 100%; /* Одна карточка в ряд */
+        max-width: 100%;
+        transition: all 0.3s ease;
+    }
+
+    .specializationCard,
+    .specializationcardfull {
+        flex: 1 1 100%; /* Одна карточка на весь экран */
+        max-width: 100%;
+        height: 225px;
+        box-sizing: border-box;
+        transition: all 0.3s ease;
+    }
+    .tag{
+        padding: 8px 20px;
+        transition: all 0.3s ease;
+    }
+    .title{
+        font-size: 20px;
+        transition: all 0.3s ease;
+    }
+    .buttonLabel{
+        font-size: 8px;
+        transition: all 0.3s ease;
+        margin-top: 2px;
+    }
+    .button100,
+    .button1001,
+    .button1002,
+    .button1003,
+    .button1004 {
+        font-size: 12px;
+        padding: 8px 16px;
+        right: 34px;
+        margin: 8px 0;
+        transition: all 0.3s ease;
+    }
+    .icon {
+        left: 0px;
+    }
+    .background{
+        font-size: 14px;
+        padding: 19px 15px;
+        transition: all 0.3s ease;
+    }
+    .container13{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: all 0.3s ease;
+    }
+    .button32{
+        font-size: 12px;
+        padding: 8px 43px;
+        right: 34px;
+        transition: all 0.3s ease;
+    }
+    .button31{
+        font-size: 12px;
+        padding: 8px 16px;
+        right: 34px;
+        transition: all 0.3s ease;
+    }
+    .actions {
+        flex-wrap: wrap;
+        gap: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .subjectBlock,
+    .subjectBlockOutlined, .subjectBlock2, .subjectBlockOutlined2{
+        font-size: 10px; 
+        padding: 10px 8px; 
+        transition: all 0.3s ease;
+    }
+
+    .orText {
+        margin: 0 4px;
+        font-size: 12px;
+        transition: all 0.3s ease;
+    }
+
+    .descriptionTop {
+        font-size: 12px;
+        line-height: 1.4;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .subtitle {
+        font-size: 15px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .container3 {
+        gap: 16px; 
+        padding: 16px; 
+        transition: all 0.3s ease;
+    }
+
+    .section {
+        padding: 16px;
+        top: 96px;
+        transition: all 0.3s ease;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center;
+        padding: 20px 40px;
+        gap: 16px; 
+        transition: all 0.3s ease;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 12px 20px;
+        border-radius: 25px;
+        text-align: center;
+        align-self: flex-start;
+        transition: all 0.3s ease;
+    }
+
+    .heading2Parent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        transition: all 0.3s ease;
+    }
+    .heading2 {
+        font-size: 32px;
+        line-height: 1.2;
+        font-weight: bold;
+        color: #0450a0;
+        transition: all 0.3s ease;
+    }
+
+    .div1 {
+      font-size: 20px; /* Размер текста */
+      color: rgba(4, 80, 160, 0.5); /* Прозрачный синий цвет */
+      font-style: italic; /* Курсив */
+    }
+  
+    /* Разделительная линия */
+    .frameChild {
+      width: 1px; /* Линия тонкая */
+      height: 40px; /* Высота линии */
+      background-color: rgba(4, 80, 160, 0.5); /* Прозрачный синий */
+    }
+  
+    /* Блок с лупой и кнопкой */
+    .iconbuttonParent {
+      display: flex;
+      flex-direction: row; /* Элементы в строку */
+      align-items: center; /* Центрируем элементы */
+      gap: 8px; /* Отступ между лупой и кнопкой */
+    }
+  
+    /* Иконка лупы */
+    .iconbutton {
+      width: 36px; /* Размер иконки */
+      height: 36px;
+      padding: 6px;
+      border-radius: 50%; /* Скругляем иконку */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #0450a0; /* Синяя рамка */
+    }
+  
+    /* Кнопка "ВСЕ НАПРАВЛЕНИЯ" */
+    .button1 {
+      font-size: 14px;
+      padding: 10px 20px; /* Уменьшаем отступы */
+      border-radius: 10px; /* Скругление */
+      text-align: center;
+      border: 1px solid #0450a0; /* Синяя рамка */
+    }
+    /* Основной контейнер */
+    .container1 {
+      flex-direction: column; /* Элементы вертикально */
+      align-items: flex-start; /* Выравнивание по левому краю */
+      padding: 16px; /* Отступы для мобильных */
+      gap: 16px; /* Отступы между элементами */
+    }
+  
+    /* Контейнер для текста */
+    .container2 {
+      width: 100%; /* Используем всю ширину экрана */
+      gap: 12px; /* Увеличиваем отступы */
+    }
+  
+    /* Кнопка */
+    .button {
+      font-size: 14px; /* Уменьшаем текст */
+      padding: 8px 16px; /* Уменьшаем внутренние отступы */
+    }
+  
+    /* Заголовок */
+    .heading2Parent {
+      align-items: flex-start; /* Выравниваем по левому краю */
+      gap: 8px; /* Увеличиваем отступы */
+      transition: all 0.3s ease;
+    }
+    .div{
+        align-self: stretch;
+    position: relative;
+    letter-spacing: -1.8px;
+    line-height: 34.2px; 
+    transition: all 0.3s ease;
+    font-weight: 500;
+    }
+  
+    .heading2 {
+      font-size: 30px; /* Уменьшаем заголовок */
+    }
+  
+    .div1 {
+      font-size: 24px; /* Уменьшаем текст хэштега */
+    }
+  
+    /* Линия */
+    .frameChild {
+      display: none; /* Убираем линию на мобильных */
+      transition: all 0.3s ease;
+    }
+  
+    /* Лупа и кнопка */
+    .iconbuttonParent {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 8px;
+        display: none;
+        transition: all 0.3s ease;
+    }
+    .subjectBlockOutlined .score{
+        left: 39px;
+        top: -11px;
+        transition: all 0.3s ease;
+    }
+        .separator{
+            width: 10px;
+            margin-top: 10px;
+        }
+    .iconbutton {
+      width: 30px; /* Уменьшаем размер иконки */
+      height: 30px;
+      padding: 4px;
+      transition: all 0.3s ease;
+    }
+  
+    .button1 {
+      font-size: 12px; /* Уменьшаем текст */
+      padding: 8px 16px; /* Уменьшаем внутренние отступы */
+      transition: all 0.3s ease;
+    }
+
+    .icon1{
+        padding: 12px;
+    }
+    .magnifyingglassIcon{
+        width: 17px;
+        height: 17px;
+        transition: all 0.3s ease;
+    }
+    .button100, .button1002, .button1001, .button1004, .button10021{
+        padding: 8px 30px;
+        transition: all 0.3s ease;
+    }
+    .specializationcardfull{
+        padding: 16px 16px 20px;
+    }
+    .specializationCard .container5 .block{
+        top: 560px;
+    }
+
+    .specializationCard .container5 .blocks{
+        top: 780px;
+    }
+    .card{
+        padding: 16px 16px 20px;
+    }
+    .specializationCard .container56 .blocks{
+        top: 1045px;
+    }   
+    .specializationCard .container57 .blocks{
+        top: 1285px;
+    }   
+    
+    .specializationCard .container58 .blocks2{
+        top: 1262px;
+    }   
+}
+
+@media (max-width: 760.0px) {
+    .container {
+        flex-direction: column;
+        gap: 9.58px;
+        justify-content: center;
+        transition: all 0.3s ease;
+        width: 600px;
+    }
+
+    .container58 .heading1{
+        width: 100%;
+    }
+    .specializationCardl{
+        height: 134.75px;
+        min-width: 0;
+    }
+    .blocks{
+        top: 612.07px;
+    }
+
+    .specializationCard {
+        flex: 1 1 100%; /* Одна карточка в ряд */
+        max-width: 100%;
+        transition: all 0.3s ease;
+    }
+
+    .specializationCard,
+    .specializationcardfull {
+        flex: 1 1 100%; /* Одна карточка на весь экран */
+        max-width: 100%;
+        height: 150px;
+        box-sizing: border-box;
+        transition: all 0.3s ease;
+    }
+    .tag{
+        padding: 4.79px 8px;
+        transition: all 0.3s ease;
+    }
+    .title{
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .buttonLabel{
+        transition: all 0.3s ease;
+        margin-top: 1.2px;
+    }
+    .button100,
+    .button1001,
+    .button1002,
+    .button1003,
+    .button1004 {
+        font-size: 7.19px;
+        padding: 4.79px 9.58px;
+        right: 20.36px;
+        margin: 4.79px 0;
+        transition: all 0.3s ease;
+    }
+    .icon {
+        left: 0.0px;
+        height: 140px;
+    }
+    .background{
+        font-size: 8.38px;
+        padding: 11.38px 8.98px;
+        transition: all 0.3s ease;
+    }
+    .container13{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: all 0.3s ease;
+    }
+    .button32{
+        font-size: 9px;
+        padding: 4.79px 25.75px;
+        right: 20.36px;
+        transition: all 0.3s ease;
+    }
+    .button31{
+        font-size: 9px;
+        padding: 4.79px 9.58px;
+        right: 20.36px;
+        transition: all 0.3s ease;
+    }
+    .actions {
+        flex-wrap: wrap;
+        gap: 4.79px;
+        transition: all 0.3s ease;
+    }
+
+    .subjectBlock,
+    .subjectBlockOutlined, .subjectBlock2, .subjectBlockOutlined2{
+        font-size: 10px;
+        padding: 7.19px 6.28px;
+        transition: all 0.3s ease;
+        width: 45px;
+        height: 15px;
+    }
+
+    .orText {
+        margin: 0 2.4px;
+        font-size: 7.19px;
+        transition: all 0.3s ease;
+    }
+
+    .descriptionTop {
+        font-size: 7.19px;
+        line-height: 1.4;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .container3 {
+        gap: 9.58px;
+        padding: 9.58px;
+        transition: all 0.3s ease;
+    }
+
+    .section {
+        padding: 9.58px;
+        top: 59.25px;
+        transition: all 0.3s ease;
+        margin: 200px auto;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12.4px 25.33px;
+        gap: 9.58px;
+        transition: all 0.3s ease;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 4.79px;
+        transition: all 0.3s ease;
+    }
+
+    .button {
+        font-size: 9.05px;
+        padding: 7.19px 12.4px;
+        border-radius: 19.04px;
+        text-align: center;
+        align-self: flex-start;
+        transition: all 0.3s ease;
+    }
+
+    .heading2Parent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 9.58px;
+        transition: all 0.3s ease;
+        width: 660px;
+    }
+    .heading2 {
+        line-height: 1.2;
+        font-weight: bold;
+        color: #0450a0;
+        transition: all 0.3s ease;
+    }
+    .div1 {
+        color: rgba(4, 80, 160, 0.5);
+        font-style: italic;
+    }
+
+    /* Линия */
+    .frameChild {
+        display: none;
+        transition: all 0.3s ease;
+    }/* Лупа и кнопка */
+    .iconbuttonParent {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 4.79px;
+        display: none;
+        transition: all 0.3s ease;
+    }
+    .subjectBlockOutlined .score {
+        left: 23.36px;
+        top: -6.59px;
+        transition: all 0.3s ease;
+    }
+    .separator {
+        width: 5.99px;
+        margin-top: 5.99px;
+    }
+    .iconbutton {
+        width: 17.97px;
+        height: 17.97px;
+        padding: 2.4px;
+        transition: all 0.3s ease;
+    }
+
+    .button1 {
+        font-size: 7.19px;
+        padding: 4.79px 9.58px;
+        transition: all 0.3s ease;
+    }
+
+    .icon1 {
+        padding: 7.19px;
+    }
+    .magnifyingglassIcon {
+        width: 10.18px;
+        height: 10.18px;
+        transition: all 0.3s ease;
+    }
+    .content2{
+        gap: 4px;
+    }
+    .button100, .button1002, .button1001, .button1004, .button10021 {
+        padding: 4.79px 17.97px;
+        transition: all 0.3s ease;
+    }
+    .specializationcardfull {
+        padding: 9.58px 9.58px 11.98px;
+    }
+    .specializationCard .container5 .block {
+        top: 383px;
+        position: absolute;
+    }
+
+    .specializationCard .container5 .blocks {
+        top: 543px;
+    }
+    .card {
+        padding: 9.58px 9.58px 11.98px;
+    }
+    .specializationCardl .container56 .blocks {
+        top: 690px;
+    }
+    .specializationCard .container57 .blocks {
+        top: 769.58px;
+    }
+    .specializationCard .container58 .blocks2 {
+        top: 845px;
+    }
+    .container4{
+        gap: 13px;
+    }
+    .container11{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    gap: 7.57px;
+    justify-content: center;
+    transition: all 0.3s ease;
+    width: 473.68px;
+  }
+
+  .container58 .heading1 {
+    width: 100%;
+  }
+
+  .specializationCardl {
+    height: 130px;
+    min-width: 0;
+  }
+
+  .blocks {
+    top: 483.03px;
+  }
+
+  .specializationCard {
+    flex: 1 1 100%;
+    max-width: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .specializationCard,
+  .specializationcardfull {
+    flex: 1 1 100%;
+    max-width: 100%;
+    height: 130px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+
+  .tag {
+    padding: 3.78px 6.32px;
+    transition: all 0.3s ease;
+  }
+
+  .title {
+    font-size: 14.21px;
+    transition: all 0.3s ease;
+  }
+
+  .buttonLabel {
+    transition: all 0.3s ease;
+    margin-top: 0.95px;
+  }
+
+  .button100,
+  .button1001,
+  .button1002,
+  .button1003,
+  .button1004 {
+    font-size: 5.67px;
+    padding: 3.78px 7.56px;
+    right: 16.07px;
+    margin: 3.78px 0;
+    transition: all 0.3s ease;
+  }
+
+  .icon {
+    left: 0.0px;
+    height: 110.53px;
+  }
+
+  .background {
+    font-size: 6.61px;
+    padding: 8.98px 7.09px;
+    transition: all 0.3s ease;
+  }
+
+  .container13 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  .button32 {
+    font-size: 7.1px;
+    padding: 3.78px 20.32px;
+    right: 16.07px;
+    transition: all 0.3s ease;
+  }
+
+  .button31 {
+    font-size: 7.1px;
+    padding: 3.78px 7.56px;
+    right: 16.07px;
+    transition: all 0.3s ease;
+  }
+
+  .actions {
+    flex-wrap: wrap;
+    gap: 3.78px;
+    transition: all 0.3s ease;
+  }
+
+  .subjectBlock,
+  .subjectBlockOutlined,
+  .subjectBlock2,
+  .subjectBlockOutlined2 {
+    font-size: 7.89px;
+    padding: 5.67px 4.96px;
+    width: 35.53px;
+    height: 11.84px;
+    transition: all 0.3s ease;
+  }
+
+  .orText {
+    margin: 0 1.89px;
+    font-size: 5.67px;
+    transition: all 0.3s ease;
+  }
+
+  .descriptionTop {
+    font-size: 5.67px;
+    line-height: 1.4;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .subtitle {
+    font-size: 9.47px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .container3 {
+    gap: 7.57px;
+    padding: 7.57px;
+    transition: all 0.3s ease;
+  }
+
+  .section {
+    padding: 7.57px;
+    top: 46.74px;
+    margin: 157.89px auto;
+    transition: all 0.3s ease;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9.78px 20px;
+    gap: 7.57px;
+    transition: all 0.3s ease;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3.78px;
+    transition: all 0.3s ease;
+  }
+
+  .button {
+    font-size: 7.15px;
+    padding: 5.67px 9.78px;
+    border-radius: 15.02px;
+    text-align: center;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  .heading2Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7.57px;
+    width: 521.05px;
+    transition: all 0.3s ease;
+  }
+
+  .heading2 {
+    line-height: 1.2;
+    font-weight: bold;
+    color: #0450a0;
+    transition: all 0.3s ease;
+  }
+
+  .div1 {
+    color: rgba(4, 80, 160, 0.5);
+    font-style: italic;
+  }
+
+  .frameChild {
+    display: none;
+    transition: all 0.3s ease;
+  }
+
+  .iconbuttonParent {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3.78px;
+    display: none;
+    transition: all 0.3s ease;
+  }
+
+  .subjectBlockOutlined .score {
+    left: 18.42px;
+    top: -5.2px;
+    transition: all 0.3s ease;
+  }
+
+  .separator {
+    width: 4.73px;
+    margin-top: 4.73px;
+  }
+
+  .iconbutton {
+    width: 14.18px;
+    height: 14.18px;
+    padding: 1.89px;
+    transition: all 0.3s ease;
+  }
+
+  .button1 {
+    font-size: 5.67px;
+    padding: 3.78px 7.56px;
+    transition: all 0.3s ease;
+  }
+
+
+  .content2 {
+    gap: 3.16px;
+  }.button100,
+  .button1002,
+  .button1001,
+  .button1004,
+  .button10021 {
+    padding: 3.78px 14.18px;
+    transition: all 0.3s ease;
+  }
+
+  .specializationcardfull {
+    padding: 7.57px 7.57px 9.45px;
+  }
+
+  .specializationCard .container5 .block {
+    top: 335px;
+    position: absolute;
+  }
+
+  .specializationCard .container5 .blocks {
+    top: 473px;
+  }
+
+  .card {
+    padding: 7.57px 7.57px 9.45px;
+  }
+
+  .specializationCardl .container56 .blocks {
+    top: 610px;
+  }
+
+  .specializationCard .container57 .blocks {
+    top: 607.68px;
+  }
+
+  .specializationCard .container58 .blocks2 {
+    top: 745px;
+  }
+
+  .container4 {
+    gap: 10.26px;
+  }
+
+  .container11 {
+    font-size: 9.47px;
+  }
+}
+
+@media (max-width: 475px) {
+  .container {
+    flex-direction: column;
+    gap: 5.99px;
+    justify-content: center;
+    transition: all 0.3s ease;
+    width: 375px;
+  }
+
+  .container58 .heading1 {
+    width: 100%;
+  }
+
+  .specializationCardl {
+    height: 130px;
+    min-width: 0;
+  }
+
+  .blocks {
+    top: 382.4px;
+  }
+
+  .specializationCard,
+  .specializationcardfull {
+    flex: 1 1 100%;
+    max-width: 100%;
+    height: 130px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+
+  .tag {
+    padding: 2.99px 5px;
+    transition: all 0.3s ease;
+  }
+
+
+  .buttonLabel {
+    transition: all 0.3s ease;
+    margin-top: 0.75px;
+  }
+
+  .button100,
+  .button1001,
+  .button1002,
+  .button1003,
+  .button1004 {
+    font-size: 4.49px;
+    padding: 2.99px 5.98px;
+    right: 12.72px;
+    margin: 2.99px 0;
+    transition: all 0.3s ease;
+  }
+
+  .icon {
+    left: 0.0px;
+    height: 87.5px;
+  }
+
+  .background {
+    font-size: 5.23px;
+    padding: 7.11px 5.61px;
+    transition: all 0.3s ease;
+  }
+
+  .container13 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all 0.3s ease;
+  }
+
+
+  .actions {
+    flex-wrap: wrap;
+    gap: 2.99px;
+    transition: all 0.3s ease;
+  }
+
+  .orText {
+    margin: 0 1.5px;
+    font-size: 4.49px;
+    transition: all 0.3s ease;
+  }
+
+  .descriptionTop {
+    font-size: 4.49px;
+    line-height: 1.4;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+
+
+  .container3 {
+    gap: 5.99px;
+    padding: 5.99px;
+    transition: all 0.3s ease;
+  }
+
+  .section {
+    padding: 5.99px;
+    top: 37px;
+    margin: 125px auto;
+    transition: all 0.3s ease;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7.74px 15.83px;
+    gap: 5.99px;
+    transition: all 0.3s ease;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.99px;
+    transition: all 0.3s ease;
+  }
+
+  .button {
+    font-size: 5.66px;
+    padding: 4.49px 7.74px;
+    border-radius: 11.89px;
+    text-align: center;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  .heading2Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5.99px;
+    width: 412.5px;
+    transition: all 0.3s ease;
+  }
+
+  .heading2 {
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #0450a0;
+    transition: all 0.3s ease;
+  }
+
+  .div1 {
+    color: rgba(4, 80, 160, 0.5);
+    font-style: italic;
+    font-size: 18px;
+  }
+
+  .frameChild {
+    display: none;
+    transition: all 0.3s ease;
+  }
+
+  .iconbuttonParent {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2.99px;
+    display: none;
+    transition: all 0.3s ease;
+  }
+
+  .subjectBlockOutlined .score {
+    left: 14.58px;
+    top: -4.12px;
+    transition: all 0.3s ease;
+  }
+
+  .separator {
+    width: 3.74px;
+    margin-top: 3.74px;
+  }
+
+  .iconbutton {
+    width: 11.23px;
+    height: 11.23px;
+    padding: 1.5px;
+    transition: all 0.3s ease;
+  }
+
+  .button1 {
+    font-size: 4.49px;
+    padding: 2.99px 5.98px;
+    transition: all 0.3s ease;
+  }
+
+  .content2 {
+    gap: 2.5px;
+  }
+
+  .button100,
+  .button1002,
+  .button1001,
+  .button1004,
+  .button10021 {
+    padding: 2.99px 11.23px;
+    transition: all 0.3s ease;
+  }.specializationcardfull {
+    padding: 5.99px 5.99px 7.48px;
+  }
+
+  .specializationCard .container5 .block {
+    top: 320px;
+    position: absolute;
+  }
+
+  .specializationCard .container5 .blocks {
+    top: 455px;
+  }
+
+  .card {
+    padding: 5.99px 5.99px 7.48px;
+  }
+
+  .specializationCardl .container56 .blocks {
+    top: 590px;
+  }
+
+  .specializationCard .container57 .blocks {
+    top: 374.46px;
+  }
+
+  .specializationCard .container58 .blocks2 {
+    top: 728px;
+  }
+
+  .container4 {
+    gap: 15px;
+  }
+
+}

@@ -1,6 +1,7 @@
 import { achievementsData, gideSteps, indicatorsData, associationsData, specializationCardData,
         economicsCardData, managementCardData, tradeCardData, businessInformaticsCardData, systemAnalysisCardData, 
-        economicSecurityCardData, faqBlockData, newsData, buttonLabels, advantageCards, questions
+        economicSecurityCardData, faqBlockData, newsData, buttonLabels, advantageCards, questions, specializationCardDataMag, economicsCardDataMag,
+        managementCardDataMag, tradeCardDataMag, systemAnalysisCardDataMag, economicSecurityCardDataMag, entranceMask
 } from '../Mocks/MainSteps';
 
 export const fetchAchievements = async () => {
@@ -87,5 +88,43 @@ export const sTitle2 = async () => {
 export const sSpisok = async () => {
     return new Promise((resolve) => {
         resolve(questions);
+    });
+};
+
+export const specializationSpeshMag1 = async () => {
+    return new Promise((resolve) => {
+        resolve(specializationCardDataMag);
+    });
+};
+export const specializationSpeshMag2 = async () => {
+    return new Promise((resolve) => {
+        resolve(economicsCardDataMag);
+    });
+};
+export const specializationSpeshMag3 = async () => {
+    return new Promise((resolve) => {
+        resolve(managementCardDataMag);
+    });
+};
+export const specializationSpeshMag4 = async () => {
+    return new Promise((resolve) => {
+        resolve(tradeCardDataMag);
+    });
+};
+export const specializationSpeshMag6 = async () => {
+    return new Promise((resolve) => {
+        resolve(systemAnalysisCardDataMag);
+    });
+};
+export const specializationSpeshMag7 = async () => {
+    return new Promise((resolve) => {
+        resolve(economicSecurityCardDataMag);
+    });
+};
+
+
+export const entranceMassk = async () => {
+    return new Promise((resolve) => {
+        resolve(entranceMask);
     });
 };

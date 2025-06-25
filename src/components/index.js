@@ -11,3 +11,6 @@ export { default as End } from './Bachelor/End';
 export { default as Footer } from './Bachelor/Footer';
 export { default as Header } from './Bachelor/Header';
 export { default as MagHeader } from './Magistracy/magHeader';
+export { default as MagTitle } from './Magistracy/magTitle';
+export { default as MagSpesh } from './Magistracy/magSpesh';
+export { default as MagEntrance } from './Magistracy/magEntrance';

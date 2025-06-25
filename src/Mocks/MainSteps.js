@@ -177,6 +177,20 @@ export const specializationCardData = {
         }
 	],
 };
+export const specializationCardDataMag = {
+	icon: "icons/Icon.svg",
+	innerIcon: "icons/Sunglasses.svg",
+	programType: "магистратура",
+	code: "38.04.01",
+	title: "Экономика",
+	subtitle: "Управление инновационными проектами и трансфер технологий",
+	exams: [
+        {
+            option1: { subject: "ОФО"},
+            option2: { subject: "ЗФО"}
+        }
+	],
+};
 export const economicsCardData = {
     icon: "icons/Coins.svg",
     programType: "бакалавриат",
@@ -184,6 +198,13 @@ export const economicsCardData = {
     title: "Экономика",
     language: "РУССКИЙ",
     exams: ["МАТЕМАТИКА", "ОБЩ."]
+};
+export const economicsCardDataMag = {
+    icon: "icons/Coins.svg",
+    programType: "магистратура",
+    code: "38.03.01",
+    title: "Экономика",
+    exams: ["ОФО", "ЗФО"]
 };
 export const managementCardData = {
     icon: "icons/UserGear.svg",
@@ -200,6 +221,18 @@ export const managementCardData = {
         }
     ]
 };
+export const managementCardDataMag = {
+    icon: "icons/UserGear.svg",
+    programType: "магистратура",
+    code: "38.04.03 Управление",
+    title: "персоналом",
+    exams: [
+        {
+        option1: "ОФО",
+        option2: "ЗФО"
+        }
+    ]
+};
 export const tradeCardData = {
     icon: "icons/HandCoins.svg",
     programType: "бакалавриат",
@@ -212,6 +245,18 @@ export const tradeCardData = {
         option1: "ОБЩ.",
         or: "или",
         option2: "ИНФ."
+        }
+    ]
+};
+export const tradeCardDataMag = {
+    icon: "icons/HandCoins.svg",
+    programType: "магистратура",
+    code: "38.03.06",
+    title: "Торговое дело",
+    exams: [
+        "МАТЕМАТИКА",
+        {
+            option1: "ОФО"
         }
     ]
 };
@@ -238,15 +283,36 @@ export const systemAnalysisCardData = {
         }
     ]
 };
+export const systemAnalysisCardDataMag = {
+    icon: "icons/ChartDonut.svg",
+    programType: "магистратура",
+    code: "38.04.06",
+    title: " Торговое дело",
+    exams: [
+        "МАТЕМАТИКА",
+        {
+        option1: "ЗФО"
+        }
+    ]
+};
 export const economicSecurityCardData = {
-    icon: "icons/Icon.svg",
+    icon: "icons/shield.svg",
     innerIcon: "icons/UserFocus.svg",
-    programType: "специалитет",
+    programType: "магистратура",
     code: "38.05.01",
     title: "Экономическая безопасность",
     subtitle: "Экономико-правовое обеспечение экономической безопасности и др.",
     language: "РУССКИЙ",
     exams: ["МАТЕМАТИКА", "ОБЩЕСТВОЗНАНИЕ"]
+};
+export const economicSecurityCardDataMag = {
+    icon: "icons/shield.svg",
+    innerIcon: "icons/UserFocus.svg",
+    programType: "магистратура",
+    code: "38.04.08",
+    title: "Финансы и кредит",
+    subtitle: "Экономико-правовое обеспечение экономической безопасности и др.",
+    exams: ["ОФО", "ЗФО"]
 };
 export const faqBlockData = {
     titleLines: [
@@ -394,5 +460,21 @@ export const questions = [
         Каждое высшее учебное заведение вправе устанавливать индивидуальные сроки обучения — сокращённую программу. В большинстве из них есть возможность получить диплом ускоренно — за 3–3,5 года. Если какие-то дисциплины изучались в колледже, их первокурснику зачитывают автоматически. Когда в вузе не предусмотрены ускоренные программы, все студенты учатся на равных: 4 года по программе бакалавриата. <br><br>
         Отсрочка от армии после окончания колледжа для поступления в вуз не предоставляется. Если нет иных оснований для отсрочки или освобождения от службы, нужно будет пойти в армию.`,
         icon: 'icons/Plus.svg',
+    },
+];
+
+
+export const entranceMask = [
+    {
+        number: '1',
+        title: 'Диплом бакалавра/специалиста'
+    },
+    {
+        number: '2',
+        title: 'Паспорт'
+    },
+    {
+        number: '3',
+        title: 'Заявление на поступление'
     },
 ];

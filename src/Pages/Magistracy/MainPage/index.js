@@ -1,14 +1,14 @@
 import React from "react";
-import { MagHeader, Title, Decan, Spesh, Spisok, News, Gide, Dostish, Nomber, Obed, End, Footer } from "../../../components";
+import { MagHeader, MagTitle, Decan, MagSpesh, Spisok, News, MagEntrance, Dostish, Nomber, Obed, End, Footer } from "../../../components";
 
 const MainPage = () => {
     return (
         <div style={{ backgroundColor: "#F0F0F0", minHeight: "100vh"}}>
             <MagHeader />
-            <Title />
+            <MagTitle />
             <Decan />
-            <Spesh />
-            <Gide />
+            <MagSpesh />
+            <MagEntrance />
             <Spisok />
             <Dostish />
             <Nomber />
