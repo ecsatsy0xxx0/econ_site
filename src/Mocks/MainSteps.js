@@ -467,14 +467,27 @@ export const questions = [
 export const entranceMask = [
     {
         number: '1',
-        title: 'Диплом бакалавра/специалиста'
+        title: 'Документ, удостоверяющий личность',
+        description: ': Паспорт РФ'
     },
     {
         number: '2',
-        title: 'Паспорт'
+        title: 'Документ об образовании',
+        description: ': Диплом бакалавра или специалиста (с приложением)'
     },
     {
         number: '3',
-        title: 'Заявление на поступление'
+        title: 'СНИЛС',
+        description: ''
     },
+    {
+        number: '4',
+        title: 'Фотографии',
+        description: ': 6 фотографий размером 3х4 см'
+    },
+    {
+        number: '5',
+        title: 'Медицинская справка',
+        description: ': Форма № 086-У'
+    }
 ];

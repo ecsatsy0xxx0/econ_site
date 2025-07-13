@@ -32,13 +32,14 @@ const EntranceMask = () => {
                 </div>
             </div>
             <div className={styles.entrancemask__footer}>
-                {Array(3).fill().map((_, index) => (
+                {Array(5).fill().map((_, index) => (
                     <div key={index} className={styles.tile1}>
                         <p>{entranceMask[index].number}</p>
-                        <p>{entranceMask[index].title}</p>
+                        <p>{entranceMask[index].title}
+                            <span>{entranceMask[index].description}</span>
+                        </p>
                     </div>
                 ))}
-                <img src='icons/entr.svg' alt='entr'></img>
             </div>
         </div>
     );
