@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import store from "./Store";
 import MainPage from "./Pages/Bachelor/MainPage";
-import InnovatikaPage from "./Pages/Bachelor/SpecialtiesPage/InnovatikaPage";
+import InnovatikaPage from "../src/Pages/Bachelor/InnovatikaPage";
 import BusinessInformaticsPage from "./Pages/Bachelor/SpecialtiesPage/BusinessInformaticsPage";
 import TradingBusinessesPage from "./Pages/Bachelor/SpecialtiesPage/TradingBusinessPage";
 import SystemAnalysisPage from "./Pages/Bachelor/SpecialtiesPage/SystemAnalysisPage";

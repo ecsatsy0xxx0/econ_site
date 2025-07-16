@@ -14,3 +14,5 @@ export { default as MagHeader } from './Magistracy/magHeader';
 export { default as MagTitle } from './Magistracy/magTitle';
 export { default as MagSpesh } from './Magistracy/magSpesh';
 export { default as MagEntrance } from './Magistracy/magEntrance';
+export { default as HeaderD } from './Directions/HeaderD';
+export { default as TitleD } from './Directions/TitleD';

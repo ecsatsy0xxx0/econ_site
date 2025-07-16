@@ -311,7 +311,10 @@
         border-radius: 5.21px;
         padding: 7.29px 7.29px 7.29px 10.42px;
     }
-
+    .buttonLabel{
+        font-size: 10px;
+    }
+    
     .content {
         width: 458.33px;
         height: 486.46px;

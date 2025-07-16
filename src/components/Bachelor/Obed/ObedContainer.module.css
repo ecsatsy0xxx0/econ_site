@@ -365,7 +365,9 @@
       gap: 6.25px;
   }
   
-  
+  .studassociations{
+    gap: 20px;
+  }
   .cardsContainer {
       gap: 4.17px;
       font-size: 15px;

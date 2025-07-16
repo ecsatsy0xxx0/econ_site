@@ -11,7 +11,7 @@ const Section = () => {
     }
   };
   const navigate = useNavigate();
-  const handleNavigate = () => {
+  const innovanikNavigate = () => {
     navigate("/innovatika"); // Убедитесь, что путь совпадает с маршрутом в index.js
   };
   const handleNavigateBI = () => {
@@ -107,7 +107,7 @@ const Section = () => {
                     <div className={styles.icon1}>
                       <img className={styles.magnifyingglassIcon} alt="" src={specializationData.innerIcon} />
                     </div>
-                    <div className={styles.button100}>
+                    <div className={styles.button100} onClick={innovanikNavigate}>
                       <div className={styles.buttonLabel}>подробнее о направлении</div>
                     </div>
                   </div>
@@ -157,7 +157,7 @@ const Section = () => {
               </div>
               <div className={styles.specializationCard}>
                 <div className={styles.card}>
-                  <div className={styles.container5}>
+                  <div className={styles.container4}>
                     <div className={styles.header}>
                       <div className={styles.icon1}>
                         <img className={styles.magnifyingglassIcon} alt="" src={specializationData2.icon} />
@@ -241,7 +241,7 @@ const Section = () => {
                             <div className={styles.subjectText}>{specializationData3.language}</div>
                           </div>
                           
-                          <div className={styles.subjectBlock}>
+                          <div className={styles.subjectBlock2}>
                             <div className={styles.score}>40*</div>
                             <div className={styles.subjectText}>{specializationData3.exams[0]}</div>
                           </div>
@@ -299,7 +299,7 @@ const Section = () => {
                         <div className={styles.subjectText}>{specializationData4.language}</div>
                       </div>
                       
-                      <div className={styles.subjectBlock}>
+                      <div className={styles.subjectBlock2}>
                         <div className={styles.score}>40*</div>
                         <div className={styles.subjectText}>{specializationData4.exams[0]}</div>
                       </div>
@@ -358,7 +358,7 @@ const Section = () => {
                           <div className={styles.subjectText}>{specializationData5.language}</div>
                         </div>
                         
-                        <div className={styles.subjectBlock}>
+                        <div className={styles.subjectBlock2}>
                           <div className={styles.score}>40*</div>
                           <div className={styles.subjectText}>{specializationData5.exams[0]}</div>
                         </div>
@@ -411,7 +411,7 @@ const Section = () => {
                             <div className={styles.subjectText}>{specializationData6.language}</div>
                           </div>
                           
-                          <div className={styles.subjectBlock}>
+                          <div className={styles.subjectBlock2}>
                             <div className={styles.score}>40*</div>
                             <div className={styles.subjectText}>{specializationData6.exams[0]}</div>
                           </div>
@@ -442,7 +442,7 @@ const Section = () => {
               
               <div className={styles.specializationcardfull}>
                 <img className={styles.icon} alt="" src={specializationData7.icon} />
-                <div className={styles.container4}>
+                <div className={styles.container5}>
                   <div className={styles.header2}>
                     <div className={styles.icon1}>
                       <img className={styles.magnifyingglassIcon} alt="" src={specializationData7.innerIcon} />
@@ -477,15 +477,9 @@ const Section = () => {
                           <div className={styles.score}>40*</div>
                           <div className={styles.subjectText}>{specializationData7.exams[0]}</div>
                         </div>
-                        <div className={styles.separator}>|</div>
                         <div className={styles.subjectBlockOutlined}>
                           <div className={styles.score}>45*</div>
-                          <div className={styles.subjectText}>{specializationData4.exams[1].option1}</div>
-                        </div>
-                        <div className={styles.orText}>{specializationData4.exams[1].or}</div>
-                        <div className={styles.subjectBlockOutlined2}>
-                          <div className={styles.score}>44*</div>
-                          <div className={styles.subjectText}>{specializationData4.exams[1].option2}</div>
+                          <div className={styles.subjectText}>{specializationData7.exams[1]}</div>
                         </div>
                       </div>
                     </div>

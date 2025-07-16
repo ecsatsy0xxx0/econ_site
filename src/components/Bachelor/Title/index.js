@@ -141,7 +141,11 @@ const Section = () => {
                 </div>
               </div>
               <div className={styles.hoverText} style={{ textAlign: 'left' }}>
-                {card.hoverText}
+                <p>
+                  {card.hoverText}
+                  <span className={styles.hoverSpan}>{card.hoverText1}</span>
+                  {card.hoverText2}
+                </p>
               </div>
             </div>
           ))}

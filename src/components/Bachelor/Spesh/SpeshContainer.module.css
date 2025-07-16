@@ -8,7 +8,7 @@
     transition: all 0.3s;
 }
     .container58 .heading1{
-        width: 300px;
+        width: 400px;
     }
 
 .button100:hover  .buttonLabel{
@@ -135,12 +135,14 @@
 .header {
     display: flex;
     align-items: center;
-    gap: 169px;
+    justify-content: space-between;
+    width: 100%;
 }
 .header2 {
     display: flex;
     align-items: center;
-    gap: 734px;
+    justify-content: space-between;
+    width: 100%;
 }
 .tag {
     border-radius: 573.77px;
@@ -547,7 +549,7 @@
     text-align: center;
     margin-top: 300px;
     font-size: 16px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .specializationCard:hover .subjectBlock{
@@ -571,14 +573,29 @@
 .specializationCard:hover .subjectBlock2{
     height: 76px;
     border-radius: 12px;
+
+}
+.specializationCard:hover .container5 .subjectBlock2{
+    height: 76px;
+    border-radius: 12px;
+    transform: translateY(-10px);
+}
+.specializationCard:hover .container58 .subjectBlock2{
+    height: 76px;
+    border-radius: 12px;
+    transform: translateY(-10px);
 }
 .specializationCard:hover .subjectBlock2 .subjectText{
     margin-top: 43px;
 }
 
+.specializationCard .subjectBlockOutlined{
+    width: 155px;
+}
+
 .specializationCard:hover .subjectBlockOutlined{
     height: 76px;
-    width: 86px;
+    width: 155px;
     border-radius: 12px;
     margin-top: 20px;
 }
@@ -592,13 +609,13 @@
     width: 83px;
 }
 .specializationCard:hover .subjectBlockOutlined .score{
-    left: 25px;
+    left: 53px;
 }
 .specializationCard:hover .subjectBlockOutlined .score1{
     left: 55px;
 }
 .specializationCard:hover .subjectBlockOutlined2 .score{
-    left: 24px;
+    left: 22px;
 }
 
 /* Базовый стиль блока предмета */
@@ -664,7 +681,7 @@
 .subjectBlock2 .score {
     position: absolute;
     top: -28px;
-    left: 38px;
+    left: 35px;
     font-size: 28px;
     font-weight: 500;
     opacity: 0;
@@ -674,6 +691,26 @@
     border: 1px solid #ffffff;
     border-radius: 50px;
     width: 83px; /* Фиксированная ширина */
+    height: 28px; /* Начальная высота */
+    text-align: center;
+    border: 1px solid #0450a0; /* Синяя граница */
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;   
+    transition: all 0.3s ease; /* Плавный переход всех свойств */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0450a0;
+    background-color: #ffffff;
+    position: relative; /* Для смещения вверх */
+    overflow: hidden;
+}
+.specializationcardfull .container5 .subjectBlockOutlined {
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    width: 155px; /* Фиксированная ширина */
     height: 28px; /* Начальная высота */
     text-align: center;
     border: 1px solid #0450a0; /* Синяя граница */
@@ -715,6 +752,15 @@
     position: absolute;
     top: -28px;
     left: 23px;
+    font-size: 28px;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.container5 .subjectBlockOutlined .score {
+    position: absolute;
+    top: -28px;
+    left: 53px;
     font-size: 28px;
     font-weight: 500;
     opacity: 0;
@@ -1101,969 +1147,1491 @@
     padding: 16px 24px;
 }
 
+
 @media (max-width: 1670px){
     .buttonLabel {
-        line-height: 12px;
-    }
+  letter-spacing: -0.21px;
+  line-height: 13.96px;
+}
+.container58 .heading1 {
+  width: 348.96px;
+}
 
-    .button {
-        border-radius: 429.75px;
-        padding: 4.5px 10.5px;
-    }
-    .divm .div1 {
-        line-height: 45.75px;
-    }
-    .frameChild {
-        height: 51px;
-    }
+.button {
+  border-radius: 498.63px;
+  padding: 5.22px 12.16px;
+}
+.div {
+  letter-spacing: -1.57px;
+  line-height: 53.26px;
+}
+.frameChild {
+  width: 1.74px;
+  height: 59.38px;
+}
+.div1 {
+  letter-spacing: -1.57px;
+  line-height: 53.26px;
+}
+.heading2Parent {
+  gap: 31.31px;
+  font-size: 52.19px;
+}
+.container2 {
+  padding: 0px 0px 5.22px;
+  gap: 11.34px;
+}
+.magnifyingglassIcon {
+  width: 17.4px;
+  height: 17.4px;
+}
+.iconbutton {
+  border-radius: 435.42px;
+  padding: 12.16px;
+}
+.button1 {
+  border-radius: 870.83px;
+  padding: 13.96px 20.88px;
+}
+.iconbuttonParent {
+  gap: 8.7px;
+}
+.icon {
+  top: 0px;
+  left: 736.98px;
+  height: 221.04px;
+}
+.icon1 {
+  border-radius: 8.7px;
+  padding: 13.96px;
+}
+.tag {
+  border-radius: 498.63px;
+  padding: 5.22px 10.44px;
+  font-size: 10.44px;
+  line-height: 13.96px;
+}
+.title {
+  letter-spacing: -0.83px;
+  line-height: 28.37px;
+  font-size: 27.83px;
+}
+.subtitle {
+  letter-spacing: -0.24px;
+  line-height: 15.11px;
+  font-size: 12.17px;
+}
+.subtitleContainer {
+  font-size: 12.17px;
+}
+.content3 {
+  gap: 5.22px;
+  font-size: 27.83px;
+}
+.content2 {
+  gap: 10.44px;
+}
+.button2 {
+  border-radius: 498.63px;
+  padding: 5.22px 12.16px;
+}
+.actions1 {
+  gap: 5.22px;
+}
+.actionsChild {
+  height: 13.96px;
+}
+.button5 {
+  border-radius: 498.63px;
+  padding: 5.22px 6.96px;
+}
+.actions2 {
+  gap: 10.44px;
+}
+.actions {
+  gap: 10.44px;
+  margin: 7px 0;
+}
+.content1 {
+  gap: 17.42px;
+}
 
-    .heading2Parent {
-        gap: 27px;
-        font-size: 45px;
-    }
-    .container2 {
-        gap: 9.75px;
-    }
-    .magnifyingglassIcon {
-        width: 15px;
-        height: 15px;
-    }
-    .iconbutton {
-        border-radius: 375px;
-        padding: 10.5px;
-    }
-    .button1 {
-        border-radius: 750px;
-        padding: 12px 18px;
-    }
-    .iconbuttonParent {
-        gap: 7.5px;
-    }
-    .icon {
-        left: 635.25px;
-        height: 190.5px;
-    }
-    .icon1 {
-        border-radius: 7.5px;
-        padding: 12px;
-    }
-    .header {
-        gap: 126.75px;
-    }
-    .header2 {
-        gap: 550px;
-    }
-    .tag {
-        border-radius: 429.75px;
-        padding: 4.5px 9px;
-        font-size: 9px;
-        line-height: 12px;
-    }
-    .title {
-        line-height: 24px;
-        font-size: 24px;
-        line-height: 24px;
-    }
-    .subtitle {
-        line-height: 12.75px;
-        font-size: 10.5px;
-    }
-    .subtitleContainer {
-        font-size: 10.5px;
-    }
-    .content3 {
-        gap: 4.5px;
-        font-size: 24px;
-    }
-    .content2 {
-        gap: 9px;
-    }
-    .button2 {
-        border-radius: 429.75px;
-        padding: 4.5px 10.5px;
-    }
-    .actions1 {
-        gap: 4.5px;
-    }
-    .actionsChild {
-        height: 12px;
-    }
-    .button5 {
-        border-radius: 429.75px;
-        padding: 4.5px 6px;
-    }
-    .actions2 {
-        gap: 9px;
-    }
+.blocks2 .actions2, .blocks .actions2 {
+  margin-top: 8.7px;
+}
+.blocks {
+  top: 785.94px;
+}
+.blocks2 {
+  top: 1112.99px;
+}
+.specializationCard:hover .blocks {
+  top: 687.88px;
+}
+.specializationCard:hover .blocks2 {
+  top: 1022.4px;
+}
 
-    .actions {
-        gap: 9px;
-        margin: 6px 0;
-    }
-    .content1 {
-        gap: 15px;
-    }
-    .blocks .actions2, .blocks2 .actions2{
-        margin-top: 7.5px;
-    }
-    .blocks{
-        top: 710px;
-    }
-    .blocks2{
-        top: 998px;
-    }
-    .specializationCard:hover .blocks{
-        top: 628.0px;
-    }
-    .specializationCard:hover .blocks2{
-        top: 913px;
-    }
+.specializationCard:hover .blocks .actions2 .separator,
+.specializationCard:hover .blocks2 .actions2 .separator {
+  margin-bottom: 47.92px;
+}
 
-    .specializationCard:hover .blocks .actions2 .separator, .specializationCard:hover .blocks2 .actions2 .separator{
-        margin-bottom: 41.25px;
-    }
-    .blocks .actions2 .separator, .blocks2 .actions2 .separator{
-        margin-bottom: 11.25px;
-    }
-    .content {
-        gap: 15px;
-    }
-    .specializationcardfull:hover .container4{
-        gap: 61px;
-        transition: all 0.3s ease;
-    }
-    .container4{
-        gap: 79px;
-        transition: all 0.3s ease;
-    }
-    .specializationcardfull {
-        border-radius: 12px;
-        height: 300px;
-        padding: 24px 24px 30px;
-    }
-    .heading1 {
-        font-size: 24px;
-    }
-    .button9 {
-        border-radius: 429.75px;
-        padding: 4.5px 10.5px;
-    }
-    .actions3 {
-        gap: 0px 4.5px;
-    }
-    .card {
-        border-radius: 12px;
-        padding: 24px 24px 30px;
-    }
-    .actions10 {
-        gap: 9px; 
-        margin: 6px 0;
-    }
-    .titleContainer {
-        gap: 7.5px;
-    }
-    .lineDiv {
-        height: 21.75px;
-    }
-    .actions11 {
-        gap: 9px;
-        margin: 6px 0;
-    }
-    .specializationCard {
-        width: 396.0px;
-        height: 300px;
-    }
-    .container11 {
-        max-width: 330px;
-    }
-    .button31, .button32  {
-        border-radius: 750px;
-        padding: 12px 18px;
-    }
-    .container13 {
-        gap: 7.5px;
-    }
-    .container12 {
-        font-size: 9px;
-    }
-    .background {
-        max-width:1248.0px;
-        border-radius: 12px;
-        padding: 30px 45px;
-        font-size:18px;
-    }
-    .container3 {
-        gap: 12px;
-    }
-    .specializationCard {
-        flex: 1 1 calc(33.333% - 12px);
-        min-width: 396px;
-        height: 300px;
-        border-radius: 12px;
-    }
+.blocks2 .actions2 .separator, .blocks .actions2 .separator {
+  margin-bottom: 13.07px;
+}
+.content {
+  gap: 17.42px;
+}
+.specializationcardfull {
+  border-radius: 13.96px;
+  height: 348.96px;
+  padding: 27.83px 27.83px 34.79px;
+}
+.heading1 {
+  font-size: 27.83px;
+}
+.button9 {
+  border-radius: 498.63px;
+  padding: 5.22px 12.16px;
+}
+.actions3 {
+  gap: 0px 5.22px;
+}
+.card {
+  border-radius: 13.96px;
+  padding: 27.83px 27.83px 34.79px;
+}
+.actions10 {
+  gap: 10.44px;
+  margin: 7px 0;
+}
+.titleContainer {
+  gap: 8.7px;
+}
+.lineDiv {
+  height: 25.29px;
+}
+.actions11 {
+  gap: 10.44px;
+  margin: 7px 0;
+}
+.specializationCard {
+  width: 458.25px;
+  height: 348.96px;
+}
+.div2 {
+  letter-spacing: -0.21px;
+}
+.container11 {
+  max-width: 381.46px;
+}
+.button32, .button31 {
+  border-radius: 870.83px;
+  padding: 13.96px 20.88px;
+}
+.container13 {
+  gap: 8.7px;
+}
+.container12 {
+  font-size: 10.44px;
+}
+.background {
+  max-width: 1446.42px;
+  border-radius: 13.96px;
+  padding: 34.79px 52.34px;
+  font-size: 20.88px;
+}
+.container3 {
+  gap: 13.96px;
+}
+.specializationCard {
+  flex: 1 1 calc(33.333% - 13.96px);
+  min-width: 458.25px;
+  height: 348.96px;
+  border-radius: 13.96px;
+}
 
-    .container {
-        max-width: 1248px;
-        gap: 48px;
-    }
-    .section {
-        margin-top: 225px;
-        font-size: 12px;
-    }
+.container {
+  max-width: 1446.42px;
+  gap: 55.75px;
+}
+.section {
+  margin-top: 261.72px;
+  font-size: 13.96px;
+}
 
-    .specializationCard:hover .subjectBlock{
-        height: 57px;
-        border-radius: 9px;
-        margin-top: 15px;
-    }
-    .specializationCard:hover .subjectBlock .score{
-        top: -21px;
-    }
+.specializationCard:hover .subjectBlock {
+  height: 66.04px;
+  border-radius: 10.44px;
+  margin-top: 17.29px;
+}
+.specializationCard:hover .subjectBlock .score {
+  top: -24.41px;
+}
 
-    .specializationCard .button1004{
-        right: 525px;
-    }
+.specializationCard .button1004 {
+  right: 609.38px;
+}
 
-    .specializationCard:hover .subjectBlock2{
-        height: 57px;
-        border-radius: 9px;
-    }
-    .specializationCard:hover .subjectBlock2 .subjectText{
-        margin-top: 32.25px;
-    }
+.button1004:hover .buttonLabel {
+  color: white;
+  transition: all 0.3s ease;
+}
 
-    .specializationCard:hover .subjectBlockOutlined{
-        height: 57px;
-        width: 64.5px;
-        border-radius: 9px;
-        margin-top: 15px;
-    }
-    .specializationCard:hover .subjectBlockOutlined2{
-        height: 57px;
-        width: 62.25px;
-        border-radius: 9px;
-        margin-top: 15px;
-    }
-    .specializationCard .subjectBlockOutlined2{
-        width: 62.25px;
-    }
-    .specializationCard:hover .subjectBlockOutlined .score{
-        left: 18.75px;
-    }
-    .specializationCard:hover .subjectBlockOutlined .score1{
-        left: 41.25px;
-    }
-    .specializationCard:hover .subjectBlockOutlined2 .score{
-        left: 18px;
-    }
+.specializationCard:hover .subjectBlock2 {
+  height: 66.04px;
+  border-radius: 10.44px;
+}
+.specializationCard:hover .container5 .subjectBlock2 {
+  height: 66.04px;
+  border-radius: 10.44px;
+  transform: translateY(-8.7px);
+}
+.specializationCard:hover .container58 .subjectBlock2 {
+  height: 66.04px;
+  border-radius: 10.44px;
+  transform: translateY(-8.7px);
+}
+.specializationCard:hover .subjectBlock2 .subjectText {
+  margin-top: 37.76px;
+}
+.specializationCard .subjectBlockOutlined {
+  width: 134.83px;
+}
+.specializationCard:hover .subjectBlockOutlined {
+  height: 66.04px;
+  width: 134.83px;
+  border-radius: 10.44px;
+  margin-top: 17.29px;
+}
+.specializationCard:hover .subjectBlockOutlined2 {
+  height: 66.04px;
+  width: 72.04px;
+  border-radius: 10.44px;
+  margin-top: 17.29px;
+}
+.specializationCard .subjectBlockOutlined2 {
+  width: 72.04px;
+}
+.specializationCard:hover .subjectBlockOutlined .score {
+  left: 46.44px;
+}
+.specializationCard:hover .subjectBlockOutlined .score1 {
+  left: 48.03px;
+}
+.specializationCard:hover .subjectBlockOutlined2 .score {
+  left: 19.16px;
+}
 
-    .subjectBlock {
-        border-radius: 37.5px;
-        width: 66px;
-        height: 21px;
-        font-size: 9px;
-        line-height: 12px;
-    }
+.subjectBlock {
+  border-radius: 43.48px;
+  width: 76.71px;
+  height: 24.36px;
+  font-size: 10.44px;
+  line-height: 13.96px;
+}
 
-    .subjectBlock2 {
-        border-radius: 37.5px;
-        width: 87px;
-        height: 21px; 
-        font-size: 9px;
-        line-height: 12px;
-    }
+.subjectBlock2 {
+  border-radius: 43.48px;
+  width: 100.87px;
+  height: 24.36px;
+  font-size: 10.44px;
+  line-height: 13.96px;
+}
 
-    .subjectBlock .score {
-        top: -28.5px;
-        left: 18.75px;
-        font-size: 21px;
-        border-radius: 3px;
-    }
-    .subjectBlock2 .score {
-        top: -21px;
-        left: 28.5px;
-        font-size: 21px;
-    }
-    .subjectBlockOutlined {
-        border-radius: 37.5px;
-        width: 62.25px;
-        height: 21px;
-        font-size: 9px;
-        line-height: 12px;
-    }
-    .subjectBlockOutlined2 {
-        border-radius: 37.5px;
-        width: 97.5px;
-        height: 21px;
-        font-size: 9px;
-        line-height: 12px;
-    }
+.subjectBlock .score {
+  top: -32.5px;
+  left: 21.71px;
+  font-size: 25.36px;
+  border-radius: 3.49px;
+}
+.subjectBlock2 .score {
+  top: -24.41px;
+  left: 30.52px;
+  font-size: 25.36px;
+}
+.subjectBlockOutlined {
+  border-radius: 43.48px;
+  width: 72.04px;
+  height: 24.36px;
+  font-size: 10.44px;
+  line-height: 13.96px;
+}
+.specializationcardfull .container5 .subjectBlockOutlined {
+  border-radius: 43.48px;
+  width: 134.83px;
+  height: 24.36px;
+  font-size: 10.44px;
+  line-height: 13.96px;
+}
+.subjectBlockOutlined2 {
+  border-radius: 43.48px;
+  width: 106.98px;
+  height: 24.36px;
+  font-size: 10.44px;
+  line-height: 13.96px;
+}
 
-    .subjectBlockOutlined .score {
-        top: -21px;
-        left: 17.25px;
-        font-size: 21px;
-    }
-    .subjectBlockOutlined .score1 {
-        top: -21px;
-        left: 17.25px;
-        font-size: 21px;
-    }
-    .subjectBlockOutlined2 .score {
-        top: -21px;
-        left: 32.25px;
-        font-size: 21px;
-    }
-    .specializationcardfull:hover .subjectBlockOutlined,     .specializationcardfull:hover .subjectBlockOutlined2   {
-        border-radius: 7.5px;
-        padding: 32.25px 0px 0px 0px;
-        height: 57px;
-        transform: translateY(-15px);
-    }
-    .specializationcardfull:hover .subjectBlockOutlined .score, .specializationcardfull:hover .subjectBlockOutlined .score1,     .specializationcardfull:hover .subjectBlockOutlined2 .score {
-        transform: translateY(37.5px);
-    }
-    .specializationCard:hover .subjectBlockOutlined, .specializationCard:hover .subjectBlockOutlined2 {
-        border-radius: 7.5px;
-        padding: 32.25px 0px 0px 0px;
-        transform: translateY(-15px);
-    }
+.subjectBlockOutlined .score {
+  top: -24.41px;
+  left: 20.19px;
+  font-size: 25.36px;
+}
+.container5 .subjectBlockOutlined .score {
+  top: -24.41px;
+  left: 46.44px;
+  font-size: 25.36px;
+}
+.subjectBlockOutlined .score1 {
+  top: -24.41px;
+  left: 20.19px;
+  font-size: 25.36px;
+}
+.subjectBlockOutlined2 .score {
+  top: -24.41px;
+  left: 38.06px;
+  font-size: 25.36px;
+}
+.specializationcardfull:hover .subjectBlockOutlined2,
+.specializationcardfull:hover .subjectBlockOutlined {
+  border-radius: 8.7px;
+  padding: 37.53px 0px 0px 0px;
+  height: 66.04px;
+  transform: translateY(-17.42px);
+}
 
-    .specializationCard:hover .subjectBlockOutlined .score, .specializationCard:hover .subjectBlockOutlined2 .score {
-        transform: translateY(37.5px);
-    }
-    .specializationcardfull:hover .subjectBlock  {
-        border-radius: 9px;
-        padding: 32.25px 0px 0px 0px;
-        width: 66px;
-        height: 57px;
-        transform: translateY(-15px);
-    }
-    .specializationcardfull:hover .subjectBlock2  {
-        border-radius: 7.5px;
-        padding: 32.25px 0px 0px 0px;
-        transform: translateY(-15px);
-        height: 57px;
-    }
-    .specializationCard:hover .subjectBlock  {
-        border-radius: 7.5px;
-        padding: 32.25px 0px 0px 0px;
-        transform: translateY(-15px);
-    }
-    .specializationcardfull:hover .subjectBlock .score {
-        padding-top: 7.5px;
-        transform: translateY(37.5px);
-    }
-    .specializationcardfull:hover .subjectBlock2 .score, .specializationCard:hover .subjectBlock .score, .specializationCard:hover .subjectBlock2 .score{
-        transform: translateY(37.5px);
-    }
+.specializationCard:hover .subjectBlockOutlined,
+.specializationCard:hover .subjectBlockOutlined2 {
+  border-radius: 8.7px;
+  padding: 37.53px 0px 0px 0px;
+  transform: translateY(-17.42px);
+}
 
-    .orText {
-        font-size: 9px;
-    }
+.specializationcardfull:hover .subjectBlock {
+  border-radius: 10.44px;
+  padding: 37.53px 0px 0px 0px;
+  width: 76.71px;
+  height: 66.04px;
+  transform: translateY(-17.42px);
+}
+.specializationcardfull:hover .subjectBlock2 {
+  border-radius: 8.7px;
+  padding: 37.53px 0px 0px 0px;
+  transform: translateY(-17.42px);
+  height: 66.04px;
+}
+.specializationCard:hover .subjectBlock {
+  border-radius: 8.7px;
+  padding: 37.53px 0px 0px 0px;
+  transform: translateY(-17.42px);
+}
+.specializationcardfull:hover .subjectBlock .score {
+  padding-top: 8.7px;
+  transform: translateY(43.48px);
+}
+.specializationcardfull:hover .subjectBlock2 .score,
+.specializationCard:hover .subjectBlock .score,
+.specializationCard:hover .subjectBlock2 .score,
+.specializationCard:hover .subjectBlockOutlined .score,
+.specializationCard:hover .subjectBlockOutlined2 .score,
+.specializationcardfull:hover .subjectBlockOutlined .score,
+.specializationcardfull:hover .subjectBlockOutlined .score1,
+.specializationcardfull:hover .subjectBlockOutlined2 .score {
+  transform: translateY(43.48px);
+}
+.orText {
+  font-size: 10.44px;
+}
 
-    .specializationcardfull:hover .orText{
-        margin-bottom: 30px;
-    }
+.specializationcardfull:hover .orText {
+  margin-bottom: 34.79px;
+}
 
-    .specializationCard:hover .orText{
-        margin-bottom: 11.25px;
-    }
+.specializationCard:hover .orText {
+  margin-bottom: 13.07px;
+}
 
-    .separator{
-        width: 11.25px;
-        margin-top: 9.75px;
-    }
+.separator {
+  width: 13.07px;
+  margin-top: 11.37px;
+}
 
-    .specializationCard:hover .separator{
-        width: 21px;
-        margin-top: 30px;
-    }
+.specializationCard:hover .separator {
+  width: 24.35px;
+  margin-top: 34.79px;
+}
 
-    .specializationcardfull:hover .separator{
-        width: 21px;
-        margin-top: 15px;
-    }
+.specializationcardfull:hover .separator {
+  width: 24.35px;
+  margin-top: 17.42px;
+}
+.descriptionTop2, .descriptionTop {
+    font-size: 12.17px;
+}
+.block {
+  top: 427.08px;
+}
+.specializationCard:hover .block {
+  top: 332.33px;
+}
+.specializationCard:hover  .descriptionTop {
+  transform: translateY(10.43px);
+}
+.button100 {
+  border-radius: 6.96px;
+  padding: 8.7px 17.42px;
+  font-size: 12.17px;
+  border-radius: 870.83px;
+  padding: 13.96px 20.88px;
+}
+.button1001 {
+  border-radius: 6.96px;
+  padding: 8.7px 17.42px;
+  font-size: 12.17px;
+  border-radius: 870.83px;
+  padding: 13.96px 20.88px;
+}
+.button1001 {
+  right: 1109.38px;
+}
+.button1002 {
+  border-radius: 6.96px;
+  padding: 8.7px 17.42px;
+  font-size: 12.17px;
+  border-radius: 870.83px;
+  padding: 13.96px 20.88px;
+}
+.button10021 {
+  border-radius: 6.96px;
+  padding: 8.7px 17.42px;
+  font-size: 12.17px;
+  border-radius: 870.83px;
+  padding: 13.96px 20.88px;
+  right: 606.77px;
+}
 
-    .descriptionTop2, .descriptionTop{
-        font-size: 10.5px;
+.container4 .button1002 {
+  right: 27.83px;
+}
+
+.container5 .button1002, .container56 .button1002, .container57 .button1002 {
+  right: 139.06px;
+}
+
+.button1003 {
+  border-radius: 6.96px;
+  padding: 8.7px 17.42px;
+  font-size: 12.17px;
+  border-radius: 870.83px;
+  padding: 13.96px 20.88px;
+}
+
+.button1004 {
+  border-radius: 6.96px;
+  padding: 8.7px 17.42px;
+  font-size: 12.17px;
+  border-radius: 870.83px;
+  padding: 13.96px 20.88px;
+}
+}
+
+@media (max-width:1470px) {
+    .buttonLabel {
+  letter-spacing: -0.18px;
+  line-height: 12.31px;
+}
+.container58 .heading1 {
+  width: 307.47px;
+}
+
+.button {
+  border-radius: 439.43px;
+  padding: 4.61px 10.74px;
+}
+.div {
+  letter-spacing: -1.39px;
+  line-height: 47.13px;
+}
+.frameChild {
+  width: 1.54px;
+  height: 52.52px;
+}
+.div1 {
+  letter-spacing: -1.39px;
+  line-height: 47.13px;
+}
+.heading2Parent {
+  gap: 27.68px;
+  font-size: 46.2px;
+}
+.container2 {
+  padding: 0px 0px 4.61px;
+  gap: 10.01px;
+}
+.magnifyingglassIcon {
+  width: 15.64px;
+  height: 15.64px;
+}
+.iconbutton {
+  border-radius: 388.06px;
+  padding: 10.74px;
+}
+.button1 {
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.iconbuttonParent {
+  gap: 7.73px;
+}
+.icon {
+  top: 0px;
+  left: 654.84px;
+  height: 196.04px;
+}
+.icon1 {
+  border-radius: 7.73px;
+  padding: 12.41px;
+}
+.tag {
+  border-radius: 439.43px;
+  padding: 4.61px 9.22px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+.title {
+  letter-spacing: -0.73px;
+  line-height: 25.05px;
+  font-size: 24.57px;
+}
+.subtitle {
+  letter-spacing: -0.21px;
+  line-height: 13.34px;
+  font-size: 10.75px;
+}
+.subtitleContainer {
+  font-size: 10.75px;
+}
+.content3 {
+  gap: 4.61px;
+  font-size: 24.57px;
+}
+.content2 {
+  gap: 9.22px;
+}
+.button2 {
+  border-radius: 439.43px;
+  padding: 4.61px 10.74px;
+}
+.actions1 {
+  gap: 4.61px;
+}
+.actionsChild {
+  height: 12.31px;
+}
+.button5 {
+  border-radius: 439.43px;
+  padding: 4.61px 5.81px;
+}
+.actions2 {
+  gap: 9.22px;
+}
+.actions {
+  gap: 9.22px;
+  margin: 6.19px 0;
+}
+.content1 {
+  gap: 15.38px;
+}
+
+.blocks2 .actions2, .blocks .actions2 {
+  margin-top: 7.73px;
+}
+.blocks {
+  top: 697.84px;
+}
+.blocks2 {
+  top: 987.06px;
+}
+.specializationCard:hover .blocks {
+  top: 610.25px;
+}
+.specializationCard:hover .blocks2 {
+  top: 906.35px;
+}
+
+.specializationCard:hover .blocks .actions2 .separator,
+.specializationCard:hover .blocks2 .actions2 .separator {
+  margin-bottom: 42.48px;
+}
+
+.blocks2 .actions2 .separator, .blocks .actions2 .separator {
+  margin-bottom: 11.58px;
+}
+.content {
+  gap: 15.38px;
+}
+.specializationcardfull {
+  border-radius: 12.31px;
+  height: 307.47px;
+  padding: 24.57px 24.57px 30.72px;
+}
+.heading1 {
+  font-size: 24.57px;
+}
+.button9 {
+  border-radius: 439.43px;
+  padding: 4.61px 10.74px;
+}
+.actions3 {
+  gap: 0px 4.61px;
+}
+.card {
+  border-radius: 12.31px;
+  padding: 24.57px 24.57px 30.72px;
+}
+.actions10 {
+  gap: 9.22px;
+  margin: 6.19px 0;
+}
+.titleContainer {
+  gap: 7.73px;
+}
+.lineDiv {
+  height: 22.42px;
+}
+.actions11 {
+  gap: 9.22px;
+  margin: 6.19px 0;
+}
+.specializationCard {
+  width: 407.02px;
+  height: 307.47px;
+}
+.div2 {
+  letter-spacing: -0.18px;
+}
+.container11 {
+  max-width: 339.41px;
+}
+.button32, .button31 {
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.container13 {
+  gap: 7.73px;
+}
+.container12 {
+  font-size: 9.22px;
+}
+.background {
+  max-width: 1278.14px;
+  border-radius: 12.31px;
+  padding: 30.72px 46.2px;
+  font-size: 18.56px;
+}
+.container3 {
+  gap: 12.41px;
+}
+.specializationCard {
+  flex: 1 1 calc(33.333% - 12.41px);
+  min-width: 407.02px;
+  height: 307.47px;
+  border-radius: 12.31px;
+}
+
+.container {
+  max-width: 1278.14px;
+  gap: 49.26px;
+}
+.section {
+  margin-top: 231.57px;
+  font-size: 12.31px;
+}
+
+.specializationCard:hover .subjectBlock {
+  height: 58.37px;
+  border-radius: 9.22px;
+  margin-top: 15.26px;
+}
+.specializationCard:hover .subjectBlock .score {
+  top: -21.53px;
+}
+
+.specializationCard .button1004 {
+  right: 537.64px;
+}
+
+.button1004:hover .buttonLabel {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.specializationCard:hover .subjectBlock2 {
+  height: 58.37px;
+  border-radius: 9.22px;
+}
+.specializationCard:hover .container5 .subjectBlock2 {
+  height: 58.37px;
+  border-radius: 9.22px;
+  transform: translateY(-7.73px);
+}
+.specializationCard:hover .container58 .subjectBlock2 {
+  height: 58.37px;
+  border-radius: 9.22px;
+  transform: translateY(-7.73px);
+}
+.specializationCard:hover .subjectBlock2 .subjectText {
+  margin-top: 33.39px;
+}.specializationCard .subjectBlockOutlined {
+  width: 119.66px;
+}
+.specializationCard:hover .subjectBlockOutlined {
+  height: 58.37px;
+  width: 119.66px;
+  border-radius: 9.22px;
+  margin-top: 15.26px;
+}
+.specializationCard:hover .subjectBlockOutlined2 {
+  height: 58.37px;
+  width: 63.66px;
+  border-radius: 9.22px;
+  margin-top: 15.26px;
+}
+.specializationCard .subjectBlockOutlined2 {
+  width: 63.66px;
+}
+.specializationCard:hover .subjectBlockOutlined .score {
+  left: 41.16px;
+}
+.specializationCard:hover .subjectBlockOutlined .score1 {
+  left: 42.56px;
+}
+.specializationCard:hover .subjectBlockOutlined2 .score {
+  left: 16.98px;
+}
+
+.subjectBlock {
+  border-radius: 38.69px;
+  width: 68.01px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+
+.subjectBlock2 {
+  border-radius: 38.69px;
+  width: 89.4px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+
+.subjectBlock .score {
+  top: -28.91px;
+  left: 19.3px;
+  font-size: 22.55px;
+  border-radius: 3.1px;
+}
+.subjectBlock2 .score {
+  top: -21.53px;
+  left: 26.93px;
+  font-size: 22.55px;
+}
+.subjectBlockOutlined {
+  border-radius: 38.69px;
+  width: 63.66px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+.specializationcardfull .container5 .subjectBlockOutlined {
+  border-radius: 38.69px;
+  width: 119.66px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+.subjectBlockOutlined2 {
+  border-radius: 38.69px;
+  width: 94.7px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+
+.subjectBlockOutlined .score {
+  top: -21.53px;
+  left: 17.94px;
+  font-size: 22.55px;
+}
+.container5 .subjectBlockOutlined .score {
+  top: -21.53px;
+  left: 41.16px;
+  font-size: 22.55px;
+}
+.subjectBlockOutlined .score1 {
+  top: -21.53px;
+  left: 17.94px;
+  font-size: 22.55px;
+}
+.subjectBlockOutlined2 .score {
+  top: -21.53px;
+  left: 33.19px;
+  font-size: 22.55px;
+}
+.specializationcardfull:hover .subjectBlockOutlined2,
+.specializationcardfull:hover .subjectBlockOutlined {
+  border-radius: 7.73px;
+  padding: 33.19px 0px 0px 0px;
+  height: 58.37px;
+  transform: translateY(-15.26px);
+}
+
+.specializationCard:hover .subjectBlockOutlined,
+.specializationCard:hover .subjectBlockOutlined2 {
+  border-radius: 7.73px;
+  padding: 33.19px 0px 0px 0px;
+  transform: translateY(-15.26px);
+}
+
+.specializationcardfull:hover .subjectBlock {
+  border-radius: 9.22px;
+  padding: 33.19px 0px 0px 0px;
+  width: 68.01px;
+  height: 58.37px;
+  transform: translateY(-15.26px);
+}
+.specializationcardfull:hover .subjectBlock2 {
+  border-radius: 7.73px;
+  padding: 33.19px 0px 0px 0px;
+  transform: translateY(-15.26px);
+  height: 58.37px;
+}
+.specializationCard:hover .subjectBlock {
+  border-radius: 7.73px;
+  padding: 33.19px 0px 0px 0px;
+  transform: translateY(-15.26px);
+}
+.specializationcardfull:hover .subjectBlock .score {
+  padding-top: 7.73px;
+  transform: translateY(38.69px);
+}
+.specializationcardfull:hover .subjectBlock2 .score,
+.specializationCard:hover .subjectBlock .score,
+.specializationCard:hover .subjectBlock2 .score,
+.specializationCard:hover .subjectBlockOutlined .score,
+.specializationCard:hover .subjectBlockOutlined2 .score,
+.specializationcardfull:hover .subjectBlockOutlined .score,
+.specializationcardfull:hover .subjectBlockOutlined .score1,
+.specializationcardfull:hover .subjectBlockOutlined2 .score {
+  transform: translateY(38.69px);
+}
+.orText {
+  font-size: 9.22px;
+}
+
+.specializationcardfull:hover .orText {
+  margin-bottom: 30.72px;
+}
+
+.specializationCard:hover .orText {
+  margin-bottom: 11.58px;
+}
+
+.separator {
+  width: 11.58px;
+  margin-top: 10.08px;
+}
+
+.specializationCard:hover .separator {
+  width: 21.61px;
+  margin-top: 30.72px;
+}
+
+.specializationcardfull:hover .separator {
+  width: 21.61px;
+  margin-top: 13.94px;
+}
+.descriptionTop2, .descriptionTop {font-size: 10.75px;
+}
+.block {
+  top: 376.37px;
+}
+.specializationCard:hover .block {
+  top: 292.89px;
+}
+.specializationCard:hover  .descriptionTop {
+  transform: translateY(9.2px);
+}
+.button100 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.button1001 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.button1001 {
+  right: 977.54px;
+}
+.button1002 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.button10021 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+  right: 535.73px;
+}
+
+.container4 .button1002 {
+  right: 24.57px;
+}
+
+.container5 .button1002, .container56 .button1002, .container57 .button1002 {
+  right: 122.34px;
+}
+
+.button1003 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+
+.button1004 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+}
+
+
+
+@media (max-width: 1280px) {
+    .buttonLabel {
+  letter-spacing: -0.18px;
+  line-height: 12.31px;
+}
+.container58 .heading1 {
+  width: 307.47px;
+}
+
+.button {
+  border-radius: 439.43px;
+  padding: 4.61px 10.74px;
+}
+.div {
+  letter-spacing: -1.39px;
+  line-height: 47.13px;
+}
+.frameChild {
+  width: 1.54px;
+  height: 52.52px;
+}
+.div1 {
+  letter-spacing: -1.39px;
+  line-height: 47.13px;
+}
+.heading2Parent {
+  gap: 27.68px;
+  font-size: 46.2px;
+}
+.container2 {
+  padding: 0px 0px 4.61px;
+  gap: 10.01px;
+}
+.magnifyingglassIcon {
+  width: 15.64px;
+  height: 15.64px;
+}
+.iconbutton {
+  border-radius: 388.06px;
+  padding: 10.74px;
+}
+.button1 {
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.iconbuttonParent {
+  gap: 7.73px;
+}
+.icon {
+  top: 0px;
+  left: 654.84px;
+  height: 196.04px;
+}
+.icon1 {
+  border-radius: 7.73px;
+  padding: 12.41px;
+}
+.tag {
+  border-radius: 439.43px;
+  padding: 4.61px 9.22px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+.title {
+  letter-spacing: -0.73px;
+  line-height: 25.05px;
+  font-size: 24.57px;
+}
+.subtitle {
+  letter-spacing: -0.21px;
+  line-height: 13.34px;
+  font-size: 10.75px;
+}
+.subtitleContainer {
+  font-size: 10.75px;
+}
+.content3 {
+  gap: 4.61px;
+  font-size: 24.57px;
+}
+.content2 {
+  gap: 9.22px;
+}
+.button2 {
+  border-radius: 439.43px;
+  padding: 4.61px 10.74px;
+}
+.actions1 {
+  gap: 4.61px;
+}
+.actionsChild {
+  height: 12.31px;
+}
+.button5 {
+  border-radius: 439.43px;
+  padding: 4.61px 5.81px;
+}
+.actions2 {
+  gap: 9.22px;
+}
+.actions {
+  gap: 9.22px;
+  margin: 6.19px 0;
+}
+.content1 {
+  gap: 15.38px;
+}
+
+.blocks2 .actions2, .blocks .actions2 {
+  margin-top: 7.73px;
+}
+.blocks {
+  top: 697.84px;
+}
+.blocks2 {
+  top: 987.06px;
+}
+.specializationCard:hover .blocks {
+  top: 610.25px;
+}
+.specializationCard:hover .blocks2 {
+  top: 906.35px;
+}
+
+.specializationCard:hover .blocks .actions2 .separator,
+.specializationCard:hover .blocks2 .actions2 .separator {
+  margin-bottom: 42.48px;
+}
+
+.blocks2 .actions2 .separator, .blocks .actions2 .separator {
+  margin-bottom: 11.58px;
+}
+.content {
+  gap: 15.38px;
+}
+.specializationcardfull {
+  border-radius: 12.31px;
+  height: 307.47px;
+  padding: 24.57px 24.57px 30.72px;
+}
+.heading1 {
+  font-size: 24.57px;
+}
+.button9 {
+  border-radius: 439.43px;
+  padding: 4.61px 10.74px;
+}
+.actions3 {
+  gap: 0px 4.61px;
+}
+.card {
+  border-radius: 12.31px;
+  padding: 24.57px 24.57px 30.72px;
+}
+.actions10 {
+  gap: 9.22px;
+  margin: 6.19px 0;
+}
+.titleContainer {
+  gap: 7.73px;
+}
+.lineDiv {
+  height: 22.42px;
+}
+.actions11 {
+  gap: 9.22px;
+  margin: 6.19px 0;
+}
+.specializationCard {
+  width: 407.02px;
+  height: 307.47px;
+}
+.div2 {
+  letter-spacing: -0.18px;
+}
+.container11 {
+  max-width: 339.41px;
+}
+.button32, .button31 {
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.container13 {
+  gap: 7.73px;
+}
+.container12 {
+  font-size: 9.22px;
+}
+.background {
+  max-width: 1278.14px;
+  border-radius: 12.31px;
+  padding: 30.72px 46.2px;
+  font-size: 18.56px;
+}
+.container3 {
+  gap: 12.41px;
+}
+.specializationCard {
+  flex: 1 1 calc(33.333% - 12.41px);
+  min-width: 407.02px;
+  height: 307.47px;
+  border-radius: 12.31px;
+}
+
+.container {
+  max-width: 1278.14px;
+  gap: 49.26px;
+}
+.section {
+  margin-top: 231.57px;
+  font-size: 12.31px;
+}
+
+.specializationCard:hover .subjectBlock {
+  height: 58.37px;
+  border-radius: 9.22px;
+  margin-top: 15.26px;
+}
+.specializationCard:hover .subjectBlock .score {
+  top: -21.53px;
+}
+
+.specializationCard .button1004 {
+  right: 537.64px;
+}
+
+.button1004:hover .buttonLabel {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.specializationCard:hover .subjectBlock2 {
+  height: 58.37px;
+  border-radius: 9.22px;
+}
+.specializationCard:hover .container5 .subjectBlock2 {
+  height: 58.37px;
+  border-radius: 9.22px;
+  transform: translateY(-7.73px);
+}
+.specializationCard:hover .container58 .subjectBlock2 {
+  height: 58.37px;
+  border-radius: 9.22px;
+  transform: translateY(-7.73px);
+}
+.specializationCard:hover .subjectBlock2 .subjectText {
+  margin-top: 33.39px;
+}.specializationCard .subjectBlockOutlined {
+  width: 119.66px;
+}
+.specializationCard:hover .subjectBlockOutlined {
+  height: 58.37px;
+  width: 119.66px;
+  border-radius: 9.22px;
+  margin-top: 15.26px;
+}
+.specializationCard:hover .subjectBlockOutlined2 {
+  height: 58.37px;
+  width: 63.66px;
+  border-radius: 9.22px;
+  margin-top: 15.26px;
+}
+.specializationCard .subjectBlockOutlined2 {
+  width: 63.66px;
+}
+.specializationCard:hover .subjectBlockOutlined .score {
+  left: 41.16px;
+}
+.specializationCard:hover .subjectBlockOutlined .score1 {
+  left: 42.56px;
+}
+.specializationCard:hover .subjectBlockOutlined2 .score {
+  left: 16.98px;
+}
+
+.subjectBlock {
+  border-radius: 38.69px;
+  width: 68.01px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+
+.subjectBlock2 {
+  border-radius: 38.69px;
+  width: 89.4px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+
+.subjectBlock .score {
+  top: -28.91px;
+  left: 19.3px;
+  font-size: 22.55px;
+  border-radius: 3.1px;
+}
+.subjectBlock2 .score {
+  top: -21.53px;
+  left: 26.93px;
+  font-size: 22.55px;
+}
+.subjectBlockOutlined {
+  border-radius: 38.69px;
+  width: 63.66px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+.specializationcardfull .container5 .subjectBlockOutlined {
+  border-radius: 38.69px;
+  width: 119.66px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+.subjectBlockOutlined2 {
+  border-radius: 38.69px;
+  width: 94.7px;
+  height: 21.59px;
+  font-size: 9.22px;
+  line-height: 12.31px;
+}
+
+.subjectBlockOutlined .score {
+  top: -21.53px;
+  left: 17.94px;
+  font-size: 22.55px;
+}
+.container5 .subjectBlockOutlined .score {
+  top: -21.53px;
+  left: 41.16px;
+  font-size: 22.55px;
+}
+.subjectBlockOutlined .score1 {
+  top: -21.53px;
+  left: 17.94px;
+  font-size: 22.55px;
+}
+.subjectBlockOutlined2 .score {
+  top: -21.53px;
+  left: 33.19px;
+  font-size: 22.55px;
+}
+.specializationcardfull:hover .subjectBlockOutlined2,
+.specializationcardfull:hover .subjectBlockOutlined {
+  border-radius: 7.73px;
+  padding: 33.19px 0px 0px 0px;
+  height: 58.37px;
+  transform: translateY(-15.26px);
+}
+
+.specializationCard:hover .subjectBlockOutlined,
+.specializationCard:hover .subjectBlockOutlined2 {
+  border-radius: 7.73px;
+  padding: 33.19px 0px 0px 0px;
+  transform: translateY(-15.26px);
+}
+
+.specializationcardfull:hover .subjectBlock {
+  border-radius: 9.22px;
+  padding: 33.19px 0px 0px 0px;
+  width: 68.01px;
+  height: 58.37px;
+  transform: translateY(-15.26px);
+}
+.specializationcardfull:hover .subjectBlock2 {
+  border-radius: 7.73px;
+  padding: 33.19px 0px 0px 0px;
+  transform: translateY(-15.26px);
+  height: 58.37px;
+}
+.specializationCard:hover .subjectBlock {
+  border-radius: 7.73px;
+  padding: 33.19px 0px 0px 0px;
+  transform: translateY(-15.26px);
+}
+.specializationcardfull:hover .subjectBlock .score {
+  padding-top: 7.73px;
+  transform: translateY(38.69px);
+}
+.specializationcardfull:hover .subjectBlock2 .score,
+.specializationCard:hover .subjectBlock .score,
+.specializationCard:hover .subjectBlock2 .score,
+.specializationCard:hover .subjectBlockOutlined .score,
+.specializationCard:hover .subjectBlockOutlined2 .score,
+.specializationcardfull:hover .subjectBlockOutlined .score,
+.specializationcardfull:hover .subjectBlockOutlined .score1,
+.specializationcardfull:hover .subjectBlockOutlined2 .score {
+  transform: translateY(38.69px);
+}
+.orText {
+  font-size: 9.22px;
+}
+
+.specializationcardfull:hover .orText {
+  margin-bottom: 30.72px;
+}
+
+.specializationCard:hover .orText {
+  margin-bottom: 11.58px;
+}
+
+.separator {
+  width: 11.58px;
+  margin-top: 10.08px;
+}
+
+.specializationCard:hover .separator {
+  width: 21.61px;
+  margin-top: 30.72px;
+}
+
+.specializationcardfull:hover .separator {
+  width: 21.61px;
+  margin-top: 13.94px;
+}
+.descriptionTop2, .descriptionTop {font-size: 10.75px;
+}
+.block {
+  top: 376.37px;
+}
+.specializationCard:hover .block {
+  top: 292.89px;
+}
+.specializationCard:hover  .descriptionTop {
+  transform: translateY(9.2px);
+}
+.button100 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.button1001 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.button1001 {
+  right: 977.54px;
+}
+.button1002 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+.button10021 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+  right: 535.73px;
+}
+
+.container4 .button1002 {
+  right: 24.57px;
+}
+
+.container5 .button1002, .container56 .button1002, .container57 .button1002 {
+  right: 122.34px;
+}
+
+.button1003 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+
+.button1004 {
+  border-radius: 5.81px;
+  padding: 7.73px 15.26px;
+  font-size: 10.75px;
+  border-radius: 776.81px;
+  padding: 12.41px 18.56px;
+}
+    .specializationCard:hover .block{
+        top: 520px;
     }
     .block{
-        top: 400px;
-    }
-    .specializationCard:hover .block{
-        top: 313px;
-    }
-    .button100, .button1001, .button1002, .button10021, .button1003, .button1004{
-        border-radius: 6px;
-        padding: 7.5px 15px;
-        font-size: 10.5px;
-        border-radius: 750px;
-        padding: 12px 18px;
-    }
-    .button1001 {
-        right: 959.25px;
+        top: 540px;
     }
 
-    .button10021 {
-        right: 522.75px;
-    }
-
-    .container4 .button1002{
-        right: 24px;
-    }
-
-    .container5 .button1002{
-        right: 120px;
-    }
-}
-@media (max-width: 1270px){
-    .buttonLabel {
-        letter-spacing: -0.13px;
-        line-height: 8.33px;
-    }
-
-    .button {
-        border-radius: 298.82px;
-        padding: 3.13px 7.29px;
-    }
-    .div {
-        letter-spacing: -0.94px;
-        line-height: 31.88px;
-    }
-    .frameChild {
-        height: 35.42px;
-    }
-    .div1 {
-        letter-spacing: -0.94px;
-        line-height: 31.88px;
-    }
-    .heading2Parent {
-        gap: 18.75px;
-        font-size: 31.25px;
-    }
-    .container2 {
-        gap: 6.77px;
-    }
-    .magnifyingglassIcon {
-        width: 10.42px;
-        height: 10.42px;
-    }
-    .iconbutton {
-        border-radius: 260.42px;
-        padding: 7.29px;
-    }
-    .button1 {
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-    .iconbuttonParent {
-        gap: 5.21px;
-    }
-    .icon {
-        left: 441.15px;
-        height: 132.29px;
-    }
-    .icon1 {
-        border-radius: 5.21px;
-        padding: 8.33px;
-    }
-    .header {
-        gap: 88.02px;
-    }
-    .header2 {
-        gap: 500px;
-    }
-    .tag {
-        border-radius: 298.82px;
-        padding: 3.13px 6.25px;
-        font-size: 6.25px;
-        line-height: 8.33px;
-    }
-    .title {
-        letter-spacing: -0.50px;
-        line-height: 17.00px;
-        font-size: 16.67px;
-    }
-    .subtitle {
-        letter-spacing: -0.15px;
-        line-height: 9.04px;
-        font-weight: 500;
-        font-size: 7.29px;
-    }
-    .subtitleContainer {
-        font-size: 7.29px;
-    }
-    .content3 {
-        gap: 3.13px;
-        font-size: 16.67px;
-    }
-    .content2 {
-        gap: 6.25px;
-    }
-    .button2 {
-        border-radius: 298.82px;
-        padding: 3.13px 7.29px;
-    }
-    .actions1 {
-        gap: 3.13px;
-    }
-    .actionsChild {
-        height: 8.33px;
-    }
-    .button5 {
-        border-radius: 298.82px;
-        padding: 3.13px 4.17px;
-    }
-    .actions2 {
-        gap: 6.25px;
-    }
-    .actions {
-        gap: 6.25px;
-        margin: 4.17px 0;
-    }
-    .content1 {
-        gap: 10.42px;
-    }
-    .blocks .actions2 {
-        margin-top: 5.21px;
-    }
-    .blocks2 .actions2 {
-        margin-top: 5.21px;
-    }
-    .blocks {
-        top: 471.35px;
-    }
-    .blocks2 {
-        top: 669.27px;
-    }
-    .specializationCard:hover .blocks {
-        top: 412.50px;
-    }
-    .specializationCard:hover .blocks2 {
-        top: 607.29px;
-    }
-    .specializationCard:hover .blocks .actions2 .separator {
-        margin-bottom: 28.65px;
-    }
-    .specializationCard:hover .blocks2 .actions2 .separator {
-        margin-bottom: 28.65px;
-    }
-    .blocks .actions2 .separator {
-        margin-bottom: 7.81px;
-    }
-    .blocks2 .actions2 .separator {
-        margin-bottom: 7.81px;
-    }
-    .content {
-        gap: 10.42px;
-    }
-    .specializationcardfull {
-                padding: 16.67px 16.67px 20.83px;
-        border-radius: 16px;
-        height: 208.33px;
-    }
-
-    .button9 {
-        border-radius: 298.82px;
-        padding: 3.13px 7.29px;
-    }
-
-    .actions3 {
-        gap: 0px 3.13px;
-    }
-    .card {
-        border-radius: 16px;
-        padding: 16.67px 16.67px 20.83px;
-    }
-    .actions10 {
-        gap: 6.25px;
-        margin: 4.17px 0;
-    }
-    .titleContainer {
-        gap: 5.21px;
-    }
-    .lineDiv {
-        width: 0.52px;
-        height: 15.10px;
-    }
-    .actions11 {
-        gap: 6.25px;
-        margin: 4.17px 0;
-    }
-    .specializationCard {
-        width: 275.00px;
-        height: 208.33px;
-    }
-    .div2 {
-        letter-spacing: -0.13px;
-    }
-    .container11 {
-        max-width: 229.17px;
-    }
-    .button31 {
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-    .button32 {
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-    .container13 {
-        gap: 5.21px;
-    }
-    .container12 {
-        font-size: 10px;
-    }
-    .background {
-        max-width: 866.67px;
-        border-radius: 16px;
-        padding: 20.83px 31.25px;
-        font-size: 14px;
-    }
-    .container3 {
-        gap: 8.33px;
-    }
-    .specializationCard {
-        flex: 1 1 calc(33.333% - 8.33px);
-        min-width: 275.00px;
-        height: 208.33px;
-        border-radius: 16px;
-    }
-    .container {
-        max-width: 866.67px;
-        gap: 33.33px;
-    }
-    .section {
-        margin-top: 156.25px;
-        font-size: 8.33px;
-    }
-    .specializationCard:hover .subjectBlock {
-        height: 39.58px;
-        border-radius: 6.25px;
-        margin-top: 10.42px;
-        transition: all 0.3s ease;
-    }
-    .specializationCard:hover .subjectBlock .score {
-        top: -14.58px;
-        left: 13px;
-            transition: all 0.3s ease;
-    }
-    .specializationCard .button1004 {
-        right: 182.29px;
-            transition: all 0.3s ease;
-    }
-    .specializationCard:hover .subjectBlock2 {
-        height: 39.58px;
-        border-radius: 6.25px;
-
-            transition: all 0.3s ease;
-    }
-    .specializationCard:hover .subjectBlock2 .subjectText {
-        margin-top: 22.40px;
-            transition: all 0.3s ease;
-    }
-    .specializationCard:hover .subjectBlockOutlined {
-        height: 39.58px;
-        width: 44.79px;
-        border-radius: 6.25px;
-        margin-top: 10.42px;
-            transition: all 0.3s ease;
-    }
-    .specializationCard:hover .subjectBlockOutlined2 {
-        height: 39.58px;
-        width: 43.23px;
-        border-radius: 6.25px;
-        margin-top: 10.42px;
-            transition: all 0.3s ease;
-    }
-
-    .specializationCard .subjectBlockOutlined2 {
-        width: 43.23px;
-    }
-    .specializationCard:hover .subjectBlockOutlined .score {
-        left: 13.02px;
-            transition: all 0.3s ease;
-    }
-    .specializationCard:hover .subjectBlockOutlined .score1 {
-        left: 28.65px;
-            transition: all 0.3s ease;
-    }
-    .specializationCard:hover .subjectBlockOutlined2 .score {
-        left: 12.50px;
-            transition: all 0.3s ease;
-    }
-    .subjectBlock {
-        border-radius: 13.02px;
-        width: 22.92px;
-        height: 14.58px;
-        font-size: 6.25px;
-        line-height: 8.33px;
-    }
-    .subjectBlock2 {
-        border-radius: 13.02px;
-        width: 30.21px;
-        height: 14.58px;
-        font-weight: 500;
-        font-size: 6.25px;
-        line-height: 8.33px;
-    }
-    .subjectBlock .score {
-        top: -19.79px;
-        left: 10px;
-        font-size: 14.58px;
-        border-radius: 2.08px;
-    }
-    .subjectBlock2 .score {
-        top: -14.58px;
-        left: 15px;
-        font-size: 14.58px;
-    }
-    .subjectBlockOutlined {
-        border-radius: 13.02px;
-        width: 43.23px;
-        height: 14.58px;
-        font-weight: 500;
-        font-size: 6.25px;
-        line-height: 8.33px;
-    }
-    .subjectBlockOutlined2 {
-        border-radius: 13.02px;
-        width: 67.71px;
-        height: 14.58px;
-        font-size: 6.25px;
-        line-height: 8.33px;
-    }
-    .subjectBlockOutlined .score {
-        top: -14.58px;
-        left: 12.00px;
-        font-size: 14.58px;
-    }
-    .subjectBlockOutlined .score1 {
-        top: -14.58px;
-        left: 12.00px;
-        font-size: 14.58px;
-        font-weight: 500;
-    }
-    .subjectBlockOutlined2 .score {
-        top: -14.58px;
-        left: 22.40px;
-        font-size: 14.58px;
-    }
-    .specializationcardfull:hover .subjectBlockOutlined,
-    .specializationcardfull:hover .subjectBlockOutlined2 {
-        border-radius: 5.21px;
-        padding: 22.40px 0px 0px 0px;
-        height: 39.58px;
-        transform: translateY(-10.42px);
-    }
-    .specializationcardfull:hover .subjectBlockOutlined .score,
-    .specializationcardfull:hover .subjectBlockOutlined .score1,
-    .specializationcardfull:hover .subjectBlockOutlined2 .score {
-        transform: translateY(26.04px);
-    }
-    .specializationCard:hover .subjectBlockOutlined,
-    .specializationCard:hover .subjectBlockOutlined2 {
-        border-radius: 5.21px;
-        padding: 22.40px 0px 0px 0px;
-        transform: translateY(-10.42px);
-            transition: all 0.3s ease;
-    }
-    .specializationCard:hover .subjectBlockOutlined .score,
-    .specializationCard:hover .subjectBlockOutlined2 .score {
-        transform: translateY(26.04px);
-            transition: all 0.3s ease;
-    }
-    .specializationcardfull:hover .subjectBlock {
-        border-radius: 6.25px;    padding: 22.4px 0 0 0;
-        width: 50px;
-        height: 39.58px;
-        transform: translateY(-10.42px);
-    }
-    .specializationcardfull:hover .subjectBlock2 {
-        border-radius: 5.21px;
-        padding: 22.4px 22px 0;
-        height: 39.58px;
-        width: 50px;
-        transform: translateY(-10.42px);
-    }
-    .specializationCard:hover .subjectBlock {
-        border-radius: 5.21px;
-        width: 50px;
-        padding: 22.40px 0 0 0;
-        transform: translateY(-10.42px);
-            transition: all 0.3s ease;
-    }
-    .specializationcardfull:hover .subjectBlock .score {
-        padding-top: 5.21px;
-        transform: translateY(26.04px);
-        left: 15px;
-    }
-    .specializationcardfull:hover .subjectBlock2 .score,
-    .specializationCard:hover .subjectBlock .score,
-    .specializationCard:hover .subjectBlock2 .score {
-        transform: translateY(26.04px);
-            transition: all 0.3s ease;
-            left: 15px;
-    }
-
-    .orText {
-        font-size: 6.25px;
-    }
-
-    .specializationcardfull:hover .orText {
-        margin-bottom: 20.83px;
-    }
-
-    .specializationCard:hover .orText {
-        margin-bottom: 7.81px;
-            transition: all 0.3s ease;
-    }
-
-    .separator {
-        width: 7.81px;
-        margin-top: 6.77px;
-    }
-    .specializationCard .subjectBlock{
-        width: 48px;
-    }
-    .specializationcardfull .subjectBlock{
-        width: 48px;
-    }
-
-    .specializationCard:hover .separator {
-        width: 14.58px;
-        margin-top: 20.83px;
-            transition: all 0.3s ease;
-    }
-
-    .specializationcardfull:hover .separator {
-        width: 14.58px;
-        margin-top: 10.42px;
-    }
-
-    .descriptionTop2, .descriptionTop {
-        font-size: 7.29px;
-    }
-
-    .block {
-        top: 255.73px;
-    }
-
-    .specializationCard:hover .block {
-        top: 197.92px;
-            transition: all 0.3s ease;
-    }
-
-    .button100 {
-        border-radius: 4.17px;
-        padding: 8.33px 12.5px;
-        font-size: 7.29px;
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-
-    .button1001 {
-        border-radius: 4.17px;
-        padding: 8.33px 12.5px;
-        font-size: 7.29px;
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-        right: 665.10px;
-    }
-
-    .button1002 {
-        border-radius: 4.17px;
-        padding: 8.33px 12.5px;
-        font-size: 7.29px;
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-
-    .button10021 {
-        border-radius: 4.17px;
-        padding: 8.33px 12.5px;
-        font-size: 7.29px;
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-        right: 363.02px;
-    }
-
-    .container4 .button1002 {
-        right: 16.67px;
-    }
-
-    .container5 .button1002 {
-        right: 83.33px;
-    }
-
-    .button1003 {
-        border-radius: 4.17px;
-        padding: 8.33px 12.5px;
-        font-size: 7.29px;
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-
-    .button1004 {
-        border-radius: 4.17px;
-        padding: 8.33px 12.5px;
-        font-size: 7.29px;
-        border-radius: 520.83px;
-        padding: 8.33px 12.5px;
-    }
-
-    .specializationcardfull:hover .container4{
-        gap: 10px;
-    }
-    .container4{
-        gap: 40px;
-    }
-    .header2{
-        gap: 380px;
-    }
-    .header{
-        gap: 80px;
-    }
-    .subjectBlock{
-        width: 39px;
-        transition: all 0.5s ease;
-    }
-    .subjectBlock2{
-        width: 48px;
-    }
-    .descriptionTop2{
-        font-size: 10px;
-    }
-}
-@media (max-width: 1269px) {
     .container {
         flex-direction: column;
         gap: 16px;
         justify-content: center;
         transition: all 0.3s ease;
     }
-
-    .header{
-        width: 100%;
-        justify-content: space-between;
-        gap: 0;
-    }
         .container58 .heading1{
         width: 100%;
     }
-
-    .header2{
-        width: 100%;
-        justify-content: space-between;
-        gap: 0;
-    }
     .specializationCard {
-        flex: 1 1 100%; /* Одна карточка в ряд */
+        flex: 1 1 100%;
         max-width: 100%;
         transition: all 0.3s ease;
     }
-
+    .descriptionTop, .descriptionTop2{
+        display: none;
+    }
     .specializationCard,
     .specializationcardfull {
         flex: 1 1 100%; /* Одна карточка на весь экран */
@@ -2390,14 +2958,24 @@
     .specializationCard:hover .container5 .block{
         top: 510px;
     }
-    .specializationCard:hover .subjectBlock .score, .specializationCard:hover .subjectBlock2 .score, .specializationCard:hover .subjectBlockOutlined .score, .specializationCard:hover  .subjectBlockOutlined2 .score{
-        left: 38px;
+    
+    .specializationCard:hover .subjectBlockOutlined .score, .specializationCard:hover  .subjectBlockOutlined2 .score{
+        left: 32px;
+    }
+    .specializationCard:hover  .container58 .subjectBlockOutlined2 .score{
+        left: 33px;
     }
     .specializationCard:hover .subjectBlockOutlined .score{
-        top: -14px;
+        top: -18.5px;
+        left: 40px;
     }
     .specializationCard:hover .subjectBlock .score{
-        top: -16px;
+        top: -18px;
+        left: 33px;
+    }
+    .specializationCard:hover .subjectBlock2 .score{
+        left: 33px;
+        top: -20px;
     }
     .specializationCard .container5 .block{
         top: 560px;
@@ -2407,20 +2985,82 @@
         top: 755px;
     }
     .specializationCard .container5 .blocks{
-        top: 800px;
+        top: 780px;
     }
     .specializationcardfull:hover .container4{
-        gap: 30px;
+        gap: 5px;
     }
     .specializationCard .container56 .blocks{
-        top: 1045px;
+        top: 1025px;
     }   
     .specializationCard:hover .container56 .blocks{
         top: 1000px;
     }   
 
     .specializationCard .container57 .blocks{
-        top: 1285px;
+        top: 1265px;
+    }   
+    .specializationCard:hover .container57 .blocks{
+        top: 1240px;
+    } 
+    
+    .specializationCard .container58 .blocks2{
+        top: 1510px;
+    }   
+    .specializationCard:hover .container58 .blocks2{
+        top: 1490px;
+    } 
+    .specializationcardfull:hover .subjectBlock .score{
+        top: -34px;
+        left: 33px;
+    }
+    .specializationcardfull:hover .subjectBlock2 .score{
+        top: -26px;
+        left: 31px;
+    }
+    .specializationcardfull:hover .subjectBlockOutlined .score, .specializationcardfull:hover .subjectBlockOutlined2 .score{
+        top: -24px;
+        left: 33px;
+    }
+    .specializationcardfull:hover .container5 .subjectBlockOutlined .score{
+        top: -24px;
+        left: 38px;
+    }
+}
+
+@media (max-width:778px) {
+    .block{
+        top: 580px;
+    }
+
+    .specializationCard .container5 .block{
+        top: 540px;
+    }
+    .specializationCard .container4 .block{
+      top: 550px;
+    }
+    .specializationCard:hover .container4 .block{
+      top: 515px;
+    }
+
+    .specializationCard:hover .container5 .blocks{
+        top: 755px;
+    }
+    .specializationCard .container5 .blocks{
+        top: 790px;
+    }
+    .specializationcardfull:hover .container4{
+        gap: 5px;
+    }
+    .specializationCard .container56 .blocks{
+        top: 1030px;
+    }   
+    .specializationCard:hover .container56 .blocks{
+        top: 1000px;
+    }   
+
+    .specializationCard .container57 .blocks{
+        top: 1275px;
     }   
     .specializationCard:hover .container57 .blocks{
         top: 1240px;
@@ -2433,898 +3073,175 @@
         top: 1490px;
     } 
 }
-@media (max-width: 879px) {
-
-    .descriptionTop, .descriptionTop2{
-        display: none;
-    }
-    .container4{
-        gap: 20px;
-    }
-    .container {
-    gap: 13.09px;
-    }
-    .specializationCard,
-    .specializationcardfull {
-        height: 184.09px;
-    }
-    .specializationcardfull:hover .content1{
-        gap: 12.27px;
-    }
-    .tag{
-        padding: 6.55px 16.36px;
-    }
-    .specializationCard:hover .blocks2 .tag{
-        padding: 3.27px 16.36px;
-    }
-    .title{
-        font-size: 16.36px;
-    }
-    .buttonLabel{
-        font-size: 6.55px;
-        margin-top: 1.64px;
-    }
-    .button100,
-    .button1001,
-    .button1002,
-    .button1003,
-    .button1004 {
-        font-size: 9.82px;
-        padding: 6.55px 13.09px;
-        right: 27.82px;
-        margin: 6.55px 0;
-    }
-    .background{
-        font-size: 11.45px;
-        padding: 15.55px 12.27px;
-    }
-    .button32{
-        font-size: 9.82px;
-        padding: 6.55px 35.18px;
-        right: 27.82px;
-    }
-    .button31{
-        font-size: 9.82px;
-        padding: 6.55px 13.09px;
-        right: 27.82px;
-    }
-    .actions {
-        gap: 6.55px;
-    }
-    .subjectBlock,
-    .subjectBlockOutlined, .subjectBlock2, .subjectBlockOutlined2{
-        min-width: 81.82px;
-        font-size: 8.18px; 
-        padding: 8.18px 6.55px; 
-    }
-    .orText {
-        margin: 0 3.27px;
-        font-size: 9.82px;
-    }
-    .descriptionTop {
-        font-size: 9.82px;
-        line-height: 1.4;
-    }
-    .subtitle {
-        font-size: 12.27px;
-    }
-    .container3 {
-        gap: 13.09px; 
-        padding: 13.09px; 
-    }
-    .section {
-        padding: 13.09px;
-        top: 78.55px;
-    }
-    .container1 {
-        padding: 16.36px 32.73px;
-        gap: 13.09px; 
-    }
-    .container2 {
-        gap: 6.55px;
-    }
-    .button {
-        font-size: 13.09px;
-        padding: 9.82px 16.36px;
-        border-radius: 20.45px;
-    }
-    .heading2Parent {
-        gap: 9.82px;
-    }
-    .heading2 {
-        font-size: 26.18px;
-    }
-    .div1 {
-        font-size: 16.36px;
-    }
-    .frameChild {
-        height: 32.73px;
-    }
-    .iconbuttonParent {
-        gap: 6.55px;
-    }
-    .iconbutton {
-        width: 29.45px;
-        height: 29.45px;
-        padding: 4.91px;
-    }
-    .button1 {
-        font-size: 11.45px;
-        padding: 8.18px 16.36px; 
-        border-radius: 8.18px;
-    }
-    .container1 {
-        padding: 13.09px; 
-        gap: 13.09px;
-    }
-    .container2 {
-        gap: 9.82px;
-    }
-    .button {
-        font-size: 11.45px;
-        padding: 6.55px 13.09px;
-    }
-    .heading2Parent {
-        gap: 6.55px; 
-    }
-    .div{
-        letter-spacing: -1.47px;
-        line-height: 27.98px; 
-    }
-    .heading2 {
-        font-size: 24.55px; 
-    }
-    .div1 {
-        font-size: 19.64px;
-    }
-    .iconbuttonParent {
-        gap: 6.55px;
-    }
-    .subjectBlockOutlined .score{
-        left: 31.09px;
-    }
-    .specializationcardfull:hover .subjectBlock .score{
-        left: 31px;
-        top: -20px;
-    }
-    .specializationcardfull:hover .subjectBlock2 .score{
-        left: 29px;
-        top: -15px;
-    }
-    .specializationcardfull:hover .subjectBlockOutlined2 .score{
-        left: 29px;
-        top: -15px;
-    }
-    .specializationcardfull:hover .subjectBlockOutlined .score{
-        left: 29px;
-        top: -15px;
-    }
-    .specializationcardfull:hover .separator{
-        width: 17.18px;
-        margin-top: 12.27px;
-    }
-    .separator{
-        width: 8.18px;
-        margin-top: 8.18px;
-    }
-    .iconbutton {
-        width: 24.55px;
-        height: 24.55px;
-        padding: 3.27px;
-    }
-    .button1 {
-        font-size: 9.82px;
-        padding: 6.55px 13.09px;
-    }
-    .icon1{
-        padding: 9.82px;
-    }
-    .magnifyingglassIcon{
-        width: 13.91px;
-        height: 13.91px;
-    }
-    .button100, .button1002, .button1001, .button1004, .button10021{
-        padding: 6.55px 24.55px;
-    }
-    .specializationcardfull:hover .subjectBlock, .specializationcardfull:hover .subjectBlock2{
-        height: 40.91px;
-        padding: 20.45px 0 0;
-        width: 81.82px;
-    }
-    .specializationcardfull{
-        padding: 13.09px 13.09px 16.36px;
-    }
-    .specializationcardfull:hover .subjectBlockOutlined, .specializationcardfull:hover .subjectBlockOutlined2{
-        padding: 20.45px 0 0;
-        height: 40.91px;
-    }
-    .specializationCard:hover .container5 .block{
-        top: 435px;
-    }
-    .specializationCard:hover .subjectBlock .score, .specializationCard:hover .subjectBlock2 .score{
-        left: 29px;
-    }
-    .specializationCard:hover  .subjectBlockOutlined2 .score, .specializationCard:hover .subjectBlockOutlined .score{
-        left: 30px;
-    }
-    .specializationCard .container5 .block{
-        top: 458.18px;
-    }
-    .specializationCard:hover .container5 .blocks{
-        top: 630px;
-    }
-    .specializationCard .container5 .blocks{
-        top: 654.55px;
-    }
-    .specializationCard .container56 .blocks{
-        top: 855.0px;
-    }
-    .specializationCard:hover .container56 .blocks{
-        top: 830px;
-    }
-    .specializationCard .container57 .blocks{
-        top: 1051.36px;
-    }
-    .specializationCard:hover .container57 .blocks{
-        top: 1030px;
-    }
-    .specializationCard .container58 .blocks2{
-        top: 1250px;
-    }
-    .specializationCard:hover .container58 .blocks2{
-        top: 1235px;
-    }
-    .specializationcardfull:hover .container4{
-        gap: 20px;
-    }
-    .specializationcardfull .container4{
-        gap: 26px;
-    }
-}   
-@media (max-width: 576px) {
-    .container4{
-        gap: 20px;
-    }
-    .container {
-    gap: 13.09px;
-    }
-    .specializationCard,
-    .specializationcardfull {
-        height: 184.09px;
-    }
-    .specializationcardfull:hover .content1{
-        gap: 12.27px;
-    }
-    .tag{
-        padding: 6.55px 16.36px;
-    }
-    .specializationCard:hover .blocks2 .tag{
-        padding: 3.27px 16.36px;
-    }
-    .title{
-        font-size: 16.36px;
-    }
-    .buttonLabel{
-        font-size: 8px;
-        margin-top: 1.64px;
-    }
-    .button100,
-    .button1001,
-    .button1002,
-    .button1003,
-    .button1004 {
-        font-size: 9.82px;
-        padding: 6.55px 13.09px;
-        right: 27.82px;
-        margin: 6.55px 0;
-    }
-    .background{
-        font-size: 11.45px;
-        padding: 15.55px 12.27px;
-    }
-    .button32{
-        font-size: 9.82px;
-        padding: 6.55px 35.18px;
-        right: 27.82px;
-    }
-    .button31{
-        font-size: 9.82px;
-        padding: 6.55px 13.09px;
-        right: 27.82px;
-    }
-    .actions {
-        gap: 6.55px;
-    }
-    .subjectBlock,
-    .subjectBlockOutlined, .subjectBlock2, .subjectBlockOutlined2{
-        min-width: 81.82px;
-        font-size: 8.18px; 
-        padding: 8.18px 6.55px; 
-    }
-    .orText {
-        margin: 0 3.27px;
-        font-size: 9.82px;
-    }
-    .descriptionTop {
-        font-size: 9.82px;
-        line-height: 1.4;
-    }
-    .subtitle {
-        font-size: 12.27px;
-    }
-    .container3 {
-        gap: 13.09px; 
-        padding: 13.09px; 
-    }
-    .section {
-        padding: 13.09px;
-        top: 78.55px;
-    }
-    .container1 {
-        padding: 16.36px 32.73px;
-        gap: 13.09px; 
-    }
-    .container2 {
-        gap: 6.55px;
-    }
-    .button {
-        font-size: 13.09px;
-        padding: 9.82px 16.36px;
-        border-radius: 20.45px;
-    }
-    .heading2Parent {
-        gap: 9.82px;
-    }
-    .heading2 {
-        font-size: 26.18px;
-    }
-    .div1 {
-        font-size: 16.36px;
-    }
-    .frameChild {
-        height: 32.73px;
-    }
-    .iconbuttonParent {
-        gap: 6.55px;
-    }
-    .iconbutton {
-        width: 29.45px;
-        height: 29.45px;
-        padding: 4.91px;
-    }
-    .button1 {
-        font-size: 11.45px;
-        padding: 8.18px 16.36px; 
-        border-radius: 8.18px;
-    }
-    .container1 {
-        padding: 13.09px; 
-        gap: 13.09px;
-    }
-    .container2 {
-        gap: 9.82px;
-    }
-    .button {
-        font-size: 11.45px;
-        padding: 6.55px 13.09px;
-    }
-    .heading2Parent {
-        gap: 6.55px; 
-    }
-    .div{
-        letter-spacing: -1.47px;
-        line-height: 27.98px; 
-    }
-    .heading2 {
-        font-size: 24.55px; 
-    }
-    .div1 {
-        font-size: 19.64px;
-    }
-    .iconbuttonParent {
-        gap: 6.55px;
-    }
-    .subjectBlockOutlined .score{
-        left: 31.09px;
-    }
-    .specializationcardfull:hover .subjectBlock .score{
-        left: 32.73px;
-    }
-    .specializationcardfull:hover .subjectBlock2 .score{
-        left: 31.09px;
-    }
-    .specializationcardfull:hover .subjectBlockOutlined2 .score{
-        left: 31.09px;
-    }
-    .specializationcardfull:hover .separator{
-        width: 17.18px;
-        margin-top: 12.27px;
-    }
-    .separator{
-        width: 8.18px;
-        margin-top: 8.18px;
-    }
-    .iconbutton {
-        width: 24.55px;
-        height: 24.55px;
-        padding: 3.27px;
-    }
-    .button1 {
-        font-size: 9.82px;
-        padding: 6.55px 13.09px;
-    }
-    .icon1{
-        padding: 9.82px;
-    }
-    .magnifyingglassIcon{
-        width: 13.91px;
-        height: 13.91px;
-    }
-    .button100, .button1002, .button1001, .button1004, .button10021{
-        padding: 6.55px 24.55px;
-    }
-    .specializationcardfull:hover .subjectBlock, .specializationcardfull:hover .subjectBlock2{
-        height: 40.91px;
-        padding: 20.45px 0 0;
-        width: 81.82px;
-    }
-    .specializationcardfull{
-        padding: 13.09px 13.09px 16.36px;
-    }
-    .specializationcardfull:hover .subjectBlockOutlined, .specializationcardfull:hover .subjectBlockOutlined2{
-        padding: 20.45px 0 0;
-        height: 40.91px;
-    }
-    .specializationCard:hover .container5 .block{
-        top: 435px;
-    }
-    .specializationCard:hover .subjectBlock .score{
-        left: 31.09px;
-    }
-    .specializationCard:hover .subjectBlock2 .score{
-        left: 29px;
-    }
-    .specializationCard:hover .subjectBlockOutlined .score, .specializationCard:hover  .subjectBlockOutlined2 .score{
-        left: 30px;
-    }
-    .specializationCard .container5 .block{
-        top: 460px;
-    }
-    .specializationCard:hover .container5 .blocks{
-        top: 630px;
-    }
-    .specializationCard .container5 .blocks{
-        top: 655px;
-    }
-    .specializationCard .container56 .blocks{
-        top: 850px;
-    }
-    .specializationCard:hover .container56 .blocks{
-        top: 830px;
-    }
-    .specializationCard .container57 .blocks{
-        top: 1050px;
-    }
-    .specializationCard:hover .container57 .blocks{
-        top: 1030px;
-    }
-    .specializationCard .container58 .blocks2{
-        top: 1230px;
-    }
-    .specializationCard:hover .container58 .blocks2{
-        top: 1215px;
-    }
+@media (max-width:755px) {
     .container2{
-        max-width: 100%;
+      max-width: 100%;
     }
 }
 
-@media (max-width:660px) {
-    .specializationcardfull{
-        width: 500px;
-    }
-    .container2{
-        width: 410px;
-    }
+@media (max-width:651px) {
+  .subtitle{
+    font-size: 13px;
+  }
 }
-@media (max-width: 530px) {
-    .container{
-        width: 450px;
-    }
+
+@media (max-width:630px) {
+  .subjectBlock, .subjectBlock2, .subjectBlockOutlined, .subjectBlockOutlined2{
+    padding: 8px 4px;
+    min-width: 80px;
+    font-size: 8px;
+  }
+  .subjectBlock .score, .subjectBlock2 .score, .subjectBlockOutlined .score, .subjectBlockOutlined2 .score{
+    font-size: 20px;
+  }
+
+  .specializationcardfull:hover .subjectBlock, .specializationcardfull:hover .subjectBlock2, .specializationcardfull:hover .container4 .subjectBlockOutlined{
+    width: 80px;
+  }
+  .specializationCard:hover .subjectBlock, .specializationCard:hover .subjectBlock2{
+    width: 80px;
+  }
+  .specializationCard:hover .subjectBlockOutlined{
+    width: 120px;
+  }
+  .specializationCard:hover .subjectBlockOutlined2{
+    min-width: 60px;
+  }
+  .specializationcardfull:hover .subjectBlockOutlined{
+    width: 110px;
+  }
+  .div2{
+    font-size: 12px;
+  }
+  .button31, .button32{
+    font-size: 8px;
+  }
+  .button32{
+    padding: 8px 36px;
+  }
+  .subtitle{
+    font-size: 10px;
+  }
+  .specializationcardfull:hover .subjectBlock .score, .specializationcardfull:hover .subjectBlock2 .score , .specializationcardfull:hover .container4 .subjectBlockOutlined .score,
+  .specializationCard:hover .subjectBlock .score, .specializationCard:hover .subjectBlock2 .score{
+    left: 25px;
+  }
+
+  .specializationCard:hover .subjectBlockOutlined2 .score{
+    left: 18px;
+  }
+  .specializationCard:hover .container58 .subjectBlockOutlined2 .score{
+    left: 18px;
+  }
+  .specializationcardfull:hover  .container5 .subjectBlockOutlined .score{
+    left: 39px;
+    font-size: 20px;
+  }
+  .specializationCard:hover .subjectBlock2 .score {
+    top: -19px;
+    left: 24px;
+  }
 }
-@media (max-width: 530.0px) {
-    .container4{
-        gap: 18.4px;
-    }
-           .specializationcardfull:hover .container4 {gap: 10px;}
-    .container {
-        gap: 12.04px;
-    }
-    .specializationCard,
-    .specializationcardfull {
-        height: 169.39px;
-    }
-    .specializationcardfull:hover .content1{
-        gap: 11.29px;
-    }
-    .tag{
-        padding: 6.03px 15.05px;
-    }
-    .specializationCard:hover .blocks2 .tag{
-        padding: 3.01px 15.05px;
-    }
-    .title{
-        font-size: 15.05px;
-    }
-    .buttonLabel{
-        margin-top: 1.51px;
-    }
-    .button100,
-    .button1001,
-    .button1002,
-    .button1003,
-    .button1004 {
-        font-size: 9.04px;
-        padding: 6.03px 12.04px;
-        right: 25.6px;
-        margin: 6.03px 0;
-    }
-    .background{
-        font-size: 10.54px;
-        padding: 14.31px 11.29px;
-    }
-    .button32{
-        font-size: 9.04px;
-        padding: 6.03px 32.37px;
-        right: 25.6px;
-    }
-    .button31{
-        font-size: 9.04px;
-        padding: 6.03px 12.04px;
-        right: 25.6px;
-    }
-    .actions {
-        gap: 6.03px;
-    }
-    .subjectBlock,
-    .subjectBlockOutlined, .subjectBlock2, .subjectBlockOutlined2{
-        min-width: 75.29px;
-        font-size: 7.53px;
-        padding: 7.53px 6.03px;
-    }
-    .orText {
-        margin: 0 3.01px;
-        font-size: 9.04px;
-    }
-    .descriptionTop {
-        font-size: 9.04px;
-        line-height: 1.4;
-    }
-    .subtitle {
-        font-size: 11.29px;
-    }
-    .container3 {
-        gap: 12.04px;
-        padding: 12.04px;
-    }
-    .section {
-        padding: 12.04px;
-        top: 72.28px;
-    }
-    .container1 {
-        padding: 15.05px 30.12px;
-        gap: 12.04px;
-    }
-    .container2 {
-        gap: 6.03px;
-    }
-    .button {
-        font-size: 12.04px;
-        padding: 9.04px 15.05px;
-        border-radius: 18.82px;
-    }
-    .heading2Parent {
-        gap: 9.04px;
-    }
-    .specializationcardfull:hover .subjectBlockOutlined .score{
-        left: 27px;
-    }
-    .specializationcardfull:hover .subjectBlockOutlined2 .score{
-        left: 26px;
-    }
-    .specializationCard:hover .subjectBlockOutlined .score{
-        left: 28px;
-    }
-    .specializationCard:hover .subjectBlockOutlined2 .score{
-        left: 28px;
-    }
-    .specializationCard:hover .subjectBlock2 .score{
-        left: 27px;
-    }
-    .specializationCard:hover .subjectBlock .score{
-        left: 28px;
-    }
-    .heading2 {
-        font-size: 24.09px;
-    }
-    .div1 {
-        font-size: 15.05px;
-    }
-    .frameChild {
-        height: 30.12px;
-    }
-    .specializationCard .container5 .block{
-        top: 435px;
-    }
-    .specializationCard:hover .container5 .block{
-        top: 410px;
-    }
-    .specializationCard:hover .container5 .blocks{
-        top: 590px;
-    }
-    .specializationCard .container5 .blocks{
-        top: 615px;
-    }
-    .specializationCard .container56 .blocks{
-        top: 800px;
-    }
-    .specializationCard:hover .container56 .blocks{
-        top: 775px;
-    }
-    .specializationCard .container57 .blocks{
-        top: 980px;
-    }
-    .specializationCard:hover .container57 .blocks{
-        top: 955px;
-    }
-    .specializationCard .container58 .blocks2{
-        top: 1160px;
-    }
-    .specializationCard:hover .container58 .blocks2{
-        top: 1145px;
-    }
+@media (max-width:530px) {
+  .div{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .div1{
+    font-size: 22px;
+  }
+  .tag{
+    padding: 5px 10px;
+  }
+  .subjectBlock, .subjectBlock2, .subjectBlockOutlined, .subjectBlockOutlined2{
+    min-width: 40px;
+    font-size: 8px;
+  }
+  .subjectBlockOutlined{
+    width: 50px;
+  }
+  .subjectBlockOutlined2{
+    width: 85px;
+  }
+  .specializationcardfull:hover .subjectBlock, .specializationcardfull:hover  .subjectBlock2{
+    width: 70px;
+  }
+  .specializationcardfull:hover .container4 .subjectBlockOutlined{
+    width: 50px;
+  }
+  .specializationcardfull:hover .subjectBlockOutlined{
+    width: 85px;
+  }
+  .specializationcardfull:hover .separator{
+    width: 14px;
+    margin-top: 10px;
+  }
+  .specializationCard:hover .separator{
+    width: 14px;
+    margin-top: 30px;
+  }
+  .orText{
+    font-size: 8px;
+  }
+  .subjectBlock .score, .subjectBlock2 .score, .subjectBlockOutlined .score, .subjectBlockOutlined2 .score{
+    font-size: 18px;
+  }
+
+  .specializationCard:hover .subjectBlock, .specializationCard:hover .subjectBlock2{
+    width: 80px;
+  }
+  .specializationCard:hover .subjectBlockOutlined{
+    width: 120px;
+  }
+  .specializationCard:hover .subjectBlockOutlined2{
+    min-width: 60px;
+  }
+  .specializationcardfull:hover .subjectBlockOutlined{
+    width: 110px;
+  }
+  .div2{
+    font-size: 10px;
+  }
+  .button31, .button32{
+    font-size: 7px;
+  }
+  .button32{
+    padding: 8px 34px;
+  }
+  .subtitle{
+    font-size: 10px;
+  }
+  .specializationcardfull:hover .subjectBlock .score, .specializationcardfull:hover .subjectBlock2 .score{
+    left: 22px;
+  }
+  .specializationcardfull:hover .container4 .subjectBlockOutlined .score{
+    left: 15px;
+  }
+  .specializationcardfull:hover .container4 .subjectBlockOutlined2 .score{
+    left: 27px;
+  }
+  .specializationCard:hover .subjectBlockOutlined2 .score{
+    left: 18px;
+  }
+  .specializationCard:hover .container58 .subjectBlockOutlined2 .score{
+    left: 18px;
+  }
+  .specializationcardfull:hover  .container5 .subjectBlockOutlined .score{
+    left: 39px;
+    font-size: 20px;
+  }
+  .specializationCard:hover .subjectBlock2 .score {
+    top: -19px;
+    left: 24px;
+  }
+  .specializationCard:hover .subjectBlock .score{
+    top: -20px;
+  }
+  .specializationCard:hover .subjectBlockOutlined2 .score{
+    top: -18px;
+  }
+  .title{
+    font-size: 18px;
+  }
 }
-@media (max-width: 460px) {
-    .container{
-        width: 400px;
-    }
-    .section{
-        margin-top: 100px;
-    }
-}
-@media (max-width: 460px) {
-    .specializationcardfull .container4{
-        gap: 12px;
-    }
-    .container { gap: 10.45px; }
-    .specializationCard,
-    .specializationcardfull { height: 147.02px; }
-    .specializationcardfull:hover .content1 { gap: 9.80px; }
-    .tag { padding: 5.23px 13.07px; }
-    .specializationCard:hover .blocks2 .tag { padding: 2.61px 13.07px; }
-    .title { font-size: 13.07px; }
-    .buttonLabel { margin-top: 1.31px; }
-    .title{
-        font-size: 15px;
-    }
 
-    .button100,
-    .button1001,
-    .button1002,
-    .button1003,
-    .button1004 {
-        font-size: 7.84px;
-        padding: 5.23px 10.45px;
-        right: 22.22px;
-        margin: 5.23px 0;
-    }
-
-    .background {
-        font-size: 9.14px;
-        padding: 12.42px 9.80px;
-    }
-
-    .button32 {
-        font-size: 7.84px;
-        padding: 5.23px 28.10px;
-        right: 22.22px;
-    }
-
-    .button31 {
-        font-size: 7.84px;
-        padding: 5.23px 10.45px;
-        right: 22.22px;
-    }
-
-    .actions { gap: 5.23px; }
-
-    .subjectBlock,
-    .subjectBlockOutlined,
-    .subjectBlock2,
-    .subjectBlockOutlined2 {
-        min-width: 65.34px;
-        font-size: 6.53px;
-        padding: 6.53px 5.23px;
-    }
-
-    .orText {
-        margin: 0 2.61px;
-        font-size: 7.84px;
-    }
-
-    .descriptionTop {
-        font-size: 7.84px;
-        line-height: 1.4;
-    }
-
-    .subtitle { font-size: 12px; }
-
-    .container3 {
-        gap: 10.45px;
-        padding: 10.45px;
-    }
-
-    .section {
-        padding: 10.45px;
-        top: 62.73px;
-    }
-
-    .container1 {
-        padding: 13.07px 26.14px;
-        gap: 10.45px;
-    }
-
-    .container2 { gap: 5.23px; }
-
-    .button {
-        font-size: 10.45px;
-        padding: 7.84px 13.07px;
-        border-radius: 16.33px;
-    }
-
-    .heading2Parent { gap: 7.84px; }
-
-    .heading2 { font-size: 20.91px; }
-
-    .div1 { font-size: 13.07px; }
-
-    .frameChild { height: 26.14px; }
-
-    .iconbuttonParent { gap: 5.23px; }
-
-    .iconbutton {
-        width: 23.52px;
-        height: 23.52px;
-        padding: 3.92px;
-    }
-
-    .button1 {
-        font-size: 9.14px;
-        padding: 6.53px 13.07px;
-        border-radius: 6.53px;
-    }
-
-    .container1 {
-        padding: 10.45px;
-        gap: 10.45px;
-    }
-
-    .container2 { gap: 7.84px; }
-
-    .button {
-        font-size: 9.14px;
-        padding: 5.23px 10.45px;
-    }
-
-    .heading2Parent { gap: 5.23px; }
-
-    .div {
-        letter-spacing: -1.17px;
-        line-height: 22.35px;
-    }
-
-    .heading2 { font-size: 19.61px; }
-
-    .div1 { font-size: 15.68px; }
-    .content1 {
-        gap: 5px;
-    }
-    .iconbuttonParent { gap: 5.23px; }
-
-    .subjectBlockOutlined .score { left: 24.83px; }
-
-    .specializationcardfull:hover .subjectBlock .score { left: 24px; top: -23px; }
-    .specializationcardfull:hover .subjectBlock2 .score { left: 22px; top: -17px;}
-    .specializationcardfull:hover .subjectBlockOutlined2 .score { left: 23px; top: -17px;}
-    .specializationcardfull:hover .subjectBlockOutlined .score { left: 23px; top: -17px;}
-    .specializationCard:hover .subjectBlock .score { left: 22px; top: -14px; }
-    .specializationCard:hover .subjectBlock2 .score { left: 23px; top: -14px;}
-    .specializationCard:hover .subjectBlockOutlined2 .score { left: 22px; top: -14px;}
-    .specializationCard:hover .subjectBlockOutlined .score { left: 23px; top: -14px;}
-
-    .specializationcardfull:hover .separator {
-        width: 13.71px;
-        margin-top: 9.80px;
-    }
-
-    .separator {
-        width: 6.53px;
-        margin-top: 6.53px;
-    }
-
-    .iconbutton {
-        width: 19.61px;
-        height: 19.61px;
-        padding: 2.61px;
-    }
-
-    .button1 {
-        font-size: 7.84px;
-        padding: 5.23px 10.45px;
-    }
-
-    .icon1 { padding: 7.84px; }
-
-    .magnifyingglassIcon {
-        width: 11.11px;
-        height: 11.11px;
-    }
-
-    .button100,
-    .button1002,
-    .button1001,
-    .button1004,
-    .button10021 {
-        padding: 5.23px 19.61px;
-    }
-
-    .specializationcardfull:hover .subjectBlock,
-    .specializationcardfull:hover .subjectBlock2 {
-        height: 32.68px;
-        padding: 16.33px 0 0;
-        width: 65.34px;
-    }
-
-    .specializationcardfull {
-        padding: 10.45px 10.45px 13.07px;
-    }
-
-    .specializationcardfull:hover .subjectBlockOutlined,
-    .specializationcardfull:hover .subjectBlockOutlined2 {
-        padding: 16.33px 0 0;
-        height: 32.68px;
-    }
-    .card{
-    padding: 10.45px 10.45px 13.07px;
-    }
-    .specializationcardfull:hover .container4 {gap: 5px;}
-
-    .specializationCard:hover .container5 .block { top: 346.03px; }
-
-    .specializationCard .container5 .block { top: 366.03px; }
-
-    .specializationCard:hover .container5 .blocks { top: 502.30px; }
-
-    .specializationCard .container5 .blocks { top: 522.30px; }
-
-    .specializationCard .container56 .blocks { top: 682.68px; }
-
-    .specializationCard:hover .container56 .blocks { top: 662.68px; }
-
-    .specializationCard .container57 .blocks { top: 838.83px; }
-
-    .specializationCard:hover .container57 .blocks { top: 818.83px; }
-
-    .specializationCard .container58 .blocks2 { top: 995px; }
-
-    .specializationCard:hover .container58 .blocks2 { top: 975px; }
-
-    .container2 { max-width: 100%; }
-    .buttonLabel{
-        font-size: 7px;
-        margin-top: 1.64px;
-    }
-    .subtitle{
-        font-size: 10px;
-    }
-}
