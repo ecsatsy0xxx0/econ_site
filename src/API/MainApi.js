@@ -1,7 +1,8 @@
 import { achievementsData, gideSteps, indicatorsData, associationsData, specializationCardData,
         economicsCardData, managementCardData, tradeCardData, businessInformaticsCardData, systemAnalysisCardData, 
         economicSecurityCardData, faqBlockData, newsData, buttonLabels, advantageCards, questions, specializationCardDataMag, economicsCardDataMag,
-        managementCardDataMag, tradeCardDataMag, systemAnalysisCardDataMag, economicSecurityCardDataMag, entranceMask
+        managementCardDataMag, tradeCardDataMag, systemAnalysisCardDataMag, economicSecurityCardDataMag, entranceMask, titleDat, specializationDescriptionData,
+        formaTag, formaTwo, sectionTag, headerPosTag, sectionPosTag, lastSectionPosTag, titleEcoDat, titleMangDat, titleTradDat, titleTradeDat, titleFinDat
 } from '../Mocks/MainSteps';
 
 export const fetchAchievements = async () => {
@@ -128,3 +129,83 @@ export const entranceMassk = async () => {
         resolve(entranceMask);
     });
 };
+
+export const titleData = async () => {
+    return new Promise((resolve) => {
+        resolve(titleDat);
+    });
+};
+export const titleEcoData = async () => {
+    return new Promise((resolve) => {
+        resolve(titleEcoDat);
+    });
+};
+export const titleMangData = async () => {
+    return new Promise((resolve) => {
+        resolve(titleMangDat);
+    });
+};
+export const titleTradData = async () => {
+    return new Promise((resolve) => {
+        resolve(titleTradDat);
+    });
+};
+export const titleTradeData = async () => {
+    return new Promise((resolve) => {
+        resolve(titleTradeDat);
+    });
+};
+export const titleFinData = async () => {
+    return new Promise((resolve) => {
+        resolve(titleFinDat);
+    });
+};
+
+export const specializationDescriptionDat = async () => {
+    return new Promise((resolve) => {
+        resolve(specializationDescriptionData);
+    });
+};
+
+export const formaTags = async () => {
+    return new Promise((resolve) => {
+        resolve(formaTag);
+    });
+};
+export const formaTwos = async () => {
+    return new Promise((resolve) => {
+        resolve(formaTwo);
+    });
+};
+
+
+export const headerTags = async () => {
+    return new Promise((resolve) => {
+        resolve(headerPosTag);
+    });
+};
+export const sectionTags = async () => {
+    return new Promise((resolve) => {
+        resolve(sectionTag);
+    });
+};
+
+
+export const headerPosTags = async () => {
+    return new Promise((resolve) => {
+        resolve(headerPosTag);
+    });
+};
+export const sectionPosTags = async () => {
+    return new Promise((resolve) => {
+        resolve(sectionPosTag);
+    });
+};
+export const lastSectionPosTags = async () => {
+    return new Promise((resolve) => {
+        resolve(lastSectionPosTag);
+    });
+};
+
+
+

@@ -7,9 +7,9 @@
     color: #0450a0;
     transition: all 0.3s;
 }
-    .container58 .heading1{
-        width: 300px;
-    }
+.container58 .heading1{
+    width: 300px;
+}
 
 .button100:hover  .buttonLabel{
     color: white;
@@ -271,6 +271,10 @@
     top: 905px;
     transition: all 0.3s ease;
 }
+.container5 .blocks{
+    top: 870px;
+}
+
 .blocks2{
     position: absolute;
     top: 1285px;

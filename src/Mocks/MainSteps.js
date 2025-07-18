@@ -182,6 +182,7 @@ export const specializationCardDataMag = {
         }
 	],
 };
+
 export const economicsCardData = {
     icon: "icons/Coins.svg",
     programType: "бакалавриат",
@@ -490,3 +491,169 @@ export const entranceMask = [
         description: ': Форма № 086-У'
     }
 ];
+
+export const titleDat = {
+    description: [
+        "МАГИСТРАТУРА",
+    ],
+    numbername:["38.04.01", "Экономика"],
+    buttons: ["О НАПРАВЛЕНИИ", "УЧЕБНЫЙ ПЛАН"]
+};
+
+export const titleEcoDat = {
+    description: [
+        "МАГИСТРАТУРА",
+    ],
+    numbername:["38.03.01", "Экономика"],
+    buttons: ["О НАПРАВЛЕНИИ", "УЧЕБНЫЙ ПЛАН"]
+};
+
+export const titleMangDat = {
+    description: [
+        "МАГИСТРАТУРА",
+    ],
+    numbername:["38.04.03", "Управление персоналом"],
+    buttons: ["О НАПРАВЛЕНИИ", "УЧЕБНЫЙ ПЛАН"]
+};
+export const titleTradDat = {
+    description: [
+        "МАГИСТРАТУРА",
+    ],
+    numbername:["38.03.06", "Торговое дело"],
+    buttons: ["О НАПРАВЛЕНИИ", "УЧЕБНЫЙ ПЛАН"]
+};
+export const titleTradeDat = {
+    description: [
+        "МАГИСТРАТУРА",
+    ],
+    numbername:["38.04.06", "Торговое дело"],
+    buttons: ["О НАПРАВЛЕНИИ", "УЧЕБНЫЙ ПЛАН"]
+};
+export const titleFinDat = {
+    description: [
+        "МАГИСТРАТУРА",
+    ],
+    numbername:["38.04.08", "Финансы и кредит"],
+    buttons: ["О НАПРАВЛЕНИИ", "УЧЕБНЫЙ ПЛАН"]
+};
+
+export const specializationDescriptionData = {
+    description: [
+        "Магистратура по направлению «Экономика» предоставляет углубленные знания в области экономической теории, финансов, бухгалтерского учета, менеджмента и других ключевых аспектов экономики. Программа ориентирована на подготовку специалистов, способных анализировать экономические процессы, разрабатывать стратегии управления и принимать обоснованные решения в условиях современного рынка.",
+    ],
+    formats: "Очно, Заочно",
+    duration: ["Очно: 2 года", "Заочно: 2 года 6 месяцев"],
+    cost: ["125000,00 ₽", "67500,00 ₽"],
+    buttons: ["возможности выпускников", "контрольные цифры на 2025"],
+    footerNote: ["*каждый студент имеет право перевода на бюджетную форму (подробнее)"]
+};
+
+export const formaTag = {
+    buttons: ["ОЧНАЯ/ЗАОЧНАЯ ФОРМА ОБУЧЕНИЯ", "ПОДАТЬ ДОКУМЕНТЫ"],
+    tag: ["Контрольные цифры", "на прием ОФО/ЗФО 2025"],
+    price: ["125000,00 ₽ / 67500,00 ₽ (в год)"],
+    text: ["Договорная форма обучения"],
+};
+
+export const formaTwo = [
+    {
+        text: ["*Количество мест может быть увеличено"],
+        title: [
+            "Договорных мест направления",
+            "очной формы обучения на 2025",
+        ],
+        number: ["170*"],
+    },
+    {
+        text: ["*Количество мест может быть увеличено"],
+        title: [
+            "Договорных мест направления",
+            "заочной формы обучения"
+        ],
+        number: ["40*"],
+    }
+]
+
+export const headerTag = {
+    buttons: ["ПРОФИЛИ ЭКОНОМИКИ"],
+    tag: ["Направление подразумевает", "выбор одного из профилей обучения"],
+}; 
+
+export const sectionTag = [
+    [
+        {
+            img: "icons/Calculator.svg",
+            text: ["Бухгалтерский учет и аудит"],
+            buttons: ["АУДИТ", "ФИНАНСОВАЯ ОТЧЕТНОСТЬ", "НАЛОГООБЛОЖЕНИЕ", "АНИЛИЗ"]
+        },    
+        {
+            img: "icons/Bank.svg",
+            text: ["Финансы и кредит"],
+            buttons: ["БАНКОВСКОЕ ДЕЛО", "УПРАВЛЕНИЕ РИСКАМИ", "ИНВЕСТИЦИИ"]
+        },    
+    ],
+    [
+        {
+            img: "icons/Buildings.svg",
+            text: ["Экономика предприятий", "и организаций"],
+            buttons: ["ПЛАНИРОВАНИЕ", "УПРАВЛЕНИЕ ЗАТРАТАМИ", "СТРАТЕГИЯ"]
+        },    
+        {
+            img: "icons/CurrencyCircleDollar.svg",
+            text: ["Мировая экономика", "и коммерция"],
+            buttons: ["ЭКСПОРТ И ИМПОРТ", "МЕЖДУНАРОДНЫЙ РЫНОК", "МАРКЕТИНГ"]
+        },   
+    ]
+]
+
+
+export const headerPosTag = {
+    buttons: ["ВОЗМОЖНОСТИ"],
+    tag: ["Выпускник сможет работать", "в следующих направлениях"],
+}; 
+
+export const sectionPosTag = [
+    [
+        {
+            img: "icons/Layout.svg",
+            text: ["Business Analytics"],
+            buttons: ["Моделирование процессов", "SQL", "Данные", "BPMN"]
+        },    
+        {
+            img: "icons/OfficeChair.svg",
+            text: ["QA-Engineering"],
+            buttons: ["тестирование", "оптимизация", "отладка"]
+        },    
+    ],
+    [
+        {
+            img: "icons/Bug.svg",
+            text: ["General Manager (CEO)"],
+            buttons: ["лидерство", "стратегия", "решения", "визионерство"]
+        },    
+        {
+            img: "icons/ProjectorScreenChart.svg",
+            text: ["Product Design"],
+            buttons: ["UX/UI", "дизайн-системы", "исследования"]
+        },   
+    ]
+]
+
+export const lastSectionPosTag = [
+    {
+        img: ["icons/UsersThree.svg", "icons/lastSectinPosTag.svg"],
+        text: ["Project Management", "Организация и управление инновационными проектами"],
+        buttons: ["Планирование", "Управление рисками", "Командная работа", "презентация проектов"]
+    },
+    {
+        img: ["icons/Handshake.svg"],
+        text: ["Project Management"],
+        buttons: ["Стратегия", "ajile", "Scrum", "аналитика"]
+    },
+    {
+        img: ["icons/TreeStructure.svg", "icons/lstSectionPos.svg"],
+        text: ["Software Development", "Создание, разработка, тестирование и оптимизация программных решений."],
+        buttons: ["программирование", "архитектура", "оптимизация", "тестирование"]
+    },
+
+]

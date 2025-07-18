@@ -1,13 +1,13 @@
 import styles from './TitleD.module.css';
 import { useEffect, useState} from 'react';
-import { titleData } from '../../../API/MainApi';
+import { titleEcoData } from '../../../API/MainApi';
 
 const BackgroundMask = () => {
   const [titleDat, setTitleData] = useState(null);
   useEffect(() => {
       const loadData = async () => {
         try {
-          const dat = await titleData();
+          const dat = await titleEcoData();
           setTitleData(dat);
         } catch (error) {
           console.error('Ошибка загрузки данных:', error);

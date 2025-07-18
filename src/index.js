@@ -6,12 +6,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import store from "./Store";
 import MainPage from "./Pages/Bachelor/MainPage";
 import InnovatikaPage from "../src/Pages/Bachelor/InnovatikaPage";
-import BusinessInformaticsPage from "./Pages/Bachelor/SpecialtiesPage/BusinessInformaticsPage";
-import TradingBusinessesPage from "./Pages/Bachelor/SpecialtiesPage/TradingBusinessPage";
-import SystemAnalysisPage from "./Pages/Bachelor/SpecialtiesPage/SystemAnalysisPage";
-import EconomicSecurityPage from "./Pages/Bachelor/SpecialtiesPage/EconomicSecurityPage";
-import EconomyPage from "./Pages/Bachelor/SpecialtiesPage/EconomyPage";
-import ManagementPage from "./Pages/Bachelor/SpecialtiesPage/ManagementPage";
 import LanguageToggle from "./Pages/Bachelor/JournalPage";
 import CafedraPage from "./Pages/Bachelor/CafedraPage";
 import ProgressPage from "./Pages/Bachelor/ProgressPage";
@@ -20,6 +14,12 @@ import AssociationsFaculty from "./Pages/Bachelor/AssociationsFaculty";
 import LastNews from "./Pages/Bachelor/LastNews";
 import EntrantGide from "./Pages/Bachelor/EntrantGide";
 import Magistracy from "./Pages/Magistracy/MainPage";
+import MagEconomyPage04 from "./Pages/Magistracy/MagEconomyPage04";
+import MagEconomyPage03 from "./Pages/Magistracy/MagEconomyPage03";
+import MagMangPage from "./Pages/Magistracy/MagMangPage";
+import MagTradPage03 from "./Pages/Magistracy/MagTradPage03";
+import MagTradPage04 from "./Pages/Magistracy/MagTradPage04";
+import MagFinPage from "./Pages/Magistracy/MagFinPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -29,12 +29,6 @@ root.render(
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/innovatika" element={<InnovatikaPage />} />
-        <Route path="/businessinformatics" element={<BusinessInformaticsPage />} />
-        <Route path="/tradingbusinesses" element={<TradingBusinessesPage />} />
-        <Route path="/systemanalysis" element={<SystemAnalysisPage />} />
-        <Route path="/economicsecurity" element={<EconomicSecurityPage />} />
-        <Route path="/economy" element={<EconomyPage />} />
-        <Route path="/management" element={<ManagementPage />} />
         <Route path="/econtp" element={<LanguageToggle />} />
         <Route path="/department" element={<CafedraPage />} />
         <Route path="/progress" element={<ProgressPage />} />
@@ -43,6 +37,12 @@ root.render(
         <Route path="/news" element={<LastNews />} />
         <Route path="/gide" element={<EntrantGide />} />
         <Route path="/magistracy" element={<Magistracy />} />
+        <Route path="/mageconomy04" element={<MagEconomyPage04 />} />
+        <Route path="/mageconomy03" element={<MagEconomyPage03 />} />
+        <Route path="/management" element={<MagMangPage />} />
+        <Route path="/trading03" element={<MagTradPage03 />} />
+        <Route path="/trading04" element={<MagTradPage04 />} />
+        <Route path="/finance" element={<MagFinPage />} />
       </Routes>
     </Router>
   </Provider>

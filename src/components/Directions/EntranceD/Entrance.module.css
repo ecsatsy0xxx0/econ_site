@@ -1,0 +1,178 @@
+.entrancemask{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+}
+
+.button{
+    width: 125px;
+    height: 28px;
+    padding: 6px 14px;
+    border-radius: 573.77px;
+    border: 1px solid rgba(4, 80, 160, 1);
+    margin: 0 auto;
+}
+
+.button p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.24px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: rgba(4, 80, 160, 1);
+}
+
+.text{
+    width: 758px;
+    height: 98px;
+    margin: 0 auto;
+}
+
+.text p{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -1.8px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(4, 80, 160, 1);
+}
+
+.tile1 p span{
+    color: white;
+    transition: all 0.3s;
+}
+
+.entrancemask__footer{
+    display: grid;
+    gap: 10px;
+    margin-bottom: 200px;
+}
+
+.tile1{
+    width: 1600px;
+    height: 124px;
+    padding: 40px 32px;
+    gap: 64px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    transition: all 0.3s;
+}
+
+.tile1 p{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -0.24px;
+    vertical-align: middle; 
+    color: rgba(4, 80, 160, 1);
+    transition: all 0.3s;
+}
+.tile1:hover{
+    background-color: rgba(4, 80, 160, 1);
+    transition: all 0.3s;
+}
+.tile1:hover p{
+    color: white;
+    transition: all 0.3s;
+}
+
+@media (max-width:1680px) {
+    .entrancemask{
+        max-width: 1400px;
+        gap: 9px;
+    }
+
+    .button{
+        width: 109px;
+        height: 25px;
+        padding: 5px 12px;
+        border-radius: 501px;
+    }
+
+    .button p{
+        font-size: 10.5px;
+        line-height: 12.25px;
+        letter-spacing: -0.21px;
+    }
+
+    .text{
+        width: 663px;
+        height: 86px;
+    }
+
+    .text p{
+        font-size: 35px;
+        letter-spacing: -1.58px;
+    }
+
+    .entrancemask__footer{
+        gap: 9px;
+    }
+
+    .tile1{
+        width: 1400px;
+        height: 109px;
+        padding: 35px 28px;
+        gap: 56px;
+        border-radius: 14px;
+    }
+
+    .tile1 p{
+        font-size: 31.5px;
+        letter-spacing: -0.21px;
+    }
+
+}
+
+@media (max-width:1490px) {
+    .entrancemask{
+        max-width: 1200px;
+        gap: 8.04px;
+    }
+
+    .button{
+        width: 92.97px;
+        height: 21.85px;
+        padding: 4.44px 10.40px;
+        border-radius: 440.52px;
+    }
+
+    .button p{
+        font-size: 8.79px;
+        line-height: 10.04px;
+        letter-spacing: -0.18px;
+    }
+
+    .text{
+        width: 588.97px;
+        height: 71.57px;
+    }
+
+    .text p{
+        font-size: 31.54px;
+        letter-spacing: -1.31px;
+    }
+
+    .entrancemask__footer{
+        gap: 8.04px;
+    }
+
+    .tile1{
+        width: 1234.52px;
+        height: 87.48px;
+        padding: 29.06px 22.68px;
+        gap: 46.67px;
+        border-radius: 11.56px;
+    }
+
+    .tile1 p{
+        font-size: 26.84px;
+        letter-spacing: -0.18px;
+    }
+
+}
