@@ -11,26 +11,23 @@ const Section = () => {
     }
   };
   const navigate = useNavigate();
-  const innovanikNavigate = () => {
-    navigate("/innovatika"); // Убедитесь, что путь совпадает с маршрутом в index.js
+  const magEconomyPage04 = () => {
+    navigate("/mageconomy04"); // Убедитесь, что путь совпадает с маршрутом в index.js
   };
-  const handleNavigateBI = () => {
-    navigate("/businessinformatics"); // Убедитесь, что путь совпадает с маршрутом в index.js
+  const magEconomyPage03 = () => {
+    navigate("/mageconomy03"); // Убедитесь, что путь совпадает с маршрутом в index.js
   };
-  const handleNavigateTD = () => {
-    navigate("/tradingbusinesses"); // Убедитесь, что путь совпадает с маршрутом в index.js
-  };
-  const handleNavigateSA = () => {
-    navigate("/systemanalysis"); // Убедитесь, что путь совпадает с маршрутом в index.js
-  };
-  const handleNavigateES = () => {
-    navigate("/economicsecurity"); // Убедитесь, что путь совпадает с маршрутом в index.js
-  };
-  const handleNavigateE = () => {
-    navigate("/economy"); // Убедитесь, что путь совпадает с маршрутом в index.js
-  };
-  const handleNavigateM = () => {
+  const MagMangPage = () => {
     navigate("/management"); // Убедитесь, что путь совпадает с маршрутом в index.js
+  };
+  const MagTradPage03 = () => {
+    navigate("/trading03"); // Убедитесь, что путь совпадает с маршрутом в index.js
+  };
+  const MagTradPage04 = () => {
+    navigate("/trading04"); // Убедитесь, что путь совпадает с маршрутом в index.js
+  };
+  const MagFinPage = () => {
+    navigate("/finance"); // Убедитесь, что путь совпадает с маршрутом в index.js
   };
   const [specializationData, setSpecializationData] = useState(null);
   const [specializationData2, setSpecializationData2] = useState(null);
@@ -107,7 +104,7 @@ const Section = () => {
                     <div className={styles.icon1}>
                       <img className={styles.magnifyingglassIcon} alt="" src={specializationData.innerIcon} />
                     </div>
-                    <div className={styles.button100} onClick={innovanikNavigate}>
+                    <div className={styles.button100} onClick={magEconomyPage04}>
                       <div className={styles.buttonLabel}>подробнее о направлении</div>
                     </div>
                   </div>
@@ -163,7 +160,7 @@ const Section = () => {
                         <img className={styles.magnifyingglassIcon} alt="" src={specializationData2.icon} />
                       </div>
                       <div className={styles.button1002}>
-                        <div className={styles.buttonLabel} onClick={handleNavigateE}>подробнее о направлении</div>
+                        <div className={styles.buttonLabel} onClick={magEconomyPage03}>подробнее о направлении</div>
                       </div>   
                     </div>
   
@@ -218,7 +215,7 @@ const Section = () => {
                         <img className={styles.magnifyingglassIcon} alt="" src={specializationData3.icon} />
                       </div>
                       <div className={styles.button1001}>
-                        <div className={styles.buttonLabel} onClick={handleNavigateM}>подробнее о направлении</div>
+                        <div className={styles.buttonLabel} onClick={MagMangPage}>подробнее о направлении</div>
                       </div>
                     </div>
 
@@ -277,7 +274,7 @@ const Section = () => {
                       <img className={styles.magnifyingglassIcon} alt="" src={specializationData4.icon} />
                     </div>
                     <div className={styles.button10021}>
-                        <div className={styles.buttonLabel} onClick={handleNavigateTD}>подробнее о направлении</div>
+                        <div className={styles.buttonLabel} onClick={MagTradPage03}>подробнее о направлении</div>
                     </div>  
                   </div>
                   <div className={styles.content}>
@@ -335,7 +332,7 @@ const Section = () => {
                         <img className={styles.magnifyingglassIcon} alt="" src={specializationData5.icon} />
                       </div>
                       <div className={styles.button1002}>
-                          <div className={styles.buttonLabel} onClick={handleNavigateBI}>подробнее о направлении</div>
+                          <div className={styles.buttonLabel} onClick={MagTradPage04}>подробнее о направлении</div>
                       </div>  
                     </div>
                     <div className={styles.content}>
@@ -388,7 +385,7 @@ const Section = () => {
                         <img className={styles.magnifyingglassIcon} alt="" src={specializationData6.icon} />
                       </div>
                       <div className={styles.button1001}>
-                        <div className={styles.buttonLabel} onClick={handleNavigateM}>подробнее о направлении</div>
+                        <div className={styles.buttonLabel} onClick={MagFinPage}>подробнее о направлении</div>
                       </div>
                     </div>
                     <div className={styles.content}>
@@ -448,7 +445,7 @@ const Section = () => {
                       <img className={styles.magnifyingglassIcon} alt="" src={specializationData7.innerIcon} />
                     </div>
                     <div className={styles.button1002}>
-                        <div className={styles.buttonLabel} onClick={handleNavigateES}>подробнее о направлении</div>
+                        <div className={styles.buttonLabel} onClick={magEconomyPage04}>подробнее о направлении</div>
                     </div> 
                   </div>
                   <div className={styles.content}>

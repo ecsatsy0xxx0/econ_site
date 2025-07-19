@@ -2,7 +2,8 @@ import { achievementsData, gideSteps, indicatorsData, associationsData, speciali
         economicsCardData, managementCardData, tradeCardData, businessInformaticsCardData, systemAnalysisCardData, 
         economicSecurityCardData, faqBlockData, newsData, buttonLabels, advantageCards, questions, specializationCardDataMag, economicsCardDataMag,
         managementCardDataMag, tradeCardDataMag, systemAnalysisCardDataMag, economicSecurityCardDataMag, entranceMask, titleDat, specializationDescriptionData,
-        formaTag, formaTwo, sectionTag, headerPosTag, sectionPosTag, lastSectionPosTag, titleEcoDat, titleMangDat, titleTradDat, titleTradeDat, titleFinDat
+        formaTag, formaTwo, sectionTag, headerPosTag, sectionPosTag, lastSectionPosTag, titleEcoDat, titleMangDat, titleTradDat, titleTradeDat, titleFinDat,
+        specializationDescriptionTradData, formaTradTag, formaTradTwo, specializationDescriptionTradeData, formaTradeTag, formaTradeTwo
 } from '../Mocks/MainSteps';
 
 export const fetchAchievements = async () => {
@@ -166,6 +167,16 @@ export const specializationDescriptionDat = async () => {
         resolve(specializationDescriptionData);
     });
 };
+export const specializationDescriptionTradDat = async () => {
+    return new Promise((resolve) => {
+        resolve(specializationDescriptionTradData);
+    });
+};
+export const specializationDescriptionTradeDat = async () => {
+    return new Promise((resolve) => {
+        resolve(specializationDescriptionTradeData);
+    });
+};
 
 export const formaTags = async () => {
     return new Promise((resolve) => {
@@ -175,6 +186,26 @@ export const formaTags = async () => {
 export const formaTwos = async () => {
     return new Promise((resolve) => {
         resolve(formaTwo);
+    });
+};
+export const formaTradTags = async () => {
+    return new Promise((resolve) => {
+        resolve(formaTradTag);
+    });
+};
+export const formaTradTwos = async () => {
+    return new Promise((resolve) => {
+        resolve(formaTradTwo);
+    });
+};
+export const formaTradeTags = async () => {
+    return new Promise((resolve) => {
+        resolve(formaTradeTag);
+    });
+};
+export const formaTradeTwos = async () => {
+    return new Promise((resolve) => {
+        resolve(formaTradeTwo);
     });
 };
 

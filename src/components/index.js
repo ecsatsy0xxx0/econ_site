@@ -28,3 +28,7 @@ export { default as TitleMangD} from './mangDirections/TitleMangD';
 export { default as TitleTradD} from './tradDirections03/TitleTradD';
 export { default as TitleTradeD} from './tradDirections04/TitleTradeD';
 export { default as TitleFinD} from './finDirections/TitleFinD';
+export { default as DescriptionTradD} from './tradDirections03/DescriptionTradD';
+export { default as FormaTradD} from './tradDirections03/FormaTradD';
+export { default as DescriptionTradeD} from './tradDirections04/DescriptionTradeD';
+export { default as FormaTradeD} from './tradDirections04/FormaTradeD';
